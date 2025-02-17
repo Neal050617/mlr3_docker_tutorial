@@ -10,61 +10,89 @@
 2. 安装 [Git](https://git-scm.com/downloads)
 3. 安装 [VS Code](https://code.visualstudio.com/) 或 [Cursor](https://cursor.sh/)（推荐）
 
-### 镜像源说明
+### 环境初始化
 
-默认情况下，`docker-compose.yml` 中使用的镜像为 `rocker/rstudio:latest`。在国内环境中，建议使用 `docker.1ms.run` 镜像源以提高下载速度。
+首次使用时，需要运行初始化脚本来设置环境：
 
-你可以在 `.env` 文件中手动指定镜像源。
+```bash
+# 添加执行权限
+chmod +x scripts/00_init-env.sh
+
+# 运行初始化脚本
+./scripts/00_init-env.sh
+```
+
+这个脚本会：
+- 让你选择合适的 Docker 镜像源（10秒内未选择将使用默认源）
+- 自动获取当前用户信息
+- 创建 .env 配置文件
 
 ### 两种使用方式
 
 #### 方式一：使用 docker compose（推荐）
 
-1. 克隆仓库
-```bash
-git clone https://github.com/Neal050617/mlr3_docker_tutorial.git
-cd mlr3_docker_tutorial
-```
+简单两步即可启动环境：
 
-2. 创建配置文件
 ```bash
-# 复制示例配置文件
-cp .env.example .env
+# 1. 初始化环境（如果还没运行过），生成.env文件
+./scripts/00_init-env.sh
 
-# 编辑 .env 文件，设置你的密码
-# USER_PASSWORD: RStudio 用户密码
-# ROOT_PASSWORD: RStudio root 用户密码
-```
-
-3. 启动环境
-```bash
-# 构建并启动容器
+# 2. 启动环境（会自动构建镜像）
 docker compose up -d
+```
 
+常用命令：
+```bash
 # 查看容器状态
 docker compose ps
+
+# 停止环境
+docker compose down
+
+# 重新构建（修改配置后）
+docker compose build --no-cache
+
+# 重新构建（如果需要强制重新构建）
+docker compose up -d --build
 ```
 
-#### 方式二：使用检查脚本（用于开发测试）
+#### 方式二：使用容器检查脚本
+
+这种方式提供更多的错误检查和提示：
 
 ```bash
-# 运行环境检查脚本
+# 1. 初始化环境（如果还没运行过），生成.env文件
+./scripts/00_init-env.sh
+
+# 2. 运行容器检查脚本
 ./scripts/01_check_container.sh
 ```
 
 这个脚本会：
-- 创建一个独立的测试容器
-- 使用固定的容器名称 rstudio_test
-- 适合开发和测试时使用
-
-> 注意：不要同时使用两种方式，以避免端口冲突
+- 检查并创建必要的文件
+- 构建 mobior:v0.0.1 镜像
+- 创建并启动 rstudio_test 容器
+- 检查端口占用情况
+- 提供详细的状态信息
 
 ### 访问 RStudio
 
+无论使用哪种方式，都可以通过以下方式访问 RStudio：
+
 - 打开浏览器访问 http://localhost:7878
 - 使用以下凭据登录：
-  - 用户名：当前系统用户名
-  - 密码：在 .env 中设置的 USER_PASSWORD
+  - 用户名：当前系统用户名（自动获取）
+  - 密码：MoBio888（默认密码）
+
+### 配置说明
+
+环境配置存储在 .env 文件中，包括：
+- 用户信息（USER_ID, GROUP_ID, USER_NAME, GROUP_NAME）
+- 密码设置（PASSWORD, ROOT_PASSWORD）
+- 系统配置（DISABLE_AUTH, ROOT）
+- R包路径（R_SITE_LIBRARY）
+- 端口映射（PORT）
+- Docker镜像源（DOCKER_MIRROR）
 
 ### 开发工具设置
 
@@ -151,4 +179,42 @@ docker compose build --no-cache
 
 ## 许可
 
-MIT License 
+MIT License
+
+## CI/CD
+
+本项目使用 GitHub Actions 进行持续集成：
+
+### 开发环境验证
+
+每次推送到 main 分支或创建 Pull Request 时，会自动运行开发环境验证：
+
+```yaml
+name: 验证开发环境
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 验证开发环境
+        run: |
+          docker compose build
+          docker compose up -d
+          docker compose ps
+          docker compose down
+```
+
+这个工作流会：
+1. 检出代码
+2. 构建开发环境镜像
+3. 启动容器验证配置
+4. 停止并清理容器
+
+如果工作流执行成功，说明开发环境配置正确。 

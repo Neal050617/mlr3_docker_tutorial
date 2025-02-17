@@ -1,31 +1,27 @@
-version: '3.8'
+x-user-args: &user-args
+  USER_ID: ${USER_ID:-$(id -u)}
+  GROUP_ID: ${GROUP_ID:-$(id -g)}
+  USER_NAME: ${USER_NAME:-$(whoami)}
+  GROUP_NAME: ${GROUP_NAME:-$(id -gn)}
+  PASSWORD: ${PASSWORD:-MoBio888}
+  ROOT_PASSWORD: ${ROOT_PASSWORD:-MoBio888}
+  ROOT: ${ROOT:-TRUE}
 
 services:
   dev:
-    image: ${DOCKER_MIRROR:-docker.io}/rocker/rstudio:latest
+    image: ${DOCKER_MIRROR:-docker.io}/mobior:v0.0.1
     build:
       context: .
+      args: 
+        <<: *user-args
+        DOCKER_MIRROR: ${DOCKER_MIRROR:-docker.io}
       dockerfile: Dockerfile
-      args:
-        - GROUPID=${GROUPID:-$(id -g)}
-        - GROUPNAME=${GROUPNAME:-$(id -gn)}
-        - USERNAME=${USERNAME:-$(whoami)}
-        - USERID=${USERID:-$(id -u)}
-    volumes:
-      - .:/home/${USERNAME:-$(whoami)}/analysis
-      - /Users/colinliu/Desktop/20250211-mlr3/R_package_mobio/site-library:/usr/local/lib/R/site-library/
-    environment: 
-      - DISABLE_AUTH=false
-      - USERID=${USERID:-$(id -u)}
-      - GROUPID=${GROUPID:-$(id -g)}
-      - USERNAME=${USERNAME:-$(whoami)}
-      - GROUPNAME=${GROUPNAME:-$(id -gn)}
-      - PASSWORD=${USER_PASSWORD:-your_password}
-      - ROOT=TRUE
-      - ROOT_PASSWORD=${ROOT_PASSWORD:-your_root_password}
-      - RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
-      - RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+    environment:
+      <<: *user-args
     ports:
-      - "7878:8787"
-    working_dir: /home/${USERNAME:-$(whoami)}
+      - "${PORT:-7878}:8787"
+    working_dir: /home/${USER_NAME:-$(whoami)}
+    volumes:
+      - .:/home/${USER_NAME:-$(whoami)}/analysis
+      - ${R_SITE_LIBRARY:-/usr/local/lib/R/site-library}:/usr/local/lib/R/site-library/
     container_name: rstudio_test

@@ -1,31 +1,32 @@
 #!/bin/bash
 
-# 在宿主机上获取用户信息并固定下来
-HOST_USERNAME=$(whoami)
-HOST_USERID=$(id -u)
-HOST_GROUPID=$(id -g)
-HOST_GROUPNAME=$(id -gn)
+# 检查.env文件是否存在
+if [ ! -f .env ]; then
+    echo ".env 文件不存在，请先运行 ./scripts/00_init-env.sh"
+    exit 1
+fi
 
-# 使用固定的用户信息
-USERNAME=$HOST_USERNAME
-USERID=$HOST_USERID
-GROUPID=$HOST_GROUPID
-GROUPNAME=$HOST_GROUPNAME
-#PASSWORD=${PASSWORD:-"MoBio888"}
-#ROOT_PASSWORD=${ROOT_PASSWORD:-"MoBio888"}
+# 从.env文件读取配置
+source .env
 
 # 创建必要的文件
 create_dockerfile() {
     cat << EOF > Dockerfile
-FROM docker.1ms.run/rocker/rstudio:latest
+# 必须在 FROM 之前声明 DOCKER_MIRROR
+ARG DOCKER_MIRROR
 
-# 定义构建参数并设置默认值
-ARG GROUPID=${HOST_GROUPID}
-ARG GROUPNAME=${HOST_GROUPNAME}
-ARG USERNAME=${HOST_USERNAME}
-ARG USERID=${HOST_USERID}
+FROM \${DOCKER_MIRROR}/rocker/rstudio:4.4.2
 
-# 使用清华镜像源替换默认源（Ubuntu 24.04 Noble）
+# 定义构建参数
+ARG USER_ID
+ARG GROUP_ID
+ARG USER_NAME
+ARG GROUP_NAME
+ARG PASSWORD
+ARG ROOT_PASSWORD
+ARG ROOT
+
+# 使用清华镜像源
 RUN echo '\
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble main restricted universe multiverse\n\
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-updates main restricted universe multiverse\n\
@@ -58,7 +59,7 @@ ENV RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static" \
 
 # 安装 Rustup 和 Cargo
 RUN curl --proto '=https' --tlsv1.2 -sSf https://mirrors.ustc.edu.cn/rust-static/rustup/rustup-init.sh | sh -s -- -y
-ENV PATH="/root/.cargo/bin:${PATH}"
+ENV PATH="/root/.cargo/bin:\${PATH}"
 
 # 配置 Cargo 使用中科大镜像源
 RUN mkdir -p ~/.cargo && \
@@ -72,10 +73,10 @@ RUN mkdir -p ~/.cargo && \
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
-# 设置工作目录时使用明确的用户名
-WORKDIR /home/${HOST_USERNAME}
+# 设置工作目录
+WORKDIR /home/\${USER_NAME}
 
-# 设置 entrypoint，账户管理
+# 设置 entrypoint
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["/init"]
 EOF
@@ -84,23 +85,26 @@ EOF
 create_entrypoint() {
     cat << EOF > entrypoint.sh
 #!/bin/bash
+set -euo pipefail
 
-# 使用明确的变量名，不使用 \${USERNAME}
-if ! getent group ${HOST_GROUPNAME} > /dev/null 2>&1; then
-    groupadd -g ${HOST_GROUPID} ${HOST_GROUPNAME}
-fi
+# 创建用户组（如果不存在）
+getent group \${GROUP_NAME} > /dev/null 2>&1 || groupadd -g \${GROUP_ID} \${GROUP_NAME}
 
-useradd -m -u ${HOST_USERID} -g ${HOST_GROUPID} -s /bin/bash ${HOST_USERNAME} --non-unique
+# 创建用户
+useradd -m -u \${USER_ID} -g \${GROUP_ID} -s /bin/bash \${USER_NAME} --non-unique
 
-echo "${HOST_USERNAME}:\${PASSWORD}" | chpasswd
+# 设置密码
+echo "\${USER_NAME}:\${PASSWORD}" | chpasswd
 echo "root:\${ROOT_PASSWORD}" | chpasswd
 
-echo "${HOST_USERNAME} ALL=(ALL) ALL" > /etc/sudoers.d/${HOST_USERNAME}
-chmod 0440 /etc/sudoers.d/${HOST_USERNAME}
+# 设置sudo权限
+echo "\${USER_NAME} ALL=(ALL) ALL" > /etc/sudoers.d/\${USER_NAME}
+chmod 0440 /etc/sudoers.d/\${USER_NAME}
 
-chown -R ${HOST_USERNAME}:${HOST_GROUPNAME} /home/${HOST_USERNAME}
+# 设置目录权限
+chown -R \${USER_NAME}:\${GROUP_NAME} /home/\${USER_NAME}
 
-exec "\$@" 
+exec "\$@"
 EOF
     chmod +x entrypoint.sh
 }
@@ -113,44 +117,46 @@ if ! docker images | grep -q "mobior"; then
     
     echo "正在构建镜像..."
     docker build \
-        --build-arg USERNAME=$USERNAME \
-        --build-arg USERID=$USERID \
-        --build-arg GROUPID=$GROUPID \
-        --build-arg GROUPNAME=$GROUPNAME \
-        -t mobior .
+        --build-arg DOCKER_MIRROR="${DOCKER_MIRROR}" \
+        --build-arg USER_ID="${USER_ID}" \
+        --build-arg GROUP_ID="${GROUP_ID}" \
+        --build-arg USER_NAME="${USER_NAME}" \
+        --build-arg GROUP_NAME="${GROUP_NAME}" \
+        --build-arg PASSWORD="${PASSWORD}" \
+        --build-arg ROOT_PASSWORD="${ROOT_PASSWORD}" \
+        --build-arg ROOT="${ROOT}" \
+        -t mobior:v0.0.1 .
 fi
 
 # 检查容器是否存在并运行
-CONTAINER_ID=$(docker ps -a | grep mobior | awk '{print $1}')
+CONTAINER_ID=$(docker ps -a | grep rstudio_test | awk '{print $1}')
 
 if [ -z "$CONTAINER_ID" ]; then
     echo "容器不存在，正在创建..."
     # 检查端口是否被占用
     if command -v lsof >/dev/null 2>&1; then
-        lsof -i :7878 || echo "端口 7878 可用"
+        lsof -i :${PORT} || echo "端口 ${PORT} 可用"
     elif command -v netstat >/dev/null 2>&1; then
-        netstat -an | grep 7878 || echo "端口 7878 可用"
+        netstat -an | grep ${PORT} || echo "端口 ${PORT} 可用"
     else
-        echo "无法检查端口状态，请确保端口 7878 未被占用"
+        echo "无法检查端口状态，请确保端口 ${PORT} 未被占用"
     fi
 
-    # 读取密码
-    USER_PASSWORD=$(grep USER_PASSWORD .env | cut -d '=' -f2)
-    ROOT_PASSWORD=$(grep ROOT_PASSWORD .env | cut -d '=' -f2)
-
     # 创建并运行容器
-    docker run -itd -p 7878:8787 --name rstudio_test \
-        -e DISABLE_AUTH=false \
-        -e USERID=$HOST_USERID \
-        -e GROUPID=$HOST_GROUPID \
-        -e USERNAME=$HOST_USERNAME \
-        -e GROUPNAME=$HOST_GROUPNAME \
-        -e PASSWORD="$USER_PASSWORD" \
-        -e ROOT=TRUE \
-        -e ROOT_PASSWORD="$ROOT_PASSWORD" \
-        -v /Users/colinliu/Desktop/20250211-mlr3/R_package_mobio/site-library:/usr/local/lib/R/site-library/ \
-        -v "$(pwd)":/home/$USERNAME/analysis/ \
-        mobior
+    docker run -d \
+        -p ${PORT}:8787 \
+        --name rstudio_test \
+        -e DISABLE_AUTH=${DISABLE_AUTH} \
+        -e USER_ID="${USER_ID}" \
+        -e GROUP_ID="${GROUP_ID}" \
+        -e USER_NAME="${USER_NAME}" \
+        -e GROUP_NAME="${GROUP_NAME}" \
+        -e PASSWORD="${PASSWORD}" \
+        -e ROOT="${ROOT}" \
+        -e ROOT_PASSWORD="${ROOT_PASSWORD}" \
+        -v "${R_SITE_LIBRARY}":/usr/local/lib/R/site-library/ \
+        -v "$(pwd)":/home/${USER_NAME}/analysis/ \
+        mobior:v0.0.1
 
     # 获取新创建的容器ID
     CONTAINER_ID=$(docker ps -a | grep rstudio_test | awk '{print $1}')
@@ -166,16 +172,7 @@ fi
 echo "等待容器启动..."
 sleep 5
 
-# 复制插件配置到容器
-echo "正在复制VS Code和Cursor配置到容器..."
-docker cp .vscode $CONTAINER_ID:/home/$USERNAME/
-docker cp .cursor $CONTAINER_ID:/home/$USERNAME/
-
-# 设置正确的权限
-docker exec $CONTAINER_ID chown -R $USERNAME:$GROUPNAME /home/$USERNAME/.vscode
-docker exec $CONTAINER_ID chown -R $USERNAME:$GROUPNAME /home/$USERNAME/.cursor
-
 echo "容器已经准备就绪！"
-echo "RStudio服务器地址: http://localhost:7878"
-echo "用户名: $HOST_USERNAME"
-echo "密码: $USER_PASSWORD" 
+echo "RStudio服务器地址: http://localhost:${PORT}"
+echo "用户名: ${USER_NAME}"
+echo "密码: ${PASSWORD}" 

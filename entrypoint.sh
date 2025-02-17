@@ -1,18 +1,22 @@
 #!/bin/bash
+set -euo pipefail
 
-# 使用明确的变量名，不使用 ${USERNAME}
-if ! getent group staff > /dev/null 2>&1; then
-    groupadd -g 20 staff
-fi
+# 创建用户组（如果不存在）
+getent group ${GROUP_NAME} > /dev/null 2>&1 || groupadd -g ${GROUP_ID} ${GROUP_NAME}
 
-useradd -m -u 501 -g 20 -s /bin/bash colinliu --non-unique
+# 创建用户
+useradd -m -u ${USER_ID} -g ${GROUP_ID} -s /bin/bash ${USER_NAME} --non-unique
 
-echo "colinliu:${PASSWORD}" | chpasswd
+# 设置密码
+echo "${USER_NAME}:${PASSWORD}" | chpasswd
 echo "root:${ROOT_PASSWORD}" | chpasswd
 
-echo "colinliu ALL=(ALL) ALL" > /etc/sudoers.d/colinliu
-chmod 0440 /etc/sudoers.d/colinliu
+# 设置sudo权限
+echo "${USER_NAME} ALL=(ALL) ALL" > /etc/sudoers.d/${USER_NAME}
+chmod 0440 /etc/sudoers.d/${USER_NAME}
 
-chown -R colinliu:staff /home/colinliu
+# 设置目录权限
+chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}
 
+log "初始化完成"
 exec "$@" 

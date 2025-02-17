@@ -1,13 +1,20 @@
-FROM docker.1ms.run/rocker/rstudio:latest
+# 定义构建参数
+ARG USER_ID
+ARG GROUP_ID
+ARG USER_NAME
+ARG GROUP_NAME
+ARG PASSWORD
+ARG ROOT_PASSWORD
+ARG ROOT
+ARG DOCKER_MIRROR
 
-# 定义构建参数并设置默认值
-ARG GROUPID=20
-ARG GROUPNAME=staff
-ARG USERNAME=colinliu
-ARG USERID=501
+FROM ${DOCKER_MIRROR:-docker.io}/rocker/rstudio:4.4.2
 
-# 使用清华镜像源替换默认源（Ubuntu 24.04 Noble）
-RUN echo 'deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble main restricted universe multiverse\ndeb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-updates main restricted universe multiverse\ndeb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-backports main restricted universe multiverse\ndeb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-security main restricted universe multiverse\n' > /etc/apt/sources.list
+# 使用清华镜像源
+RUN echo 'deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble main restricted universe multiverse\n\
+    deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-updates main restricted universe multiverse\n\
+    deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-backports main restricted universe multiverse\n\
+    deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-security main restricted universe multiverse' > /etc/apt/sources.list
 
 # 更新软件包并安装系统依赖
 RUN apt-get update && apt-get install -y     curl     wget     build-essential     libxml2-dev     libcurl4-openssl-dev     libglpk-dev     libnetcdf-dev     libssl-dev     zlib1g-dev     libpng-dev     libjpeg-dev     libtiff-dev     libgsl0-dev     gdebi-core     && apt-get clean &&     rm -rf /var/lib/apt/lists/*
@@ -26,8 +33,8 @@ RUN mkdir -p ~/.cargo &&     echo '[source.crates-io]' > ~/.cargo/config &&     
 COPY entrypoint.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
-# 设置工作目录时使用明确的用户名
-WORKDIR /home/colinliu
+# 设置工作目录
+WORKDIR /home/${USERNAME}
 
 # 设置 entrypoint，账户管理
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
