@@ -6,6 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      platform: linux/amd64
       args:
         - GROUPID=${GROUPID:-$(id -g)}
         - GROUPNAME=${GROUPNAME:-$(id -gn)}

@@ -165,30 +165,41 @@ git checkout main 2>/dev/null || git checkout -b main
 
 # 推送到 GitHub
 echo "推送到 GitHub..."
-# 清理历史并推送
-clean_history_and_push() {
-    echo "清理 Git 历史..."
-    
-    # 创建新的干净分支
-    git checkout --orphan temp_clean
-    
-    # 添加所有文件
-    git add .
-    
-    # 提交
-    git commit -m "feat: 初始化项目"
-    
-    # 删除旧的 main 分支
-    git branch -D main || true
-    
-    # 重命名当前分支为 main
-    git branch -m main
-    
-    # 强制推送
-    git push -f origin main
+# 尝试推送，如果失败则清理历史
+try_push() {
+    # 先尝试普通推送
+    if git push -u origin main; then
+        return 0
+    fi
+
+    # 如果失败，检查是否是因为敏感信息
+    if [[ $(git push -u origin main 2>&1) == *"Push cannot contain secrets"* ]]; then
+        echo "检测到敏感信息，尝试清理历史..."
+        
+        # 创建新的干净分支
+        git checkout --orphan temp_clean
+        
+        # 添加所有文件
+        git add .
+        
+        # 提交
+        git commit -m "feat: 初始化项目"
+        
+        # 删除旧的 main 分支
+        git branch -D main || true
+        
+        # 重命名当前分支为 main
+        git branch -m main
+        
+        # 强制推送
+        git push -f origin main
+    else
+        # 其他错误，直接返回失败
+        return 1
+    fi
 }
 
-clean_history_and_push
+try_push
 
 # 输出成功信息
 echo "✅ 仓库创建成功！"
