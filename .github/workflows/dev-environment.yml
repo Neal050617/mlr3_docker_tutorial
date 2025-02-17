@@ -33,20 +33,9 @@ jobs:
         run: |
           # 如果没有 .env 文件，创建一个包含默认值的配置
           if [ ! -f ".env" ]; then
-            cat > .env << EOF
-            # RStudio登录配置
+            cat > .env << 'EOF'
             USER_PASSWORD=rstudio
             ROOT_PASSWORD=rstudio
-            
-            # 用户配置
-            USERNAME=rstudio
-            GROUPNAME=rstudio
-            USERID=1000
-            GROUPID=1000
-            
-            # 其他配置
-            DISABLE_AUTH=true
-            PORT=7878
             EOF
           fi
           
