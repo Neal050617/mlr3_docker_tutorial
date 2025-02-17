@@ -31,8 +31,29 @@ jobs:
       
       - name: 验证开发环境
         run: |
+          # 如果没有 .env 文件，创建一个包含默认值的配置
+          if [ ! -f ".env" ]; then
+            cat > .env << EOF
+            # RStudio登录配置
+            USER_PASSWORD=rstudio
+            ROOT_PASSWORD=rstudio
+            
+            # 用户配置
+            USERNAME=rstudio
+            GROUPNAME=rstudio
+            USERID=1000
+            GROUPID=1000
+            
+            # 其他配置
+            DISABLE_AUTH=true
+            PORT=7878
+            EOF
+          fi
+          
+          # 使用 --pull 确保获取最新的基础镜像
+          docker compose pull
+          # 使用 --no-cache 强制重新构建
           docker compose build --no-cache
           docker compose up -d
           docker compose ps
-          docker compose logs
           docker compose down
