@@ -33,7 +33,7 @@ jobs:
         run: |
           # 如果没有 .env 文件，创建一个包含默认值的配置
           if [ ! -f ".env" ]; then
-            cat > .env << 'EOF'
+            cat > .env <<-EOF
             USER_PASSWORD=rstudio
             ROOT_PASSWORD=rstudio
             EOF
