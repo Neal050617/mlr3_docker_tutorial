@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # 使用方式：
-# ./03_manage_settings.sh export  # 导出设置和扩展
-# ./03_manage_settings.sh import  # 导入设置和扩展
+# ./02_manage_settings.sh export  # 导出设置和扩展
+# ./02_manage_settings.sh import  # 导入设置和扩展
 
 ACTION=$1
 
@@ -84,22 +84,22 @@ case "$ACTION" in
         fi
 
         # 导入 Cursor 设置
-        if [ -f ".cursor/settings.json" ]; then
-            if [ $IN_CONTAINER -eq 1 ]; then
-                # 容器内
-                mkdir -p ~/.local/share/cursor-server/User/
-                ln -sf ~/analysis/.cursor/settings.json ~/.local/share/cursor-server/User/settings.json
-            elif [ -d "$HOME/Library/Application Support/Cursor/User" ]; then
-                # macOS
-                cp .cursor/settings.json "$HOME/Library/Application Support/Cursor/User/settings.json"
-            elif [ -d "$HOME/.config/Cursor/User" ]; then
-                # Linux
-                cp .cursor/settings.json "$HOME/.config/Cursor/User/settings.json"
-            elif [ -d "$APPDATA/Cursor/User" ]; then
-                # Windows
-                cp .cursor/settings.json "$APPDATA/Cursor/User/settings.json"
-            fi
-        fi
+        #if [ -f ".cursor/settings.json" ]; then
+        #    if [ $IN_CONTAINER -eq 1 ]; then
+        #        # 容器内
+        #        mkdir -p ~/.local/share/cursor-server/User/
+        #        ln -sf ~/analysis/.cursor/settings.json ~/.local/share/cursor-server/User/settings.json
+        #    elif [ -d "$HOME/Library/Application Support/Cursor/User" ]; then
+        #        # macOS
+        #        cp .cursor/settings.json "$HOME/Library/Application Support/Cursor/User/settings.json"
+        #    elif [ -d "$HOME/.config/Cursor/User" ]; then
+        #        # Linux
+        #        cp .cursor/settings.json "$HOME/.config/Cursor/User/settings.json"
+        #    elif [ -d "$APPDATA/Cursor/User" ]; then
+        #        # Windows
+        #        cp .cursor/settings.json "$APPDATA/Cursor/User/settings.json"
+        #    fi
+        #fi
 
         # 安装扩展
         if [ -f ".vscode/extensions.json" ]; then

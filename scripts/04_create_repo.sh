@@ -103,11 +103,15 @@ if [ ! -f .gitignore ]; then
     cat > .gitignore << 'EOF'
     # 不要忽略这些配置文件夹
     !.vscode/
+    !.cursor/
     !.github/
     !scripts/
     
     # 但是要忽略临时文件
     .vscode/extensions_list.txt
+    .cursor/extensions_list.txt
+    data_for_analysis/
+    .specstory/
     
     # 系统文件
     .DS_Store
@@ -115,15 +119,8 @@ if [ ! -f .gitignore ]; then
     
     # 环境文件
     .env
-    *.log
-
-    # R 相关文件
-    .Rproj.user/
-    .Rhistory
-    .RData
-    .Ruserdata
-    *.Rproj
-EOF
+    *.log 
+    EOF
 fi
 
 # 创建或更新远程仓库
