@@ -10,6 +10,12 @@
 2. 安装 [Git](https://git-scm.com/downloads)
 3. 安装 [VS Code](https://code.visualstudio.com/) 或 [Cursor](https://cursor.sh/)（推荐）
 
+### 镜像源说明
+
+默认情况下，`docker-compose.yml` 中使用的镜像为 `rocker/rstudio:latest`。在国内环境中，建议使用 `docker.1ms.run` 镜像源以提高下载速度。
+
+你可以在 `.env` 文件中手动指定镜像源。
+
 ### 两种使用方式
 
 #### 方式一：使用 docker compose（推荐）

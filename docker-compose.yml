@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   dev:
-    image: docker.1ms.run/rocker/rstudio:latest
+    image: rocker/rstudio:latest
     build:
       context: .
       dockerfile: Dockerfile
