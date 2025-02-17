@@ -205,16 +205,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: 验证开发环境
         run: |
-          docker compose build
-          docker compose up -d
+          docker compose up -d --build
           docker compose ps
           docker compose down
 ```
 
 这个工作流会：
 1. 检出代码
-2. 构建开发环境镜像
-3. 启动容器验证配置
-4. 停止并清理容器
-
-如果工作流执行成功，说明开发环境配置正确。 
+2. 构建并启动环境（使用 --build 确保重新构建）
+3. 验证容器状态
+4. 停止并清理容器 
