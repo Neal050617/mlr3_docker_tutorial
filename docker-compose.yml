@@ -7,6 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
       platform: linux/amd64
+      no-cache: true
+      pull: true
       args:
         - GROUPID=${GROUPID:-$(id -g)}
         - GROUPNAME=${GROUPNAME:-$(id -gn)}
