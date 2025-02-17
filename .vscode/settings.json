@@ -1,0 +1,37 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown"
+    },
+    "workbench.colorTheme": "Flushing Terminus",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "remoteBrowser.connectionOptions": {
+
+        "host": "10.168.1.100",
+        "username": "chaoliu"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "sftp.downloadWhenOpenInRemoteExplorer": true,
+    "sftp.debug": true,
+    "sftp.printDebugLog": true,
+    "editor.stickyScroll.enabled": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.accessibilitySupport": "off",
+    "Codegeex.Privacy": true,
+    "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.11/bin",
+    "workbench.editor.empty.hint": "hidden",
+    "joplin.token": "4bb8f3a74359b5d9043d70e63459034c188c6aae912cb2a2192b6a0e556d3b0ee7aac53a388d271e3dcc142e069c801961fbd2d66e8d70ef5d089445cd0a635e",
+    "window.zoomLevel": 1,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "vim.startInInsertMode": true,
+    "database-client.autoSync": true,
+    "Codegeex.License": "",
+    "settingsSync.ignoredSettings": [
+        "joplin.token"
+    ]
+}

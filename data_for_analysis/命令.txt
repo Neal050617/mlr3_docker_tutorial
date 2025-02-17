@@ -1,0 +1,51 @@
+cd /work/users/yuren/Projects/chenliang/微生物分析数据/analysis_Mon_Apr_01_2024-04-01_17_26_46/Test/phyloseq
+sed -i '1d' otu_table.tsv
+sed -i 's/#OTU ID/ASV ID/' otu_table.tsv
+/usr/local/R-3.6.0/bin/R -e '.libPaths("/usr/local/R-3.6.0/lib64/R/library");library(tidyverse);otu <- "otu_table.tsv" %>% read.delim(check.names = FALSE,header = T,sep = "\t",stringsAsFactors=FALSE);rown <- paste0("ASV", seq_len(nrow(otu)));orignm <- otu[,1];otu[,1] <- rown;colnames(otu)[1] <- paste0("#",colnames(otu)[1]);write.table(otu,file = "otu.xls", sep = "\t" , row.names = F);data2 <- sapply(2:ncol(otu),function(x) sum(as.numeric(unlist(otu[,x]))));data3 <- data.frame("ID" = colnames(otu)[-1], "count" = data2) %>% mutate(rank = rank(count));data4 <- data.frame("ID" = rown, "name" = orignm);write.table(data3, file="p-sampling.xls", sep = "\t" , row.names = F, quote = F,col.names = T);write.table(data3 %>% arrange(count), file="p-sampling-sort.xls", sep = "\t" , row.names = F, quote = F,col.names = T);write.table(min(data3$count), file="p-sampling-depth.xls" , sep = "\t" , row.names = F, quote = F, col.names = F);write.table(data4, file="ASV.rename", sep = "\t" , row.names = F, quote = F,col.names = T)'
+cd ../
+
+
+
+cd /work/users/yuren/Projects/chenliang/微生物分析数据/analysis_Mon_Apr_01_2024-04-01_17_26_46/Test/preparation
+# 4.2.1 更改代表序列名称：
+less dna-sequences.fasta | paste - - | sed '1i ASVID\tseq' > rep.fa
+/usr/local/R-3.6.0/bin/R -e '
+.libPaths("/usr/local/R-3.6.0/lib64/R/library")
+pacman::p_load(tidyverse,stringr,magrittr);Rename <- read_tsv("../phyloseq/ASV.rename")
+rep <- read_tsv("rep.fa") %>% mutate(ASVID = map_chr(ASVID,~str_replace_all(.x,">",""))) %>% 
+    inner_join(Rename,.,by=c("name"="ASVID")) %>% select(-name) %>% rename_at(1,~"ASVID") %>% 
+    mutate(ASVID = map_chr(ASVID,~str_c(">",.x)));write_tsv(rep,"rep.xls")'
+
+less rep.xls | sed '1d' | sed "s/\r//g" | tr "\t" "\n" > rep-seqs.fasta
+cd ..
+
+less preparation/otu_reps.fasta |awk -F '_' '{print $1}' > otu_reps.raw.fasta
+python /work/users/chaoliu/scripts/tax_split.v2.0.2.py -i rarefac.otu_taxa_table.xls -m map-group.txt -r otu_reps.raw.fasta -t 0
+
+
+
+export R_HOME_DIR=/work/software/app/R-4.3.3
+export R_HOME_DIR=/usr/local/R-4.3.3
+export R_LIBS=$R_HOME_DIR/lib64/R/library
+#export LD_LIBRARY_PATH=$R_HOME_DIR/lib64/R/library:$LD_LIBRARY_PATH
+export PATH=$R_HOME_DIR/bin:$PATH
+
+Rscript /work/users/chaoliu/scripts/Meta/randomforest.R \
+  -i rarefac.ASV_genus.xls \
+  -g map-group.txt \
+  --part  0.7 \
+  -u T \
+  --valid valid.rarefac.ASV_genus.xls \
+  --map2 map2.txt \
+  --seed 123 \
+  --cores 16 
+
+# 如果rjava有问题，运行下面代码
+R CMD javareconf -e # It will set the following variables JAVA_HOME JAVA JAVAC JAVAH JAR JAVA_LIBS JAVA_CPPFLAGS JAVA_LD_LIBRARY_PATH modify the JAVA_LIBS directory 
+export JAVA_LIBS="$JAVA_LIBS -ldl" # Again issue javareconf command without -e 
+R CMD javareconf # Now enter into R shell and issue the rJava install command and it should find all the env variables and it should work. 
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.372.b07-1.el7_9.x86_64
+export PATH=$JAVA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$JAVA_HOME/jre/lib/amd64/server:$LD_LIBRARY_PATH
+
+

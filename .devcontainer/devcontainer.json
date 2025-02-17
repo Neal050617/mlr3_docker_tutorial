@@ -1,0 +1,24 @@
+{
+    "name": "R Development",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/home/${localEnv:USERNAME}/analysis",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "remote.containers.copyGitConfig": true,
+                "remote.containers.gitCredentialsHelper": "cache"
+            },
+            "extensions": [
+                "ms-vscode-remote.remote-containers",
+                "ms-vscode-remote.remote-ssh",
+                "ms-vscode-remote.remote-ssh-edit"
+            ]
+        }
+    },
+    "postCreateCommand": "bash scripts/02_manage_settings.sh import && bash scripts/03_verify_environment.sh",
+    "remoteEnv": {
+        "R_LIBS_USER": "/usr/local/lib/R/site-library",
+        "PATH": "${containerEnv:PATH}:/usr/local/bin/R"
+    }
+} 

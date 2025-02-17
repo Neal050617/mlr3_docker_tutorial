@@ -1,0 +1,11 @@
+# 1. 设置开发容器
+./scripts/01_check_container.sh
+
+# 2. 验证环境
+./scripts/02_verify_environment.sh
+
+# 3. 根据需要导入/导出设置
+./scripts/03_settings/import_settings.sh  # 或其他设置脚本
+
+# 4. 可选：创建GitHub仓库
+./scripts/04_create_repo.sh

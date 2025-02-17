@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  dev:
+    image: docker.1ms.run/rocker/rstudio:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - GROUPID=${GROUPID:-$(id -g)}
+        - GROUPNAME=${GROUPNAME:-$(id -gn)}
+        - USERNAME=${USERNAME:-$(whoami)}
+        - USERID=${USERID:-$(id -u)}
+    volumes:
+      - .:/home/${USERNAME:-$(whoami)}/analysis
+      - /Users/colinliu/Desktop/20250211-mlr3/R_package_mobio/site-library:/usr/local/lib/R/site-library/
+    environment: 
+      - DISABLE_AUTH=false
+      - USERID=${USERID:-$(id -u)}
+      - GROUPID=${GROUPID:-$(id -g)}
+      - USERNAME=${USERNAME:-$(whoami)}
+      - GROUPNAME=${GROUPNAME:-$(id -gn)}
+      - PASSWORD=${USER_PASSWORD:-your_password}
+      - ROOT=TRUE
+      - ROOT_PASSWORD=${ROOT_PASSWORD:-your_root_password}
+      - RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+      - RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+    ports:
+      - "7878:8787"
+    working_dir: /home/${USERNAME:-$(whoami)}
+    container_name: rstudio_test

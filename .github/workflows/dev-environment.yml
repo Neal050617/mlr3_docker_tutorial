@@ -1,0 +1,42 @@
+name: Docker 环境检查
+
+on:
+  push:
+    paths:
+      - 'Dockerfile'
+      - '.github/workflows/**'
+      - 'scripts/**'
+      - '.vscode/**'
+      - '.cursor/**'
+  pull_request:
+    paths:
+      - 'Dockerfile'
+      - 'docker-compose.yml'
+      - '.env'
+      - 'entrypoint.sh'
+      - '.github/workflows/**'
+      - 'scripts/**'
+      - '.vscode/**'
+      - '.cursor/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: 设置 QEMU
+        uses: docker/setup-qemu-action@v3
+      
+      - name: 设置 Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      
+      - name: 构建镜像
+        run: |
+          docker compose build
+      
+      - name: 测试容器
+        run: |
+          docker compose up -d
+          sleep 10
+          curl -f http://localhost:7878 || exit 1
