@@ -21,7 +21,7 @@ services:
       <<: *user-args
     ports:
       - "${PORT:-7878}:8787"
-    working_dir: /home/${USER_NAME:-$(whoami)}  # 设置工作目录
+    working_dir: /home/${USER_NAME:-$(whoami)}/analysis  # 设置工作目录
     volumes:
       - .:/home/${USER_NAME:-$(whoami)}/analysis
       - ${R_SITE_LIBRARY:-/usr/local/lib/R/site-library}:/usr/local/lib/R/site-library
