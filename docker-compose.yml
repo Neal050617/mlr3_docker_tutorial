@@ -21,6 +21,7 @@ services:
       <<: *user-args
     ports:
       - "${PORT:-7878}:8787"
+      - "8080:8080"
     working_dir: /home/${USER_NAME:-$(whoami)}/analysis  # 设置工作目录
     volumes:
       - .:/home/${USER_NAME:-$(whoami)}/analysis

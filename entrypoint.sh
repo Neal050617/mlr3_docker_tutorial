@@ -40,8 +40,17 @@ fi
 echo "设置 VS Code 配置目录权限"
 mkdir -p /home/${USER_NAME}/.local/share/code-server
 mkdir -p /home/${USER_NAME}/.vscode-server
+chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}
 chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}/.local
 chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}/.vscode-server
 
+echo "验证目录权限:"
+ls -ld /home/${USER_NAME}/.vscode-server
+ls -ld /home/${USER_NAME}/.local/share/code-server
+
 echo "初始化完成"
-exec "$@" 
+exec "$@"
+
+# 启动 code-server
+echo "code-server 路径: $(which code-server)"
+su - ${USER_NAME} -c "code-server --bind-addr 0.0.0.0:8080 --auth password --password ${CODE_SERVER_PASSWORD:-MoBio888}" & 

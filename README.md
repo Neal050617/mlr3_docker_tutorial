@@ -84,6 +84,63 @@ docker compose up -d --build
   - 用户名：当前系统用户名（自动获取）
   - 密码：MoBio888（默认密码）
 
+### 访问 code-server
+
+- 打开浏览器访问 http://localhost:8080
+- 使用以下凭据登录：
+  - 密码：${CODE_SERVER_PASSWORD:-MoBio888}（默认密码，可在.env文件中修改）
+
+#### code-server 安装说明
+
+由于网络原因，我们使用本地脚本安装 code-server：
+
+```bash
+# 脚本位置
+scripts/code_server_install.sh
+
+# 安装参数
+--method=standalone --prefix=/usr/local
+```
+
+如果安装失败，可以尝试以下解决方案：
+1. 检查网络连接
+2. 使用代理设置：
+   ```bash
+   export https_proxy=http://your-proxy:port
+   export http_proxy=http://your-proxy:port
+   ```
+3. 手动下载安装包：
+   ```bash
+   # 从GitHub下载指定版本
+   curl -fsSL https://ghproxy.com/https://github.com/coder/code-server/releases/download/v4.19.1/code-server_4.19.1_amd64.deb -o code-server.deb
+   
+   # 安装
+   sudo dpkg -i code-server.deb
+   ```
+
+#### 维护说明
+
+code-server 相关文件位置：
+- 可执行文件：`/usr/local/bin/code-server`
+- 配置文件：`~/.local/share/code-server/User/settings.json`
+- 扩展目录：`~/.local/share/code-server/extensions`
+
+如需重新安装：
+```bash
+# 清理旧文件
+rm -rf ~/.local/share/code-server
+rm -rf ~/.cache/code-server
+
+# 重新运行安装脚本
+/tmp/code_server_install.sh --method=standalone --prefix=/usr/local
+```
+
+功能特点：
+1. 与容器环境深度集成
+2. 支持 VS Code 扩展的自动安装
+3. 终端直接访问容器环境
+4. 文件浏览器可直接修改容器内文件
+
 ### 修复脚本目录权限
 
 如果 `scripts` 目录中的文件缺少执行权限，可以通过以下步骤修复：
@@ -122,9 +179,13 @@ docker compose up -d --build
 
 在容器启动后，你可以使用 VS Code 进行远程开发：
 
-1. 安装必要的 VS Code 扩展：
-   - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
-   - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+1. **基础扩展** (自动安装):
+   - R 语言支持 (REditorSupport.r)
+   - R 增强功能 (Ikuyadeu.r)
+   - Quarto 文档支持 (quarto.quarto)
+   - GitHub Copilot
+   - R LSP 支持
+   - CSV 高亮显示
 
 2. 连接到容器：
    - 打开 VS Code
@@ -139,6 +200,16 @@ docker compose up -d --build
 # 切换到你的用户（与 RStudio 使用相同的用户）
 su - ${USER_NAME}
 
+```
+
+4. **个性化扩展** (可选):
+```bash
+# 导入你的个性化扩展配置
+./scripts/02_manage_settings.sh import
+```
+   这会安装你之前通过 `./scripts/02_manage_settings.sh export` 导出的扩展列表
+   
+```bash
 # 现在可以运行设置脚本
 ./scripts/02_manage_settings.sh import
 ./scripts/03_verify_environment.sh

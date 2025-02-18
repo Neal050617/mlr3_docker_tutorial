@@ -36,18 +36,6 @@ case "$ACTION" in
             cp "$APPDATA/Code/User/settings.json" .vscode/settings.json
         fi
 
-        # 导出 Cursor 设置
-        if [ -f "$HOME/Library/Application Support/Cursor/User/settings.json" ]; then
-            # macOS
-            cp "$HOME/Library/Application Support/Cursor/User/settings.json" .cursor/settings.json
-        elif [ -f "$HOME/.config/Cursor/User/settings.json" ]; then
-            # Linux
-            cp "$HOME/.config/Cursor/User/settings.json" .cursor/settings.json
-        elif [ -f "$APPDATA/Cursor/User/settings.json" ]; then
-            # Windows
-            cp "$APPDATA/Cursor/User/settings.json" .cursor/settings.json
-        fi
-
         # 导出扩展列表并转换为JSON格式
         {
             echo '{'
@@ -65,23 +53,57 @@ case "$ACTION" in
     "import")
         echo "正在导入设置..."
         
+        if [ $IN_CONTAINER -eq 1 ]; then
+            echo "👉 当前用户: $(whoami) (uid=$(id -u))"
+            
+            # 在容器内预先创建所有必需的目录
+            mkdir -p ~/.config
+            mkdir -p ~/.local/share/code-server/User/
+            mkdir -p ~/.local/share/code-server/extensions
+
+            # 检查目录是否创建成功并显示权限
+            for dir in ~/.config ~/.local ~/.local/share/code-server/User ~/.local/share/code-server/extensions; do
+                if [ ! -d "$dir" ]; then
+                    echo "❌ 错误：目录 $dir 创建失败"
+                    exit 1
+                fi
+                
+                # 显示目录权限信息
+                echo "📁 检查目录 $dir:"
+                echo "   所有者: $(stat -c '%U(%u)' "$dir")"
+                echo "   权限: $(stat -c '%A' "$dir")"
+                
+                # 检查是否有写权限
+                if [ ! -w "$dir" ]; then
+                    echo "⚠️ 警告：没有 $dir 的写入权限"
+                fi
+            done
+        fi
+        
         # 导入 VS Code 设置
         if [ -f ".vscode/settings.json" ]; then
             if [ $IN_CONTAINER -eq 1 ]; then
-                mkdir -p ~/.local/share/code-server/User/
                 ln -sf ~/analysis/.vscode/settings.json ~/.local/share/code-server/User/settings.json
             elif [ -d "$HOME/Library/Application Support/Code/User" ]; then
+                # macos
                 cp .vscode/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
             elif [ -d "$HOME/.config/Code/User" ]; then
+                # linux
                 cp .vscode/settings.json "$HOME/.config/Code/User/settings.json"
             elif [ -d "$APPDATA/Code/User" ]; then
                 cp .vscode/settings.json "$APPDATA/Code/User/settings.json"
             fi
         fi
 
-        # 在容器内不尝试安装扩展
+        # 在容器内安装扩展
         if [ $IN_CONTAINER -eq 1 ]; then
-            echo "⚠️ 容器内跳过扩展安装，将由 VS Code 自动处理"
+            if [ -f ".vscode/extensions.json" ]; then
+                echo "在容器内安装扩展..."
+                echo "验证 code-server 路径: $(which code-server)"
+                jq -r '.recommendations[]' .vscode/extensions.json | while read ext; do
+                    code-server --install-extension "$ext"
+                done
+            fi
         else
             # 在本地安装扩展
             if [ -f ".vscode/extensions.json" ]; then

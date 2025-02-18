@@ -37,6 +37,10 @@ RUN apt-get update && apt-get install -y \
     libtiff-dev \
     libgsl0-dev \
     gdebi-core \
+    # 安装 code-server 依赖
+    libx11-dev \
+    libxkbfile-dev \
+    libsecret-1-dev \
     && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -49,6 +53,15 @@ ENV PATH="/root/.cargo/bin::/Applications/quarto/bin:/Library/Frameworks/Python.
 
 # 配置 Cargo 使用中科大镜像源
 RUN mkdir -p ~/.cargo &&     echo '[source.crates-io]' > ~/.cargo/config &&     echo 'registry = "https://github.com/rust-lang/crates.io-index"' >> ~/.cargo/config &&     echo 'replace-with = "ustc"' >> ~/.cargo/config &&     echo '[source.ustc]' >> ~/.cargo/config &&     echo 'registry = "git://mirrors.ustc.edu.cn/crates.io-index"' >> ~/.cargo/config
+
+# 使用本地安装脚本安装 code-server
+COPY scripts/code_server_install.sh /tmp/
+RUN chmod +x /tmp/code_server_install.sh && \
+    # 使用standalone方式安装，减少依赖
+    /tmp/code_server_install.sh --method=standalone --prefix=/usr/local && \
+    # 清理安装缓存
+    rm -rf ~/.cache/code-server && \
+    rm -f /tmp/code_server_install.sh
 
 # 复制 entrypoint 脚本
 COPY entrypoint.sh /usr/local/bin/
