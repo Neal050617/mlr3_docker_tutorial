@@ -84,6 +84,30 @@ docker compose up -d --build
   - 用户名：当前系统用户名（自动获取）
   - 密码：MoBio888（默认密码）
 
+### 修复脚本目录权限
+
+如果 `scripts` 目录中的文件缺少执行权限，可以通过以下步骤修复：
+
+1. 切换到你的用户：
+   ```bash
+   su - ${USER_NAME}
+   ```
+
+2. 进入工作目录：
+   ```bash
+   cd ~/analysis
+   ```
+
+3. 修复 `scripts` 目录的权限：
+   ```bash
+   chmod -R 755 scripts/
+   ```
+
+这些命令会：
+- 确保你以正确的用户身份操作
+- 进入项目工作目录
+- 为 `scripts` 目录及其中的所有文件设置正确的执行权限（755）
+
 ### 配置说明
 
 环境配置存储在 .env 文件中，包括：
@@ -94,18 +118,69 @@ docker compose up -d --build
 - 端口映射（PORT）
 - Docker镜像源（DOCKER_MIRROR）
 
-### 开发工具设置
+### VS Code 开发环境设置
 
-1. 使用 VS Code 或 Cursor
+在容器启动后，你可以使用 VS Code 进行远程开发：
+
+1. 安装必要的 VS Code 扩展：
+   - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+   - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+2. 连接到容器：
+   - 打开 VS Code
+   - 按下 `F1` 或 `Cmd/Ctrl + Shift + P`
+   - 输入并选择 `Dev Containers: Attach to Running Container`
+   - 选择 `rstudio_test` 容器
+
+3. 切换到正确的用户：
+   - VS Code 默认以 root 用户连接容器
+   - 使用以下命令切换到你的用户：
 ```bash
-# 导入编辑器设置和扩展
+# 切换到你的用户（与 RStudio 使用相同的用户）
+su - ${USER_NAME}
+
+# 现在可以运行设置脚本
 ./scripts/02_manage_settings.sh import
-```
-
-2. 验证开发环境
-```bash
 ./scripts/03_verify_environment.sh
 ```
+
+这些脚本会：
+- 同步你的 VS Code 设置到容器
+- 安装必要的 VS Code 扩展
+- 验证 R 语言环境
+- 检查必要的开发工具
+
+现在你可以：
+- 在 VS Code 中编辑代码
+- 使用集成终端
+- 运行 R 脚本
+- 使用 Git 进行版本控制
+
+注意：这些设置脚本需要在 VS Code 连接到容器后，在容器内的终端中运行。
+
+### VS Code 数据持久化
+
+VS Code 的服务器和扩展数据会通过 Docker 命名卷持久化保存：
+
+1. VS Code Server：保存在 `vscode-server` 卷中
+2. VS Code 扩展：保存在 `vscode-extensions` 卷中
+
+这意味着：
+- VS Code Server 只需要下载一次
+- 扩展只需要安装一次
+- 容器重启后这些配置会保留
+- 开发环境启动更快
+
+如果需要清理这些数据：
+```bash
+# 删除特定的命名卷
+docker volume rm mobior_vscode-server mobior_vscode-extensions
+
+# 或者删除所有未使用的卷
+docker volume prune
+```
+
+注意：清理数据后，下次连接容器时需要重新下载 VS Code Server 和安装扩展。
 
 ## 目录结构
 

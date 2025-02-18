@@ -2,7 +2,22 @@
     "name": "R Development",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "dev",
-    "workspaceFolder": "/home/${localEnv:USERNAME}/analysis",
+    "workspaceFolder": "/home/${localEnv:USER_NAME}/analysis",
+    // 确保用户权限正确
+    "remoteUser": "${localEnv:USER_NAME}",
+    "updateRemoteUserUID": true,
+
+    // 环境变量设置
+    "remoteEnv": {
+        "USER_NAME": "${localEnv:USER_NAME}",
+        "PASSWORD": "${localEnv:PASSWORD}",
+        "USER_ID": "${localEnv:USER_ID}",
+        "GROUP_ID": "${localEnv:GROUP_ID}",
+        "R_LIBS_USER": "/usr/local/lib/R/site-library",
+        "PATH": "${containerEnv:PATH}:/usr/local/bin/R"
+    },
+
+    // VS Code 设置
     "customizations": {
         "vscode": {
             "settings": {
@@ -16,9 +31,9 @@
             ]
         }
     },
+    
+    // 容器创建后执行的命令
     "postCreateCommand": "bash scripts/02_manage_settings.sh import && bash scripts/03_verify_environment.sh",
-    "remoteEnv": {
-        "R_LIBS_USER": "/usr/local/lib/R/site-library",
-        "PATH": "${containerEnv:PATH}:/usr/local/bin/R"
-    }
+    // 关闭欢迎页面
+    "showWelcomeNotification": false
 } 

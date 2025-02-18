@@ -63,58 +63,35 @@ case "$ACTION" in
         ;;
         
     "import")
-        echo "正在导入设置和扩展..."
+        echo "正在导入设置..."
         
         # 导入 VS Code 设置
         if [ -f ".vscode/settings.json" ]; then
             if [ $IN_CONTAINER -eq 1 ]; then
-                # 容器内
                 mkdir -p ~/.local/share/code-server/User/
                 ln -sf ~/analysis/.vscode/settings.json ~/.local/share/code-server/User/settings.json
             elif [ -d "$HOME/Library/Application Support/Code/User" ]; then
-                # macOS
                 cp .vscode/settings.json "$HOME/Library/Application Support/Code/User/settings.json"
             elif [ -d "$HOME/.config/Code/User" ]; then
-                # Linux
                 cp .vscode/settings.json "$HOME/.config/Code/User/settings.json"
             elif [ -d "$APPDATA/Code/User" ]; then
-                # Windows
                 cp .vscode/settings.json "$APPDATA/Code/User/settings.json"
             fi
         fi
 
-        # 导入 Cursor 设置
-        #if [ -f ".cursor/settings.json" ]; then
-        #    if [ $IN_CONTAINER -eq 1 ]; then
-        #        # 容器内
-        #        mkdir -p ~/.local/share/cursor-server/User/
-        #        ln -sf ~/analysis/.cursor/settings.json ~/.local/share/cursor-server/User/settings.json
-        #    elif [ -d "$HOME/Library/Application Support/Cursor/User" ]; then
-        #        # macOS
-        #        cp .cursor/settings.json "$HOME/Library/Application Support/Cursor/User/settings.json"
-        #    elif [ -d "$HOME/.config/Cursor/User" ]; then
-        #        # Linux
-        #        cp .cursor/settings.json "$HOME/.config/Cursor/User/settings.json"
-        #    elif [ -d "$APPDATA/Cursor/User" ]; then
-        #        # Windows
-        #        cp .cursor/settings.json "$APPDATA/Cursor/User/settings.json"
-        #    fi
-        #fi
-
-        # 安装扩展
-        if [ -f ".vscode/extensions.json" ]; then
-            if [ $IN_CONTAINER -eq 1 ]; then
-                jq -r '.recommendations[]' .vscode/extensions.json | while read ext; do
-                    code-server --install-extension "$ext"
-                done
-            else
+        # 在容器内不尝试安装扩展
+        if [ $IN_CONTAINER -eq 1 ]; then
+            echo "⚠️ 容器内跳过扩展安装，将由 VS Code 自动处理"
+        else
+            # 在本地安装扩展
+            if [ -f ".vscode/extensions.json" ]; then
                 jq -r '.recommendations[]' .vscode/extensions.json | while read ext; do
                     code --install-extension "$ext"
                 done
             fi
         fi
         
-        echo "✅ 设置和扩展已导入到本地环境"
+        echo "✅ 设置已导入"
         ;;
         
     *)

@@ -28,9 +28,20 @@ echo "配置 sudo 权限"
 echo "${USER_NAME} ALL=(ALL) ALL" > /etc/sudoers.d/${USER_NAME}
 chmod 0440 /etc/sudoers.d/${USER_NAME}
 
-# 设置目录权限
-echo "设置目录权限"
-chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}
+# 设置工作目录权限
+if [ -d "/home/${USER_NAME}/analysis" ]; then
+    echo "设置工作目录权限"
+    find /home/${USER_NAME}/analysis -type d -exec chmod 755 {} \;
+    find /home/${USER_NAME}/analysis -type f -exec chmod 644 {} \;
+    chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}/analysis
+fi
+
+# 设置 VS Code 配置目录权限
+echo "设置 VS Code 配置目录权限"
+mkdir -p /home/${USER_NAME}/.local/share/code-server
+mkdir -p /home/${USER_NAME}/.vscode-server
+chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}/.local
+chown -R ${USER_NAME}:${GROUP_NAME} /home/${USER_NAME}/.vscode-server
 
 echo "初始化完成"
 exec "$@" 

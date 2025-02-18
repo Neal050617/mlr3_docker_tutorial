@@ -1,9 +1,15 @@
 #!/bin/bash
+set -euo pipefail
 
-echo "验证环境配置..."
+echo "开始验证环境配置..."
 
 # 检查R环境
-Rscript -e 'installed.packages()' > /dev/null 2>&1 || { echo "R环境配置有误"; exit 1; }
+echo "检查 R 环境..."
+if ! Rscript -e 'installed.packages()' > /dev/null 2>&1; then
+    echo "❌ R环境配置有误"
+    exit 1
+fi
+echo "✅ R 环境正常"
 
 # 检查必要的R包
 # Rscript -e '
@@ -17,11 +23,22 @@ Rscript -e 'installed.packages()' > /dev/null 2>&1 || { echo "R环境配置有�
 # 检查Quarto环境
 # quarto check > /dev/null 2>&1 || { echo "Quarto环境配置有误"; exit 1; }
 
-# 检查VS Code扩展
-code --list-extensions > /tmp/installed_extensions
-diff .vscode/extensions.json /tmp/installed_extensions > /dev/null 2>&1 || { 
-    echo "VS Code扩展不完整"; 
-    exit 1; 
-}
+# 在容器内跳过 VS Code 扩展检查
+if [ -f "/.dockerenv" ]; then
+    echo "⚠️ 容器内跳过 VS Code 扩展检查"
+else
+    # 检查VS Code扩展
+    echo "检查 VS Code 扩展..."
+    if ! code --list-extensions > /dev/null 2>&1; then
+        echo "❌ VS Code 命令行工具不可用"
+        exit 1
+    fi
 
-echo "环境验证完成" 
+    if ! diff .vscode/extensions.json /tmp/installed_extensions > /dev/null 2>&1; then
+        echo "❌ VS Code 扩展不完整"
+        exit 1
+    fi
+    echo "✅ VS Code 扩展正常"
+fi
+
+echo "✅ 环境验证完成" 

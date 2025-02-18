@@ -1,3 +1,8 @@
+# 必须在 FROM 之前声明 DOCKER_MIRROR
+ARG DOCKER_MIRROR
+
+FROM ${DOCKER_MIRROR}/rocker/rstudio:4.4.2
+
 # 定义构建参数
 ARG USER_ID
 ARG GROUP_ID
@@ -6,18 +11,34 @@ ARG GROUP_NAME
 ARG PASSWORD
 ARG ROOT_PASSWORD
 ARG ROOT
-ARG DOCKER_MIRROR
-
-FROM ${DOCKER_MIRROR:-docker.io}/rocker/rstudio:4.4.2
 
 # 使用清华镜像源
-RUN echo 'deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble main restricted universe multiverse\n\
+RUN echo '\
+    deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble main restricted universe multiverse\n\
     deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-updates main restricted universe multiverse\n\
     deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-backports main restricted universe multiverse\n\
-    deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-security main restricted universe multiverse' > /etc/apt/sources.list
+    deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ noble-security main restricted universe multiverse\n\
+    ' > /etc/apt/sources.list
 
 # 更新软件包并安装系统依赖
-RUN apt-get update && apt-get install -y     curl     wget     build-essential     libxml2-dev     libcurl4-openssl-dev     libglpk-dev     libnetcdf-dev     libssl-dev     zlib1g-dev     libpng-dev     libjpeg-dev     libtiff-dev     libgsl0-dev     gdebi-core     && apt-get clean &&     rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    jq \
+    build-essential \
+    libxml2-dev \
+    libcurl4-openssl-dev \
+    libglpk-dev \
+    libnetcdf-dev \
+    libssl-dev \
+    zlib1g-dev \
+    libpng-dev \
+    libjpeg-dev \
+    libtiff-dev \
+    libgsl0-dev \
+    gdebi-core \
+    && apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
 # 设置 RUSTUP_DIST_SERVER 和 RUSTUP_UPDATE_ROOT 环境变量
 ENV RUSTUP_DIST_SERVER="https://mirrors.ustc.edu.cn/rust-static"     RUSTUP_UPDATE_ROOT="https://mirrors.ustc.edu.cn/rust-static/rustup"

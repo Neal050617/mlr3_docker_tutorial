@@ -9,6 +9,7 @@ x-user-args: &user-args
 
 services:
   dev:
+    # user: ${USER_NAME:-$(whoami)}
     image: ${DOCKER_MIRROR:-docker.io}/mobior:v0.0.1
     build:
       context: .
@@ -20,8 +21,16 @@ services:
       <<: *user-args
     ports:
       - "${PORT:-7878}:8787"
-    working_dir: /home/${USER_NAME:-$(whoami)}
+    working_dir: /home/${USER_NAME:-$(whoami)}  # 设置工作目录
     volumes:
       - .:/home/${USER_NAME:-$(whoami)}/analysis
-      - ${R_SITE_LIBRARY:-/usr/local/lib/R/site-library}:/usr/local/lib/R/site-library/
+      - ${R_SITE_LIBRARY}:/usr/local/lib/R/site-library
+      # VS Code 相关目录的持久化
+      - vscode-server:/home/${USER_NAME:-$(whoami)}/.vscode-server
+      - vscode-extensions:/home/${USER_NAME:-$(whoami)}/.local/share/code-server/extensions
     container_name: rstudio_test
+
+# 定义命名卷
+volumes:
+  vscode-server:
+  vscode-extensions:
