@@ -24,7 +24,7 @@ services:
     working_dir: /home/${USER_NAME:-$(whoami)}  # 设置工作目录
     volumes:
       - .:/home/${USER_NAME:-$(whoami)}/analysis
-      - ${R_SITE_LIBRARY}:/usr/local/lib/R/site-library
+      - ${R_SITE_LIBRARY:-/usr/local/lib/R/site-library}:/usr/local/lib/R/site-library
       # VS Code 相关目录的持久化
       - vscode-server:/home/${USER_NAME:-$(whoami)}/.vscode-server
       - vscode-extensions:/home/${USER_NAME:-$(whoami)}/.local/share/code-server/extensions
