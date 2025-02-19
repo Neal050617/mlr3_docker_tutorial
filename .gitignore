@@ -1,5 +1,6 @@
 # 不要忽略这些配置文件夹
 !.vscode/
+!.vscode/extensions.json
 !.cursor/
 !.github/
 !scripts/
