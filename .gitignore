@@ -9,6 +9,7 @@
 .cursor/extensions_list.txt
 data_for_analysis/
 .specstory/
+.vscode/settings.json
 
 # 系统文件
 .DS_Store
