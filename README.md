@@ -185,7 +185,6 @@ rm -rf ~/.cache/code-server
    - Quarto 文档支持 (quarto.quarto)
    - GitHub Copilot
    - R LSP 支持
-   - CSV 高亮显示
 
 2. 连接到容器：
    - 打开 VS Code
@@ -252,6 +251,18 @@ docker volume prune
 ```
 
 注意：清理数据后，下次连接容器时需要重新下载 VS Code Server 和安装扩展。
+
+如果发现某些本地安装的扩展没有在容器中自动安装，可以：
+```bash
+# 1. 导出本地扩展列表到项目
+./scripts/02_manage_settings.sh export
+
+# 2. 检查 .vscode/extensions.json 是否包含需要的扩展
+cat .vscode/extensions.json
+
+# 3. 在容器中重新导入扩展
+./scripts/02_manage_settings.sh import
+```
 
 ## 目录结构
 
