@@ -2,7 +2,7 @@
     "files.associations": {
         "*.rmd": "markdown"
     },
-    "workbench.colorTheme": "Flushing Terminus",
+    "workbench.colorTheme": "GitHub Dark",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "atomKeymap.promptV3Features": true,

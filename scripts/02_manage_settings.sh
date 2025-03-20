@@ -36,16 +36,42 @@ case "$ACTION" in
             cp "$APPDATA/Code/User/settings.json" .vscode/settings.json
         fi
 
+        # 导出 Cursor 设置
+        if [ -f "$HOME/Library/Application Support/Cursor/User/settings.json" ]; then
+            # macOS
+            mkdir -p .cursor
+            cp "$HOME/Library/Application Support/Cursor/User/settings.json" .cursor/settings.json
+        elif [ -f "$HOME/.config/Cursor/User/settings.json" ]; then
+            # Linux 
+            mkdir -p .cursor
+            cp "$HOME/.config/Cursor/User/settings.json" .cursor/settings.json
+        elif [ -f "$APPDATA/Cursor/User/settings.json" ]; then
+            # Windows
+            mkdir -p .cursor
+            cp "$APPDATA/Cursor/User/settings.json" .cursor/settings.json
+        fi
+
         # 导出扩展列表并转换为JSON格式
+        # { code --list-extensions; cursor --list-extensions; } | sort -u | \
+
         {
             echo '{'
             echo '  "recommendations": ['
-            # 合并 VS Code 和 Cursor 的扩展列表并去重
-            { code --list-extensions; cursor --list-extensions; } | sort -u | \
+            code --list-extensions | \
             sed 's/^/    "/' | sed 's/$/",/' | sed '$s/,$//'
             echo '    ]'
             echo '}'
         } > .vscode/extensions.json
+
+        # 导出扩展列表并转换为JSON格式
+        {
+            echo '{'
+            echo '  "recommendations": ['
+            cursor --list-extensions | \
+            sed 's/^/    "/' | sed 's/$/",/' | sed '$s/,$//'
+            echo '    ]'
+            echo '}'
+        } > .cursor/extensions.json
 
         echo "✅ 设置和扩展列表已导出到 .vscode 目录"
         ;;
@@ -95,6 +121,21 @@ case "$ACTION" in
             fi
         fi
 
+        # 导入 Cursor 设置
+        if [ -f ".cursor/settings.json" ]; then
+            if [ $IN_CONTAINER -eq 1 ]; then
+                ln -sf ~/analysis/.cursor/settings.json ~/.local/share/code-server/User/settings.json
+            elif [ -d "$HOME/Library/Application Support/Code/User" ]; then
+                # macos
+                cp .cursor/settings.json "$HOME/Library/Application Support/Cursor/User/settings.json"
+            elif [ -d "$HOME/.config/Cursor/User" ]; then
+                # linux
+                cp .cursor/settings.json "$HOME/.config/Cursor/User/settings.json"
+            elif [ -d "$APPDATA/Cursor/User" ]; then
+                cp .cursor/settings.json "$APPDATA/Cursor/User/settings.json"
+            fi
+        fi
+
         # 在容器内安装扩展
         if [ $IN_CONTAINER -eq 1 ]; then
             if [ -f ".vscode/extensions.json" ]; then
@@ -104,6 +145,13 @@ case "$ACTION" in
                     code-server --install-extension "$ext"
                 done
             fi
+            if [ -f ".cursor/extensions.json" ]; then
+                echo "在容器内安装扩展..."
+                echo "验证 cursor 路径: $(which cursor)"
+                jq -r '.recommendations[]' .cursor/extensions.json | while read ext; do
+                    cursor --install-extension "$ext"
+                done
+            fi
         else
             # 在本地安装扩展
             if [ -f ".vscode/extensions.json" ]; then
@@ -111,7 +159,12 @@ case "$ACTION" in
                     code --install-extension "$ext"
                 done
             fi
-        fi
+            if [ -f ".cursor/extensions.json" ]; then
+                jq -r '.recommendations[]' .cursor/extensions.json | while read ext; do
+                    cursor --install-extension "$ext"
+                done
+            fi
+        fi  
         
         echo "✅ 设置已导入"
         ;;

@@ -1,0 +1,93 @@
+{
+    "files.associations": {
+        "*.sqlbook": "sql",
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
+        "*.rmd": "markdown"
+    },
+    "workbench.colorTheme": "Flushing Terminus",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "remoteBrowser.connectionOptions": {
+        "host": "10.168.1.100",
+        "username": "chaoliu"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "sftp.downloadWhenOpenInRemoteExplorer": true,
+    "sftp.debug": true,
+    "sftp.printDebugLog": true,
+    "editor.stickyScroll.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "editor.accessibilitySupport": "off",
+    "Codegeex.Privacy": true,
+    "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.11/bin",
+    "workbench.editor.empty.hint": "hidden",
+    "joplin.token": "4bb8f3a74359b5d9043d70e63459034c188c6aae912cb2a2192b6a0e556d3b0ee7aac53a388d271e3dcc142e069c801961fbd2d66e8d70ef5d089445cd0a635e",
+    "window.zoomLevel": 1,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "vim.startInInsertMode": true,
+    "database-client.autoSync": true,
+    "Codegeex.License": "",
+    "settingsSync.ignoredSettings": [
+        "joplin.token"
+    ],
+    "cursor.cpp.disabledLanguages": [
+        "plaintext",
+        "markdown",
+        "scminput"
+    ],
+    "git.ignoreLegacyWarning": true,
+    "notebook.lineNumbers": "on",
+    "r.rpath.linux": "/work/software/app/R-4.3.3/bin/R",
+    "r.rterm.linux": "/work/software/app/R-4.3.3/bin/R",
+    "r.rterm.mac": "/Library/Frameworks/Python.framework/Versions/3.11/bin/radian",
+    "r.rterm.windows": "C:\\Tools\\R\\R-4.4.2\\bin\\R.exe",
+    "r.rpath.windows": "C:\\Tools\\R\\R-4.4.2\\bin\\R.exe",
+    "r.rpath.mac": "/usr/local/bin/R",
+    "terminal.integrated.tabs.location": "left",
+    "git.autofetch": true,
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.xlsx": "default"
+    },
+    "python.createEnvironment.trigger": "off",
+    "sqltools.useNodeRuntime": false,
+    "mssql.enableRichExperiences": true,
+    "roo-cline.allowedCommands": [
+        "npm test",
+        "npm install",
+        "tsc",
+        "git log",
+        "git diff",
+        "git show"
+    ],
+    "quarto.path": "/usr/local/bin/quarto",
+    "terminal.external.osxExec": "/bin/zsh",
+    "terminal.integrated.fontFamily": "Meslo LG S for PowerLine",
+    "git.suggestSmartCommit": false,
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.kubectl-path-linux": "/root/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.helm-path-linux": "/root/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+    },
+    "editor.fontSize": 14,
+    "r.lsp.debug": true,
+    "r.plot.useHttpgd": true,
+    "r.alwaysUseActiveTerminal": true,
+    "terminal.integrated.enableImages": true,
+    "terminal.integrated.automationProfile.windows": {},
+    "r.bracketedPaste": true,
+    "cursor.cmdk.useThemedDiffBackground": true,
+    "cursor.diffs.useCharacterLevelDiffs": true,
+    "cursor.terminal.usePreviewBox": true,
+    "r.liveShare.defaults.shareBrowser": true,
+    "r.liveShare.defaults.commandForward": true,
+    "cline.preferredLanguage": "Simplified Chinese - 简体中文"
+}

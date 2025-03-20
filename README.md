@@ -372,3 +372,44 @@ jobs:
 2. 构建并启动环境（使用 --build 确保重新构建）
 3. 验证容器状态
 4. 停止并清理容器 
+
+### 结果输出说明
+
+最终生成的Excel报告包含以下工作表：
+
+| 工作表名称          | 内容描述                                                                 |
+|---------------------|--------------------------------------------------------------------------|
+| 模型总览            | 包含整体性能指标、样本量等关键信息                                       |
+| 特征分析            | 列出所有保留特征的系数值及相对重要性百分比                               |
+| 参数配置            | 显示最优超参数及其技术说明                                               |
+| 每个fold的最佳参数  | 记录交叉验证各fold的参数选择详情                                         |
+| 平均性能指标        | 展示所有评估指标的统计分布（均值、标准差等）                             |
+
+生成命令：
+```bash
+Rscript data_for_analysis/20250211-mlr-JINYU/test2.R
+```
+
+输出位置：
+```bash
+ls -lh model_report.xlsx
+-rw-r--r--  1 user  staff   128K Jun 15 10:30 model_report.xlsx
+```
+
+各工作表数据来源对应代码段：
+```r
+# 模型总览表
+model_summary <- data.table(项目 = c("交叉验证AUC", ...), 值 = c(...))
+
+# 特征分析表  
+feature_table <- coeffs_dt[, .(特征名称 = feature, 系数值 = ...)]
+
+# 参数配置表
+param_table <- data.table(参数 = names(best_params), 描述 = ...)
+
+# fold参数表
+fold_params <- map_dfr(seq_len(rr$iters), function(i) { ... })
+
+# 性能指标表
+aggregate_scores <- performance_data |> group_by(metric) |> summarise(...)
+```

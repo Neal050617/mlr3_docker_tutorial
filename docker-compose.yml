@@ -10,6 +10,7 @@ x-user-args: &user-args
 services:
   dev:
     # user: ${USER_NAME:-$(whoami)}
+    # user: ${USER_ID:-$(id -u)}:${GROUP_ID:-$(id -g)}  # 指定容器内的运行用户
     image: ${DOCKER_MIRROR:-docker.io}/mobior:v0.0.1
     build:
       context: .
@@ -19,12 +20,18 @@ services:
       dockerfile: Dockerfile
     environment:
       <<: *user-args
+      R_LIBS_USER: /usr/local/lib/R/site-library
+      R_LIBS: /usr/local/lib/R/site-library
+      # 添加以下环境变量控制RStudio登录
+      USER: ${USER_NAME:-$(whoami)}
+      DISABLE_AUTH: "false"
+      # 如果希望自动登录，可以使用下面的设置（不推荐用于生产环境）
+      # DISABLE_AUTH: "true"
     ports:
       - "${PORT:-7878}:8787"
-      - "8080:8080"
     working_dir: /home/${USER_NAME:-$(whoami)}/analysis  # 设置工作目录
     volumes:
-      - .:/home/${USER_NAME:-$(whoami)}/analysis
+      - ${MOUNT_PATH}:/home/${USER_NAME:-$(whoami)}/analysis
       - ${R_SITE_LIBRARY:-/usr/local/lib/R/site-library}:/usr/local/lib/R/site-library
       # VS Code 相关目录的持久化
       - vscode-server:/home/${USER_NAME:-$(whoami)}/.vscode-server
