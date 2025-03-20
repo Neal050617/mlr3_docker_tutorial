@@ -51,7 +51,7 @@ select_mirror() {
 
 # 处理路径配置
 configure_paths() {
-    local default_mount_path="$(pwd)"
+    local default_mount_path="$(PWD)"
     local default_lib_path="/usr/local/lib/R/site-library/"
     
     if [[ "$NON_INTERACTIVE" == true ]]; then
