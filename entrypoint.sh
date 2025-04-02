@@ -6,7 +6,7 @@ if [ ! -f "/.git_zsh_installed" ]; then
     echo "安装git和zsh..."
     apt-get update
     # 尝试安装zsh
-    apt-get install -y git zsh || true
+    apt-get install -y git zsh gh || true
     # 不安装fonts-powerline
     touch "/.git_zsh_installed"
 fi

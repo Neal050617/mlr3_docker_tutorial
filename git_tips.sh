@@ -1,8 +1,3 @@
-git remote add origin git@github.com:Neal050617/mlr3_docker_tutorial.git
-git remote -v
-#origin  git@github.com:Neal050617/mlr3_docker_tutorial.git (fetch)
-#origin  git@github.com:Neal050617/mlr3_docker_tutorial.git (push)
-
 # 方案一：安装SSH客户端并配置秘钥（在容器内）
 # 安装SSH客户端
 apt-get update && apt-get install -y openssh-client
