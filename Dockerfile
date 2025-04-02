@@ -46,6 +46,7 @@ RUN apt-get update && apt-get install -y \
     vim \
     screen \
     fonts-powerline \  
+    openssh-client \
     && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
