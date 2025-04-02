@@ -29,5 +29,5 @@ git remote -v
 gh auth login
 gh auth refresh -h github.com -s admin:org,admin:public_key,admin:enterprise_user,admin:enterprise,gist,notifications,user,workflow
 gh auth status
-
-
+# https://github.com/settings/tokens
+# The minimum required scopes are 'repo', 'read:org', 'admin:public_key'.
