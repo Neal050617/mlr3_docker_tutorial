@@ -8,7 +8,12 @@
 # 但是要忽略临时文件
 .vscode/extensions_list.txt
 .cursor/extensions_list.txt
-# data_for_analysis/
+#data_for_analysis/
+3-补充后数据汇总（脱敏版）-20250207-慕柏反馈-确认+Y列数据校准.xlsx
+1-首次分析结果.pptx
+分析内容清单-20250212.xlsx
+建模结果.zip
+
 .specstory/
 .vscode/settings.json
 *.RData
