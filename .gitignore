@@ -8,9 +8,11 @@
 # 但是要忽略临时文件
 .vscode/extensions_list.txt
 .cursor/extensions_list.txt
-data_for_analysis/
+# data_for_analysis/
 .specstory/
 .vscode/settings.json
+*.RData
+*.pdf
 
 # 系统文件
 .DS_Store
