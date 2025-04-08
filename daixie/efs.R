@@ -10,10 +10,12 @@ if (!("aplot" %in% installed.packages())) {
     remotes::install_github("YuLab-SMU/aplot")
 }
 pacman::p_unload(pacman::p_loaded(), character.only = TRUE)
+pacman::p_unload(pacman::p_loaded(), character.only = TRUE)
 pacman::p_load(
     optparse, tidyverse, openxlsx, mlr3verse, data.table, mltools, mlr3tuningspaces, future, readxl,
     treeshap, kernelshap, shapviz, mlr3extralearners, ranger, randomForest, pROC, patchwork, Boruta,
-    showtext, openxlsx, xgboost
+    showtext, xgboost, mlr3learners, mlr3tuning, paradox, future.apply, ggplot2, glmnet, e1071, nnet,
+    lightgbm
 )
 
 if (TRUE) {
@@ -24,14 +26,17 @@ if (TRUE) {
         make_option(c("-c", "--color"), type = "character", default = "none", help = "指定颜色：color.txt"),
         make_option(c("--part"), type = "character", default = "2/3", help = "咋分的样本，2/3还是3/4，或者0.8"),
         make_option(c("--split"), type = "character", default = "none", help = "客户指定train和testsplit.map-group.txt"),
-        make_option(c("--min"), type = "numeric", default = 3, help = "最小特征数"),
-        make_option(c("--max"), type = "numeric", default = 20, help = "最大特征数"),
+        make_option(c("--inner_cv"), type = "numeric", default = 5, help = "内层交叉验证的层数"),
+        make_option(c("--outer_cv"), type = "numeric", default = 5, help = "外层交叉验证的层数"),
+        make_option(c("--resample"), type = "numeric", default = 5, help = "重抽样次数，默认5次"),
+        make_option(c("--n_features"), type = "numeric", default = 10, help = "RFE算法选择的特征数量"),
+        make_option(c("--feature_fraction"), type = "double", default = 0.85, help = "RFE算法每次迭代保留的特征比例"),
         # 添加筛选条件
         make_option(c("-u", "--unif"), type = "logical", default = FALSE, help = "要不要归一化"),
         make_option(c("--gp"), type = "character", default = "none", help = "control-test顺序指定"),
         # make_option(c("-t", "--test"),  type="character", default="rarefac.Wilcoxon_rank_sum_unpaired.ALL.xls", help="差异"),
-        make_option(c("--pv"), type = "double", default = 0.05, help = "显著性筛选"),
-        make_option(c("--pj"), type = "double", default = 1, help = "pvalue.adjust.fdr显著性筛选"),
+        #make_option(c("--pv"), type = "double", default = 0.05, help = "显著性筛选"),
+        #make_option(c("--pj"), type = "double", default = 1, help = "pvalue.adjust.fdr显著性筛选"),
         make_option(c("--select"), type = "character", default = "none", help = "select.list"),
         make_option(c("--delete"), type = "character", default = "none", help = "delete.list"),
         # 外部验证
@@ -46,7 +51,7 @@ if (TRUE) {
     opts <- parse_args(OptionParser(option_list = option_list))
 }
 if (opts$outdir == "") {
-    opts$outdir <- getwd()
+    opts$outdir <- file.path(getwd(), paste0("efs", opts$seed))
 }
 future::plan(multisession, workers = ifelse(opts$cores != 0, floor(opts$cores), ceiling(availableCores() / 6)))
 set.seed(opts$seed, kind = "Mersenne-Twister")
@@ -115,75 +120,7 @@ extract_roc_data_from_bmr <- function(bmr_object) { # bmr_object <- bmr
     return(roc_data_list)
 }
 
-# 创建一个函数来提取模型信息
-get_model_info <- function(model_name, current_learner, task) {
-    model_info <- list(
-        model_name = model_name,
-        features = task$feature_names, # 获取特征名称
-        n_features = length(task$feature_names),
-        hyperparameters = list(),
-        performance = list(),
-        feature_importance = NULL
-    )
-
-    # 获取超参数
-    if (inherits(current_learner, "AutoTuner")) {
-        model_info$hyperparameters <- current_learner$tuning_instance$result_learner_param_vals
-        model_info$tuning_results <- current_learner$tuning_instance$archive$data
-    }
-
-    # 获取特征重要性
-    if (model_name == "rf") {
-        imp <- current_learner$model$learner$model$variable.importance
-        if (!is.null(imp)) {
-            model_info$feature_importance <- data.frame(
-                Feature = names(imp),
-                Importance = as.numeric(imp)
-            )
-        }
-    } else if (model_name == "xgboost") {
-        model <- current_learner$model$learner$model
-        if (inherits(model, "xgb.Booster")) {
-            imp <- xgb.importance(model = model)
-            if (!is.null(imp)) {
-                model_info$feature_importance <- data.frame(
-                    Feature = imp$Feature,
-                    Importance = imp$Gain
-                )
-            }
-        }
-    } else if (model_name == "glmnet") {
-        coefs <- coef(current_learner$model$learner$model)
-        if (!is.null(coefs)) {
-            nonzero_idx <- which(coefs[-1] != 0)
-            model_info$feature_importance <- data.frame(
-                Feature = rownames(coefs)[-1][nonzero_idx],
-                Importance = abs(coefs[-1][nonzero_idx])
-            )
-        }
-    } else if (model_name == "lightgbm") {
-        model <- current_learner$model$learner$model
-        if (inherits(model, "lgb.Booster")) {
-            imp <- lightgbm::lgb.importance(model)
-            if (!is.null(imp)) {
-                model_info$feature_importance <- data.frame(
-                    Feature = imp$Feature,
-                    Importance = imp$Gain
-                )
-            }
-        }
-    }
-
-    return(model_info)
-}
-
-# 识别分类变量和连续变量
-is_binary <-function(x) {
-    vals <- unique(x[!is.na(x)])
-    length(vals) == 2 && all(vals %in% c(0, 1)) && all(c(0, 1) %in% vals)
-}
-
-mytheme <-function() {
+mytheme <- function() {
     theme_bw() +
         theme(
             plot.title = element_text(size = rel(1), hjust = 0.5),
@@ -282,6 +219,245 @@ roc_pict <- function(pod_list, title = "", path = "./train_roc_plot",
     )
 
     return(list(plot = p, data = all_roc_data))
+}
+
+# 创建一个函数来提取模型信息
+get_model_info <- function(model_name, current_learner, task) {
+    model_info <- list(
+        model_name = model_name,
+        features = task$feature_names, # 获取特征名称
+        n_features = length(task$feature_names),
+        hyperparameters = list(),
+        performance = list(),
+        feature_importance = NULL
+    )
+
+    # 获取超参数
+    if (inherits(current_learner, "AutoTuner")) {
+        model_info$hyperparameters <- current_learner$tuning_instance$result_learner_param_vals
+        model_info$tuning_results <- current_learner$tuning_instance$archive$data
+    }
+
+    # 获取特征重要性
+    if (model_name == "rf") {
+        imp <- current_learner$model$learner$model$variable.importance
+        if (!is.null(imp)) {
+            model_info$feature_importance <- data.frame(
+                Feature = names(imp),
+                Importance = as.numeric(imp)
+            )
+        }
+    } else if (model_name == "xgboost") {
+        model <- current_learner$model$learner$model
+        if (inherits(model, "xgb.Booster")) {
+            imp <- xgb.importance(model = model)
+            if (!is.null(imp)) {
+                model_info$feature_importance <- data.frame(
+                    Feature = imp$Feature,
+                    Importance = imp$Gain
+                )
+            }
+        }
+    } else if (model_name == "glmnet") {
+        coefs <- coef(current_learner$model$learner$model)
+        if (!is.null(coefs)) {
+            nonzero_idx <- which(coefs[-1] != 0)
+            model_info$feature_importance <- data.frame(
+                Feature = rownames(coefs)[-1][nonzero_idx],
+                Importance = abs(coefs[-1][nonzero_idx])
+            )
+        }
+    } else if (model_name == "lightgbm") {
+        model <- current_learner$model$learner$model
+        if (inherits(model, "lgb.Booster")) {
+            imp <- lightgbm::lgb.importance(model)
+            if (!is.null(imp)) {
+                model_info$feature_importance <- data.frame(
+                    Feature = imp$Feature,
+                    Importance = imp$Gain
+                )
+            }
+        }
+    } else if (model_name == "svm") {
+        model <- current_learner$model$learner$model
+        sv_importance <- colMeans(abs(model$SV))
+        if (!is.null(sv_importance)) {
+            model_info$feature_importance <- data.frame(
+                Feature = names(sv_importance),
+                Importance = sv_importance
+            )
+        }
+    }
+
+    return(model_info)
+}
+
+roc_box_plot <- function(pod_list, title = "", label = NULL) {
+    # 确保数据格式正确
+    pod <- data.frame(
+        d = pod_list[, 1], # 真实标签
+        m = pod_list[, 2] # 预测概率
+    )
+
+    # 计算ROC数据
+    roc_obj <- roc(pod$d, pod$m, quiet = TRUE)
+    # 计算临界点/阈值
+    cutOffPoint <- coords(roc_obj, "best")
+    cutOffPointText <- paste0(round(cutOffPoint[1, 1], 3), "\n(", round(cutOffPoint[1, 2], 3), ",", round(cutOffPoint[1, 3], 3), ")")
+
+    # 计算AUC值
+    auc_value <- auc(roc_obj)[1]
+    # AUC的置信区间 # ci_obj <- ci.auc(roc_obj)
+    auc_low <- ci(roc_obj, of = "auc")[1]
+    auc_high <- ci(roc_obj, of = "auc")[3]
+
+    # 计算置信区间
+    ciobj <- ci.se(roc_obj, specificities = seq(0, 1, 0.01))
+    data_ci <- ciobj[1:101, 1:3]
+    data_ci <- as.data.frame(data_ci)
+    x <- as.numeric(rownames(data_ci))
+    data_ci <- data.frame(x, data_ci)
+
+    # 存储ROC数据
+    roc_df <- data.frame(
+        specificity = roc_obj$specificities,
+        sensitivity = roc_obj$sensitivities
+    )
+
+    # 计算pvalue
+    U <- wilcox.test(
+        pod_list[pod_list$truth == 1, "prob"],
+        pod_list[pod_list$truth == 0, "prob"]
+    )
+    # 生成ROC曲线
+    p <- ggroc(roc_obj, color = "black", size = 0.5, legacy.axes = F) + # FALSE时 横坐标为1-0 specificity；TRUE时 横坐标为0-1 1-specificity
+        geom_segment(aes(x = 1, y = 0, xend = 0, yend = 1), # 绘制对角线
+            colour = "grey", linetype = "longdash"
+        ) +
+        geom_ribbon(data = data_ci, aes(x = x, ymin = X2.5., ymax = X97.5.), fill = "lightblue", alpha = 0.5) + # 绘制置信区间,当legacy.axes=TRUE时， 把x=x改为x=1-x
+        geom_point(aes(x = cutOffPoint[1, 2], y = cutOffPoint[1, 3]), color = "red") + # 绘制临界点/阈值
+        annotate("text",
+            x = (cutOffPoint[1, 2]) * .9, y = cutOffPoint[1, 3] * .9,
+            label = cutOffPointText, hjust = 0.5, vjust = 0, size = 3
+        ) +
+        annotate("text",
+            x = 0.2, y = 0.1, hjust = 0.6, vjust = 0.2, size = 3,
+            label = paste0(
+                label, " AUC: ", round(auc_value, 4), "\n", "95% CI: ",
+                round(auc_low, 4), "-", round(auc_high, 4),
+                "\n", "pvalue: ", Minus(U$p.value, 4)
+            )
+        ) +
+        mytheme() +
+        ggtitle(title) +
+        coord_equal() +
+        theme(legend.position = "bottom", legend.box = "horizontal") # ,legend.margin = margin(t = 10, r = 0, b = 0, l = 0)
+
+    mapcol <- c("#61d04f", "#df536b") # , "#377EB8", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF") # ,"#4DAF4A","#E41A1C" RColorBrewer::brewer.pal(n = 8,name = "Set1")
+    q <- ggplot(pod_list %>% mutate(truth = factor(truth, levels = c("0", "1")))) +
+        stat_boxplot(aes(x = truth, y = prob, group = truth), geom = "errorbar", linetype = 1, width = 0.5) + # whiskers
+        geom_boxplot(aes(x = truth, y = prob, group = truth, fill = truth), show.legend = FALSE) +
+        scale_fill_manual(values = mapcol) +
+        scale_x_discrete(labels = c("0" = "Ctrl", "1" = "Case")) +
+        ggtitle(title) +
+        mytheme() +
+        theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1)) # 增加横轴文字旋转90度
+        #coord_equal() +
+    return(list(p, q, U))
+}
+
+# 太长的话加换行符，以第一个分隔符为界
+Add_breaks_by_sep <- function(x, sep = "_") { # x <- Plot_data4[[1]]$Description
+    # 查找第一个出现的分隔符及其位置
+    sep_positions <- str_locate(x, sep)[1, 1] # 将字符串拆分为单个字母
+    letters <- strsplit(x, "")[[1]]
+    # 将字母用换行符连接
+    paste0(
+        paste0(letters[1:sep_positions - 1], collapse = ""),
+        "\n",
+        paste0(letters[(sep_positions + 1):length(letters)], collapse = "")
+    )
+}
+
+# 曲线找拐点
+knee_point <- function(y) {
+    kk <- boxplot.stats(y)$conf[[2]]
+    return(kk)
+}
+
+# 太长的话加换行符
+Add_breaks <- function(x) { # x <- data_var_imp$old_colnames_n
+    xixi <- unique(as.character(x))
+    kk <- knee_point(nchar(xixi))
+    if (max(nchar(xixi)) - kk < 5) {
+        hehe <- xixi
+    } else {
+        haha <- floor(kk)
+        hehe <- map_chr(xixi, function(x) { # x <- xixi[9]
+            xx <- strsplit(x, "")[[1]]
+            ifelse(length(xx) > haha, str_c(
+                str_c(xx[1:haha], collapse = ""), "\n",
+                str_c(xx[(haha + 1):length(xx)], collapse = "")
+            ), x)
+        })
+    }
+    return(hehe)
+}
+
+# importance plot
+plot_p_feat <- function(var_imp, out = opts$outdir, plot = T) { # var_imp <- Plot_data4[[1]]
+    p_feat <- ggplot(var_imp, aes(x = Description_fold, y = Importance, fill = Importance)) +
+        geom_bar(stat = "identity", position = "dodge") +
+        coord_flip() +
+        ylab("Variable Importance") +
+        xlab("") + # ggtitle("Information Value Summary") +
+        guides(fill = "none") +
+        scale_fill_gradient(low = "#327eba", high = "#e06663") +
+        theme_bw() +
+        theme(
+            panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank()
+        )
+    if (isTRUE(plot)) {
+        ggsave(file.path(out, "00.MeanDecreaseAccuracy.pdf"), p_feat, width = 10, height = 6)
+    }
+    return(p_feat)
+}
+
+ComBn_plot <- function(P, w, out_parm = opts$outdir, biomaker_num_fix_parm = "") {
+    # P <- roc_plot
+    if (length(P) == 1) {
+        layout <- "ABC"
+    } else if (length(P) == 3) {
+    layout <- "
+  ABGG
+  CDGG
+  EFGG"
+    } else if (length(P) == 2) {
+        layout <- "
+  ABGG
+  CDGG"
+    }
+
+    Q <- P[[1]][[1]] + P[[1]][[2]]
+    if (length(P) > 1) {
+        for (i in 2:length(P)) {
+            Q <- Q + P[[i]][[1]] + P[[i]][[2]]
+        }
+    }
+    Q <- Q + w + plot_layout(design = layout, guides = "collect") +
+        plot_annotation(tag_levels = c("A", "1")) #+ # ncol = 2, byrow = TRUE
+    # gridExtra::tableGrob(t(as.data.frame(parm)))
+    ggsave(file.path(out_parm, paste0("step3.", biomaker_num_fix_parm, ".patchwork.pdf")), Q,
+        dpi = 300, device = cairo_pdf,
+        width = 14,
+        height = 4 * length(P)
+    )
+}
+
+Minus <- function(x, n) {
+    d1 <- 10^(-n)
+    ifelse(x >= d1, round(x, 4), paste0("< ", d1))
 }
 
 # 02.Read_in --------------------------------------------------------------
@@ -424,10 +600,10 @@ if (!isTRUE(opts$trainOnly)) {
 }
 
 # 定义重抽样方案
-inner_resampling <- rsmp("cv", folds = 5)
-outer_resampling <- rsmp("cv", folds = 5)
+inner_resampling <- rsmp("cv", folds = opts$inner_cv)
+outer_resampling <- rsmp("cv", folds = opts$outer_cv)
 
-rfe <- fs("rfe", n_features = 20, feature_fraction = 0.85)
+rfe <- fs("rfe", n_features = opts$n_features, feature_fraction = opts$feature_fraction)
 
 max_nrounds <- 500
 
@@ -469,7 +645,7 @@ efs <- ensemble_fselect(
     fselector = rfe,
     task = task_train,
     learners = learners,
-    init_resampling = rsmp("subsampling", repeats = 5, ratio = 0.8),
+    init_resampling = rsmp("subsampling", repeats = opts$resample, ratio = 0.8),
     inner_resampling = inner_resampling,
     inner_measure = msr("classif.ce"),
     measure = msr("classif.acc"),
@@ -485,19 +661,19 @@ efs$measure
 # 我们可以查看在集合特征选择过程中使用的不同学习器的性能得分。每个方框表示特定学习器在不同重采样迭代中的得分分布。
 p1 <- autoplot(efs, type = "performance", theme = theme_minimal(base_size = 14)) +
     scale_fill_brewer(palette = "Set1")
-ggsave("step2.2.1.efs.performance.pdf", p1, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step1.1.efs.performance.pdf"), p1, width = 12.5, height = 12, units = "in", dpi = 300)
 
 # 可以绘制出每个学习器在不同的重采样迭代中选择的特征数量：
 p2 <- autoplot(efs, type = "n_features", theme = theme_minimal(base_size = 14)) +
     scale_fill_brewer(palette = "Set1") +
     scale_y_continuous(breaks = seq(0, 60, 10))
-ggsave("step2.2.2.efs.n_features.pdf", p2, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step1.2.efs.n_features.pdf"), p2, width = 12.5, height = 12, units = "in", dpi = 300)
 
 # 帕累托前沿，代表特征数量和性能之间权衡的点集
 p3 <- autoplot(efs, type = "pareto", theme = theme_minimal(base_size = 14)) +
     scale_color_brewer(palette = "Set1") +
     labs(title = "Empirical Pareto front")
-ggsave("step2.2.3.efs.pareto.pdf", p3, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step1.3.efs.pareto.pdf"), p3, width = 12.5, height = 12, units = "in", dpi = 300)
 # 拟合一个线性模型，以经验帕累托前沿的所选特征数量（ 1/x ）的倒数作为输入，以相关的性能得分作为输出，绘制出一条估计的帕累托前沿曲线
 p4 <- autoplot(efs,
     type = "pareto", pareto_front = "estimated",
@@ -505,11 +681,11 @@ p4 <- autoplot(efs,
 ) +
     scale_color_brewer(palette = "Set1") +
     labs(title = "Estimated Pareto front")
-ggsave("step2.2.4.efs.pareto_estimated.pdf", p4, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step1.4.efs.pareto_estimated.pdf"), p4, width = 12.5, height = 12, units = "in", dpi = 300)
 
 p5 <- autoplot(efs, type = "stability", theme = theme_minimal(base_size = 14)) +
     scale_fill_brewer(palette = "Set1")
-ggsave("step2.2.5.efs.stability.pdf", p5, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step1.5.efs.stability.pdf"), p5, width = 12.5, height = 12, units = "in", dpi = 300)
 
 # stability
 efs$stability(stability_measure = "jaccard", global = TRUE)
@@ -529,17 +705,17 @@ p6 <- ggplot(res, aes(x = reorder(feature, score), y = score)) +
   coord_flip() +
   mytheme() +
   labs(x = "feature", y = "score", title = "feature importance score")
-ggsave("step2.2.6.efs.feature_importance.pdf", p6, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step1.6.efs.feature_importance.pdf"), p6, width = 12.5, height = 12, units = "in", dpi = 300)
 
 # res$feature包含了EFS选择的特征子集
 selected_features <- res$feature
 
 # 04.model --------------------------------------------------------------
-# 1. 创建新的训练和测试任务
+## 04.1. 创建新的训练和测试任务
 task_train_selected <- task_train$clone()$select(selected_features)
 task_test_selected <- task_test$clone()$select(selected_features)
 
-# 2. 创建自动调优器
+## 04.2. 创建自动调优器
 model_params <- list(
   # 原有模型参数保持不变
   glmnet = ps(
@@ -581,7 +757,7 @@ model_params <- list(
   )
 )
 
-# 3. 创建LightGBM基础学习器
+## 04.3. 创建LightGBM基础学习器
 learner_base_glmnet <- lrn("classif.glmnet",
   lambda = 0.1, alpha = 0.5,
   predict_type = "prob"
@@ -632,7 +808,7 @@ learner_base_lightgbm$encapsulate(
     fallback = lrn("classif.featureless", predict_type = "prob")
 )
 
-# 4. 自动调优器列表
+## 04.4. 自动调优器列表
 auto_tuners <- list(
   glmnet = auto_tuner(
     tuner = tuner,
@@ -681,17 +857,37 @@ auto_tuners <- list(
   )
 )
 
-# 5. 创建benchmark网格（包含LightGBM）
+## 04.5. 创建benchmark网格（包含LightGBM）
 benchmark_grid <- benchmark_grid(
   tasks = task_train_selected,
   learners = auto_tuners,
   resamplings = outer_resampling
 )
 
-# 6. 执行基准测试
+## 04.6. 执行基准测试
 bmr <- benchmark(benchmark_grid, store_models = TRUE)
 
-# 7. 分析结果
+## 04.7. 可视化比较
+p7 <- autoplot(bmr, measure = msr("classif.auc")) +
+  mytheme() +
+  labs(title = "model comparison - auc")
+ggsave("step2.1.1.model_comparison.auc.pdf", p7, width = 12.5, height = 12, units = "in", dpi = 300)
+
+p7 <- autoplot(bmr, measure = msr("classif.acc")) +
+  mytheme() +
+  labs(title = "model comparison - acc")
+ggsave("step2.1.2.model_comparison.acc.pdf", p7, width = 12.5, height = 12, units = "in", dpi = 300)
+
+p7 <- autoplot(bmr, measure = msr("classif.ce")) +
+    mytheme() +
+    labs(title = "model comparison - ce")
+ggsave("step2.1.3.model_comparison.ce.pdf", p7, width = 12.5, height = 12, units = "in", dpi = 300)
+
+p8 <- autoplot(bmr, type = "roc")
+ggsave("step2.2.model_comparison.roc.pdf", p8, width = 12.5, height = 12, units = "in", dpi = 300)
+
+# 05. 分析结果 --------------------------------------------------------------
+
 performance_results <- bmr$aggregate(msrs(c("classif.auc", "classif.ce", "classif.acc")))
 # 使用model_mapping处理cv_results
 cv_results <- performance_results[, c("learner_id", "classif.auc", "classif.acc", "classif.ce")] %>%
@@ -703,19 +899,30 @@ cv_results <- performance_results[, c("learner_id", "classif.auc", "classif.acc"
 
 cv_roc_all <- extract_roc_data_from_bmr(bmr)
 
-# 8. 可视化比较
-p7 <- autoplot(bmr, measure = msr("classif.auc")) +
-  mytheme() +
-  labs(title = "model comparison - AUC")
-ggsave("step2.2.7.model_comparison.auc.pdf", p7, width = 12.5, height = 12, units = "in", dpi = 300)
+autoplot.BenchmarkResult_roc <- function(bmr) {
+  prediction_list <- bmr$predictions()
+  roc_data_list <- list()
 
-p8 <- autoplot(bmr, type = "roc")
-ggsave("step2.2.8.model_comparison.roc.pdf", p8, width = 12.5, height = 12, units = "in", dpi = 300)
+  for (learner_id in bmr$learner_ids) {
+    learner_predictions <- prediction_list[[learner_id]]
+    all_truths <- unlist(lapply(learner_predictions, function(pred) pred$truth()))
+    all_probs <- do.call(rbind, lapply(learner_predictions, function(pred) pred$prob()))
 
-# 9. 选择最佳模型并在测试集上评估
+    roc_data <- data.frame(
+      truth = all_truths,
+      prob = all_probs[, 1], # 假设正类是第一列
+      learner = learner_id
+    )
+    roc_data_list[[learner_id]] <- roc_data
+  }
+
+  # 将所有学习器的 ROC 数据合并到一个数据框
+  all_roc_data <- do.call(rbind, roc_data_list)
+}
+
+## 选择最佳模型并在测试集上评估
 best_learner_id <- performance_results[which.min(performance_results$classif.ce), "learner_id"]
 
-# 创建模型名称映射
 model_mapping <- c(
     "classif.ranger.tuned" = "rf",
     "classif.xgboost.tuned" = "xgboost",
@@ -731,6 +938,7 @@ model_colors <- c(
   "svm"     = "#984EA3", # 紫色
   "lightgbm"  = "#FF7F00"  # 橙色
 )
+
 # 获取对应的模型名称
 best_learner_name <- model_mapping[best_learner_id$learner_id]
 best_learner <- auto_tuners[[best_learner_name]]
@@ -881,7 +1089,8 @@ for (learner_name in names(auto_tuners)) {
   )
 }
 
-save.image("test2.2.1.efs.RData")
+feature_descriptions <- names_values$old_colnames
+names(feature_descriptions) <- names_values$new_colnames
 
 # 创建性能比较表格
 performance_comparison <- data.frame(
@@ -909,8 +1118,7 @@ for (model_name in names(model_results)) {
         )
     )
 }
-left_join(cv_results, performance_comparison)
-write_tsv(performance_comparison, "model_performance_comparison.xls")
+performance_comparison <- left_join(cv_results, performance_comparison)
 
 train_roc_all <- list()
 test_roc_all <- list()
@@ -919,40 +1127,20 @@ for (model_name in names(model_results)) {
   test_roc_all[[model_name]] <- model_results[[model_name]]$test_roc_data %>% mutate(model = model_name)
 }
 
-roc_pict(train_roc_all,
-  title = "训练集ROC曲线", path = "./train_roc_plot",
-  colors = model_colors, labels = names(train_roc_all)
+train_roc_plot <- roc_pict(train_roc_all,
+    title = "训练集ROC曲线", path = file.path(opts$outdir, "train_roc_plot"),
+    colors = model_colors, labels = names(train_roc_all)
 )
 
-roc_pict(test_roc_all,
-  title = "测试集ROC曲线", path = "./test_roc_plot",
-  colors = model_colors, labels = names(test_roc_all)
+test_roc_plot <- roc_pict(test_roc_all,
+    title = "测试集ROC曲线", path = file.path(opts$outdir, "test_roc_plot"),
+    colors = model_colors, labels = names(test_roc_all)
 )
 
 cv_roc_plot <- roc_pict(cv_roc_all,
-    title = "交叉验证ROC曲线", path = "./cv_roc_plot",
+    title = "交叉验证ROC曲线", path = file.path(opts$outdir, "cv_roc_plot"),
     colors = model_colors, labels = names(cv_roc_all)
 )
-
-# 如果有特征重要性，绘制特征重要性图
-# 按重要性排序
-feature_importance <- feature_importance[order(-feature_importance$Importance), ]
-# 选择top 20特征
-top_n <- min(20, nrow(feature_importance))
-top_features <- feature_importance[order(-feature_importance$Importance), ][1:top_n, ]
-p_importance <- ggplot(top_features, aes(x = reorder(Feature, Importance), y = Importance)) +
-    geom_col(fill = "steelblue") +
-    coord_flip() +
-    mytheme() +
-    labs(x = "特征",y = "重要性分数",title = paste(learner_name, "模型 Top", top_n, "重要特征"))
-showtext_auto() # 自动启用中文支持
-ggsave(paste0(learner_name, "_feature_importance.pdf"),
-    p_importance,
-    width = 10, height = 8
-)
-
-# 保存性能比较表格
-write.csv(performance_comparison, "model_performance_comparison.csv", row.names = FALSE)
 
 # 05. 对每个模型收集信息 ------------------------------------------------------------
 model_details <- list()
@@ -963,41 +1151,78 @@ for (model_name in names(model_results)) {
     task_train_selected
   )
 }
+### 画图 -----------------------------------------------
 
-# 1. 从原始数据中获取特征描述
+### ROC曲线数据
+names(train_roc_all)
+names(test_roc_all)
+names(cv_roc_all)
+names(cv_roc_all) <- gsub("ranger", "rf", names(train_roc_all))
+nn <- names(cv_roc_all)
+FS <- as.data.frame(feature_descriptions) %>%
+    rownames_to_column() %>%
+    rename_all(~ c("Feature", "Description"))
+### 特征重要性数据
+Plot_data4 <- lapply(model_details, function(x) { # x <- model_details[[4]]
+    left_join(x$feature_importance, FS, by = c("Feature" = "Feature")) %>%
+        arrange(Importance) %>%
+        mutate(Description_fold = Add_breaks(Description)) %>%
+        mutate(Description_fold = fct_inorder(Description_fold))
+})
 
-# 合并所有描述
-feature_descriptions <- names_values$old_colnames
-names(feature_descriptions) <- names_values$new_colnames
+for (i in 1:length(nn)) { # i <- 1
+#    p1 <- roc_box_plot(train_roc_all[[nn[i]]], title = "train", label = nn[i])
+    p2 <- roc_box_plot(test_roc_all[[nn[i]]], title = "test", label = nn[i])
+#    p3 <- roc_box_plot(cv_roc_all[[nn[i]]], title = "cv", label = nn[i])
+    p4 <- plot_p_feat(Plot_data4[[nn[i]]], out = opts$outdir, plot = F)
+
+    #bind_rows(list(
+    #    p1[[3]] %>% broom::tidy() %>% mutate(data = "train"),
+    #    p2[[3]] %>% broom::tidy() %>% mutate(data = "test"),
+    #    p3[[3]] %>% broom::tidy() %>% mutate(data = "cv")
+    #)) %>%
+    p2[[3]] %>%
+        broom::tidy() %>%
+        mutate(data = "test") %>%
+        write_tsv(paste0("step3.", nn[i], "_pod_wilcox_test.tsv"))
+
+    ComBn_plot(list(p2[1:2]), # , p1[1:2], p3[1:2]
+        w = p4, out_parm = opts$outdir, biomaker_num_fix_parm = nn[i]
+    )
+}
 
 # 创建新的Excel工作簿
 wb <- createWorkbook()
 
 # 对每个模型创建详细信息sheet
-for (model_name in names(model_details)) {
+for (model_name in names(model_details)) { # model_name <- names(model_details)[1]
     info <- model_details[[model_name]]
-    
+
     # 创建模型信息sheet
     addWorksheet(wb, model_name)
-    
+
     # 1. 添加模型性能信息 - 增加CE指标
-    performance_data <- data.frame(
-        Metric = c("AUC", "Accuracy", "CE"),
-        Training = c(
-            model_results[[model_name]]$train_performance["classif.auc"],
-            model_results[[model_name]]$train_performance["classif.acc"],
-            model_results[[model_name]]$train_performance["classif.ce"]
-        ),
-        Testing = c(
-            model_results[[model_name]]$test_performance["classif.auc"],
-            model_results[[model_name]]$test_performance["classif.acc"],
-            model_results[[model_name]]$test_performance["classif.ce"]
-        )
-    )
-    
+    performance_data <- performance_comparison %>%
+        filter(Model == model_name) %>%
+        pivot_longer(
+            cols = starts_with(c("CV_", "Train_", "Test_")), # 选择以 "CV_", "Train_", "Test_" 开头的列
+            names_to = "Metric_Split", # 新列名，存储原始列名
+            values_to = "Value" # 新列名，存储性能值
+        ) %>%
+        separate(
+            col = "Metric_Split", # 要拆分的列
+            into = c("Data_Split", "Metric"), # 拆分后的新列名
+            sep = "_" # 分隔符
+        ) %>%
+        pivot_wider(
+            names_from = "Data_Split", # 使用 Data_Split 列的值作为新列名
+            values_from = "Value" # 使用 Value 列的值填充新列
+        ) %>%
+        select(-Model)
+
     writeData(wb, model_name, "模型性能", startRow = 1, startCol = 1)
     writeData(wb, model_name, performance_data, startRow = 2, startCol = 1)
-    
+
     # 添加足够的空行分隔不同部分
     # 2. 添加超参数信息 - 调整起始行，确保与性能指标有足够的间隔
     writeData(wb, model_name, "最优超参数", startRow = 7, startCol = 1)
@@ -1006,50 +1231,46 @@ for (model_name in names(model_details)) {
         Value = as.character(info$hyperparameters)
     )
     writeData(wb, model_name, hyperparams_df, startRow = 8, startCol = 1)
-    
+
     # 3. 添加特征重要性信息（如果有）- 也调整起始行
     if (!is.null(info$feature_importance)) {
         writeData(wb, model_name, "特征重要性", startRow = 10 + nrow(hyperparams_df), startCol = 1)
-        
-        # 只保留前23个特征
+
         feature_importance <- info$feature_importance
         # 按重要性排序
         feature_importance <- feature_importance[order(-feature_importance$Importance), ]
-        # 截取前23个特征
-        if(nrow(feature_importance) > 23) {
-            feature_importance <- feature_importance[1:23, ]
-        }
-        
+
         # 创建一个新的列来存储特征名称原始名称
         feature_importance$Original_Name <- feature_importance$Feature
-        
+
         # 获取特征描述
-        for(i in 1:nrow(feature_importance)) {
+        for (i in 1:nrow(feature_importance)) {
             feature_name <- feature_importance$Feature[i]
             # 尝试从feature_descriptions中获取描述
-            if(feature_name %in% names(feature_descriptions)) {
+            if (feature_name %in% names(feature_descriptions)) {
                 feature_importance$Description[i] <- feature_descriptions[[feature_name]]
             } else {
                 # 如果没有描述，保留原始名称作为描述
                 feature_importance$Description[i] <- feature_name
             }
         }
-        
+
         # 重新排列列顺序
         feature_importance <- feature_importance[, c("Original_Name", "Description", "Importance")]
         colnames(feature_importance) <- c("原始特征名", "特征描述", "重要性得分")
-        
-        writeData(wb, model_name, feature_importance, 
-                 startRow = 11 + nrow(hyperparams_df), startCol = 1)
+
+        writeData(wb, model_name, feature_importance,
+            startRow = 11 + nrow(hyperparams_df), startCol = 1
+        )
     }
-    
+
     # 设置列宽
     setColWidths(wb, model_name, cols = 1:3, widths = "auto")
-    
+
     # 添加样式，加粗标题
     hs1 <- createStyle(textDecoration = "bold", fontSize = 12)
     addStyle(wb, model_name, hs1, rows = c(1, 7, 10 + nrow(hyperparams_df)), cols = 1)
-    
+
     # 添加边框，更清晰地分隔不同部分
     borderStyle <- createStyle(border = "TopBottom", borderColour = "#4F81BD", borderStyle = "medium")
     addStyle(wb, model_name, borderStyle, rows = c(6, 9 + nrow(hyperparams_df)), cols = 1:3, gridExpand = TRUE)
@@ -1059,36 +1280,42 @@ for (model_name in names(model_details)) {
 addWorksheet(wb, "模型比较")
 
 # 创建模型比较表格 - 增加CE指标
-comparison_df <- data.frame(
-    Model = names(model_results),
-    Train_AUC = sapply(model_results, function(x) x$train_performance["classif.auc"]),
-    Train_ACC = sapply(model_results, function(x) x$train_performance["classif.acc"]),
-    Train_CE  = sapply(model_results, function(x) x$train_performance["classif.ce"]),
-    Test_AUC  = sapply(model_results, function(x) x$test_performance["classif.auc"]),
-    Test_ACC  = sapply(model_results, function(x) x$test_performance["classif.acc"]),
-    Test_CE   = sapply(model_results, function(x) x$test_performance["classif.ce"])
-)
-
-writeData(wb, "模型比较", comparison_df, startRow = 1)
+writeData(wb, "模型比较",performance_comparison, startRow = 1)
 setColWidths(wb, "模型比较", cols = 1:7, widths = "auto")
 
 # 美化模型比较表
-headerStyle <- createStyle(fgFill = "#4F81BD", halign = "center", textDecoration = "bold", 
-                        fontColour = "white", fontSize = 12)
+headerStyle <- createStyle(
+    fgFill = "#4F81BD", halign = "center", textDecoration = "bold",
+    fontColour = "white", fontSize = 12
+)
 addStyle(wb, "模型比较", headerStyle, rows = 1, cols = 1:7, gridExpand = TRUE)
 
 # 添加表格边框
-tableStyle <- createStyle(border = "TopBottomLeftRight", borderColour = "#4F81BD", 
-                        borderStyle = "thin")
-addStyle(wb, "模型比较", tableStyle, rows = 1:(nrow(comparison_df)+1), 
-        cols = 1:7, gridExpand = TRUE)
+tableStyle <- createStyle(
+    border = "TopBottomLeftRight", borderColour = "#4F81BD",
+    borderStyle = "thin"
+)
+addStyle(wb, "模型比较", tableStyle,
+    rows = 1:(nrow(comparison_df) + 1),
+    cols = 1:7, gridExpand = TRUE
+)
 
 # 保存Excel文件
-saveWorkbook(wb, "model_analysis_results.xlsx", overwrite = TRUE)
+saveWorkbook(wb, file.path(opts$outdir, "model_performance_comparison.xlsx"), overwrite = TRUE)
 
-# 打印确认信息
-print("已生成model_analysis_results.xlsx文件，包含以下sheet:")
+print("已生成model_performance_comparison.xlsx文件，包含以下sheet:")
 print(paste("- 模型sheet:", paste(names(model_details), collapse = ", ")))
 print("- 模型比较sheet")
-
-
+# 打印确认信息
+save.image(file.path(opts$outdir, "efs.RData"))
+# 把opts相关的参数设置保留
+write_tsv(
+    opts %>% as.matrix() %>% as.data.frame() %>% rownames_to_column() %>%
+        as_tibble() %>% mutate(V1 = as.character(V1)),
+    str_c(
+        "Parameter",
+        str_replace_all(as.character(date()), " ", "_") %>% str_replace_all(":", "_"),
+        ".xls"
+    ),
+    col_names = FALSE
+)
