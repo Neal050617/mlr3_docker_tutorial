@@ -21,24 +21,24 @@ pacman::p_load(
 if (TRUE) {
     option_list <- list(
         # 输入
-        make_option(c("-i", "--input"), type = "character", default = "new.all.metabo-env.xls", help = "输入的OTU表格"),
+        make_option(c("-i", "--input"), type = "character", default = "rarefac.ASV_genus.xls", help = "输入的OTU表格"),
         make_option(c("-g", "--map"), type = "character", default = "map-group.txt", help = "分组文件"),
         make_option(c("-c", "--color"), type = "character", default = "none", help = "指定颜色：color.txt"),
         make_option(c("--part"), type = "character", default = "2/3", help = "咋分的样本，2/3还是3/4，或者0.8"),
         make_option(c("--split"), type = "character", default = "none", help = "客户指定train和testsplit.map-group.txt"),
         make_option(c("--inner_cv"), type = "numeric", default = 5, help = "内层交叉验证的层数"),
         make_option(c("--outer_cv"), type = "numeric", default = 5, help = "外层交叉验证的层数"),
-        make_option(c("--resample"), type = "numeric", default = 5, help = "重抽样次数，默认5次"),
-        make_option(c("--n_features"), type = "numeric", default = 10, help = "RFE算法选择的特征数量"),
+        make_option(c("--resample"), type = "numeric", default = 50, help = "重抽样次数，默认5次"),
+        make_option(c("--n_features"), type = "numeric", default = 20, help = "RFE算法选择的特征数量"),
         make_option(c("--feature_fraction"), type = "double", default = 0.85, help = "RFE算法每次迭代保留的特征比例"),
         # 添加筛选条件
-        make_option(c("-u", "--unif"), type = "logical", default = FALSE, help = "要不要归一化"),
+        make_option(c("-u", "--unif"), type = "logical", default = TRUE, help = "要不要归一化"),
         make_option(c("--gp"), type = "character", default = "none", help = "control-test顺序指定"),
         # make_option(c("-t", "--test"),  type="character", default="rarefac.Wilcoxon_rank_sum_unpaired.ALL.xls", help="差异"),
         #make_option(c("--pv"), type = "double", default = 0.05, help = "显著性筛选"),
         #make_option(c("--pj"), type = "double", default = 1, help = "pvalue.adjust.fdr显著性筛选"),
         make_option(c("--select"), type = "character", default = "none", help = "select.list"),
-        make_option(c("--delete"), type = "character", default = "none", help = "delete.list"),
+        make_option(c("--delete"), type = "character", default = "delete.list", help = "delete.list"),
         # 外部验证
         make_option(c("--trainOnly"), type = "logical", default = T, help = "TRUE表示只用train排序，FALSE表示训练集和内部验证集一起排序"),
         make_option(c("--valid"), type = "character", default = "none", help = "排列组合"),
@@ -463,6 +463,12 @@ Minus <- function(x, n) {
     ifelse(x >= d1, round(x, 4), paste0("< ", d1))
 }
 
+# 识别分类变量和连续变量
+is_binary <- function(x) {
+    vals <- unique(x[!is.na(x)])
+    length(vals) <= 2 && all(vals %in% c(0, 1))
+}
+
 # 02.Read_in --------------------------------------------------------------
 
 mapcol <- c("#61d04f", "#df536b", "#377EB8", "#984EA3", "#FF7F00", "#FFFF33", "#A65628", "#F781BF") # ,"#4DAF4A","#E41A1C" RColorBrewer::brewer.pal(n = 8,name = "Set1")
@@ -865,20 +871,20 @@ bmr <- benchmark(benchmark_grid, store_models = TRUE)
 p7 <- autoplot(bmr, measure = msr("classif.auc")) +
   mytheme() +
   labs(title = "model comparison - auc")
-ggsave("step2.1.1.model_comparison.auc.pdf", p7, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step2.1.1.model_comparison.auc.pdf"), p7, width = 12.5, height = 12, units = "in", dpi = 300)
 
 p7 <- autoplot(bmr, measure = msr("classif.acc")) +
   mytheme() +
   labs(title = "model comparison - acc")
-ggsave("step2.1.2.model_comparison.acc.pdf", p7, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step2.1.2.model_comparison.acc.pdf"), p7, width = 12.5, height = 12, units = "in", dpi = 300)
 
 p7 <- autoplot(bmr, measure = msr("classif.ce")) +
     mytheme() +
     labs(title = "model comparison - ce")
-ggsave("step2.1.3.model_comparison.ce.pdf", p7, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step2.1.3.model_comparison.ce.pdf"), p7, width = 12.5, height = 12, units = "in", dpi = 300)
 
 p8 <- autoplot(bmr, type = "roc")
-ggsave("step2.2.model_comparison.roc.pdf", p8, width = 12.5, height = 12, units = "in", dpi = 300)
+ggsave(file.path(opts$outdir, "step2.2.model_comparison.roc.pdf"), p8, width = 12.5, height = 12, units = "in", dpi = 300)
 
 # 05. 分析结果 --------------------------------------------------------------
 
@@ -1136,7 +1142,7 @@ cv_roc_plot <- roc_pict(cv_roc_all,
     colors = model_colors, labels = names(cv_roc_all)
 )
 
-# 05. 对每个模型收集信息 ------------------------------------------------------------
+# 06. 对每个模型收集信息 ------------------------------------------------------------
 model_details <- list()
 for (model_name in names(model_results)) {
   model_details[[model_name]] <- get_model_info(
@@ -1178,14 +1184,14 @@ for (i in 1:length(nn)) { # i <- 1
     p2[[3]] %>%
         broom::tidy() %>%
         mutate(data = "test") %>%
-        write_tsv(paste0("step3.", nn[i], "_pod_wilcox_test.tsv"))
+        write_tsv(file.path(opts$outdir, paste0("step3.", nn[i], "_pod_wilcox_test.tsv")))
 
     ComBn_plot(list(p2[1:2]), # , p1[1:2], p3[1:2]
         w = p4, out_parm = opts$outdir, biomaker_num_fix_parm = nn[i]
     )
 }
 
-# 创建新的Excel工作簿
+# 07. 创建新的Excel工作簿 ------------------------------------------------------------
 wb <- createWorkbook()
 
 # 对每个模型创建详细信息sheet
@@ -1290,10 +1296,19 @@ tableStyle <- createStyle(
     borderStyle = "thin"
 )
 addStyle(wb, "模型比较", tableStyle,
-    rows = 1:(nrow(comparison_df) + 1),
-    cols = 1:7, gridExpand = TRUE
+    rows = 1:(nrow(performance_comparison) + 1),
+    cols = 1:ncol(performance_comparison), gridExpand = TRUE
 )
 
+# 为第二列到第十列设置红绿色阶
+for (col in 2:min(10, ncol(performance_comparison))) {
+    conditionalFormatting(wb, "模型比较",
+        cols = col,
+        rows = 2:(nrow(performance_comparison) + 1),
+        type = "colorScale",
+        style = c("#4F81BD", "#FFFFFF","#E41A1C") # 红-白-蓝色阶
+    )
+}
 # 保存Excel文件
 saveWorkbook(wb, file.path(opts$outdir, "model_performance_comparison.xlsx"), overwrite = TRUE)
 
