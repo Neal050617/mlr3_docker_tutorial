@@ -1,0 +1,507 @@
+Branch_ID	Branch_Label	Branch_Dir	Model	Parameter	Value
+0.1	Con-LAEC 菌群	run_model_0.1_step2	glmnet	alpha	0.668099695583805
+0.1	Con-LAEC 菌群	run_model_0.1_step2	glmnet	lambda	0.000337317928545616
+0.1	Con-LAEC 菌群	run_model_0.1_step2	glmnet	use_pred_offset	TRUE
+0.1	Con-LAEC 菌群	run_model_0.1_step2	glmnet	standardize	FALSE
+0.1	Con-LAEC 菌群	run_model_0.1_step2	glmnet	thresh	0.0000288658862433444
+0.1	Con-LAEC 菌群	run_model_0.1_step2	glmnet	maxit	3704
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	eta	0.24315709626535
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	max_depth	7
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	nrounds	54
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	nthread	1
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	verbose	0
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	verbosity	0
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	min_child_weight	5.45814330060966
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	subsample	0.945755356689915
+0.1	Con-LAEC 菌群	run_model_0.1_step2	xgboost	colsample_bytree	0.553339500795119
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rf	importance	impurity
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rf	num.threads	1
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rf	num.trees	655
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rf	mtry	3
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rf	max.depth	5
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rf	min.node.size	10
+0.1	Con-LAEC 菌群	run_model_0.1_step2	svm	cost	0.0467371613376945
+0.1	Con-LAEC 菌群	run_model_0.1_step2	svm	kernel	radial
+0.1	Con-LAEC 菌群	run_model_0.1_step2	svm	type	C-classification
+0.1	Con-LAEC 菌群	run_model_0.1_step2	svm	gamma	0.0000267076444199122
+0.1	Con-LAEC 菌群	run_model_0.1_step2	naive_bayes	laplace	2.18621831852943
+0.1	Con-LAEC 菌群	run_model_0.1_step2	kknn	k	7
+0.1	Con-LAEC 菌群	run_model_0.1_step2	kknn	distance	2.91528831562027
+0.1	Con-LAEC 菌群	run_model_0.1_step2	kknn	kernel	triangular
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rpart	xval	0
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rpart	cp	0.0386624570205633
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rpart	maxdepth	13
+0.1	Con-LAEC 菌群	run_model_0.1_step2	rpart	minbucket	5
+0.1	Con-LAEC 菌群	run_model_0.1_step2	adaboost	I	56
+0.1	Con-LAEC 菌群	run_model_0.1_step2	nnet	MaxNWts	5000
+0.1	Con-LAEC 菌群	run_model_0.1_step2	nnet	size	16
+0.1	Con-LAEC 菌群	run_model_0.1_step2	nnet	decay	0.00479641401447245
+0.1	Con-LAEC 菌群	run_model_0.1_step2	nnet	maxit	112
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	glmnet	alpha	0.21226983028464
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	glmnet	lambda	0.00115482687722683
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	glmnet	use_pred_offset	TRUE
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	glmnet	standardize	FALSE
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	glmnet	thresh	0.0000121956139790554
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	glmnet	maxit	7250
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	eta	0.171494562076405
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	max_depth	10
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	nrounds	176
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	nthread	1
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	verbose	0
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	verbosity	0
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	min_child_weight	3.51814955053851
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	subsample	0.994256763136946
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	xgboost	colsample_bytree	0.553371627232991
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rf	importance	impurity
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rf	num.threads	1
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rf	num.trees	820
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rf	mtry	3
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rf	max.depth	4
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rf	min.node.size	1
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	svm	cost	2.68198841102219
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	svm	kernel	radial
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	svm	type	C-classification
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	svm	gamma	0.0326996307509197
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	naive_bayes	laplace	3.48216667771339
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	kknn	k	11
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	kknn	distance	2.64814849523827
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	kknn	kernel	epanechnikov
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rpart	xval	0
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rpart	cp	0.00157566556936042
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rpart	maxdepth	5
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	rpart	minbucket	5
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	adaboost	I	148
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	nnet	MaxNWts	5000
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	nnet	size	16
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	nnet	decay	0.0103877142362789
+0.2	Con-LAEC 代谢组	run_model_0.2_step2	nnet	maxit	228
+0.3	Con-LAEC 多组学	run_model_0.3_step2	glmnet	alpha	0.720654749078676
+0.3	Con-LAEC 多组学	run_model_0.3_step2	glmnet	lambda	0.000293920089049122
+0.3	Con-LAEC 多组学	run_model_0.3_step2	glmnet	use_pred_offset	TRUE
+0.3	Con-LAEC 多组学	run_model_0.3_step2	glmnet	standardize	FALSE
+0.3	Con-LAEC 多组学	run_model_0.3_step2	glmnet	thresh	0.00000196926472791159
+0.3	Con-LAEC 多组学	run_model_0.3_step2	glmnet	maxit	6423
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	eta	0.253003192765173
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	max_depth	2
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	nrounds	430
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	nthread	1
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	verbose	0
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	verbosity	0
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	min_child_weight	9.25148348859511
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	subsample	0.613523141946644
+0.3	Con-LAEC 多组学	run_model_0.3_step2	xgboost	colsample_bytree	0.762627769028768
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rf	importance	impurity
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rf	num.threads	1
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rf	num.trees	897
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rf	mtry	7
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rf	max.depth	12
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rf	min.node.size	6
+0.3	Con-LAEC 多组学	run_model_0.3_step2	svm	cost	2.19430657884539
+0.3	Con-LAEC 多组学	run_model_0.3_step2	svm	kernel	radial
+0.3	Con-LAEC 多组学	run_model_0.3_step2	svm	type	C-classification
+0.3	Con-LAEC 多组学	run_model_0.3_step2	svm	gamma	0.000475343932295306
+0.3	Con-LAEC 多组学	run_model_0.3_step2	naive_bayes	laplace	3.3327636832837
+0.3	Con-LAEC 多组学	run_model_0.3_step2	kknn	k	9
+0.3	Con-LAEC 多组学	run_model_0.3_step2	kknn	distance	2.42727846466005
+0.3	Con-LAEC 多组学	run_model_0.3_step2	kknn	kernel	epanechnikov
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rpart	xval	0
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rpart	cp	0.00283642815743206
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rpart	maxdepth	18
+0.3	Con-LAEC 多组学	run_model_0.3_step2	rpart	minbucket	9
+0.3	Con-LAEC 多组学	run_model_0.3_step2	adaboost	I	177
+0.3	Con-LAEC 多组学	run_model_0.3_step2	nnet	MaxNWts	5000
+0.3	Con-LAEC 多组学	run_model_0.3_step2	nnet	size	15
+0.3	Con-LAEC 多组学	run_model_0.3_step2	nnet	decay	0.000306303184017423
+0.3	Con-LAEC 多组学	run_model_0.3_step2	nnet	maxit	193
+1.0	临床基线	run_model_1.0_step2	glmnet	smote.K	1
+1.0	临床基线	run_model_1.0_step2	glmnet	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	glmnet	glmnet.alpha	0.304496137192473
+1.0	临床基线	run_model_1.0_step2	glmnet	glmnet.lambda	0.0859332294196517
+1.0	临床基线	run_model_1.0_step2	glmnet	glmnet.use_pred_offset	TRUE
+1.0	临床基线	run_model_1.0_step2	glmnet	glmnet.standardize	FALSE
+1.0	临床基线	run_model_1.0_step2	glmnet	glmnet.thresh	0.0000029692370887529
+1.0	临床基线	run_model_1.0_step2	glmnet	glmnet.maxit	2606
+1.0	临床基线	run_model_1.0_step2	xgboost	smote.K	1
+1.0	临床基线	run_model_1.0_step2	xgboost	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.eta	0.106863458901644
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.max_depth	4
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.nrounds	281
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.nthread	1
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.verbose	0
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.verbosity	0
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.min_child_weight	9.64264973718673
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.subsample	0.892944498104043
+1.0	临床基线	run_model_1.0_step2	xgboost	xgboost.colsample_bytree	0.717286222614348
+1.0	临床基线	run_model_1.0_step2	rf	smote.K	1
+1.0	临床基线	run_model_1.0_step2	rf	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	rf	rf.importance	impurity
+1.0	临床基线	run_model_1.0_step2	rf	rf.num.threads	1
+1.0	临床基线	run_model_1.0_step2	rf	rf.num.trees	772
+1.0	临床基线	run_model_1.0_step2	rf	rf.mtry	3
+1.0	临床基线	run_model_1.0_step2	rf	rf.max.depth	11
+1.0	临床基线	run_model_1.0_step2	rf	rf.min.node.size	10
+1.0	临床基线	run_model_1.0_step2	svm	smote.K	1
+1.0	临床基线	run_model_1.0_step2	svm	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	svm	svm.cost	17.0592913986268
+1.0	临床基线	run_model_1.0_step2	svm	svm.kernel	radial
+1.0	临床基线	run_model_1.0_step2	svm	svm.type	C-classification
+1.0	临床基线	run_model_1.0_step2	svm	svm.gamma	0.0000475932769597079
+1.0	临床基线	run_model_1.0_step2	naive_bayes	smote.K	1
+1.0	临床基线	run_model_1.0_step2	naive_bayes	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	naive_bayes	naive_bayes.laplace	2.68203075160272
+1.0	临床基线	run_model_1.0_step2	kknn	smote.K	1
+1.0	临床基线	run_model_1.0_step2	kknn	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	kknn	kknn.k	12
+1.0	临床基线	run_model_1.0_step2	kknn	kknn.distance	1.29489715397358
+1.0	临床基线	run_model_1.0_step2	kknn	kknn.kernel	epanechnikov
+1.0	临床基线	run_model_1.0_step2	rpart	smote.K	1
+1.0	临床基线	run_model_1.0_step2	rpart	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	rpart	rpart.xval	0
+1.0	临床基线	run_model_1.0_step2	rpart	rpart.cp	0.00414311813416556
+1.0	临床基线	run_model_1.0_step2	rpart	rpart.maxdepth	13
+1.0	临床基线	run_model_1.0_step2	rpart	rpart.minbucket	3
+1.0	临床基线	run_model_1.0_step2	adaboost	smote.K	1
+1.0	临床基线	run_model_1.0_step2	adaboost	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	adaboost	adaboost.I	86
+1.0	临床基线	run_model_1.0_step2	nnet	smote.K	1
+1.0	临床基线	run_model_1.0_step2	nnet	smote.dup_size	1
+1.0	临床基线	run_model_1.0_step2	nnet	nnet.MaxNWts	5000
+1.0	临床基线	run_model_1.0_step2	nnet	nnet.size	10
+1.0	临床基线	run_model_1.0_step2	nnet	nnet.decay	0.00251337089493702
+1.0	临床基线	run_model_1.0_step2	nnet	nnet.maxit	164
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	glmnet.alpha	0.539408484240994
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	glmnet.lambda	0.169649318004604
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	glmnet.use_pred_offset	TRUE
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	glmnet.standardize	TRUE
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	glmnet.thresh	0.000000934271769018361
+1.1	临床 + NRT前菌群	run_model_1.1_step2	glmnet	glmnet.maxit	7189
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.eta	0.164970456941519
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.max_depth	2
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.nrounds	405
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.nthread	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.verbose	0
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.verbosity	0
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.min_child_weight	1.01555789145641
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.subsample	0.854210573830642
+1.1	临床 + NRT前菌群	run_model_1.1_step2	xgboost	xgboost.colsample_bytree	0.690198267693631
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	rf.importance	impurity
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	rf.num.threads	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	rf.num.trees	967
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	rf.mtry	5
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	rf.max.depth	12
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rf	rf.min.node.size	5
+1.1	临床 + NRT前菌群	run_model_1.1_step2	svm	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	svm	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	svm	svm.cost	0.276485873206035
+1.1	临床 + NRT前菌群	run_model_1.1_step2	svm	svm.kernel	radial
+1.1	临床 + NRT前菌群	run_model_1.1_step2	svm	svm.type	C-classification
+1.1	临床 + NRT前菌群	run_model_1.1_step2	svm	svm.gamma	0.00102105399238741
+1.1	临床 + NRT前菌群	run_model_1.1_step2	naive_bayes	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	naive_bayes	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	naive_bayes	naive_bayes.laplace	1.65287000359967
+1.1	临床 + NRT前菌群	run_model_1.1_step2	kknn	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	kknn	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	kknn	kknn.k	12
+1.1	临床 + NRT前菌群	run_model_1.1_step2	kknn	kknn.distance	2.19595589488745
+1.1	临床 + NRT前菌群	run_model_1.1_step2	kknn	kknn.kernel	triangular
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rpart	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rpart	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rpart	rpart.xval	0
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rpart	rpart.cp	0.0133473681897524
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rpart	rpart.maxdepth	10
+1.1	临床 + NRT前菌群	run_model_1.1_step2	rpart	rpart.minbucket	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	adaboost	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	adaboost	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	adaboost	adaboost.I	110
+1.1	临床 + NRT前菌群	run_model_1.1_step2	nnet	smote.K	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	nnet	smote.dup_size	1
+1.1	临床 + NRT前菌群	run_model_1.1_step2	nnet	nnet.MaxNWts	5000
+1.1	临床 + NRT前菌群	run_model_1.1_step2	nnet	nnet.size	17
+1.1	临床 + NRT前菌群	run_model_1.1_step2	nnet	nnet.decay	0.00174179955113444
+1.1	临床 + NRT前菌群	run_model_1.1_step2	nnet	nnet.maxit	170
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	glmnet.alpha	0.907610381720588
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	glmnet.lambda	0.0358784561801018
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	glmnet.use_pred_offset	TRUE
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	glmnet.standardize	TRUE
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	glmnet.thresh	0.000000372132465221984
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	glmnet	glmnet.maxit	3550
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.eta	0.17408078428125
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.max_depth	8
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.nrounds	169
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.nthread	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.verbose	0
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.verbosity	0
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.min_child_weight	1.02494881441817
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.subsample	0.600459661683999
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	xgboost	xgboost.colsample_bytree	0.801844842033461
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	rf.importance	impurity
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	rf.num.threads	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	rf.num.trees	530
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	rf.mtry	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	rf.max.depth	10
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rf	rf.min.node.size	8
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	svm	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	svm	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	svm	svm.cost	0.0396537387638257
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	svm	svm.kernel	radial
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	svm	svm.type	C-classification
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	svm	svm.gamma	0.00000123014474265319
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	naive_bayes	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	naive_bayes	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	naive_bayes	naive_bayes.laplace	1.11494988435879
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	kknn	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	kknn	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	kknn	kknn.k	6
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	kknn	kknn.distance	1.81395797338337
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	kknn	kknn.kernel	rectangular
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rpart	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rpart	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rpart	rpart.xval	0
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rpart	rpart.cp	0.0109054397692807
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rpart	rpart.maxdepth	12
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	rpart	rpart.minbucket	9
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	adaboost	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	adaboost	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	adaboost	adaboost.I	51
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	nnet	smote.K	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	nnet	smote.dup_size	1
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	nnet	nnet.MaxNWts	5000
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	nnet	nnet.size	12
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	nnet	nnet.decay	0.0357904807765017
+1.2	临床 + NRT前代谢组	run_model_1.2_step2	nnet	nnet.maxit	185
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	glmnet.alpha	0.905008758883923
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	glmnet.lambda	0.0131901201820104
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	glmnet.use_pred_offset	TRUE
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	glmnet.standardize	TRUE
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	glmnet.thresh	0.00000284912491798441
+1.3	临床 + NRT前多组学	run_model_1.3_step2	glmnet	glmnet.maxit	5867
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.eta	0.104433872189838
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.max_depth	5
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.nrounds	438
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.nthread	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.verbose	0
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.verbosity	0
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.min_child_weight	4.0951891518198
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.subsample	0.77456626330968
+1.3	临床 + NRT前多组学	run_model_1.3_step2	xgboost	xgboost.colsample_bytree	0.970343810971826
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	rf.importance	impurity
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	rf.num.threads	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	rf.num.trees	682
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	rf.mtry	5
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	rf.max.depth	4
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rf	rf.min.node.size	8
+1.3	临床 + NRT前多组学	run_model_1.3_step2	svm	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	svm	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	svm	svm.cost	0.0785397075607177
+1.3	临床 + NRT前多组学	run_model_1.3_step2	svm	svm.kernel	radial
+1.3	临床 + NRT前多组学	run_model_1.3_step2	svm	svm.type	C-classification
+1.3	临床 + NRT前多组学	run_model_1.3_step2	svm	svm.gamma	0.00000106236415801907
+1.3	临床 + NRT前多组学	run_model_1.3_step2	naive_bayes	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	naive_bayes	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	naive_bayes	naive_bayes.laplace	4.24695829162374
+1.3	临床 + NRT前多组学	run_model_1.3_step2	kknn	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	kknn	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	kknn	kknn.k	6
+1.3	临床 + NRT前多组学	run_model_1.3_step2	kknn	kknn.distance	1.93537460034713
+1.3	临床 + NRT前多组学	run_model_1.3_step2	kknn	kknn.kernel	gaussian
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rpart	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rpart	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rpart	rpart.xval	0
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rpart	rpart.cp	0.00550760819657905
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rpart	rpart.maxdepth	16
+1.3	临床 + NRT前多组学	run_model_1.3_step2	rpart	rpart.minbucket	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	adaboost	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	adaboost	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	adaboost	adaboost.I	195
+1.3	临床 + NRT前多组学	run_model_1.3_step2	nnet	smote.K	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	nnet	smote.dup_size	1
+1.3	临床 + NRT前多组学	run_model_1.3_step2	nnet	nnet.MaxNWts	5000
+1.3	临床 + NRT前多组学	run_model_1.3_step2	nnet	nnet.size	5
+1.3	临床 + NRT前多组学	run_model_1.3_step2	nnet	nnet.decay	0.00167206571915101
+1.3	临床 + NRT前多组学	run_model_1.3_step2	nnet	nnet.maxit	149
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	glmnet.alpha	0.512547131627798
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	glmnet.lambda	0.00375307702596088
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	glmnet.use_pred_offset	TRUE
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	glmnet.standardize	TRUE
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	glmnet.thresh	0.000033706545010605
+1.4	临床 + 菌群差值	run_model_1.4_step2	glmnet	glmnet.maxit	1463
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.eta	0.298894316379447
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.max_depth	4
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.nrounds	82
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.nthread	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.verbose	0
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.verbosity	0
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.min_child_weight	9.48105840804055
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.subsample	0.85601210326422
+1.4	临床 + 菌群差值	run_model_1.4_step2	xgboost	xgboost.colsample_bytree	0.653823214117438
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	rf.importance	impurity
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	rf.num.threads	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	rf.num.trees	998
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	rf.mtry	2
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	rf.max.depth	8
+1.4	临床 + 菌群差值	run_model_1.4_step2	rf	rf.min.node.size	9
+1.4	临床 + 菌群差值	run_model_1.4_step2	svm	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	svm	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	svm	svm.cost	93.9917016902047
+1.4	临床 + 菌群差值	run_model_1.4_step2	svm	svm.kernel	radial
+1.4	临床 + 菌群差值	run_model_1.4_step2	svm	svm.type	C-classification
+1.4	临床 + 菌群差值	run_model_1.4_step2	svm	svm.gamma	0.0000755605398458095
+1.4	临床 + 菌群差值	run_model_1.4_step2	naive_bayes	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	naive_bayes	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	naive_bayes	naive_bayes.laplace	2.12834600359201
+1.4	临床 + 菌群差值	run_model_1.4_step2	kknn	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	kknn	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	kknn	kknn.k	3
+1.4	临床 + 菌群差值	run_model_1.4_step2	kknn	kknn.distance	1.12629288993776
+1.4	临床 + 菌群差值	run_model_1.4_step2	kknn	kknn.kernel	epanechnikov
+1.4	临床 + 菌群差值	run_model_1.4_step2	rpart	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	rpart	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	rpart	rpart.xval	0
+1.4	临床 + 菌群差值	run_model_1.4_step2	rpart	rpart.cp	0.0353431025593219
+1.4	临床 + 菌群差值	run_model_1.4_step2	rpart	rpart.maxdepth	5
+1.4	临床 + 菌群差值	run_model_1.4_step2	rpart	rpart.minbucket	5
+1.4	临床 + 菌群差值	run_model_1.4_step2	adaboost	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	adaboost	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	adaboost	adaboost.I	65
+1.4	临床 + 菌群差值	run_model_1.4_step2	nnet	smote.K	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	nnet	smote.dup_size	1
+1.4	临床 + 菌群差值	run_model_1.4_step2	nnet	nnet.MaxNWts	5000
+1.4	临床 + 菌群差值	run_model_1.4_step2	nnet	nnet.size	18
+1.4	临床 + 菌群差值	run_model_1.4_step2	nnet	nnet.decay	0.000320843591550213
+1.4	临床 + 菌群差值	run_model_1.4_step2	nnet	nnet.maxit	335
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	glmnet.alpha	0.0437676147557795
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	glmnet.lambda	0.0374294737974963
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	glmnet.use_pred_offset	TRUE
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	glmnet.standardize	TRUE
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	glmnet.thresh	0.0000476587489595736
+1.5	临床 + 代谢组差值	run_model_1.5_step2	glmnet	glmnet.maxit	2536
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.eta	0.0474362305016257
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.max_depth	5
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.nrounds	118
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.nthread	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.verbose	0
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.verbosity	0
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.min_child_weight	3.19326893449761
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.subsample	0.701527401339263
+1.5	临床 + 代谢组差值	run_model_1.5_step2	xgboost	xgboost.colsample_bytree	0.628632790991105
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	rf.importance	impurity
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	rf.num.threads	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	rf.num.trees	567
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	rf.mtry	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	rf.max.depth	9
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rf	rf.min.node.size	6
+1.5	临床 + 代谢组差值	run_model_1.5_step2	svm	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	svm	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	svm	svm.cost	3.97314560912855
+1.5	临床 + 代谢组差值	run_model_1.5_step2	svm	svm.kernel	radial
+1.5	临床 + 代谢组差值	run_model_1.5_step2	svm	svm.type	C-classification
+1.5	临床 + 代谢组差值	run_model_1.5_step2	svm	svm.gamma	0.0000015577314615493
+1.5	临床 + 代谢组差值	run_model_1.5_step2	naive_bayes	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	naive_bayes	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	naive_bayes	naive_bayes.laplace	0.538697961019352
+1.5	临床 + 代谢组差值	run_model_1.5_step2	kknn	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	kknn	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	kknn	kknn.k	15
+1.5	临床 + 代谢组差值	run_model_1.5_step2	kknn	kknn.distance	1.09376833215356
+1.5	临床 + 代谢组差值	run_model_1.5_step2	kknn	kknn.kernel	epanechnikov
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rpart	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rpart	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rpart	rpart.xval	0
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rpart	rpart.cp	0.00103487247411595
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rpart	rpart.maxdepth	10
+1.5	临床 + 代谢组差值	run_model_1.5_step2	rpart	rpart.minbucket	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	adaboost	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	adaboost	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	adaboost	adaboost.I	78
+1.5	临床 + 代谢组差值	run_model_1.5_step2	nnet	smote.K	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	nnet	smote.dup_size	1
+1.5	临床 + 代谢组差值	run_model_1.5_step2	nnet	nnet.MaxNWts	5000
+1.5	临床 + 代谢组差值	run_model_1.5_step2	nnet	nnet.size	11
+1.5	临床 + 代谢组差值	run_model_1.5_step2	nnet	nnet.decay	0.000677099473070474
+1.5	临床 + 代谢组差值	run_model_1.5_step2	nnet	nnet.maxit	343
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	glmnet.alpha	0.4835439841263
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	glmnet.lambda	0.00513144801776698
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	glmnet.use_pred_offset	TRUE
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	glmnet.standardize	TRUE
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	glmnet.thresh	0.0000113233780577417
+1.6	临床 + 多组学差值	run_model_1.6_step2	glmnet	glmnet.maxit	3641
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.eta	0.254474179912358
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.max_depth	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.nrounds	450
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.nthread	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.verbose	0
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.verbosity	0
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.min_child_weight	2.38465889217332
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.subsample	0.972636686288752
+1.6	临床 + 多组学差值	run_model_1.6_step2	xgboost	xgboost.colsample_bytree	0.710766528733075
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	rf.importance	impurity
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	rf.num.threads	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	rf.num.trees	997
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	rf.mtry	3
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	rf.max.depth	10
+1.6	临床 + 多组学差值	run_model_1.6_step2	rf	rf.min.node.size	5
+1.6	临床 + 多组学差值	run_model_1.6_step2	svm	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	svm	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	svm	svm.cost	0.0374466280813479
+1.6	临床 + 多组学差值	run_model_1.6_step2	svm	svm.kernel	radial
+1.6	临床 + 多组学差值	run_model_1.6_step2	svm	svm.type	C-classification
+1.6	临床 + 多组学差值	run_model_1.6_step2	svm	svm.gamma	0.00384072380510306
+1.6	临床 + 多组学差值	run_model_1.6_step2	naive_bayes	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	naive_bayes	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	naive_bayes	naive_bayes.laplace	2.52911083167419
+1.6	临床 + 多组学差值	run_model_1.6_step2	kknn	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	kknn	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	kknn	kknn.k	4
+1.6	临床 + 多组学差值	run_model_1.6_step2	kknn	kknn.distance	1.3476211563684
+1.6	临床 + 多组学差值	run_model_1.6_step2	kknn	kknn.kernel	gaussian
+1.6	临床 + 多组学差值	run_model_1.6_step2	rpart	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	rpart	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	rpart	rpart.xval	0
+1.6	临床 + 多组学差值	run_model_1.6_step2	rpart	rpart.cp	0.0626598404807564
+1.6	临床 + 多组学差值	run_model_1.6_step2	rpart	rpart.maxdepth	6
+1.6	临床 + 多组学差值	run_model_1.6_step2	rpart	rpart.minbucket	3
+1.6	临床 + 多组学差值	run_model_1.6_step2	adaboost	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	adaboost	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	adaboost	adaboost.I	176
+1.6	临床 + 多组学差值	run_model_1.6_step2	nnet	smote.K	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	nnet	smote.dup_size	1
+1.6	临床 + 多组学差值	run_model_1.6_step2	nnet	nnet.MaxNWts	5000
+1.6	临床 + 多组学差值	run_model_1.6_step2	nnet	nnet.size	12
+1.6	临床 + 多组学差值	run_model_1.6_step2	nnet	nnet.decay	0.0140090654535814
+1.6	临床 + 多组学差值	run_model_1.6_step2	nnet	nnet.maxit	245

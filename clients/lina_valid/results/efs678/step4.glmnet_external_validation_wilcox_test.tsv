@@ -1,0 +1,2 @@
+statistic	p.value	method	alternative	data
+593	9.388798248225704e-12	Wilcoxon rank sum exact test	two.sided	external_validation

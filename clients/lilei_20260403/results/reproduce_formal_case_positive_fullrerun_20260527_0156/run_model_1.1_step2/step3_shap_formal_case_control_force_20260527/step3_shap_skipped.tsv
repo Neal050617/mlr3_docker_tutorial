@@ -1,0 +1,2 @@
+Model	Metric	AUC	Threshold	Reason	NoteFile
+rpart	Test_AUC	0.34375	0.500001	模型效果低于 SHAP 阈值；Test_AUC=0.3438 < 0.5000	/Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/rpart/SHAP_SKIPPED.md

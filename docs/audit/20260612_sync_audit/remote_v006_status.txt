@@ -1,0 +1,14 @@
+# remote: dell:/work/users/chaoliu/Test/20250320-mlr3-test
+# generated_at: 2026-06-17 10:41:55 +0800
+
+ROOT=/work/users/chaoliu/Test/20250320-mlr3-test/lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808
+722M	/work/users/chaoliu/Test/20250320-mlr3-test/lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808
+step2_dirs	10
+step3_dirs	10
+shap_xlsx	84
+importance_pdf	168
+beeswarm_pdf	168
+waterfall_pdf	336
+force_pdf	336
+Status[skipped_poor_model]	12
+Status[completed]	168

@@ -1,0 +1,262 @@
+Client legacy mirror sync
+Remote: dell:/work/users/chaoliu/Test/20250320-mlr3-test
+Direction: push
+Mode: ignore-existing
+Apply: no, dry-run only. Set APPLY=1 to copy files.
+Delete: disabled. This script never passes --delete.
+
+== clients/jinyu_20250211/legacy_mirror ==
+Transfer starting: 411 files
+Number of files: 411
+Number of files transferred: 0
+Total file size: 507 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 63851 B
+File list generation time: 0.005 seconds
+File list transfer time: 0.010 seconds
+Total sent: 63867 B
+Total received: 20 B
+
+sent 63867 bytes  received 20 bytes  1990k bytes/sec
+total size is 507M  speedup is 7943.64
+
+== clients/jinyu_20250729/legacy_mirror ==
+Transfer starting: 20 files
+Number of files: 20
+Number of files transferred: 0
+Total file size: 641 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 1723 B
+File list generation time: 0.002 seconds
+File list transfer time: 0.006 seconds
+Total sent: 1739 B
+Total received: 20 B
+
+sent 1739 bytes  received 20 bytes  193k bytes/sec
+total size is 641k  speedup is 364.38
+
+== clients/jinyu_20250908/legacy_mirror ==
+Transfer starting: 66 files
+Number of files: 66
+Number of files transferred: 0
+Total file size: 24515 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 12157 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.007 seconds
+Total sent: 12173 B
+Total received: 20 B
+
+sent 12173 bytes  received 20 bytes  1207k bytes/sec
+total size is 24515k  speedup is 2010.57
+
+== clients/jinyu_scripts/legacy_mirror ==
+Transfer starting: 19 files
+Number of files: 19
+Number of files transferred: 0
+Total file size: 525 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 1881 B
+File list generation time: 0.002 seconds
+File list transfer time: 0.005 seconds
+Total sent: 1897 B
+Total received: 20 B
+
+sent 1897 bytes  received 20 bytes  211k bytes/sec
+total size is 525k  speedup is 274.00
+
+== clients/kangwenzhong/legacy_mirror ==
+Transfer starting: 207 files
+Number of files: 207
+Number of files transferred: 0
+Total file size: 8495 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 22613 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.009 seconds
+Total sent: 22629 B
+Total received: 20 B
+
+sent 22629 bytes  received 20 bytes  1872k bytes/sec
+total size is 8495k  speedup is 375.06
+
+== clients/kangwenzhong_delete_RE_15/legacy_mirror ==
+Transfer starting: 268 files
+Number of files: 268
+Number of files transferred: 0
+Total file size: 73003 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 37196 B
+File list generation time: 0.004 seconds
+File list transfer time: 0.010 seconds
+Total sent: 37212 B
+Total received: 20 B
+
+sent 37212 bytes  received 20 bytes  2466k bytes/sec
+total size is 73003k  speedup is 1960.75
+
+== clients/lilei_20260403/legacy_mirror ==
+Transfer starting: 2038 files
+Number of files: 2038
+Number of files transferred: 0
+Total file size: 429 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 475 kB
+File list generation time: 0.025 seconds
+File list transfer time: 0.046 seconds
+Total sent: 475 kB
+Total received: 20 B
+
+sent 475k bytes  received 20 bytes  9885k bytes/sec
+total size is 429M  speedup is 902.20
+
+== clients/lina_20251208_legacy/legacy_mirror ==
+Transfer starting: 2493 files
+Number of files: 2493
+Number of files transferred: 0
+Total file size: 9466 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 407 kB
+File list generation time: 0.060 seconds
+File list transfer time: 0.055 seconds
+Total sent: 407 kB
+Total received: 20 B
+
+sent 407k bytes  received 20 bytes  2544k bytes/sec
+total size is 9466M  speedup is 23245.63
+
+== clients/lina_20260515/legacy_mirror ==
+Transfer starting: 1315 files
+Number of files: 1315
+Number of files transferred: 0
+Total file size: 169 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 303 kB
+File list generation time: 0.017 seconds
+File list transfer time: 0.030 seconds
+Total sent: 303 kB
+Total received: 20 B
+
+sent 303k bytes  received 20 bytes  9740k bytes/sec
+total size is 169M  speedup is 558.40
+
+== clients/lina_legacy/legacy_mirror ==
+Transfer starting: 14 files
+Number of files: 14
+Number of files transferred: 0
+Total file size: 2005 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 1035 B
+File list generation time: 0.002 seconds
+File list transfer time: 0.005 seconds
+Total sent: 1051 B
+Total received: 20 B
+
+sent 1051 bytes  received 20 bytes  118k bytes/sec
+total size is 2005k  speedup is 1872.24
+
+== clients/lina_valid/legacy_mirror ==
+Transfer starting: 218 files
+Number of files: 218
+Number of files transferred: 0
+Total file size: 12278 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 23382 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.009 seconds
+Total sent: 23398 B
+Total received: 20 B
+
+sent 23398 bytes  received 20 bytes  1788k bytes/sec
+total size is 12278k  speedup is 524.30
+
+== clients/python_xgboost_shap/legacy_mirror ==
+Transfer starting: 158 files
+Number of files: 158
+Number of files transferred: 0
+Total file size: 329 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 24087 B
+File list generation time: 0.005 seconds
+File list transfer time: 0.007 seconds
+Total sent: 24103 B
+Total received: 20 B
+
+sent 24103 bytes  received 20 bytes  1411k bytes/sec
+total size is 329M  speedup is 13658.52
+
+== clients/wangxueping/legacy_mirror ==
+Transfer starting: 73 files
+Number of files: 73
+Number of files transferred: 0
+Total file size: 1877 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 7709 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.005 seconds
+Total sent: 7725 B
+Total received: 20 B
+
+sent 7725 bytes  received 20 bytes  851k bytes/sec
+total size is 1877k  speedup is 242.40
+
+== clients/wangxueping_alltax/legacy_mirror ==
+Transfer starting: 54 files
+Number of files: 54
+Number of files transferred: 0
+Total file size: 77662 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 5812 B
+File list generation time: 0.004 seconds
+File list transfer time: 0.005 seconds
+Total sent: 5828 B
+Total received: 20 B
+
+sent 5828 bytes  received 20 bytes  579k bytes/sec
+total size is 77662k  speedup is 13280.12
+
+== clients/wangxueping_alltax2/legacy_mirror ==
+Transfer starting: 159 files
+Number of files: 159
+Number of files transferred: 0
+Total file size: 241 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 20340 B
+File list generation time: 0.004 seconds
+File list transfer time: 0.007 seconds
+Total sent: 20356 B
+Total received: 20 B
+
+sent 20356 bytes  received 20 bytes  1192k bytes/sec
+total size is 241M  speedup is 11804.08
+

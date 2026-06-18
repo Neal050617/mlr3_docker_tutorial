@@ -1,0 +1,160 @@
+Large result sync
+Remote: dell:/work/users/chaoliu/Test/20250320-mlr3-test
+Direction: push
+Mode: ignore-existing
+Apply: no, dry-run only. Set APPLY=1 to copy files.
+Delete: disabled. This script never passes --delete.
+
+== clients/kangwenzhong/results ==
+Transfer starting: 91 files
+Number of files: 91
+Number of files transferred: 0
+Total file size: 1162 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 8584 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.006 seconds
+Total sent: 8600 B
+Total received: 20 B
+
+sent 8600 bytes  received 20 bytes  451k bytes/sec
+total size is 1162k  speedup is 134.85
+
+== clients/kangwenzhong_delete_RE_15/results ==
+Transfer starting: 197 files
+Number of files: 197
+Number of files transferred: 0
+Total file size: 2319 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 21783 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.009 seconds
+Total sent: 21799 B
+Total received: 20 B
+
+sent 21799 bytes  received 20 bytes  776k bytes/sec
+total size is 2319k  speedup is 106.28
+
+== clients/lilei_20260403/results ==
+Transfer starting: 1627 files
+Number of files: 1627
+Number of files transferred: 0
+Total file size: 382 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 314 kB
+File list generation time: 0.014 seconds
+File list transfer time: 0.037 seconds
+Total sent: 314 kB
+Total received: 20 B
+
+sent 314k bytes  received 20 bytes  10793k bytes/sec
+total size is 382M  speedup is 1217.64
+
+== clients/lina_20260515/results ==
+Transfer starting: 1132 files
+Number of files: 1132
+Number of files transferred: 0
+Total file size: 167 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 235 kB
+File list generation time: 0.011 seconds
+File list transfer time: 0.025 seconds
+Total sent: 235 kB
+Total received: 20 B
+
+sent 235k bytes  received 20 bytes  3408k bytes/sec
+total size is 167M  speedup is 709.42
+
+== clients/lina_valid/results ==
+Transfer starting: 155 files
+Number of files: 155
+Number of files transferred: 0
+Total file size: 3265 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 14341 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.006 seconds
+Total sent: 14357 B
+Total received: 20 B
+
+sent 14357 bytes  received 20 bytes  1097k bytes/sec
+total size is 3265k  speedup is 227.07
+
+== clients/python_xgboost_shap/results ==
+Transfer starting: 145 files
+Number of files: 145
+Number of files transferred: 0
+Total file size: 146 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 19078 B
+File list generation time: 0.006 seconds
+File list transfer time: 0.006 seconds
+Total sent: 19094 B
+Total received: 20 B
+
+sent 19094 bytes  received 20 bytes  1187k bytes/sec
+total size is 146M  speedup is 7634.62
+
+== clients/wangxueping/results ==
+Transfer starting: 63 files
+Number of files: 63
+Number of files transferred: 0
+Total file size: 500 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 5764 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.007 seconds
+Total sent: 5780 B
+Total received: 20 B
+
+sent 5780 bytes  received 20 bytes  574k bytes/sec
+total size is 500k  speedup is 86.19
+
+== clients/wangxueping_alltax/results ==
+Transfer starting: 38 files
+Number of files: 38
+Number of files transferred: 0
+Total file size: 76969 kB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 3356 B
+File list generation time: 0.002 seconds
+File list transfer time: 0.005 seconds
+Total sent: 3372 B
+Total received: 20 B
+
+sent 3372 bytes  received 20 bytes  225k bytes/sec
+total size is 76969k  speedup is 22691.43
+
+== clients/wangxueping_alltax2/results ==
+Transfer starting: 142 files
+Number of files: 142
+Number of files transferred: 0
+Total file size: 240 MB
+Total transferred file size: 0 B
+Unmatched data: 0 B
+Matched data: 0 B
+File list size: 14949 B
+File list generation time: 0.003 seconds
+File list transfer time: 0.007 seconds
+Total sent: 14965 B
+Total received: 20 B
+
+sent 14965 bytes  received 20 bytes  678k bytes/sec
+total size is 240M  speedup is 16005.52
+

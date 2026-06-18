@@ -1,0 +1,3 @@
+statistic	p.value	method	alternative	data
+416	3.8656768439048786e-5	Wilcoxon rank sum exact test	two.sided	train
+51	0.0800825593395253	Wilcoxon rank sum exact test	two.sided	test

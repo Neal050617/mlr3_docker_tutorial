@@ -1,0 +1,11 @@
+Branch_ID	Branch_Label	Input_Type
+0.1	Con-LAEC 菌群	Con-LAEC microbiome
+0.2	Con-LAEC 代谢组	Con-LAEC metabolome
+0.3	Con-LAEC 多组学	Con-LAEC microbiome + metabolome
+1.0	临床基线	clinical baseline
+1.1	临床 + NRT前菌群	clinical + pretreatment microbiome
+1.2	临床 + NRT前代谢组	clinical + pretreatment metabolome
+1.3	临床 + NRT前多组学	clinical + pretreatment multi-omics
+1.4	临床 + 菌群差值	clinical + microbiome delta
+1.5	临床 + 代谢组差值	clinical + metabolome delta
+1.6	临床 + 多组学差值	clinical + multi-omics delta

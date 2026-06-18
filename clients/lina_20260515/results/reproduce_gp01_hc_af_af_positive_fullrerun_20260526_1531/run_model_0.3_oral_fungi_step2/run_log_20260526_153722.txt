@@ -1,0 +1,98 @@
+[2026-05-26 15:37:22] [INFO] ================================================================================ 
+[2026-05-26 15:37:22] [INFO] EFS机器学习分析流程开始 
+[2026-05-26 15:37:22] [INFO] ================================================================================ 
+[2026-05-26 15:37:22] [INFO] 开始时间： 2026-05-26 15:37:22.37382 
+[2026-05-26 15:37:22] [INFO] 输出目录： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2 
+[2026-05-26 15:37:22] [INFO] 日志文件： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/run_log_20260526_153722.txt 
+[2026-05-26 15:37:22] [INFO] 随机种子： 115702 
+[2026-05-26 15:37:22] [INFO] ================================================================================ 
+[2026-05-26 15:37:22] [INFO] 
+参数配置： 
+[2026-05-26 15:37:22] [INFO]   输入文件： OTU_tax.xls 
+[2026-05-26 15:37:22] [INFO]   分组文件： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/v0.2.2_inputs_gp01_hc_af/map-group_gp01_hc_af_common_145.txt 
+[2026-05-26 15:37:22] [INFO]   训练集比例： 3/4 
+[2026-05-26 15:37:22] [INFO]   目标特征数： 15 
+[2026-05-26 15:37:22] [INFO]   外层CV： 5 
+[2026-05-26 15:37:22] [INFO]   内层CV： 3 
+[2026-05-26 15:37:22] [INFO]   调参评估次数： 20 
+[2026-05-26 15:37:22] [INFO]   调参批大小： 5 
+[2026-05-26 15:37:22] [INFO]   mlr3日志级别： warn 
+[2026-05-26 15:37:22] [INFO]   并行核数： 1 
+[2026-05-26 15:37:22] [INFO]   类别权重： FALSE 
+[2026-05-26 15:37:22] [INFO]   SMOTE： FALSE 
+[2026-05-26 15:37:22] [INFO]   建模算法： all 
+[2026-05-26 15:37:22] [INFO]   特征组合策略： majority 
+[2026-05-26 15:37:22] [WARNING] 已启用mlr3learners/xgboost兼容补丁：当前xgboost未提供xgb.params，改用脚本内参数过滤逻辑 
+[2026-05-26 15:37:27] [WARNING] ⚠️  检测到轻度类别不平衡（2:1-5:1），建议使用 --use_class_weight TRUE 
+[2026-05-26 15:37:28] [INFO] === 开始EFS特征选择 === 
+[2026-05-26 15:37:46] [INFO] ✓ EFS完成，耗时： 0.31 分钟 
+[2026-05-26 15:37:48] [WARNING] ⚠️  所有方法失败，使用默认值： 15 个特征 
+[2026-05-26 15:37:48] [INFO] === 两套方案特征选择系统 === 
+[2026-05-26 15:37:48] [INFO] 【第一套方案】尝试使用EFS 
+[2026-05-26 15:37:48] [WARNING] ❌ EFS膝点检测失败，切换到第二套方案 
+[2026-05-26 15:37:48] [INFO] 【第二套方案】多方法组合系统 
+[2026-05-26 15:37:48] [INFO] 组合策略： majority 
+[2026-05-26 15:37:48] [INFO] 同时运行多种方法... 
+[2026-05-26 15:37:48] [INFO] 1/4 运行Boruta... 
+[2026-05-26 15:37:51] [INFO] 2/4 运行RFE... 
+[2026-05-26 15:37:53] [INFO] 3/4 运行LASSO... 
+[2026-05-26 15:37:53] [INFO] 4/4 运行XGBoost重要性... 
+[2026-05-26 15:37:53] [INFO] 组合 4 个方法的结果... 
+[2026-05-26 15:37:53] [INFO] 组合特征集，方法： majority 
+[2026-05-26 15:37:53] [INFO] 多数投票特征数： 17 （阈值： 2 / 4 ） 
+[2026-05-26 15:37:53] [INFO] ✓ 第二套方案成功，特征数量： 17 
+[2026-05-26 15:37:53] [INFO] === 特征选择完成 === 
+[2026-05-26 15:37:53] [INFO] 最终方案： 第二套（多方法组合） 
+[2026-05-26 15:37:53] [INFO] 最终方法： MultiMethod_majority(boruta+rfe+lasso+xgboost) 
+[2026-05-26 15:37:53] [INFO] 特征数量： 17 
+[2026-05-26 15:37:53] [INFO] === 特征重要性聚合分析 === 
+[2026-05-26 15:37:53] [WARNING] ⚠️  特征重要性聚合分析失败： missing value where TRUE/FALSE needed 
+[2026-05-26 15:37:53] [INFO] === 性能-复杂度权衡分析 === 
+[2026-05-26 15:37:53] [WARNING] ⚠️  EFS archive为空，跳过权衡分析 
+[2026-05-26 15:37:54] [INFO] === 保存训练前检查点 === 
+[2026-05-26 15:37:54] [INFO] 开始保存工作区到临时文件： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RDataTmp 
+[2026-05-26 15:37:55] [INFO] 临时工作区文件保存完成： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RDataTmp 
+[2026-05-26 15:37:55] [INFO] 所有分析结果已保存到： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RData 
+[2026-05-26 15:37:55] [INFO] ✓ 已保存训练前检查点，可用于保留EFS与特征选择结果 
+[2026-05-26 15:37:55] [INFO] === 开始模型训练和评估 === 
+[2026-05-26 15:37:55] [INFO] 使用 cv 进行交叉验证 
+[2026-05-26 15:37:55] [INFO] 预计模型训练阶段基础拟合次数： 2745 
+[2026-05-26 15:37:55] [INFO] 调参设置：n_evals= 20 , batch_size= 5 
+[2026-05-26 15:37:55] [INFO] 训练 9 种算法，这可能需要较长时间... 
+[2026-05-26 15:38:28] [INFO] ✓ Benchmark完成，耗时： 0.56 分钟 
+[2026-05-26 15:38:30] [INFO] === 开始训练和测试集预测 === 
+[2026-05-26 15:38:30] [INFO] 处理模型: glmnet ( 1 / 9 ) 
+[2026-05-26 15:38:31] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:31] [INFO] 处理模型: xgboost ( 2 / 9 ) 
+[2026-05-26 15:38:32] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:32] [INFO] 处理模型: rf ( 3 / 9 ) 
+[2026-05-26 15:38:33] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:33] [INFO] 处理模型: svm ( 4 / 9 ) 
+[2026-05-26 15:38:33] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:33] [INFO] 处理模型: naive_bayes ( 5 / 9 ) 
+[2026-05-26 15:38:34] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:34] [INFO] 处理模型: kknn ( 6 / 9 ) 
+[2026-05-26 15:38:35] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:35] [INFO]   KNN permutation重复次数: 10 （样本数: 37 ，特征数: 17 ） 
+[2026-05-26 15:38:38] [INFO] 处理模型: rpart ( 7 / 9 ) 
+[2026-05-26 15:38:39] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:39] [INFO] 处理模型: adaboost ( 8 / 9 ) 
+[2026-05-26 15:38:40] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:40] [INFO]   AdaBoost permutation重复次数: 10 （样本数: 37 ，特征数: 17 ） 
+[2026-05-26 15:38:43] [INFO] 处理模型: nnet ( 9 / 9 ) 
+[2026-05-26 15:38:44] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 1 
+[2026-05-26 15:38:44] [INFO] 有效的train_roc模型数： 9 
+[2026-05-26 15:38:44] [INFO] 有效的test_roc模型数： 9 
+[2026-05-26 15:39:25] [WARNING] ⚠️  PR曲线数据点不足（<2），跳过置信区间计算 
+[2026-05-26 15:39:25] [WARNING] ⚠️  PR曲线数据点不足（<2），跳过置信区间计算 
+[2026-05-26 15:39:29] [WARNING] ⚠️  PR曲线数据点不足（<2），跳过置信区间计算 
+[2026-05-26 15:39:29] [WARNING] ⚠️  PR曲线数据点不足（<2），跳过置信区间计算 
+[2026-05-26 15:39:37] [INFO] 开始保存工作区到临时文件： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RDataTmp 
+[2026-05-26 15:39:43] [INFO] 临时工作区文件保存完成： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RDataTmp 
+[2026-05-26 15:39:43] [INFO] 所有分析结果已保存到： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RData 
+[2026-05-26 15:39:44] [INFO] 未提供外部验证数据(--valid参数)，跳过外部验证步骤 
+[2026-05-26 15:39:44] [INFO] 保存完整分析结果（包含外部验证）... 
+[2026-05-26 15:39:44] [INFO] 开始保存工作区到临时文件： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RDataTmp 
+[2026-05-26 15:39:48] [INFO] 临时工作区文件保存完成： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RDataTmp 
+[2026-05-26 15:39:48] [INFO] 所有分析结果已保存到： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.3_oral_fungi_step2/efs.RData 
+[2026-05-26 15:39:48] [INFO] === 分析完成！ === 

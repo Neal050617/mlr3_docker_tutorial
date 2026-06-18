@@ -1,0 +1,92 @@
+feature_name	description	question	category	chinese_name	YN	attention
+feature01		缺失值过多需要删掉的样本			No	
+feature02				接收日期	No	
+feature03				采样日期	No	
+feature04				样本条形码	Yes	
+feature05				实验编号	No	
+feature06				检测项目	No	
+feature07				推送	No	
+feature08				推送时间	No	
+feature09			dis	性别	Yes	
+feature10			con	年龄	Yes	
+feature11				临床初诊断	No	
+feature12			dis	样本类型	No	
+feature13			dis	临床最终确诊（肺炎0 or 重症肺炎1）	Yes	
+feature14		部位	dis	标本（痰0灌洗液1咽拭子2气管分泌液3）	Yes	
+feature15		分组信息	dis	分组（00.01,02,03,10,11,12,13）	No	
+feature16				分组	No	
+feature17	“/”可以忽略，是有检测到	需要拆分。tNGS病原体检测结果中只有菌或病毒名称，具体检测到的数量位置显示“/”的，算是有检测到吗？	dis	tNGS出具结果	Yes	split
+feature18	可以先保留，不分析	要留么？得拆分	dis	根据临床过程，tNGS认定的病原体	No	
+feature19	可以先保留，不分析	要留么？得拆分	dis	培养鉴定结果	No	
+feature20	可以先保留，不分析	要留么？得拆分	dis	药敏结果	No	
+feature21	不分析	只有一处有效信息		涂片、染色、镜检鉴定结果	No	
+feature22	可以先保留，不分析	要留么？得拆分	dis	血清学鉴定结果（抗原抗体凝集反应、G试验、GM试验）	No	
+feature23	可以先保留，不分析	要留么？得拆分	dis	其他分子鉴定结果（PCR、qPCR）	No	
+feature24	保留，临床希望以这一列做分析，待讨论	要留么？得拆分	dis	根据临床过程，综合认定的病原体	Yes	split
+feature25	可以转换	这一列的数据怎么转换成分类型变量？临床判断我们不太懂，可否按照单灶感染或多灶感染帮我们转换一下	dis	X摄片提示（位点数：单灶感染or多灶感染； 范围：亚肺叶or肺叶）	No	
+feature26			dis	xray(单侧0，双侧1）	Yes	
+feature27			dis	xray（累计肺段数量）	Yes	
+feature28	可以剔除	缺失值过多		血氧饱和度（%）	No	
+feature29			con	中性粒细胞比例%	Yes	
+feature30			con	中性粒细胞计数	Yes	
+feature31			con	淋巴细胞计数	Yes	
+feature32			con	中性粒细胞计数/淋巴细胞计数	Yes	
+feature33			con	白细胞计数	Yes	
+feature34	不分析	缺失值过多		SAA（血清淀粉样蛋白A）	No	
+feature35	“<0.05”或“0.04”为检测下限，是否可按0.05或0.04处理？	大于小于怎么处理	con	PCT（降钙素原）	Yes	replace
+feature36	同“PCT（降钙素原）”	大于小于怎么处理	con	CRP（C反应蛋白）	Yes	replace
+feature37			con	红细胞沉降率ESR	Yes	
+feature38	同“PCT（降钙素原）”	大于小于怎么处理	con	IL-1β	Yes	replace
+feature39	同“PCT（降钙素原）”	大于小于怎么处理	con	IL-6	Yes	replace
+feature40	同“PCT（降钙素原）”	大于小于怎么处理	con	IL-8	Yes	replace
+feature41	同“PCT（降钙素原）”	大于小于怎么处理	con	IL-10	Yes	replace
+feature42	同“PCT（降钙素原）”	大于小于怎么处理	con	TNF-α	Yes	replace
+feature43	可以剔除	缺失值过多		CD64指标	No	
+feature44			con	白蛋白水平	Yes	
+feature45	同“PCT（降钙素原）”	大于小于怎么处理	con	DD二聚体	Yes	replace
+feature46	可以剔除	2分类中有一个选线个数太少，无法做统计检验		低钠血症（血钠浓度小于135mmol/L，是、否）	No	
+feature47	可以剔除	2分类中有一个选线个数太少，无法做统计检验		菌血症（有、无）	No	
+feature48			con	体温最高（度）	Yes	
+feature49			con	体温最低（度）	Yes	
+feature50	当成连续性变量	这个是按照是否发热转换成2分类型变量还是直接按照天数当成连续性变量？	con	发热天数（大于37.3度天数）	Yes	
+feature51				精神状态（正常、嗜睡/昏睡、昏迷）	No	
+feature52	是的	是和有都代表有？	dis	胸腔积液（有、无）	Yes	standardize
+feature53	可以剔除	2分类中有一个选线个数太少，无法做统计检验		脓胸（是、否）	No	
+feature54	可以剔除	只有一种有效信息		有创机械通气（是、否）	No	
+feature55	可以剔除	只有一种有效信息		合并症1（高血压）	No	
+feature56	可以剔除	只有一种有效信息		合并症2（低血压）	No	
+feature57	可以剔除	只有一种有效信息		合并症3（糖尿病）	No	
+feature58			con	住院天数	Yes	
+feature59	已校正	标黄的部分数据是否两列搞反了？	dis	治疗结局（治愈、好转、无效）	Yes	
+feature60	已校正		dis	出院后28天内，又因肺炎住院（是、否）	Yes	
+feature61		以前面M列的数据为准		临床最终确诊（肺炎 or 重症肺炎）	No	
+feature62			dis	根据tNGS结果，改变临床用药（是，否）	Yes	
+feature63			con	CD4+ T 淋巴细胞 计数	Yes	
+feature64			con	CD8+ T 淋巴细胞 计数	Yes	
+feature65			con	CD4/CD8比值	Yes	
+feature66	可以剔除	2分类中有一个选线个数太少，无法做统计检验		咳嗽（有，无）	No	
+feature67			dis	咳痰（有，无）	Yes	
+feature68	先保留	分类中有一个选线个数较少，是否保留？	dis	呼吸急促（是，否）	Yes	
+feature69	可以剔除	2分类中有一个选线个数太少，无法做统计检验		呼吸困难或发绀（鼻翼煽动、呻吟及三凹征）（是，否）	No	
+feature70	可以剔除	2分类中有一个选线个数太少，无法做统计检验		胸痛（是，否）	No	
+feature71	可以剔除	2分类中有一个选线个数太少，无法做统计检验		合并症4（免疫缺陷）	No	
+feature72	可以剔除	2分类中有一个选线个数太少，无法做统计检验		合并症5（肿瘤）	No	
+feature73	可以剔除	2分类中有一个选线个数太少，无法做统计检验		合并症6（先天性肺病）	No	
+feature74	可以剔除	2分类中有一个选线个数太少，无法做统计检验		存在脑膜炎、心包炎、关节炎、脓毒症的肺外并发症（填病名）	No	
+feature75	可以	绝大部分是0天，其余天数的个数很少，是否保留，保留的话是否按照0天和非0天转换了分类变量？	con	儿童重症监护室（PICU）天数（未进填0）	Yes	transfer
+feature76	可以剔除	2分类中有一个选线个数太少，无法做统计检验		入院前长时间持续性使用免疫抑制剂药物（是，否）	No	
+feature77			con	补体C3	Yes	
+feature78			con	补体C4	Yes	
+feature79			con	免疫球蛋白IgG	Yes	
+feature80			con	免疫球蛋白IgA	Yes	replace
+feature81			con	免疫球蛋白IgM	Yes	
+feature82	同“PCT（降钙素原）”	大于小于怎么处理	con	免疫球蛋白IgE	Yes	replace
+feature83			con	铁蛋白	Yes	
+feature84	可以剔除	缺失值过多		转铁蛋白	No	
+feature85			con	血清补体C1q	Yes	
+feature86			con	前白蛋白	Yes	
+feature87			con	总蛋白	Yes	
+feature88	可以剔除	缺失值过多		IgG1	No	
+feature89	可以剔除	缺失值过多		IgG2	No	
+feature90	可以剔除	缺失值过多		IgG3	No	
+feature91	可以剔除	缺失值过多		IgG4	No	

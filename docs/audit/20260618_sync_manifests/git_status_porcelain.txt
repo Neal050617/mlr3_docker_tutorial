@@ -1,0 +1,132 @@
+ M .gitignore
+ M .vscode/settings.json
+ D Dockerfile
+ D README.md
+ D create_rstudio_modio_no_port.sh
+ D daixie/ParameterTue_Apr__8_02_06_29_2025.xls
+ D daixie/efs.R
+D  daixie/efs123/model_performance_comparison.xlsx
+ D daixie/efs123/split.map-group.txt
+ D daixie/map-group.txt
+D  daixie/model_analysis_results.xlsx
+D  daixie/model_performance_comparison.xls
+D  daixie/model_performance_comparison.xlsx
+ D daixie/new.all.metabo-env.xls
+ D daixie/recovered_functions.R
+ D daixie/split.map-group.txt
+ D daixie/test_rfe.R
+ D data_for_analysis/20250211-mlr-JINYU/.cursor/rules/my-python.mdc
+ D data_for_analysis/20250211-mlr-JINYU/.cursor/rules/my-r.mdc
+ D data_for_analysis/20250211-mlr-JINYU/.cursorindexingignore
+D  data_for_analysis/20250211-mlr-JINYU/1-首次分析结果.pptx
+ D data_for_analysis/20250211-mlr-JINYU/3-补充后数据汇总（脱敏版）-20250207-慕柏反馈-确认+Y列数据校准.xlsx
+ D data_for_analysis/20250211-mlr-JINYU/Dockerfile
+ D data_for_analysis/20250211-mlr-JINYU/README.md
+D  data_for_analysis/20250211-mlr-JINYU/analysis_report/data_report.html
+ D data_for_analysis/20250211-mlr-JINYU/chaifen.R
+ D data_for_analysis/20250211-mlr-JINYU/claude3.7.R
+ D data_for_analysis/20250211-mlr-JINYU/clinic_tb.csv
+ D data_for_analysis/20250211-mlr-JINYU/docker-compose.yml
+ D data_for_analysis/20250211-mlr-JINYU/entrypoint.sh
+ D data_for_analysis/20250211-mlr-JINYU/input.txt
+ D data_for_analysis/20250211-mlr-JINYU/output_analysis.r
+ D data_for_analysis/20250211-mlr-JINYU/scripts/00_init-env.sh
+ D data_for_analysis/20250211-mlr-JINYU/scripts/01_check_container.sh
+ D data_for_analysis/20250211-mlr-JINYU/scripts/02_manage_settings.sh
+ D data_for_analysis/20250211-mlr-JINYU/scripts/03_verify_environment.sh
+ D data_for_analysis/20250211-mlr-JINYU/scripts/04_create_repo.sh
+ D data_for_analysis/20250211-mlr-JINYU/scripts/code_server_install.sh
+ D data_for_analysis/20250211-mlr-JINYU/scripts/generate_devcontainer.sh
+ D data_for_analysis/20250211-mlr-JINYU/select.list.tsv
+ D data_for_analysis/20250211-mlr-JINYU/simple_test.R
+ D data_for_analysis/20250211-mlr-JINYU/step1.R
+ D data_for_analysis/20250211-mlr-JINYU/step1.md
+ D data_for_analysis/20250211-mlr-JINYU/step1_data14.xls
+ D data_for_analysis/20250211-mlr-JINYU/step2.2.md
+ D data_for_analysis/20250211-mlr-JINYU/step2.R
+ D data_for_analysis/20250211-mlr-JINYU/step2.md
+ D data_for_analysis/20250211-mlr-JINYU/step2_data14.xls
+ D data_for_analysis/20250211-mlr-JINYU/step3.R
+ D data_for_analysis/20250211-mlr-JINYU/step3.md
+ D data_for_analysis/20250211-mlr-JINYU/step3_data14.xls
+ D data_for_analysis/20250211-mlr-JINYU/tNGS_tb.csv
+ D data_for_analysis/20250211-mlr-JINYU/test.R
+ D data_for_analysis/20250211-mlr-JINYU/test2.1.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.1.efs.clinic.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.2.1.efs.clinic.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.2.2.efs.clinic.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.2.3.efs.clinic.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.2.4.efs.clinic.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.efs.clinic.r
+D  data_for_analysis/20250211-mlr-JINYU/test2.2.efs.clinic/model_analysis_results.xlsx
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.efs.clinic/model_performance_comparison.csv
+D  data_for_analysis/20250211-mlr-JINYU/test2.2.efs.clinic/model_performance_comparison.xls
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.efs.tNGS.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.efs.tNGS/.Rhistory
+D  data_for_analysis/20250211-mlr-JINYU/test2.2.efs.tNGS/model_analysis_results.xlsx
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.efs.tNGS/model_performance_comparison.csv
+D  data_for_analysis/20250211-mlr-JINYU/test2.2.efs.tNGS/model_performance_comparison.xls
+ D data_for_analysis/20250211-mlr-JINYU/test2.2.r
+ D data_for_analysis/20250211-mlr-JINYU/test2.R
+ D data_for_analysis/20250211-mlr-JINYU/test2_elbow_version.R
+ D data_for_analysis/20250211-mlr-JINYU/test2_tNGS.R
+ D data_for_analysis/20250211-mlr-JINYU/test3.R
+ D data_for_analysis/20250211-mlr-JINYU/分析内容清单-20250212.xlsx
+D  data_for_analysis/20250211-mlr-JINYU/建模结果.zip
+D  data_for_analysis/20250211-mlr-JINYU/弹性网络-tNGS/model_report.xlsx
+D  data_for_analysis/20250211-mlr-JINYU/弹性网络-临床诊断-tNGS/model_report.xlsx
+D  data_for_analysis/20250211-mlr-JINYU/弹性网络-临床诊断/model_report.xlsx
+D  data_for_analysis/20250211-mlr-JINYU/柱形图/model_report.xlsx
+D  data_for_analysis/20250211-mlr-JINYU/柱形图/柱形图-修订.zip
+D  data_for_analysis/20250211-mlr-JINYU/柱形图/柱形图-修订2.zip
+D  data_for_analysis/20250211-mlr-JINYU/柱形图/柱形图-修订3.zip
+ D docker-compose.yml
+ D entrypoint.sh
+ D git_tips.sh
+ D lina/ParameterWed_Apr__9_03_43_54_2025.xls
+ D lina/delete.list
+ D lina/efs.R
+D  lina/efs123/model_performance_comparison.xlsx
+ D lina/efs123/split.map-group.txt
+ D lina/map-group.txt
+ D lina/rarefac.ASV_genus.xls
+ D scripts/00_init-env.sh
+ D scripts/01_check_container.sh
+ D scripts/02_manage_settings.sh
+ D scripts/03_verify_environment.sh
+ D scripts/04_create_repo.sh
+ D scripts/code_server_install.sh
+ D scripts/generate_devcontainer.sh
+?? .claude/
+?? .codelf/
+?? .vscode/launch.json
+?? MLR3_PROJECT_DELIVERY_RULES.md
+?? Mime/
+?? clients/
+?? docs/
+?? git_tips如何不用每次输密码登录ssh-如何连接github.sh
+?? mobior_V0.0.2/
+?? mobior_v0.0.0.mlr3/
+?? mobior_v0.0.1/
+?? mobior_v0.0.3/
+?? mobior_v0.0.4/
+?? mobior_v0.0.5/
+?? mobior_v0.0.6/
+?? regression_mlr3/
+?? resources/
+?? scripts/README.md
+?? scripts/audit_repository_sync.sh
+?? scripts/efs_valid_plus_step1.v0.2.2.R
+?? scripts/efs_valid_plus_step2.v0.2.2.R
+?? scripts/efs_valid_plus_step3.v0.2.2.R
+?? scripts/materialize_client_results.sh
+?? scripts/materialize_legacy_roots_to_clients.sh
+?? scripts/redraw_mlr3_efs_diagnostics.R
+?? scripts/redraw_mlr3_shap_local_plots.R
+?? scripts/repair_mlr3_threshold_columns.R
+?? scripts/run_mlr3_shap_all.sh
+?? scripts/summarize_mlr3_results.R
+?? scripts/sync_client_legacy_mirrors.sh
+?? scripts/sync_large_results.sh
+?? scripts/sync_repository_sources_to_server.sh
+?? skills/

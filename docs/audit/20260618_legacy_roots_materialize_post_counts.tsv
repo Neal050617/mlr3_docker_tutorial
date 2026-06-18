@@ -1,0 +1,6 @@
+source	destination	source_files_expected	destination_files	source_size	destination_size
+20250729_jinyu	clients/jinyu_20250729/legacy_mirror/20250729_jinyu	11	11	648K	632K
+data_for_analysis/金域_脚本	clients/jinyu_scripts/legacy_mirror/data_for_analysis__金域_脚本	10	10	532K	516K
+lina_20251208/20260403_lilei	clients/lilei_20260403/legacy_mirror/lina_20251208__20260403_lilei	1861	1861	414M	414M
+lina_20251208	clients/lina_20251208_legacy/legacy_mirror/lina_20251208_root	2156	2156	9.2G	8.9G
+lina_20260515	clients/lina_20260515/legacy_mirror/lina_20260515	1204	1204	164M	164M

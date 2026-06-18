@@ -1,0 +1,712 @@
+package	load_name	status	version	library_dir	source_type	profile	message
+abind	abind	OK	1.4.8	/usr/local/lib/R/site-library	existing_library	library	
+ade4	ade4	OK	1.7.24	/usr/local/lib/R/site-library	existing_library	library	
+afex	afex	OK	1.5.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+affy	affy	MISSING			existing_library	library	不存在叫‘affy’这个名称的程序包
+affyio	affyio	MISSING			existing_library	library	不存在叫‘affyio’这个名称的程序包
+ALDEx2	ALDEx2	MISSING			bioconductor;existing_library	full;library	不存在叫‘ALDEx2’这个名称的程序包
+ANCOMBC	ANCOMBC	OK	2.14.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+annotate	annotate	MISSING			existing_library	library	不存在叫‘annotate’这个名称的程序包
+AnnotationDbi	AnnotationDbi	MISSING			existing_library	library	不存在叫‘AnnotationDbi’这个名称的程序包
+AnnotationFilter	AnnotationFilter	MISSING			existing_library	library	不存在叫‘AnnotationFilter’这个名称的程序包
+ape	ape	OK	5.8.1	/usr/local/lib/R/site-library	existing_library	library	
+aplot	aplot	MISSING			existing_library;github	full;library	不存在叫‘aplot’这个名称的程序包
+argparse	argparse	MISSING			cran;existing_library	full;library	不存在叫‘argparse’这个名称的程序包
+askpass	askpass	OK	1.2.1	/usr/local/lib/R/site-library	existing_library	library	
+assertthat	assertthat	MISSING			existing_library	library	不存在叫‘assertthat’这个名称的程序包
+assorthead	assorthead	OK	1.6.3	/usr/local/lib/R/site-library	existing_library	library	
+backports	backports	OK	1.5.1	/usr/local/lib/R/site-library	existing_library	library	
+base	base	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+base64enc	base64enc	OK	0.1.6	/usr/local/lib/R/site-library	existing_library	library	
+base64url	base64url	MISSING			existing_library	library	不存在叫‘base64url’这个名称的程序包
+BayesFactor	BayesFactor	MISSING			existing_library	library	不存在叫‘BayesFactor’这个名称的程序包
+bayesm	bayesm	MISSING			existing_library	library	不存在叫‘bayesm’这个名称的程序包
+bayestestR	bayestestR	MISSING			existing_library	library	不存在叫‘bayestestR’这个名称的程序包
+bbotk	bbotk	OK	1.10.0	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+beachmat	beachmat	OK	2.28.0	/usr/local/lib/R/site-library	existing_library	library	
+beeswarm	beeswarm	OK	0.4.0	/usr/local/lib/R/site-library	existing_library	library	
+benchmarkme	benchmarkme	MISSING			existing_library	library	不存在叫‘benchmarkme’这个名称的程序包
+benchmarkmeData	benchmarkmeData	MISSING			existing_library	library	不存在叫‘benchmarkmeData’这个名称的程序包
+BH	BH	OK	1.90.0.1	/usr/local/lib/R/site-library	existing_library	library	
+Biobase	Biobase	OK	2.72.0	/usr/local/lib/R/site-library	existing_library	library	
+BiocBaseUtils	BiocBaseUtils	OK	1.14.2	/usr/local/lib/R/site-library	existing_library	library	
+BiocGenerics	BiocGenerics	OK	0.58.1	/usr/local/lib/R/site-library	existing_library	library	
+BiocManager	BiocManager	OK	1.30.27	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+BiocNeighbors	BiocNeighbors	OK	2.6.0	/usr/local/lib/R/site-library	existing_library	library	
+BiocParallel	BiocParallel	OK	1.46.0	/usr/local/lib/R/site-library	bioconductor;existing_library	full;library	
+BiocSingular	BiocSingular	OK	1.28.0	/usr/local/lib/R/site-library	existing_library	library	
+BiocVersion	BiocVersion	OK	3.23.1	/usr/local/lib/R/site-library	existing_library	library	
+biomaRt	biomaRt	MISSING			bioconductor	full	不存在叫‘biomaRt’这个名称的程序包
+biomformat	biomformat	OK	1.40.0	/usr/local/lib/R/site-library	existing_library	library	
+Biostrings	Biostrings	OK	2.80.1	/usr/local/lib/R/site-library	bioconductor;existing_library	full;library	
+bit	bit	OK	4.6.0	/usr/local/lib/R/site-library	existing_library	library	
+bit64	bit64	OK	4.8.2	/usr/local/lib/R/site-library	existing_library	library	
+bitops	bitops	OK	1.0.9	/usr/local/lib/R/site-library	existing_library	library	
+blob	blob	MISSING			existing_library	library	不存在叫‘blob’这个名称的程序包
+bluster	bluster	OK	1.22.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+bookdown	bookdown	MISSING			existing_library	library	不存在叫‘bookdown’这个名称的程序包
+boot	boot	OK	1.3.32	/usr/lib/R/library	existing_library	library	
+Boruta	Boruta	MISSING			cran;existing_library	full;library	不存在叫‘Boruta’这个名称的程序包
+brew	brew	MISSING			existing_library	library	不存在叫‘brew’这个名称的程序包
+brio	brio	MISSING			existing_library	library	不存在叫‘brio’这个名称的程序包
+broom	broom	OK	1.0.13	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+bslib	bslib	OK	0.11.0	/usr/local/lib/R/site-library	existing_library	library	
+BWStest	BWStest	MISSING			existing_library	library	不存在叫‘BWStest’这个名称的程序包
+cachem	cachem	OK	1.1.0	/usr/local/lib/R/site-library	existing_library	library	
+Cairo	Cairo	OK	1.7.0	/usr/local/lib/R/site-library	existing_library	library	
+calibrate	calibrate	MISSING			existing_library	library	不存在叫‘calibrate’这个名称的程序包
+callr	callr	MISSING			existing_library	library	不存在叫‘callr’这个名称的程序包
+car	car	OK	3.1.5	/usr/local/lib/R/site-library	existing_library	library	
+carData	carData	OK	3.0.6	/usr/local/lib/R/site-library	existing_library	library	
+caret	caret	MISSING			existing_library	library	不存在叫‘caret’这个名称的程序包
+caTools	caTools	OK	1.18.3	/usr/local/lib/R/site-library	existing_library	library	
+cellranger	cellranger	OK	1.1.0	/usr/local/lib/R/site-library	existing_library	library	
+checkmate	checkmate	OK	2.3.4	/usr/local/lib/R/site-library	existing_library	library	
+circlize	circlize	MISSING			existing_library	library	不存在叫‘circlize’这个名称的程序包
+clarabel	clarabel	MISSING			existing_library	library	不存在叫‘clarabel’这个名称的程序包
+class	class	OK	7.3.23	/usr/lib/R/library	existing_library	library	
+classInt	classInt	MISSING			existing_library	library	不存在叫‘classInt’这个名称的程序包
+cli	cli	OK	3.6.6	/usr/local/lib/R/site-library	existing_library	library	
+clipr	clipr	OK	0.8.1	/usr/local/lib/R/site-library	existing_library	library	
+clock	clock	MISSING			existing_library	library	不存在叫‘clock’这个名称的程序包
+clue	clue	MISSING			existing_library	library	不存在叫‘clue’这个名称的程序包
+cluster	cluster	OK	2.1.8.2	/usr/lib/R/library	existing_library	library	
+clusterProfiler	clusterProfiler	MISSING			bioconductor;existing_library	full;library	不存在叫‘clusterProfiler’这个名称的程序包
+clustree	clustree	MISSING			cran	full	不存在叫‘clustree’这个名称的程序包
+cmprsk	cmprsk	OK	2.2.12	/usr/local/lib/R/site-library	existing_library	library	
+coda	coda	MISSING			existing_library	library	不存在叫‘coda’这个名称的程序包
+codetools	codetools	OK	0.2.20	/usr/lib/R/library	existing_library	library	
+collections	collections	MISSING			existing_library	library	不存在叫‘collections’这个名称的程序包
+colorspace	colorspace	OK	2.1.2	/usr/local/lib/R/site-library	existing_library	library	
+commonmark	commonmark	OK	2.0.0	/usr/local/lib/R/site-library	existing_library	library	
+compiler	compiler	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+ComplexHeatmap	ComplexHeatmap	MISSING			bioconductor;existing_library	full;library	不存在叫‘ComplexHeatmap’这个名称的程序包
+compositions	compositions	MISSING			existing_library	library	不存在叫‘compositions’这个名称的程序包
+conflicted	conflicted	MISSING			existing_library	library	不存在叫‘conflicted’这个名称的程序包
+contfrac	contfrac	MISSING			existing_library	library	不存在叫‘contfrac’这个名称的程序包
+coro	coro	MISSING			existing_library	library	不存在叫‘coro’这个名称的程序包
+corpcor	corpcor	MISSING			existing_library	library	不存在叫‘corpcor’这个名称的程序包
+correlation	correlation	MISSING			existing_library	library	不存在叫‘correlation’这个名称的程序包
+corrplot	corrplot	OK	0.95	/usr/local/lib/R/site-library	existing_library	library	
+covr	covr	MISSING			existing_library	library	不存在叫‘covr’这个名称的程序包
+cowplot	cowplot	OK	1.2.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+cpp11	cpp11	OK	0.5.5	/usr/local/lib/R/site-library	existing_library	library	
+crayon	crayon	OK	1.5.3	/usr/local/lib/R/site-library	existing_library	library	
+createKEGGdb	createKEGGdb	MISSING			github	full	不存在叫‘createKEGGdb’这个名称的程序包
+credentials	credentials	MISSING			existing_library	library	不存在叫‘credentials’这个名称的程序包
+crmn	crmn	MISSING			existing_library	library	不存在叫‘crmn’这个名称的程序包
+crosstalk	crosstalk	OK	1.2.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+curl	curl	OK	7.1.0	/usr/local/lib/R/site-library	existing_library	library	
+CVST	CVST	MISSING			existing_library	library	不存在叫‘CVST’这个名称的程序包
+CVXR	CVXR	MISSING			existing_library	library	不存在叫‘CVXR’这个名称的程序包
+data.table	data.table	OK	1.18.4	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+data.tree	data.tree	MISSING			existing_library	library	不存在叫‘data.tree’这个名称的程序包
+DataExplorer	DataExplorer	MISSING			existing_library	library	不存在叫‘DataExplorer’这个名称的程序包
+datasets	datasets	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+datawizard	datawizard	MISSING			existing_library	library	不存在叫‘datawizard’这个名称的程序包
+DBI	DBI	OK	1.3.0	/usr/local/lib/R/site-library	existing_library	library	
+dbplyr	dbplyr	MISSING			existing_library	library	不存在叫‘dbplyr’这个名称的程序包
+dbscan	dbscan	MISSING			existing_library	library	不存在叫‘dbscan’这个名称的程序包
+DECIPHER	DECIPHER	OK	3.8.0	/usr/local/lib/R/site-library	existing_library	library	
+decontam	decontam	OK	1.32.0	/usr/local/lib/R/site-library	existing_library	library	
+deeptime	deeptime	MISSING			existing_library	library	不存在叫‘deeptime’这个名称的程序包
+deeptimedata	deeptimedata	MISSING			existing_library	library	不存在叫‘deeptimedata’这个名称的程序包
+DelayedArray	DelayedArray	OK	0.38.2	/usr/local/lib/R/site-library	existing_library	library	
+DelayedMatrixStats	DelayedMatrixStats	OK	1.34.0	/usr/local/lib/R/site-library	existing_library	library	
+deldir	deldir	MISSING			existing_library	library	不存在叫‘deldir’这个名称的程序包
+dendextend	dendextend	MISSING			existing_library	library	不存在叫‘dendextend’这个名称的程序包
+DEoptimR	DEoptimR	OK	1.1.4	/usr/local/lib/R/site-library	existing_library	library	
+Deriv	Deriv	OK	4.2.0	/usr/local/lib/R/site-library	existing_library	library	
+desc	desc	MISSING			existing_library	library	不存在叫‘desc’这个名称的程序包
+DescTools	DescTools	OK	0.99.60	/usr/local/lib/R/site-library	existing_library	library	
+DESeq2	DESeq2	OK	1.52.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+deSolve	deSolve	MISSING			existing_library	library	不存在叫‘deSolve’这个名称的程序包
+devtools	devtools	MISSING			cran;existing_library	full;library	不存在叫‘devtools’这个名称的程序包
+diagram	diagram	OK	1.6.5	/usr/local/lib/R/site-library	existing_library	library	
+diffobj	diffobj	MISSING			existing_library	library	不存在叫‘diffobj’这个名称的程序包
+digest	digest	OK	0.6.39	/usr/local/lib/R/site-library	existing_library	library	
+diptest	diptest	OK	0.77.2	/usr/local/lib/R/site-library	existing_library	library	
+directlabels	directlabels	MISSING			existing_library	library	不存在叫‘directlabels’这个名称的程序包
+DirichletMultinomial	DirichletMultinomial	OK	1.54.0	/usr/local/lib/R/site-library	existing_library	library	
+doBy	doBy	OK	4.7.1	/usr/local/lib/R/site-library	existing_library	library	
+docopt	docopt	MISSING			existing_library	library	不存在叫‘docopt’这个名称的程序包
+doFuture	doFuture	OK	1.2.2	/usr/local/lib/R/site-library	existing_library	library	
+doParallel	doParallel	OK	1.0.17	/usr/local/lib/R/site-library	existing_library	library	
+doRNG	doRNG	OK	1.8.6.3	/usr/local/lib/R/site-library	existing_library	library	
+DOSE	DOSE	MISSING			existing_library	library	不存在叫‘DOSE’这个名称的程序包
+DoubletFinder	DoubletFinder	MISSING			github	full	不存在叫‘DoubletFinder’这个名称的程序包
+downlit	downlit	MISSING			existing_library	library	不存在叫‘downlit’这个名称的程序包
+downloader	downloader	MISSING			existing_library	library	不存在叫‘downloader’这个名称的程序包
+dplyr	dplyr	OK	1.2.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+dqrng	dqrng	OK	0.4.1	/usr/local/lib/R/site-library	existing_library	library	
+DT	DT	MISSING			existing_library	library	不存在叫‘DT’这个名称的程序包
+dtplyr	dtplyr	MISSING			existing_library	library	不存在叫‘dtplyr’这个名称的程序包
+dunn.test	dunn.test	MISSING			existing_library	library	不存在叫‘dunn.test’这个名称的程序包
+e1071	e1071	OK	1.7.17	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+ecodist	ecodist	MISSING			existing_library	library	不存在叫‘ecodist’这个名称的程序包
+ECOSolveR	ECOSolveR	MISSING			existing_library	library	不存在叫‘ECOSolveR’这个名称的程序包
+edgeR	edgeR	MISSING			bioconductor;existing_library	full;library	不存在叫‘edgeR’这个名称的程序包
+effectsize	effectsize	MISSING			existing_library	library	不存在叫‘effectsize’这个名称的程序包
+ellipse	ellipse	MISSING			existing_library	library	不存在叫‘ellipse’这个名称的程序包
+ellipsis	ellipsis	MISSING			existing_library	library	不存在叫‘ellipsis’这个名称的程序包
+elliptic	elliptic	MISSING			existing_library	library	不存在叫‘elliptic’这个名称的程序包
+emmeans	emmeans	MISSING			existing_library	library	不存在叫‘emmeans’这个名称的程序包
+energy	energy	OK	1.7.12	/usr/local/lib/R/site-library	existing_library	library	
+enrichplot	enrichplot	MISSING			existing_library	library	不存在叫‘enrichplot’这个名称的程序包
+estimability	estimability	MISSING			existing_library	library	不存在叫‘estimability’这个名称的程序包
+evaluate	evaluate	OK	1.0.5	/usr/local/lib/R/site-library	existing_library	library	
+Exact	Exact	OK	3.3	/usr/local/lib/R/site-library	existing_library	library	
+expm	expm	OK	1.0.0	/usr/local/lib/R/site-library	existing_library	library	
+factoextra	factoextra	MISSING			cran;existing_library	full;library	不存在叫‘factoextra’这个名称的程序包
+FactoMineR	FactoMineR	MISSING			cran;existing_library	full;library	不存在叫‘FactoMineR’这个名称的程序包
+fansi	fansi	MISSING			existing_library	library	不存在叫‘fansi’这个名称的程序包
+farver	farver	OK	2.1.2	/usr/local/lib/R/site-library	existing_library	library	
+fastmap	fastmap	OK	1.2.0	/usr/local/lib/R/site-library	existing_library	library	
+fastmatch	fastmatch	MISSING			existing_library	library	不存在叫‘fastmatch’这个名称的程序包
+fastshap	fastshap	OK	0.1.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+fastVoteR	fastVoteR	MISSING			existing_library	library	不存在叫‘fastVoteR’这个名称的程序包
+fgsea	fgsea	MISSING			bioconductor;existing_library	full;library	不存在叫‘fgsea’这个名称的程序包
+filelock	filelock	MISSING			existing_library	library	不存在叫‘filelock’这个名称的程序包
+fillpattern	fillpattern	MISSING			existing_library	library	不存在叫‘fillpattern’这个名称的程序包
+findpython	findpython	MISSING			existing_library	library	不存在叫‘findpython’这个名称的程序包
+flashClust	flashClust	MISSING			existing_library	library	不存在叫‘flashClust’这个名称的程序包
+flexmix	flexmix	OK	2.3.20	/usr/local/lib/R/site-library	existing_library	library	
+FlexParamCurve	FlexParamCurve	MISSING			existing_library	library	不存在叫‘FlexParamCurve’这个名称的程序包
+FNN	FNN	OK	1.1.4.1	/usr/local/lib/R/site-library	existing_library	library	
+fontawesome	fontawesome	OK	0.5.3	/usr/local/lib/R/site-library	existing_library	library	
+fontBitstreamVera	fontBitstreamVera	MISSING			existing_library	library	不存在叫‘fontBitstreamVera’这个名称的程序包
+fontLiberation	fontLiberation	MISSING			existing_library	library	不存在叫‘fontLiberation’这个名称的程序包
+fontquiver	fontquiver	MISSING			existing_library	library	不存在叫‘fontquiver’这个名称的程序包
+forcats	forcats	OK	1.0.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+foreach	foreach	OK	1.5.2	/usr/local/lib/R/site-library	existing_library	library	
+forecast	forecast	OK	9.0.2	/usr/local/lib/R/site-library	existing_library	library	
+foreign	foreign	OK	0.8.91	/usr/lib/R/library	existing_library	library	
+formatR	formatR	OK	1.14	/usr/local/lib/R/site-library	existing_library	library	
+Formula	Formula	OK	1.2.5	/usr/local/lib/R/site-library	existing_library	library	
+fpc	fpc	OK	2.2.14	/usr/local/lib/R/site-library	existing_library	library	
+fracdiff	fracdiff	OK	1.5.4	/usr/local/lib/R/site-library	existing_library	library	
+fs	fs	OK	2.1.0	/usr/local/lib/R/site-library	existing_library	library	
+FSA	FSA	MISSING			existing_library	library	不存在叫‘FSA’这个名称的程序包
+fst	fst	MISSING			existing_library	library	不存在叫‘fst’这个名称的程序包
+fstcore	fstcore	MISSING			existing_library	library	不存在叫‘fstcore’这个名称的程序包
+futile.logger	futile.logger	OK	1.4.9	/usr/local/lib/R/site-library	existing_library	library	
+futile.options	futile.options	OK	1.0.1	/usr/local/lib/R/site-library	existing_library	library	
+future	future	OK	1.70.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+future.apply	future.apply	OK	1.20.2	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+gargle	gargle	MISSING			existing_library	library	不存在叫‘gargle’这个名称的程序包
+gdata	gdata	MISSING			existing_library	library	不存在叫‘gdata’这个名称的程序包
+gdtools	gdtools	MISSING			existing_library	library	不存在叫‘gdtools’这个名称的程序包
+genefilter	genefilter	MISSING			bioconductor;existing_library	full;library	不存在叫‘genefilter’这个名称的程序包
+generics	generics	OK	0.1.4	/usr/local/lib/R/site-library	existing_library	library	
+GenomeInfoDb	GenomeInfoDb	MISSING			existing_library	library	不存在叫‘GenomeInfoDb’这个名称的程序包
+GenomeInfoDbData	GenomeInfoDbData	MISSING			existing_library	library	不存在叫‘GenomeInfoDbData’这个名称的程序包
+GenomicRanges	GenomicRanges	OK	1.64.0	/usr/local/lib/R/site-library	existing_library	library	
+gert	gert	MISSING			existing_library	library	不存在叫‘gert’这个名称的程序包
+getopt	getopt	MISSING			existing_library	library	不存在叫‘getopt’这个名称的程序包
+GetoptLong	GetoptLong	MISSING			existing_library	library	不存在叫‘GetoptLong’这个名称的程序包
+ggalluvial	ggalluvial	MISSING			existing_library	library	不存在叫‘ggalluvial’这个名称的程序包
+ggbeeswarm	ggbeeswarm	OK	0.7.3	/usr/local/lib/R/site-library	existing_library	library	
+ggcorrplot	ggcorrplot	MISSING			existing_library	library	不存在叫‘ggcorrplot’这个名称的程序包
+ggfittext	ggfittext	OK	0.10.3	/usr/local/lib/R/site-library	existing_library	library	
+ggforce	ggforce	OK	0.5.0	/usr/local/lib/R/site-library	existing_library	library	
+ggfortify	ggfortify	MISSING			cran;existing_library	full;library	不存在叫‘ggfortify’这个名称的程序包
+ggfun	ggfun	MISSING			existing_library	library	不存在叫‘ggfun’这个名称的程序包
+gggenes	gggenes	OK	0.6.0	/usr/local/lib/R/site-library	existing_library	library	
+ggh4x	ggh4x	MISSING			existing_library	library	不存在叫‘ggh4x’这个名称的程序包
+gghalves	gghalves	MISSING			cran;existing_library	full;library	不存在叫‘gghalves’这个名称的程序包
+ggiraph	ggiraph	MISSING			existing_library	library	不存在叫‘ggiraph’这个名称的程序包
+ggnewscale	ggnewscale	OK	0.5.2	/usr/local/lib/R/site-library	existing_library	library	
+ggplot2	ggplot2	OK	4.0.3	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+ggplotify	ggplotify	MISSING			existing_library	library	不存在叫‘ggplotify’这个名称的程序包
+ggpubr	ggpubr	OK	0.6.3	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+ggraph	ggraph	OK	2.2.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+ggrastr	ggrastr	OK	1.0.2	/usr/local/lib/R/site-library	existing_library	library	
+ggrepel	ggrepel	OK	0.9.8	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+ggsci	ggsci	OK	5.0.0	/usr/local/lib/R/site-library	existing_library	library	
+ggside	ggside	OK	0.4.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+ggsignif	ggsignif	OK	0.6.4	/usr/local/lib/R/site-library	existing_library	library	
+ggstatsplot	ggstatsplot	MISSING			cran;existing_library	full;library	不存在叫‘ggstatsplot’这个名称的程序包
+ggtangle	ggtangle	MISSING			existing_library	library	不存在叫‘ggtangle’这个名称的程序包
+ggtext	ggtext	MISSING			existing_library	library	不存在叫‘ggtext’这个名称的程序包
+ggtree	ggtree	MISSING			existing_library	library	不存在叫‘ggtree’这个名称的程序包
+ggvenn	ggvenn	MISSING			cran;existing_library	full;library	不存在叫‘ggvenn’这个名称的程序包
+gh	gh	MISSING			existing_library	library	不存在叫‘gh’这个名称的程序包
+gitcreds	gitcreds	MISSING			existing_library	library	不存在叫‘gitcreds’这个名称的程序包
+glasso	glasso	MISSING			existing_library	library	不存在叫‘glasso’这个名称的程序包
+gld	gld	OK	2.6.8	/usr/local/lib/R/site-library	existing_library	library	
+glmnet	glmnet	OK	5.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+GlobalAncova	GlobalAncova	MISSING			bioconductor;existing_library	full;library	不存在叫‘GlobalAncova’这个名称的程序包
+GlobalOptions	GlobalOptions	MISSING			existing_library	library	不存在叫‘GlobalOptions’这个名称的程序包
+globals	globals	OK	0.19.1	/usr/local/lib/R/site-library	existing_library	library	
+globaltest	globaltest	MISSING			bioconductor;existing_library	full;library	不存在叫‘globaltest’这个名称的程序包
+glue	glue	OK	1.8.1	/usr/local/lib/R/site-library	existing_library	library	
+gmodels	gmodels	MISSING			cran;existing_library	full;library	不存在叫‘gmodels’这个名称的程序包
+gmp	gmp	MISSING			existing_library	library	不存在叫‘gmp’这个名称的程序包
+GO.db	GO.db	MISSING			existing_library	library	不存在叫‘GO.db’这个名称的程序包
+googledrive	googledrive	MISSING			existing_library	library	不存在叫‘googledrive’这个名称的程序包
+googlesheets4	googlesheets4	MISSING			existing_library	library	不存在叫‘googlesheets4’这个名称的程序包
+GOSemSim	GOSemSim	MISSING			existing_library	library	不存在叫‘GOSemSim’这个名称的程序包
+gower	gower	MISSING			existing_library	library	不存在叫‘gower’这个名称的程序包
+GPArotation	GPArotation	MISSING			existing_library	library	不存在叫‘GPArotation’这个名称的程序包
+gplots	gplots	OK	3.3.0	/usr/local/lib/R/site-library	existing_library	library	
+graph	graph	MISSING			existing_library	library	不存在叫‘graph’这个名称的程序包
+graphics	graphics	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+graphlayouts	graphlayouts	OK	1.2.3	/usr/local/lib/R/site-library	existing_library	library	
+grDevices	grDevices	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+grid	grid	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+gridExtra	gridExtra	OK	2.3	/usr/local/lib/R/site-library	existing_library	library	
+gridGraphics	gridGraphics	MISSING			existing_library	library	不存在叫‘gridGraphics’这个名称的程序包
+gridtext	gridtext	OK	0.1.6	/usr/local/lib/R/site-library	existing_library	library	
+grImport2	grImport2	MISSING			existing_library	library	不存在叫‘grImport2’这个名称的程序包
+GSEABase	GSEABase	MISSING			existing_library	library	不存在叫‘GSEABase’这个名称的程序包
+GseaVis	GseaVis	MISSING			github	full	不存在叫‘GseaVis’这个名称的程序包
+gsl	gsl	OK	2.1.9	/usr/local/lib/R/site-library	existing_library	library	
+gson	gson	MISSING			existing_library	library	不存在叫‘gson’这个名称的程序包
+gtable	gtable	OK	0.3.6	/usr/local/lib/R/site-library	existing_library	library	
+gtools	gtools	OK	3.9.5	/usr/local/lib/R/site-library	existing_library	library	
+hardhat	hardhat	MISSING			existing_library	library	不存在叫‘hardhat’这个名称的程序包
+harmony	harmony	MISSING			cran	full	不存在叫‘harmony’这个名称的程序包
+haven	haven	OK	2.5.5	/usr/local/lib/R/site-library	existing_library	library	
+hdf5r	hdf5r	MISSING			cran	full	不存在叫‘hdf5r’这个名称的程序包
+highr	highr	OK	0.12	/usr/local/lib/R/site-library	existing_library	library	
+highs	highs	MISSING			existing_library	library	不存在叫‘highs’这个名称的程序包
+Hmisc	Hmisc	OK	5.2.5	/usr/local/lib/R/site-library	existing_library	library	
+hms	hms	OK	1.1.4	/usr/local/lib/R/site-library	existing_library	library	
+htmlTable	htmlTable	OK	2.5.0	/usr/local/lib/R/site-library	existing_library	library	
+htmltools	htmltools	OK	0.5.9	/usr/local/lib/R/site-library	existing_library	library	
+htmlwidgets	htmlwidgets	OK	1.6.4	/usr/local/lib/R/site-library	existing_library	library	
+httpuv	httpuv	MISSING			existing_library	library	不存在叫‘httpuv’这个名称的程序包
+httr	httr	OK	1.4.8	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+httr2	httr2	MISSING			existing_library	library	不存在叫‘httr2’这个名称的程序包
+hunspell	hunspell	MISSING			existing_library	library	不存在叫‘hunspell’这个名称的程序包
+hypergeo	hypergeo	MISSING			existing_library	library	不存在叫‘hypergeo’这个名称的程序包
+ids	ids	MISSING			existing_library	library	不存在叫‘ids’这个名称的程序包
+igraph	igraph	OK	2.3.2	/usr/local/lib/R/site-library	existing_library	library	
+impute	impute	MISSING			bioconductor;existing_library	full;library	不存在叫‘impute’这个名称的程序包
+ini	ini	MISSING			existing_library	library	不存在叫‘ini’这个名称的程序包
+insight	insight	MISSING			existing_library	library	不存在叫‘insight’这个名称的程序包
+interp	interp	MISSING			existing_library	library	不存在叫‘interp’这个名称的程序包
+ipred	ipred	MISSING			existing_library	library	不存在叫‘ipred’这个名称的程序包
+IRanges	IRanges	OK	2.46.0	/usr/local/lib/R/site-library	existing_library	library	
+irlba	irlba	OK	2.3.7	/usr/local/lib/R/site-library	existing_library	library	
+isoband	isoband	OK	0.3.0	/usr/local/lib/R/site-library	existing_library	library	
+ISOcodes	ISOcodes	MISSING			existing_library	library	不存在叫‘ISOcodes’这个名称的程序包
+iterators	iterators	OK	1.0.14	/usr/local/lib/R/site-library	existing_library	library	
+janeaustenr	janeaustenr	MISSING			existing_library	library	不存在叫‘janeaustenr’这个名称的程序包
+jpeg	jpeg	OK	0.1.11	/usr/local/lib/R/site-library	existing_library	library	
+jquerylib	jquerylib	OK	0.1.4	/usr/local/lib/R/site-library	existing_library	library	
+jsonlite	jsonlite	OK	2.0.0	/usr/local/lib/R/site-library	existing_library	library	
+kableExtra	kableExtra	MISSING			cran;existing_library	full;library	不存在叫‘kableExtra’这个名称的程序包
+KEGG.db	KEGG.db	MISSING			local_or_generated	full	不存在叫‘KEGG.db’这个名称的程序包
+KEGGgraph	KEGGgraph	MISSING			bioconductor;existing_library	full;library	不存在叫‘KEGGgraph’这个名称的程序包
+KEGGREST	KEGGREST	MISSING			bioconductor;existing_library	full;library	不存在叫‘KEGGREST’这个名称的程序包
+kernelshap	kernelshap	OK	0.9.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+kernlab	kernlab	OK	0.9.33	/usr/local/lib/R/site-library	existing_library	library	
+KernSmooth	KernSmooth	OK	2.23.26	/usr/lib/R/library	existing_library	library	
+keyring	keyring	MISSING			existing_library	library	不存在叫‘keyring’这个名称的程序包
+kknn	kknn	OK	1.4.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+knitr	knitr	OK	1.51	/usr/local/lib/R/site-library	existing_library	library	
+kSamples	kSamples	OK	1.2.12	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+labeling	labeling	OK	0.4.3	/usr/local/lib/R/site-library	existing_library	library	
+lambda.r	lambda.r	OK	1.2.4	/usr/local/lib/R/site-library	existing_library	library	
+lamW	lamW	MISSING			existing_library	library	不存在叫‘lamW’这个名称的程序包
+languageserver	languageserver	MISSING			existing_library	library	不存在叫‘languageserver’这个名称的程序包
+later	later	MISSING			existing_library	library	不存在叫‘later’这个名称的程序包
+lattice	lattice	OK	0.22.7	/usr/lib/R/library	existing_library	library	
+latticeExtra	latticeExtra	MISSING			existing_library	library	不存在叫‘latticeExtra’这个名称的程序包
+lava	lava	OK	1.9.1	/usr/local/lib/R/site-library	existing_library	library	
+lazyeval	lazyeval	OK	0.2.3	/usr/local/lib/R/site-library	existing_library	library	
+leaps	leaps	MISSING			existing_library	library	不存在叫‘leaps’这个名称的程序包
+lgr	lgr	OK	0.5.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+lifecycle	lifecycle	OK	1.0.5	/usr/local/lib/R/site-library	existing_library	library	
+lightgbm	lightgbm	OK	4.6.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+limma	limma	MISSING			bioconductor;existing_library	full;library	不存在叫‘limma’这个名称的程序包
+linkXTS	linkXTS	MISSING			existing_library	library	不存在叫‘linkXTS’这个名称的程序包
+lintr	lintr	MISSING			existing_library	library	不存在叫‘lintr’这个名称的程序包
+listenv	listenv	OK	0.10.1	/usr/local/lib/R/site-library	existing_library	library	
+litedown	litedown	OK	0.9	/usr/local/lib/R/site-library	existing_library	library	
+littler	littler	MISSING			existing_library	library	不存在叫‘littler’这个名称的程序包
+lme4	lme4	OK	2.0.1	/usr/local/lib/R/site-library	existing_library	library	
+lmerTest	lmerTest	OK	3.2.1	/usr/local/lib/R/site-library	existing_library	library	
+lmom	lmom	OK	3.3	/usr/local/lib/R/site-library	existing_library	library	
+lmtest	lmtest	OK	0.9.40	/usr/local/lib/R/site-library	existing_library	library	
+locfit	locfit	OK	1.5.9.12	/usr/local/lib/R/site-library	existing_library	library	
+logging	logging	OK	0.10.111	/usr/local/lib/R/site-library	existing_library	library	
+lpSolve	lpSolve	MISSING			existing_library	library	不存在叫‘lpSolve’这个名称的程序包
+lubridate	lubridate	MISSING			existing_library	library	不存在叫‘lubridate’这个名称的程序包
+maaslin3	maaslin3	OK	1.4.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+magrittr	magrittr	OK	2.0.5	/usr/local/lib/R/site-library	existing_library	library	
+MALDIquant	MALDIquant	MISSING			existing_library	library	不存在叫‘MALDIquant’这个名称的程序包
+markdown	markdown	OK	2.0	/usr/local/lib/R/site-library	existing_library	library	
+MASS	MASS	OK	7.3.65	/usr/lib/R/library	existing_library	core;library	
+mathjaxr	mathjaxr	OK	2.0.0	/usr/local/lib/R/site-library	existing_library	library	
+Matrix	Matrix	OK	1.7.4	/usr/lib/R/library	cran;existing_library	core;library	
+MatrixGenerics	MatrixGenerics	OK	1.24.0	/usr/local/lib/R/site-library	existing_library	library	
+MatrixModels	MatrixModels	OK	0.5.4	/usr/local/lib/R/site-library	existing_library	library	
+matrixStats	matrixStats	OK	1.5.0	/usr/local/lib/R/site-library	existing_library	library	
+mclust	mclust	OK	6.1.2	/usr/local/lib/R/site-library	existing_library	library	
+memoise	memoise	OK	2.0.1	/usr/local/lib/R/site-library	existing_library	library	
+MetaboAnalystR	MetaboAnalystR	MISSING			existing_library;github	full;library	不存在叫‘MetaboAnalystR’这个名称的程序包
+MetaboCoreUtils	MetaboCoreUtils	MISSING			existing_library	library	不存在叫‘MetaboCoreUtils’这个名称的程序包
+metadat	metadat	OK	1.6.0	/usr/local/lib/R/site-library	existing_library	library	
+metafor	metafor	OK	5.0.1	/usr/local/lib/R/site-library	existing_library	library	
+methods	methods	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+mgcv	mgcv	OK	1.9.4	/usr/lib/R/library	existing_library	library	
+mia	mia	OK	1.20.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+miaViz	miaViz	MISSING			existing_library	library	不存在叫‘miaViz’这个名称的程序包
+microbenchmark	microbenchmark	OK	1.5.0	/usr/local/lib/R/site-library	existing_library	library	
+microbiome	microbiome	MISSING			existing_library	library	不存在叫‘microbiome’这个名称的程序包
+miloR	miloR	MISSING			bioconductor	full	不存在叫‘miloR’这个名称的程序包
+mime	mime	OK	0.13	/usr/local/lib/R/site-library	existing_library	library	
+mimosa	mimosa	MISSING			github	full	不存在叫‘mimosa’这个名称的程序包
+mimosa2	mimosa2	MISSING			github	full	不存在叫‘mimosa2’这个名称的程序包
+miniUI	miniUI	MISSING			existing_library	library	不存在叫‘miniUI’这个名称的程序包
+minqa	minqa	OK	1.2.8	/usr/local/lib/R/site-library	existing_library	library	
+mirai	mirai	OK	2.7.1	/usr/local/lib/R/site-library	existing_library	library	
+mlbench	mlbench	OK	2.1.8	/usr/local/lib/R/site-library	existing_library	library	
+mlr3	mlr3	OK	1.6.0	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+mlr3cluster	mlr3cluster	OK	0.3.0	/usr/local/lib/R/site-library	existing_library	library	
+mlr3data	mlr3data	OK	0.9.0	/usr/local/lib/R/site-library	existing_library	library	
+mlr3extralearners	mlr3extralearners	OK	1.5.2	/usr/local/lib/R/site-library	existing_library;github	core;library	
+mlr3filters	mlr3filters	OK	0.9.1	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+mlr3fselect	mlr3fselect	OK	1.6.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+mlr3hyperband	mlr3hyperband	OK	1.1.0	/usr/local/lib/R/site-library	existing_library	library	
+mlr3inferr	mlr3inferr	OK	0.2.1	/usr/local/lib/R/site-library	existing_library	library	
+mlr3learners	mlr3learners	OK	0.14.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+mlr3mbo	mlr3mbo	OK	1.1.1	/usr/local/lib/R/site-library	existing_library	library	
+mlr3measures	mlr3measures	OK	1.3.0	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+mlr3misc	mlr3misc	OK	0.21.0	/usr/local/lib/R/site-library	existing_library	library	
+mlr3pipelines	mlr3pipelines	OK	0.11.0	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+mlr3tuning	mlr3tuning	OK	1.6.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+mlr3tuningspaces	mlr3tuningspaces	OK	0.6.0	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+mlr3verse	mlr3verse	OK	0.3.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+mlr3viz	mlr3viz	OK	0.11.0	/usr/local/lib/R/site-library	existing_library	library	
+mltools	mltools	MISSING			cran;existing_library	full;library	不存在叫‘mltools’这个名称的程序包
+MMUPHin	MMUPHin	OK	1.99.3	/usr/local/lib/R/site-library	existing_library;github	core;library	
+mnormt	mnormt	MISSING			existing_library	library	不存在叫‘mnormt’这个名称的程序包
+ModelMetrics	ModelMetrics	MISSING			existing_library	library	不存在叫‘ModelMetrics’这个名称的程序包
+modelr	modelr	OK	0.1.11	/usr/local/lib/R/site-library	existing_library	library	
+modeltools	modeltools	OK	0.2.24	/usr/local/lib/R/site-library	existing_library	library	
+MsCoreUtils	MsCoreUtils	MISSING			existing_library	library	不存在叫‘MsCoreUtils’这个名称的程序包
+MSnbase	MSnbase	MISSING			bioconductor;existing_library	full;library	不存在叫‘MSnbase’这个名称的程序包
+multcomp	multcomp	OK	1.4.30	/usr/local/lib/R/site-library	existing_library	library	
+multcompView	multcompView	MISSING			existing_library	library	不存在叫‘multcompView’这个名称的程序包
+MultiAssayExperiment	MultiAssayExperiment	OK	1.38.0	/usr/local/lib/R/site-library	existing_library	library	
+MultiDataSet	MultiDataSet	MISSING			existing_library	library	不存在叫‘MultiDataSet’这个名称的程序包
+multtest	multtest	OK	2.68.0	/usr/local/lib/R/site-library	bioconductor;existing_library	full;library	
+munsell	munsell	MISSING			existing_library	library	不存在叫‘munsell’这个名称的程序包
+mvtnorm	mvtnorm	OK	1.4.0	/usr/local/lib/R/site-library	existing_library	library	
+mvtnormAPI	mvtnormAPI	MISSING			existing_library	library	不存在叫‘mvtnormAPI’这个名称的程序包
+mzID	mzID	MISSING			existing_library	library	不存在叫‘mzID’这个名称的程序包
+mzR	mzR	MISSING			existing_library	library	不存在叫‘mzR’这个名称的程序包
+naivebayes	naivebayes	MISSING			cran;existing_library	full;library	不存在叫‘naivebayes’这个名称的程序包
+nanonext	nanonext	OK	1.9.1	/usr/local/lib/R/site-library	existing_library	library	
+ncdf4	ncdf4	MISSING			existing_library	library	不存在叫‘ncdf4’这个名称的程序包
+networkD3	networkD3	MISSING			existing_library	library	不存在叫‘networkD3’这个名称的程序包
+nlme	nlme	OK	3.1.168	/usr/lib/R/library	existing_library	library	
+nloptr	nloptr	OK	2.2.1	/usr/local/lib/R/site-library	existing_library	library	
+nnet	nnet	OK	7.3.20	/usr/lib/R/library	cran;existing_library	full;library	
+nnls	nnls	MISSING			existing_library	library	不存在叫‘nnls’这个名称的程序包
+nortest	nortest	MISSING			existing_library	library	不存在叫‘nortest’这个名称的程序包
+numDeriv	numDeriv	OK	2016.8.1.1	/usr/local/lib/R/site-library	existing_library	library	
+openssl	openssl	OK	2.4.1	/usr/local/lib/R/site-library	existing_library	library	
+openxlsx	openxlsx	OK	4.2.8.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+optparse	optparse	OK	1.8.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+org.Hs.eg.db	org.Hs.eg.db	MISSING			bioconductor;existing_library	full;library	不存在叫‘org.Hs.eg.db’这个名称的程序包
+org.Mm.eg.db	org.Mm.eg.db	MISSING			bioconductor	full	不存在叫‘org.Mm.eg.db’这个名称的程序包
+org.testing.db	org.testing.db	MISSING			existing_library	library	不存在叫‘org.testing.db’这个名称的程序包
+osqp	osqp	MISSING			existing_library	library	不存在叫‘osqp’这个名称的程序包
+otel	otel	MISSING			existing_library	library	不存在叫‘otel’这个名称的程序包
+pacman	pacman	OK	0.5.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+pak	pak	MISSING			cran;existing_library	full;library	不存在叫‘pak’这个名称的程序包
+paletteer	paletteer	MISSING			existing_library	library	不存在叫‘paletteer’这个名称的程序包
+palmerpenguins	palmerpenguins	OK	0.1.1	/usr/local/lib/R/site-library	existing_library	library	
+pander	pander	MISSING			cran	full	不存在叫‘pander’这个名称的程序包
+paradox	paradox	OK	1.0.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+parallel	parallel	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+parallelly	parallelly	OK	1.47.0	/usr/local/lib/R/site-library	existing_library	library	
+parameters	parameters	MISSING			existing_library	library	不存在叫‘parameters’这个名称的程序包
+patchwork	patchwork	OK	1.3.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+pathview	pathview	MISSING			bioconductor;existing_library	full;library	不存在叫‘pathview’这个名称的程序包
+pbapply	pbapply	OK	1.7.4	/usr/local/lib/R/site-library	existing_library	library	
+pbkrtest	pbkrtest	OK	0.5.5	/usr/local/lib/R/site-library	existing_library	library	
+pcaMethods	pcaMethods	MISSING			bioconductor;existing_library	full;library	不存在叫‘pcaMethods’这个名称的程序包
+performance	performance	MISSING			existing_library	library	不存在叫‘performance’这个名称的程序包
+permute	permute	OK	0.9.10	/usr/local/lib/R/site-library	existing_library	library	
+pheatmap	pheatmap	OK	1.0.13	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+phyloseq	phyloseq	OK	1.56.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+pillar	pillar	OK	1.11.1	/usr/local/lib/R/site-library	existing_library	library	
+pixmap	pixmap	OK	0.4.14	/usr/local/lib/R/site-library	existing_library	library	
+pkgbuild	pkgbuild	MISSING			existing_library	library	不存在叫‘pkgbuild’这个名称的程序包
+pkgcache	pkgcache	MISSING			existing_library	library	不存在叫‘pkgcache’这个名称的程序包
+pkgconfig	pkgconfig	OK	2.0.3	/usr/local/lib/R/site-library	existing_library	library	
+pkgdepends	pkgdepends	MISSING			existing_library	library	不存在叫‘pkgdepends’这个名称的程序包
+pkgdown	pkgdown	MISSING			existing_library	library	不存在叫‘pkgdown’这个名称的程序包
+pkgload	pkgload	MISSING			existing_library	library	不存在叫‘pkgload’这个名称的程序包
+pkgsearch	pkgsearch	MISSING			existing_library	library	不存在叫‘pkgsearch’这个名称的程序包
+plogr	plogr	MISSING			existing_library	library	不存在叫‘plogr’这个名称的程序包
+plotly	plotly	MISSING			cran;existing_library	full;library	不存在叫‘plotly’这个名称的程序包
+plotrix	plotrix	OK	3.8.14	/usr/local/lib/R/site-library	existing_library	library	
+plyinteractions	plyinteractions	MISSING			bioconductor	full	不存在叫‘plyinteractions’这个名称的程序包
+plyr	plyr	OK	1.8.9	/usr/local/lib/R/site-library	existing_library	library	
+PMCMRplus	PMCMRplus	MISSING			existing_library	library	不存在叫‘PMCMRplus’这个名称的程序包
+png	png	OK	0.1.9	/usr/local/lib/R/site-library	existing_library	library	
+polspline	polspline	OK	1.1.25	/usr/local/lib/R/site-library	existing_library	library	
+polyclip	polyclip	OK	1.10.7	/usr/local/lib/R/site-library	existing_library	library	
+polynom	polynom	OK	1.4.1	/usr/local/lib/R/site-library	existing_library	library	
+prabclus	prabclus	OK	2.3.5	/usr/local/lib/R/site-library	existing_library	library	
+praise	praise	MISSING			existing_library	library	不存在叫‘praise’这个名称的程序包
+precrec	precrec	MISSING			existing_library	library	不存在叫‘precrec’这个名称的程序包
+preprocessCore	preprocessCore	MISSING			bioconductor;existing_library	full;library	不存在叫‘preprocessCore’这个名称的程序包
+prettyunits	prettyunits	OK	1.2.0	/usr/local/lib/R/site-library	existing_library	library	
+prismatic	prismatic	MISSING			existing_library	library	不存在叫‘prismatic’这个名称的程序包
+pROC	pROC	OK	1.19.0.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+processx	processx	MISSING			existing_library	library	不存在叫‘processx’这个名称的程序包
+prodlim	prodlim	OK	2026.3.11	/usr/local/lib/R/site-library	existing_library	library	
+profvis	profvis	MISSING			existing_library	library	不存在叫‘profvis’这个名称的程序包
+progress	progress	OK	1.2.3	/usr/local/lib/R/site-library	existing_library	library	
+progressr	progressr	OK	0.19.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+promises	promises	MISSING			existing_library	library	不存在叫‘promises’这个名称的程序包
+ProtGenerics	ProtGenerics	MISSING			existing_library	library	不存在叫‘ProtGenerics’这个名称的程序包
+proxy	proxy	OK	0.4.29	/usr/local/lib/R/site-library	existing_library	library	
+PRROC	PRROC	OK	1.4	/usr/local/lib/R/site-library	existing_library	library	
+ps	ps	MISSING			existing_library	library	不存在叫‘ps’这个名称的程序包
+pscl	pscl	MISSING			existing_library	library	不存在叫‘pscl’这个名称的程序包
+PSMatch	PSMatch	MISSING			existing_library	library	不存在叫‘PSMatch’这个名称的程序包
+psych	psych	MISSING			cran;existing_library	full;library	不存在叫‘psych’这个名称的程序包
+purrr	purrr	OK	1.2.2	/usr/local/lib/R/site-library	existing_library	library	
+QFeatures	QFeatures	MISSING			existing_library	library	不存在叫‘QFeatures’这个名称的程序包
+qqman	qqman	MISSING			existing_library	library	不存在叫‘qqman’这个名称的程序包
+qs	qs	MISSING			cran;existing_library	full;library	不存在叫‘qs’这个名称的程序包
+quadprog	quadprog	OK	1.5.8	/usr/local/lib/R/site-library	existing_library	library	
+quantmod	quantmod	MISSING			existing_library	library	不存在叫‘quantmod’这个名称的程序包
+quantreg	quantreg	OK	6.1	/usr/local/lib/R/site-library	existing_library	library	
+quarto	quarto	MISSING			cran	full	不存在叫‘quarto’这个名称的程序包
+qvalue	qvalue	MISSING			bioconductor;existing_library	full;library	不存在叫‘qvalue’这个名称的程序包
+R.cache	R.cache	MISSING			existing_library	library	不存在叫‘R.cache’这个名称的程序包
+R.methodsS3	R.methodsS3	MISSING			existing_library	library	不存在叫‘R.methodsS3’这个名称的程序包
+R.oo	R.oo	MISSING			existing_library	library	不存在叫‘R.oo’这个名称的程序包
+R.utils	R.utils	MISSING			cran;existing_library	full;library	不存在叫‘R.utils’这个名称的程序包
+R6	R6	OK	2.6.1	/usr/local/lib/R/site-library	existing_library	library	
+ragg	ragg	OK	1.5.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+randomForest	randomForest	MISSING			cran;existing_library	full;library	不存在叫‘randomForest’这个名称的程序包
+ranger	ranger	OK	0.18.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+RApiSerialize	RApiSerialize	MISSING			existing_library	library	不存在叫‘RApiSerialize’这个名称的程序包
+rappdirs	rappdirs	OK	0.3.4	/usr/local/lib/R/site-library	existing_library	library	
+RBGL	RBGL	MISSING			bioconductor;existing_library	full;library	不存在叫‘RBGL’这个名称的程序包
+rbibutils	rbibutils	OK	2.4.1	/usr/local/lib/R/site-library	existing_library	library	
+rbiom	rbiom	MISSING			existing_library	library	不存在叫‘rbiom’这个名称的程序包
+rBLAST	rBLAST	MISSING			bioconductor	full	不存在叫‘rBLAST’这个名称的程序包
+rcmdcheck	rcmdcheck	MISSING			existing_library	library	不存在叫‘rcmdcheck’这个名称的程序包
+RColorBrewer	RColorBrewer	OK	1.1.3	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+Rcpp	Rcpp	OK	1.1.1.1.1	/usr/local/lib/R/site-library	existing_library	library	
+RcppAnnoy	RcppAnnoy	OK	0.0.23	/usr/local/lib/R/site-library	existing_library	library	
+RcppArmadillo	RcppArmadillo	OK	15.2.7.1	/usr/local/lib/R/site-library	existing_library	library	
+RcppEigen	RcppEigen	OK	0.3.4.0.2	/usr/local/lib/R/site-library	existing_library	library	
+RcppHNSW	RcppHNSW	MISSING			existing_library	library	不存在叫‘RcppHNSW’这个名称的程序包
+RcppML	RcppML	OK	0.3.7.1	/usr/local/lib/R/site-library	existing_library	library	
+RcppParallel	RcppParallel	MISSING			existing_library	library	不存在叫‘RcppParallel’这个名称的程序包
+RcppProgress	RcppProgress	OK	0.4.2	/usr/local/lib/R/site-library	existing_library	library	
+RcppProgressArmadillo	RcppProgressArmadillo	MISSING			existing_library	library	不存在叫‘RcppProgressArmadillo’这个名称的程序包
+RcppProgressETA	RcppProgressETA	MISSING			existing_library	library	不存在叫‘RcppProgressETA’这个名称的程序包
+RcppProgressExample	RcppProgressExample	MISSING			existing_library	library	不存在叫‘RcppProgressExample’这个名称的程序包
+RcppTOML	RcppTOML	MISSING			existing_library	library	不存在叫‘RcppTOML’这个名称的程序包
+RCurl	RCurl	MISSING			existing_library	library	不存在叫‘RCurl’这个名称的程序包
+Rdpack	Rdpack	OK	2.6.6	/usr/local/lib/R/site-library	existing_library	library	
+readr	readr	OK	2.2.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+readxl	readxl	OK	1.5.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+recipes	recipes	MISSING			existing_library	library	不存在叫‘recipes’这个名称的程序包
+reformulas	reformulas	OK	0.4.4	/usr/local/lib/R/site-library	existing_library	library	
+registry	registry	MISSING			existing_library	library	不存在叫‘registry’这个名称的程序包
+rematch	rematch	OK	2.0.0	/usr/local/lib/R/site-library	existing_library	library	
+rematch2	rematch2	MISSING			existing_library	library	不存在叫‘rematch2’这个名称的程序包
+remotes	remotes	OK	2.5.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+renv	renv	MISSING			existing_library	library	不存在叫‘renv’这个名称的程序包
+repr	repr	MISSING			existing_library	library	不存在叫‘repr’这个名称的程序包
+reprex	reprex	MISSING			existing_library	library	不存在叫‘reprex’这个名称的程序包
+reshape	reshape	MISSING			existing_library	library	不存在叫‘reshape’这个名称的程序包
+reshape2	reshape2	OK	1.4.5	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+rex	rex	MISSING			existing_library	library	不存在叫‘rex’这个名称的程序包
+Rfast	Rfast	MISSING			existing_library	library	不存在叫‘Rfast’这个名称的程序包
+Rgraphviz	Rgraphviz	MISSING			bioconductor;existing_library	full;library	不存在叫‘Rgraphviz’这个名称的程序包
+rhdf5	rhdf5	MISSING			existing_library	library	不存在叫‘rhdf5’这个名称的程序包
+rhdf5filters	rhdf5filters	MISSING			existing_library	library	不存在叫‘rhdf5filters’这个名称的程序包
+Rhdf5lib	Rhdf5lib	MISSING			existing_library	library	不存在叫‘Rhdf5lib’这个名称的程序包
+rJava	rJava	MISSING			cran;existing_library	full;library	不存在叫‘rJava’这个名称的程序包
+rjson	rjson	MISSING			existing_library	library	不存在叫‘rjson’这个名称的程序包
+rlang	rlang	OK	1.2.0	/usr/local/lib/R/site-library	existing_library	library	
+rmarkdown	rmarkdown	OK	2.31	/usr/local/lib/R/site-library	existing_library	library	
+Rmpfr	Rmpfr	MISSING			existing_library	library	不存在叫‘Rmpfr’这个名称的程序包
+rngtools	rngtools	OK	1.5.2	/usr/local/lib/R/site-library	existing_library	library	
+robustbase	robustbase	OK	0.99.7	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+ROCR	ROCR	OK	1.0.12	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+rootSolve	rootSolve	OK	1.8.2.4	/usr/local/lib/R/site-library	existing_library	library	
+ropls	ropls	MISSING			bioconductor;existing_library	full;library	不存在叫‘ropls’这个名称的程序包
+roxygen2	roxygen2	MISSING			cran;existing_library	full;library	不存在叫‘roxygen2’这个名称的程序包
+rpart	rpart	OK	4.1.24	/usr/lib/R/library	cran;existing_library	full;library	
+rprojroot	rprojroot	OK	2.1.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+Rserve	Rserve	MISSING			existing_library	library	不存在叫‘Rserve’这个名称的程序包
+RSpectra	RSpectra	OK	0.16.2	/usr/local/lib/R/site-library	existing_library	library	
+RSQLite	RSQLite	MISSING			existing_library	library	不存在叫‘RSQLite’这个名称的程序包
+RStanTest	RStanTest	MISSING			existing_library	library	不存在叫‘RStanTest’这个名称的程序包
+rstantools	rstantools	MISSING			existing_library	library	不存在叫‘rstantools’这个名称的程序包
+rstatix	rstatix	OK	0.7.3	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+rstudioapi	rstudioapi	OK	0.18.0	/usr/local/lib/R/site-library	existing_library	library	
+rsvd	rsvd	OK	1.0.5	/usr/local/lib/R/site-library	existing_library	library	
+Rtsne	Rtsne	OK	0.17	/usr/local/lib/R/site-library	existing_library	library	
+rversions	rversions	MISSING			existing_library	library	不存在叫‘rversions’这个名称的程序包
+rvest	rvest	MISSING			existing_library	library	不存在叫‘rvest’这个名称的程序包
+RWeka	RWeka	MISSING			cran;existing_library	full;library	不存在叫‘RWeka’这个名称的程序包
+RWekajars	RWekajars	MISSING			existing_library	library	不存在叫‘RWekajars’这个名称的程序包
+S4Arrays	S4Arrays	OK	1.12.0	/usr/local/lib/R/site-library	existing_library	library	
+S4Vectors	S4Vectors	OK	0.50.1	/usr/local/lib/R/site-library	existing_library	library	
+S7	S7	OK	0.2.2	/usr/local/lib/R/site-library	existing_library	library	
+safetensors	safetensors	MISSING			existing_library	library	不存在叫‘safetensors’这个名称的程序包
+sandwich	sandwich	OK	3.1.1	/usr/local/lib/R/site-library	existing_library	library	
+sass	sass	OK	0.4.10	/usr/local/lib/R/site-library	existing_library	library	
+ScaledMatrix	ScaledMatrix	OK	1.20.0	/usr/local/lib/R/site-library	existing_library	library	
+scales	scales	OK	1.4.0	/usr/local/lib/R/site-library	existing_library	library	
+scater	scater	OK	1.40.1	/usr/local/lib/R/site-library	existing_library	library	
+scatterpie	scatterpie	MISSING			existing_library	library	不存在叫‘scatterpie’这个名称的程序包
+scatterplot3d	scatterplot3d	MISSING			cran;existing_library	full;library	不存在叫‘scatterplot3d’这个名称的程序包
+scrime	scrime	MISSING			existing_library	library	不存在叫‘scrime’这个名称的程序包
+scs	scs	MISSING			existing_library	library	不存在叫‘scs’这个名称的程序包
+scuttle	scuttle	OK	1.22.0	/usr/local/lib/R/site-library	existing_library	library	
+selectr	selectr	MISSING			existing_library	library	不存在叫‘selectr’这个名称的程序包
+Seqinfo	Seqinfo	OK	1.2.0	/usr/local/lib/R/site-library	existing_library	library	
+sessioninfo	sessioninfo	MISSING			existing_library	library	不存在叫‘sessioninfo’这个名称的程序包
+SeuratWrappers	SeuratWrappers	MISSING			github	full	不存在叫‘SeuratWrappers’这个名称的程序包
+shades	shades	OK	1.4.0	/usr/local/lib/R/site-library	existing_library	library	
+shadowtext	shadowtext	MISSING			existing_library	library	不存在叫‘shadowtext’这个名称的程序包
+shape	shape	OK	1.4.6.1	/usr/local/lib/R/site-library	existing_library	library	
+shapviz	shapviz	OK	0.10.3	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+shiny	shiny	MISSING			existing_library	library	不存在叫‘shiny’这个名称的程序包
+showtext	showtext	OK	0.9.8	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+showtextdb	showtextdb	OK	3.0	/usr/local/lib/R/site-library	existing_library	library	
+siggenes	siggenes	MISSING			bioconductor;existing_library	full;library	不存在叫‘siggenes’这个名称的程序包
+SingleCellExperiment	SingleCellExperiment	OK	1.34.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+sitmo	sitmo	OK	2.0.2	/usr/local/lib/R/site-library	existing_library	library	
+skimr	skimr	MISSING			existing_library	library	不存在叫‘skimr’这个名称的程序包
+slam	slam	MISSING			existing_library	library	不存在叫‘slam’这个名称的程序包
+smotefamily	smotefamily	MISSING			cran;existing_library	full;library	不存在叫‘smotefamily’这个名称的程序包
+snow	snow	OK	0.4.4	/usr/local/lib/R/site-library	existing_library	library	
+SnowballC	SnowballC	MISSING			existing_library	library	不存在叫‘SnowballC’这个名称的程序包
+SoupX	SoupX	MISSING			cran	full	不存在叫‘SoupX’这个名称的程序包
+sourcetools	sourcetools	MISSING			existing_library	library	不存在叫‘sourcetools’这个名称的程序包
+sp	sp	OK	2.2.1	/usr/local/lib/R/site-library	existing_library	library	
+spacefillr	spacefillr	OK	0.4.0	/usr/local/lib/R/site-library	existing_library	library	
+SparseArray	SparseArray	OK	1.12.2	/usr/local/lib/R/site-library	existing_library	library	
+SparseM	SparseM	OK	1.84.2	/usr/local/lib/R/site-library	existing_library	library	
+sparseMatrixStats	sparseMatrixStats	OK	1.24.0	/usr/local/lib/R/site-library	existing_library	library	
+sparsevctrs	sparsevctrs	MISSING			existing_library	library	不存在叫‘sparsevctrs’这个名称的程序包
+spatial	spatial	OK	7.3.17	/usr/lib/R/library	existing_library	library	
+Spectra	Spectra	MISSING			existing_library	library	不存在叫‘Spectra’这个名称的程序包
+spelling	spelling	MISSING			existing_library	library	不存在叫‘spelling’这个名称的程序包
+splines	splines	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+SQUAREM	SQUAREM	OK	2026.1	/usr/local/lib/R/site-library	existing_library	library	
+stabm	stabm	OK	1.2.2	/usr/local/lib/R/site-library	existing_library	library	
+stabs	stabs	MISSING			existing_library	library	不存在叫‘stabs’这个名称的程序包
+statmod	statmod	MISSING			existing_library	library	不存在叫‘statmod’这个名称的程序包
+stats	stats	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+stats4	stats4	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+statsExpressions	statsExpressions	MISSING			existing_library	library	不存在叫‘statsExpressions’这个名称的程序包
+storr	storr	MISSING			existing_library	library	不存在叫‘storr’这个名称的程序包
+stringfish	stringfish	MISSING			existing_library	library	不存在叫‘stringfish’这个名称的程序包
+stringi	stringi	OK	1.8.7	/usr/local/lib/R/site-library	existing_library	library	
+stringr	stringr	OK	1.6.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+styler	styler	MISSING			existing_library	library	不存在叫‘styler’这个名称的程序包
+SummarizedExperiment	SummarizedExperiment	OK	1.42.0	/usr/local/lib/R/site-library	existing_library	library	
+SuppDists	SuppDists	OK	1.1.9.9	/usr/local/lib/R/site-library	existing_library	library	
+survival	survival	OK	3.8.6	/usr/lib/R/library	existing_library	library	
+sva	sva	MISSING			bioconductor;existing_library	full;library	不存在叫‘sva’这个名称的程序包
+svglite	svglite	MISSING			existing_library	library	不存在叫‘svglite’这个名称的程序包
+swagger	swagger	MISSING			existing_library	library	不存在叫‘swagger’这个名称的程序包
+sys	sys	OK	3.4.3	/usr/local/lib/R/site-library	existing_library	library	
+sysfonts	sysfonts	OK	0.8.9	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+systemfonts	systemfonts	OK	1.3.2	/usr/local/lib/R/site-library	existing_library	library	
+tcltk	tcltk	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+tensorA	tensorA	MISSING			existing_library	library	不存在叫‘tensorA’这个名称的程序包
+testRcppAttributePackage	testRcppAttributePackage	MISSING			existing_library	library	不存在叫‘testRcppAttributePackage’这个名称的程序包
+testRcppClass	testRcppClass	MISSING			existing_library	library	不存在叫‘testRcppClass’这个名称的程序包
+testRcppInterfaceExporter	testRcppInterfaceExporter	MISSING			existing_library	library	不存在叫‘testRcppInterfaceExporter’这个名称的程序包
+testRcppInterfaceUser	testRcppInterfaceUser	MISSING			existing_library	library	不存在叫‘testRcppInterfaceUser’这个名称的程序包
+testRcppModule	testRcppModule	MISSING			existing_library	library	不存在叫‘testRcppModule’这个名称的程序包
+testRcppPackage	testRcppPackage	MISSING			existing_library	library	不存在叫‘testRcppPackage’这个名称的程序包
+testthat	testthat	MISSING			existing_library	library	不存在叫‘testthat’这个名称的程序包
+textshaping	textshaping	OK	1.0.5	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+TH.data	TH.data	OK	1.1.5	/usr/local/lib/R/site-library	existing_library	library	
+tibble	tibble	OK	3.3.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+tidybulk	tidybulk	MISSING			bioconductor	full	不存在叫‘tidybulk’这个名称的程序包
+tidydr	tidydr	MISSING			existing_library	library	不存在叫‘tidydr’这个名称的程序包
+tidyfst	tidyfst	MISSING			existing_library	library	不存在叫‘tidyfst’这个名称的程序包
+tidygraph	tidygraph	OK	1.3.1	/usr/local/lib/R/site-library	existing_library	library	
+tidymodels	tidymodels	MISSING			cran;existing_library	full;library	不存在叫‘tidymodels’这个名称的程序包
+tidyomics	tidyomics	MISSING			bioconductor	full	不存在叫‘tidyomics’这个名称的程序包
+tidyr	tidyr	OK	1.3.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+tidyselect	tidyselect	OK	1.2.1	/usr/local/lib/R/site-library	existing_library	library	
+tidyseurat	tidyseurat	MISSING			github	full	不存在叫‘tidyseurat’这个名称的程序包
+tidySpatialExperiment	tidySpatialExperiment	MISSING			bioconductor	full	不存在叫‘tidySpatialExperiment’这个名称的程序包
+tidytext	tidytext	MISSING			existing_library	library	不存在叫‘tidytext’这个名称的程序包
+tidytree	tidytree	OK	0.4.7	/usr/local/lib/R/site-library	existing_library	library	
+tidyverse	tidyverse	MISSING			cran;existing_library	full;library	不存在叫‘tidyverse’这个名称的程序包
+timechange	timechange	MISSING			existing_library	library	不存在叫‘timechange’这个名称的程序包
+timeDate	timeDate	OK	4052.112	/usr/local/lib/R/site-library	existing_library	library	
+timereg	timereg	OK	2.0.7	/usr/local/lib/R/site-library	existing_library	library	
+tinytex	tinytex	OK	0.59	/usr/local/lib/R/site-library	cran;existing_library	full;library	
+tokenizers	tokenizers	MISSING			existing_library	library	不存在叫‘tokenizers’这个名称的程序包
+tools	tools	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+translations	translations	MISSING			existing_library	library	程序包‘translations’没有命名空间
+treeio	treeio	OK	1.36.1	/usr/local/lib/R/site-library	existing_library	library	
+treeshap	treeshap	MISSING			cran;existing_library	full;library	不存在叫‘treeshap’这个名称的程序包
+TreeSummarizedExperiment	TreeSummarizedExperiment	OK	2.20.0	/usr/local/lib/R/site-library	existing_library	library	
+truncnorm	truncnorm	MISSING			existing_library	library	不存在叫‘truncnorm’这个名称的程序包
+tseries	tseries	MISSING			existing_library	library	不存在叫‘tseries’这个名称的程序包
+TTR	TTR	MISSING			existing_library	library	不存在叫‘TTR’这个名称的程序包
+tweenr	tweenr	OK	2.0.3	/usr/local/lib/R/site-library	existing_library	library	
+tzdb	tzdb	OK	0.5.0	/usr/local/lib/R/site-library	existing_library	library	
+UCSC.utils	UCSC.utils	MISSING			existing_library	library	不存在叫‘UCSC.utils’这个名称的程序包
+UpSetR	UpSetR	MISSING			cran;existing_library	full;library	不存在叫‘UpSetR’这个名称的程序包
+urca	urca	OK	1.3.4	/usr/local/lib/R/site-library	existing_library	library	
+urlchecker	urlchecker	MISSING			existing_library	library	不存在叫‘urlchecker’这个名称的程序包
+usethis	usethis	MISSING			cran;existing_library	full;library	不存在叫‘usethis’这个名称的程序包
+utf8	utf8	OK	1.2.6	/usr/local/lib/R/site-library	existing_library	library	
+utils	utils	OK	4.6.0	/usr/lib/R/library	existing_library	library	
+uuid	uuid	OK	1.2.2	/usr/local/lib/R/site-library	existing_library	library	
+uwot	uwot	OK	0.2.4	/usr/local/lib/R/site-library	existing_library	library	
+vctrs	vctrs	OK	0.7.3	/usr/local/lib/R/site-library	existing_library	library	
+vegan	vegan	OK	2.7.5	/usr/local/lib/R/site-library	existing_library	library	
+VennDiagram	VennDiagram	MISSING			cran;existing_library	full;library	不存在叫‘VennDiagram’这个名称的程序包
+VGAM	VGAM	MISSING			existing_library	library	不存在叫‘VGAM’这个名称的程序包
+vipor	vipor	OK	0.4.7	/usr/local/lib/R/site-library	existing_library	library	
+viridis	viridis	OK	0.6.5	/usr/local/lib/R/site-library	existing_library	library	
+viridisLite	viridisLite	OK	0.4.3	/usr/local/lib/R/site-library	existing_library	library	
+vroom	vroom	OK	1.7.1	/usr/local/lib/R/site-library	existing_library	library	
+vscDebugger	vscDebugger	MISSING			existing_library	library	不存在叫‘vscDebugger’这个名称的程序包
+vsn	vsn	MISSING			existing_library	library	不存在叫‘vsn’这个名称的程序包
+waldo	waldo	MISSING			existing_library	library	不存在叫‘waldo’这个名称的程序包
+whisker	whisker	MISSING			existing_library	library	不存在叫‘whisker’这个名称的程序包
+withr	withr	OK	3.0.2	/usr/local/lib/R/site-library	existing_library	library	
+wk	wk	MISSING			existing_library	library	不存在叫‘wk’这个名称的程序包
+writexl	writexl	OK	1.5.4	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+WRS2	WRS2	MISSING			existing_library	library	不存在叫‘WRS2’这个名称的程序包
+xfun	xfun	OK	0.58	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+xgboost	xgboost	OK	3.2.1.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+XML	XML	OK	3.99.0.23	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+xml2	xml2	OK	1.5.2	/usr/local/lib/R/site-library	existing_library	library	
+xmlparsedata	xmlparsedata	MISSING			existing_library	library	不存在叫‘xmlparsedata’这个名称的程序包
+xopen	xopen	MISSING			existing_library	library	不存在叫‘xopen’这个名称的程序包
+xtable	xtable	MISSING			existing_library	library	不存在叫‘xtable’这个名称的程序包
+xts	xts	MISSING			existing_library	library	不存在叫‘xts’这个名称的程序包
+XVector	XVector	OK	0.52.0	/usr/local/lib/R/site-library	existing_library	library	
+yaml	yaml	OK	2.3.12	/usr/local/lib/R/site-library	existing_library	library	
+yulab.utils	yulab.utils	OK	0.2.4	/usr/local/lib/R/site-library	existing_library	library	
+zCompositions	zCompositions	MISSING			existing_library	library	不存在叫‘zCompositions’这个名称的程序包
+zeallot	zeallot	MISSING			existing_library	library	不存在叫‘zeallot’这个名称的程序包
+zigg	zigg	MISSING			existing_library	library	不存在叫‘zigg’这个名称的程序包
+zigguserDirectC	zigguserDirectC	MISSING			existing_library	library	不存在叫‘zigguserDirectC’这个名称的程序包
+zigguserDirectCpp	zigguserDirectCpp	MISSING			existing_library	library	不存在叫‘zigguserDirectCpp’这个名称的程序包
+zigguserHeaderCpp	zigguserHeaderCpp	MISSING			existing_library	library	不存在叫‘zigguserHeaderCpp’这个名称的程序包
+zigguserHeaderRcpp	zigguserHeaderRcpp	MISSING			existing_library	library	不存在叫‘zigguserHeaderRcpp’这个名称的程序包
+zip	zip	OK	2.3.3	/usr/local/lib/R/site-library	existing_library	library	
+zlibbioc	zlibbioc	MISSING			existing_library	library	不存在叫‘zlibbioc’这个名称的程序包
+zoo	zoo	OK	1.8.15	/usr/local/lib/R/site-library	existing_library	library	

@@ -1,0 +1,2 @@
+Model	Dataset	Threshold	TP	FP	TN	FN	ACC	CE
+xgboost	train	0.5	22	1	54	3	0.95	0.050000000000000044

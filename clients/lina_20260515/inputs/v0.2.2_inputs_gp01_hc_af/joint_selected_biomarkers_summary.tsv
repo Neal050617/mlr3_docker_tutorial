@@ -1,0 +1,2 @@
+model_id	modality	label_cn	input_file	preset	samples	features	group_file	groups
+0.6	joint_selected_biomarkers	5组学单模型入选biomarkers联合	model_0.6_gp01_hc_af_joint_selected_biomarkers_145.tsv	mixed_omics	145	97	map-group_gp01_hc_af_common_145.txt	AF=99;HC=46

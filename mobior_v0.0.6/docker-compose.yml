@@ -1,0 +1,72 @@
+services:
+  rstudio:
+    image: mobior:v0.0.6
+    build:
+      context: .
+      dockerfile: Dockerfile
+      network: host
+    container_name: mobior-rstudio-v0.0.6
+    ports:
+      - "${MOBIOR_RSTUDIO_PORT:-7878}:8787"
+    environment:
+      USER: "${USER:-rstudio}"
+      PASSWORD: "${PASSWORD:-MoBio888}"
+      USER_ID: "${USER_ID:-1000}"
+      GROUP_ID: "${GROUP_ID:-1000}"
+      GROUP_NAME: "${GROUP_NAME:-users}"
+      MOBIOR_PROFILE: "${MOBIOR_PROFILE:-core}"
+    volumes:
+      - ../:/workspace
+      - ../R_packages_mobio/site-library:/usr/local/lib/R/site-library
+    working_dir: /workspace
+    command: rstudio
+    restart: unless-stopped
+
+  backend:
+    image: mobior:v0.0.6
+    user: "${USER_ID:-1000}:${GROUP_ID:-1000}"
+    environment:
+      HOME: /workspace
+      MOBIOR_PROFILE: "${MOBIOR_PROFILE:-core}"
+    volumes:
+      - ../:/workspace
+      - ../R_packages_mobio/site-library:/usr/local/lib/R/site-library
+    working_dir: /workspace
+    command: tail -f /dev/null
+    restart: unless-stopped
+
+  check-packages:
+    image: mobior:v0.0.6
+    user: "${USER_ID:-1000}:${GROUP_ID:-1000}"
+    environment:
+      HOME: /workspace
+      MOBIOR_PROFILE: "${MOBIOR_PROFILE:-core}"
+    volumes:
+      - ../:/workspace
+      - ../R_packages_mobio/site-library:/usr/local/lib/R/site-library
+    working_dir: /workspace/mobior_v0.0.6
+    command: >
+      Rscript check_mobior_v006_packages.R
+      --manifest=package_manifest.tsv
+      --site-lib=/usr/local/lib/R/site-library
+      --out=/workspace/R_packages_mobio/package_check.tsv
+      --profile=${MOBIOR_PROFILE:-core}
+      --strict=true
+    profiles:
+      - manual
+
+  install-packages:
+    image: mobior:v0.0.6
+    user: "${USER_ID:-1000}:${GROUP_ID:-1000}"
+    environment:
+      HOME: /workspace
+      MOBIOR_PROFILE: "${MOBIOR_PROFILE:-core}"
+      R_SITE_LIBRARY: /usr/local/lib/R/site-library
+      MOBIOR_PACKAGE_MANIFEST: package_manifest.tsv
+    volumes:
+      - ../:/workspace
+      - ../R_packages_mobio/site-library:/usr/local/lib/R/site-library
+    working_dir: /workspace/mobior_v0.0.6
+    command: Rscript install_mobior_v006_packages.R
+    profiles:
+      - manual

@@ -1,0 +1,39 @@
+# remote: dell:/work/users/chaoliu/Test/20250320-mlr3-test
+# generated_at: 2026-06-17 10:41:55 +0800
+
+docker_image
+mobior:v0.0.6	e0acbe8f4769	2026-06-08 15:25:07 +0800 CST	7.47GB
+mobior:v0.0.5-lilei	c7431708a63b	2026-05-15 17:45:47 +0800 CST	4.79GB
+mobior:v0.0.5	71e056d4c010	2026-02-25 14:10:12 +0800 CST	4.17GB
+
+core_package_check
+FILE=/work/users/chaoliu/Test/20250320-mlr3-test/R_packages_mobio/package_check_core_v0.0.6.tsv
+rows	66
+package	load_name	status	version	library_dir	source_type	profile	message
+afex	afex	OK	1.5.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+ANCOMBC	ANCOMBC	OK	2.14.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+BiocManager	BiocManager	OK	1.30.27	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+bluster	bluster	OK	1.22.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+broom	broom	OK	1.0.13	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+cowplot	cowplot	OK	1.2.0	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+crosstalk	crosstalk	OK	1.2.2	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+FILE=/work/users/chaoliu/Test/20250320-mlr3-test/R_packages_mobio/package_check_full_after_available_install_v0.0.6.tsv
+rows	712
+package	load_name	status	version	library_dir	source_type	profile	message
+abind	abind	OK	1.4.8	/usr/local/lib/R/site-library	existing_library	library	
+ade4	ade4	OK	1.7.24	/usr/local/lib/R/site-library	existing_library	library	
+afex	afex	OK	1.5.1	/usr/local/lib/R/site-library	cran;existing_library	core;library	
+affy	affy	OK	1.90.0	/opt/mobior-full/site-library	existing_library	library	
+affyio	affyio	OK	1.82.0	/opt/mobior-full/site-library	existing_library	library	
+ALDEx2	ALDEx2	OK	1.44.0	/opt/mobior-full/site-library	bioconductor;existing_library	full;library	
+ANCOMBC	ANCOMBC	OK	2.14.0	/usr/local/lib/R/site-library	bioconductor;existing_library	core;library	
+FILE=/work/users/chaoliu/Test/20250320-mlr3-test/R_packages_mobio/full_unresolved_v0.0.6.tsv
+rows	23
+package	load_name	source_type	category	reason	next_action
+GseaVis	GseaVis	github	upstream_install_failure	GitHub HEAD package fails lazy-load in R 4.6/Bioc 3.23: GseaVis cannot find object get_organism during namespace load.	Pin a compatible GseaVis commit or update GseaVis/clusterProfiler/yulab.utils compatibility before adding to reproducible full profile.
+KEGG.db	KEGG.db	local_or_generated	local_or_generated	KEGG.db is not a standard CRAN/Bioconductor binary/source package in the current repositories; it must be generated or supplied locally.	Generate with createKEGGdb or provide a local KEGG.db_*.tar.gz, then install into R_packages_mobio/site-library.
+linkXTS	linkXTS	existing_library	legacy_unknown	The package was discovered only from the old library snapshot and is not available from configured CRAN/Bioconductor/GitHub manifest sources.	Keep out of the reproducible package set unless a source tarball or upstream repository is identified.
+mvtnormAPI	mvtnormAPI	existing_library	legacy_unknown	The package was discovered only from the old library snapshot and is not available from configured CRAN/Bioconductor/GitHub manifest sources.	Keep out of the reproducible package set unless a source tarball or upstream repository is identified.
+org.testing.db	org.testing.db	existing_library	test_or_generated	Looks like a generated/test annotation package from an old library, not a public runtime dependency.	Do not require for normal analysis; provide local source only if a test workflow explicitly needs it.
+qs	qs	cran;existing_library	upstream_deprecated_or_incompatible	qs is no longer available from the configured CRAN repository; archived qs 0.27.2 fails to compile against R 4.6 internals. qs2 0.2.2 is installed and supports MetaboAnalystR.	Migrate scripts from qs to qs2 where possible, or pin an older R/qs-compatible environment for legacy qs workflows.
+RcppProgressArmadillo	RcppProgressArmadillo	existing_library	test_package	The package was discovered only from the old library snapshot and appears to be an RcppProgress example/test package.	Exclude from reproducible runtime dependencies unless a local source package is supplied.

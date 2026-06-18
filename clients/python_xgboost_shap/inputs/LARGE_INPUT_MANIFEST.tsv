@@ -1,0 +1,2 @@
+relative_path	size_bytes	md5	sync_policy
+python_xgboost_shap/input/clr_variance_filtered.xls	98939838	e0c1debe0b9bf17abbbcb8dcb4b370b4	large input; keep outside Git clients copy; sync separately with rsync when needed

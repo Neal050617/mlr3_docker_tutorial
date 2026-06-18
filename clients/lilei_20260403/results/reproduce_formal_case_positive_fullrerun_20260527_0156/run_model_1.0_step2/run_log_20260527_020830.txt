@@ -1,0 +1,80 @@
+[2026-05-27 02:08:30] [INFO] ================================================================================ 
+[2026-05-27 02:08:30] [INFO] EFS机器学习分析流程开始 
+[2026-05-27 02:08:30] [INFO] ================================================================================ 
+[2026-05-27 02:08:30] [INFO] 开始时间： 2026-05-27 02:08:30.140177 
+[2026-05-27 02:08:30] [INFO] 输出目录： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2 
+[2026-05-27 02:08:30] [INFO] 日志文件： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/run_log_20260527_020830.txt 
+[2026-05-27 02:08:30] [INFO] 随机种子： 115702 
+[2026-05-27 02:08:30] [INFO] ================================================================================ 
+[2026-05-27 02:08:30] [INFO] 
+参数配置： 
+[2026-05-27 02:08:30] [INFO]   输入文件： OTU_tax.xls 
+[2026-05-27 02:08:30] [INFO]   分组文件： 20260403_lilei/v0.2.2_inputs_corrected/map-group_nrt_response_77.txt 
+[2026-05-27 02:08:30] [INFO]   训练集比例： 3/4 
+[2026-05-27 02:08:30] [INFO]   目标特征数： 15 
+[2026-05-27 02:08:30] [INFO]   外层CV： 5 
+[2026-05-27 02:08:30] [INFO]   内层CV： 3 
+[2026-05-27 02:08:30] [INFO]   调参评估次数： 20 
+[2026-05-27 02:08:30] [INFO]   调参批大小： 5 
+[2026-05-27 02:08:30] [INFO]   mlr3日志级别： warn 
+[2026-05-27 02:08:30] [INFO]   并行核数： 1 
+[2026-05-27 02:08:30] [INFO]   类别权重： FALSE 
+[2026-05-27 02:08:30] [INFO]   SMOTE： TRUE 
+[2026-05-27 02:08:30] [INFO]   SMOTE参数：K= 1 , dup_size= 1 
+[2026-05-27 02:08:30] [INFO]   建模算法： all 
+[2026-05-27 02:08:30] [INFO]   特征组合策略： majority 
+[2026-05-27 02:08:30] [WARNING] 已启用mlr3learners/xgboost兼容补丁：当前xgboost未提供xgb.params，改用脚本内参数过滤逻辑 
+[2026-05-27 02:08:34] [WARNING] ⚠️  检测到轻度类别不平衡（2:1-5:1），建议使用 --use_class_weight TRUE 
+[2026-05-27 02:08:35] [WARNING] ⚠️  SMOTE模式下仅禁用svm_rfe callback；EFS仍保留xgb/rf/svm/lgbm学习器 
+[2026-05-27 02:08:35] [INFO] 特征数不超过 --n_features，跳过EFS并使用全部特征： 15 个 
+[2026-05-27 02:08:36] [INFO] === 保存训练前检查点 === 
+[2026-05-27 02:08:36] [INFO] 开始保存工作区到临时文件： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RDataTmp 
+[2026-05-27 02:08:36] [INFO] 临时工作区文件保存完成： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RDataTmp 
+[2026-05-27 02:08:36] [INFO] 所有分析结果已保存到： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RData 
+[2026-05-27 02:08:36] [INFO] ✓ 已保存训练前检查点，可用于保留EFS与特征选择结果 
+[2026-05-27 02:08:36] [INFO] === 开始模型训练和评估 === 
+[2026-05-27 02:08:36] [INFO] 使用 cv 进行交叉验证 
+[2026-05-27 02:08:36] [INFO] 预计模型训练阶段基础拟合次数： 2745 
+[2026-05-27 02:08:36] [INFO] 调参设置：n_evals= 20 , batch_size= 5 
+[2026-05-27 02:08:36] [INFO] 训练 9 种算法，这可能需要较长时间... 
+[2026-05-27 02:09:42] [INFO] ✓ Benchmark完成，耗时： 1.1 分钟 
+[2026-05-27 02:09:44] [INFO] === 开始训练和测试集预测 === 
+[2026-05-27 02:09:44] [INFO] 处理模型: glmnet ( 1 / 9 ) 
+[2026-05-27 02:09:46] [INFO]   ✓ 训练成功 - 训练集 AUC: 0.7553 测试集 AUC: 0.75 
+[2026-05-27 02:09:46] [INFO] 处理模型: xgboost ( 2 / 9 ) 
+[2026-05-27 02:09:48] [INFO]   ✓ 训练成功 - 训练集 AUC: 0.5 测试集 AUC: 0.5 
+[2026-05-27 02:09:48] [INFO] 处理模型: rf ( 3 / 9 ) 
+[2026-05-27 02:09:49] [INFO]   ✓ 训练成功 - 训练集 AUC: 0.9957 测试集 AUC: 0.6562 
+[2026-05-27 02:09:49] [INFO] 处理模型: svm ( 4 / 9 ) 
+[2026-05-27 02:09:51] [INFO]   ✓ 训练成功 - 训练集 AUC: 0.8085 测试集 AUC: 0.6562 
+[2026-05-27 02:09:51] [INFO] 处理模型: naive_bayes ( 5 / 9 ) 
+[2026-05-27 02:09:52] [INFO]   ✓ 训练成功 - 训练集 AUC: 0.8362 测试集 AUC: 0.5156 
+[2026-05-27 02:09:52] [INFO] 处理模型: kknn ( 6 / 9 ) 
+[2026-05-27 02:09:53] [INFO]   ✓ 训练成功 - 训练集 AUC: 0.9319 测试集 AUC: 0.6953 
+[2026-05-27 02:09:53] [INFO]   KNN permutation重复次数: 10 （样本数: 20 ，特征数: 15 ） 
+[2026-05-27 02:09:59] [INFO] 处理模型: rpart ( 7 / 9 ) 
+[2026-05-27 02:10:00] [INFO]   ✓ 训练成功 - 训练集 AUC: 0.8574 测试集 AUC: 0.7969 
+[2026-05-27 02:10:00] [INFO] 处理模型: adaboost ( 8 / 9 ) 
+[2026-05-27 02:10:02] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 0.4531 
+[2026-05-27 02:10:02] [INFO]   AdaBoost permutation重复次数: 10 （样本数: 20 ，特征数: 15 ） 
+[2026-05-27 02:10:07] [WARNING]   ⚠️  AdaBoost发现 8 个可能的噪声/冗余特征: Clinical_LMR, Clinical_M_category, Clinical_NLR, Clinical_N_category, Clinical_PIV, Clinical_PLR, Clinical_SII, Clinical_Smoking 
+[2026-05-27 02:10:07] [INFO] 处理模型: nnet ( 9 / 9 ) 
+[2026-05-27 02:10:09] [INFO]   ✓ 训练成功 - 训练集 AUC: 1 测试集 AUC: 0.6406 
+[2026-05-27 02:10:09] [WARNING]   ⚠️  nnet特征重要性计算失败，跳过： 'list' object cannot be coerced to type 'integer' 
+[2026-05-27 02:10:09] [INFO] 有效的train_roc模型数： 9 
+[2026-05-27 02:10:09] [INFO] 有效的test_roc模型数： 9 
+[2026-05-27 02:10:21] [WARNING]   ⚠️  所有概率都相同 ( 0.30436035990715 )，无法绘制有效ROC曲线 
+[2026-05-27 02:10:21] [WARNING]   ⚠️  所有概率都相同 ( 0.30436035990715 )，无法绘制有效ROC曲线 
+[2026-05-27 02:10:21] [WARNING] ⚠️  PR曲线数据点不足（<2），跳过置信区间计算 
+[2026-05-27 02:10:21] [WARNING] ⚠️  PR曲线数据点不足（<2），跳过置信区间计算 
+[2026-05-27 02:10:34] [WARNING]   ⚠️  AUC接近0.5 ( 0.516 )，跳过最优点标注 
+[2026-05-27 02:10:49] [WARNING]   ⚠️  AUC接近0.5 ( 0.453 )，跳过最优点标注 
+[2026-05-27 02:10:59] [INFO] 开始保存工作区到临时文件： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RDataTmp 
+[2026-05-27 02:11:02] [INFO] 临时工作区文件保存完成： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RDataTmp 
+[2026-05-27 02:11:02] [INFO] 所有分析结果已保存到： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RData 
+[2026-05-27 02:11:03] [INFO] 未提供外部验证数据(--valid参数)，跳过外部验证步骤 
+[2026-05-27 02:11:03] [INFO] 保存完整分析结果（包含外部验证）... 
+[2026-05-27 02:11:03] [INFO] 开始保存工作区到临时文件： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RDataTmp 
+[2026-05-27 02:11:06] [INFO] 临时工作区文件保存完成： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RDataTmp 
+[2026-05-27 02:11:06] [INFO] 所有分析结果已保存到： 20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_1.0_step2/efs.RData 
+[2026-05-27 02:11:06] [INFO] === 分析完成！ === 

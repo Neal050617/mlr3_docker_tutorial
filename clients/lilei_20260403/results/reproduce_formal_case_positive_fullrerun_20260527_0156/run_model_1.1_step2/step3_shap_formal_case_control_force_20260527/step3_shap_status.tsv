@@ -1,0 +1,28 @@
+Model	Dataset	Status	Message
+glmnet	train	completed	n=57, m=20
+glmnet	test	completed	n=20, m=12
+glmnet	valid	skipped	dataset unavailable
+xgboost	train	completed	n=57, m=20
+xgboost	test	completed	n=20, m=12
+xgboost	valid	skipped	dataset unavailable
+rf	train	completed	n=57, m=20
+rf	test	completed	n=20, m=12
+rf	valid	skipped	dataset unavailable
+svm	train	completed	n=57, m=20
+svm	test	completed	n=20, m=12
+svm	valid	skipped	dataset unavailable
+naive_bayes	train	completed	n=57, m=20
+naive_bayes	test	completed	n=20, m=12
+naive_bayes	valid	skipped	dataset unavailable
+kknn	train	completed	n=57, m=20
+kknn	test	completed	n=20, m=12
+kknn	valid	skipped	dataset unavailable
+rpart	train	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.3438 < 0.5000
+rpart	test	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.3438 < 0.5000
+rpart	valid	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.3438 < 0.5000
+adaboost	train	completed	n=57, m=20
+adaboost	test	completed	n=20, m=12
+adaboost	valid	skipped	dataset unavailable
+nnet	train	completed	n=57, m=20
+nnet	test	completed	n=20, m=12
+nnet	valid	skipped	dataset unavailable

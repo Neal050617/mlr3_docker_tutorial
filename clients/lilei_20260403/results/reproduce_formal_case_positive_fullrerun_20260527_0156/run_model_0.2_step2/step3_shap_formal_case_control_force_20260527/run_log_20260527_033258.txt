@@ -1,0 +1,161 @@
+[2026-05-27 03:32:58] [INFO] === 加载 Step2 输出的 RData === 
+[2026-05-27 03:32:58] [INFO] RData 文件路径： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/efs.RData 
+[2026-05-27 03:33:02] [INFO] RData 加载完成 
+[2026-05-27 03:33:02] [INFO] RData 中可用模型数： 9 
+[2026-05-27 03:33:03] [INFO] 背景训练集样本数： 30 
+[2026-05-27 03:33:03] [INFO] 解释特征数： 26 
+[2026-05-27 03:33:03] [INFO] SHAP 图展示特征数： 26 
+[2026-05-27 03:33:03] [INFO] 目标模型： glmnet, xgboost, rf, svm, naive_bayes, kknn, rpart, adaboost, nnet 
+[2026-05-27 03:33:03] [INFO] 目标数据集： train, test, valid 
+[2026-05-27 03:33:03] [INFO] SHAP 质量判定优先级： test > cv > train 
+[2026-05-27 03:33:03] [INFO] SHAP 最低 AUC 阈值： 0.500001 
+[2026-05-27 03:33:03] [INFO] 未指定 waterfall 样本；按组自动选择：case, control；每组 1 个样本 
+[2026-05-27 03:33:03] [INFO] Force 图输出： TRUE 
+[2026-05-27 03:33:03] [INFO]  
+[2026-05-27 03:33:03] [INFO] === 开始处理模型： glmnet  === 
+[2026-05-27 03:33:03] [INFO] 处理数据集： train 
+[2026-05-27 03:33:03] [INFO] 开始 SHAP 计算：模型= glmnet  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:33:11] [INFO] SHAP 计算完成：模型= glmnet  数据集= train 
+[2026-05-27 03:33:11] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:33:13] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:33:13] [INFO] 处理数据集： test 
+[2026-05-27 03:33:13] [INFO] 开始 SHAP 计算：模型= glmnet  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:33:21] [INFO] SHAP 计算完成：模型= glmnet  数据集= test 
+[2026-05-27 03:33:21] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:33:22] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:33:22] [INFO] 处理数据集： valid 
+[2026-05-27 03:33:22] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:33:22] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx 
+[2026-05-27 03:33:22] [INFO] === 模型处理完成： glmnet  === 
+[2026-05-27 03:33:22] [INFO]  
+[2026-05-27 03:33:22] [INFO] === 开始处理模型： xgboost  === 
+[2026-05-27 03:33:22] [INFO] 处理数据集： train 
+[2026-05-27 03:33:22] [INFO] 开始 SHAP 计算：模型= xgboost  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:33:33] [INFO] SHAP 计算完成：模型= xgboost  数据集= train 
+[2026-05-27 03:33:33] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:33:35] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:33:35] [INFO] 处理数据集： test 
+[2026-05-27 03:33:35] [INFO] 开始 SHAP 计算：模型= xgboost  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:33:45] [INFO] SHAP 计算完成：模型= xgboost  数据集= test 
+[2026-05-27 03:33:45] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:33:47] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:33:47] [INFO] 处理数据集： valid 
+[2026-05-27 03:33:47] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:33:47] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/xgboost/xgboost_SHAP.xlsx 
+[2026-05-27 03:33:47] [INFO] === 模型处理完成： xgboost  === 
+[2026-05-27 03:33:47] [INFO]  
+[2026-05-27 03:33:47] [INFO] === 开始处理模型： rf  === 
+[2026-05-27 03:33:47] [INFO] 处理数据集： train 
+[2026-05-27 03:33:47] [INFO] 开始 SHAP 计算：模型= rf  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:34:20] [INFO] SHAP 计算完成：模型= rf  数据集= train 
+[2026-05-27 03:34:20] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:34:22] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:34:22] [INFO] 处理数据集： test 
+[2026-05-27 03:34:22] [INFO] 开始 SHAP 计算：模型= rf  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:34:50] [INFO] SHAP 计算完成：模型= rf  数据集= test 
+[2026-05-27 03:34:50] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:34:52] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:34:52] [INFO] 处理数据集： valid 
+[2026-05-27 03:34:52] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:34:52] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx 
+[2026-05-27 03:34:52] [INFO] === 模型处理完成： rf  === 
+[2026-05-27 03:34:52] [INFO]  
+[2026-05-27 03:34:52] [INFO] === 开始处理模型： svm  === 
+[2026-05-27 03:34:52] [INFO] 处理数据集： train 
+[2026-05-27 03:34:52] [INFO] 开始 SHAP 计算：模型= svm  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:34:58] [INFO] SHAP 计算完成：模型= svm  数据集= train 
+[2026-05-27 03:34:58] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:35:00] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:35:00] [INFO] 处理数据集： test 
+[2026-05-27 03:35:00] [INFO] 开始 SHAP 计算：模型= svm  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:35:02] [INFO] SHAP 计算完成：模型= svm  数据集= test 
+[2026-05-27 03:35:02] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:35:03] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:35:03] [INFO] 处理数据集： valid 
+[2026-05-27 03:35:03] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:35:03] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx 
+[2026-05-27 03:35:03] [INFO] === 模型处理完成： svm  === 
+[2026-05-27 03:35:03] [INFO]  
+[2026-05-27 03:35:03] [INFO] === 开始处理模型： naive_bayes  === 
+[2026-05-27 03:35:03] [INFO] 处理数据集： train 
+[2026-05-27 03:35:03] [INFO] 开始 SHAP 计算：模型= naive_bayes  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:36:27] [INFO] SHAP 计算完成：模型= naive_bayes  数据集= train 
+[2026-05-27 03:36:27] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:36:28] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:36:28] [INFO] 处理数据集： test 
+[2026-05-27 03:36:28] [INFO] 开始 SHAP 计算：模型= naive_bayes  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:36:54] [INFO] SHAP 计算完成：模型= naive_bayes  数据集= test 
+[2026-05-27 03:36:54] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:36:55] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:36:55] [INFO] 处理数据集： valid 
+[2026-05-27 03:36:55] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:36:56] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx 
+[2026-05-27 03:36:56] [INFO] === 模型处理完成： naive_bayes  === 
+[2026-05-27 03:36:56] [INFO]  
+[2026-05-27 03:36:56] [INFO] === 开始处理模型： kknn  === 
+[2026-05-27 03:36:56] [INFO] 处理数据集： train 
+[2026-05-27 03:36:56] [INFO] 开始 SHAP 计算：模型= kknn  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:37:28] [INFO] SHAP 计算完成：模型= kknn  数据集= train 
+[2026-05-27 03:37:28] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:37:30] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:37:30] [INFO] 处理数据集： test 
+[2026-05-27 03:37:30] [INFO] 开始 SHAP 计算：模型= kknn  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:37:47] [INFO] SHAP 计算完成：模型= kknn  数据集= test 
+[2026-05-27 03:37:47] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:37:49] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:37:49] [INFO] 处理数据集： valid 
+[2026-05-27 03:37:49] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:37:49] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx 
+[2026-05-27 03:37:49] [INFO] === 模型处理完成： kknn  === 
+[2026-05-27 03:37:49] [INFO]  
+[2026-05-27 03:37:49] [INFO] === 开始处理模型： rpart  === 
+[2026-05-27 03:37:49] [INFO] 处理数据集： train 
+[2026-05-27 03:37:49] [INFO] 开始 SHAP 计算：模型= rpart  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:37:58] [INFO] SHAP 计算完成：模型= rpart  数据集= train 
+[2026-05-27 03:37:58] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:38:00] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:38:00] [INFO] 处理数据集： test 
+[2026-05-27 03:38:00] [INFO] 开始 SHAP 计算：模型= rpart  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:38:09] [INFO] SHAP 计算完成：模型= rpart  数据集= test 
+[2026-05-27 03:38:09] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:38:11] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:38:11] [INFO] 处理数据集： valid 
+[2026-05-27 03:38:11] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:38:11] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/rpart/rpart_SHAP.xlsx 
+[2026-05-27 03:38:11] [INFO] === 模型处理完成： rpart  === 
+[2026-05-27 03:38:11] [INFO]  
+[2026-05-27 03:38:11] [INFO] === 开始处理模型： adaboost  === 
+[2026-05-27 03:38:11] [WARNING] adaboost模型RData反序列化后不可预测；使用保存的调参参数重建用于SHAP的模型 
+[2026-05-27 03:38:11] [INFO] 处理数据集： train 
+[2026-05-27 03:38:11] [INFO] 开始 SHAP 计算：模型= adaboost  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:38:29] [INFO] SHAP 计算完成：模型= adaboost  数据集= train 
+[2026-05-27 03:38:29] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:38:31] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:38:31] [INFO] 处理数据集： test 
+[2026-05-27 03:38:31] [INFO] 开始 SHAP 计算：模型= adaboost  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:38:47] [INFO] SHAP 计算完成：模型= adaboost  数据集= test 
+[2026-05-27 03:38:47] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:38:49] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:38:49] [INFO] 处理数据集： valid 
+[2026-05-27 03:38:49] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:38:49] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx 
+[2026-05-27 03:38:49] [INFO] === 模型处理完成： adaboost  === 
+[2026-05-27 03:38:49] [INFO]  
+[2026-05-27 03:38:49] [INFO] === 开始处理模型： nnet  === 
+[2026-05-27 03:38:49] [INFO] 处理数据集： train 
+[2026-05-27 03:38:49] [INFO] 开始 SHAP 计算：模型= nnet  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-27 03:38:59] [INFO] SHAP 计算完成：模型= nnet  数据集= train 
+[2026-05-27 03:38:59] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:39:01] [INFO] Waterfall 样本映射： case1=SFB001_1, control1=CFB003 
+[2026-05-27 03:39:01] [INFO] 处理数据集： test 
+[2026-05-27 03:39:01] [INFO] 开始 SHAP 计算：模型= nnet  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-27 03:39:11] [INFO] SHAP 计算完成：模型= nnet  数据集= test 
+[2026-05-27 03:39:11] [INFO] SHAP 对象构建输入：S_dim= 24x26  X_dim= 24x26 
+[2026-05-27 03:39:12] [INFO] Waterfall 样本映射： case1=SFB002_1, control1=CFB004 
+[2026-05-27 03:39:12] [INFO] 处理数据集： valid 
+[2026-05-27 03:39:12] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-27 03:39:12] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx 
+[2026-05-27 03:39:12] [INFO] === 模型处理完成： nnet  === 
+[2026-05-27 03:39:13] [INFO] 已生成 SHAP 汇总 Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/step3_shap_summary.xlsx 
+[2026-05-27 03:39:13] [INFO] 已生成 SHAP 状态表： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20251208/20260403_lilei/reproduce_formal_case_positive_fullrerun_20260527_0156/run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/step3_shap_status.tsv 
+[2026-05-27 03:39:13] [INFO] === Step3 SHAP 分析完成 === 

@@ -1,0 +1,161 @@
+[2026-05-26 16:35:46] [INFO] === 加载 Step2 输出的 RData === 
+[2026-05-26 16:35:46] [INFO] RData 文件路径： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/efs.RData 
+[2026-05-26 16:35:48] [INFO] RData 加载完成 
+[2026-05-26 16:35:48] [INFO] RData 中可用模型数： 9 
+[2026-05-26 16:35:48] [INFO] 背景训练集样本数： 30 
+[2026-05-26 16:35:48] [INFO] 解释特征数： 18 
+[2026-05-26 16:35:48] [INFO] SHAP 图展示特征数： 18 
+[2026-05-26 16:35:48] [INFO] 目标模型： glmnet, xgboost, rf, svm, naive_bayes, kknn, rpart, adaboost, nnet 
+[2026-05-26 16:35:48] [INFO] 目标数据集： train, test, valid 
+[2026-05-26 16:35:48] [INFO] SHAP 质量判定优先级： test > cv > train 
+[2026-05-26 16:35:48] [INFO] SHAP 最低 AUC 阈值： 0.500001 
+[2026-05-26 16:35:48] [INFO] 未指定 waterfall 样本；按组自动选择：case, control；每组 1 个样本 
+[2026-05-26 16:35:48] [INFO] Force 图输出： TRUE 
+[2026-05-26 16:35:48] [INFO]  
+[2026-05-26 16:35:48] [INFO] === 开始处理模型： glmnet  === 
+[2026-05-26 16:35:48] [INFO] 处理数据集： train 
+[2026-05-26 16:35:48] [INFO] 开始 SHAP 计算：模型= glmnet  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:35:54] [INFO] SHAP 计算完成：模型= glmnet  数据集= train 
+[2026-05-26 16:35:54] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:35:56] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:35:56] [INFO] 处理数据集： test 
+[2026-05-26 16:35:56] [INFO] 开始 SHAP 计算：模型= glmnet  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:36:02] [INFO] SHAP 计算完成：模型= glmnet  数据集= test 
+[2026-05-26 16:36:02] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:36:04] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:36:04] [INFO] 处理数据集： valid 
+[2026-05-26 16:36:04] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:36:04] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/glmnet/glmnet_SHAP.xlsx 
+[2026-05-26 16:36:04] [INFO] === 模型处理完成： glmnet  === 
+[2026-05-26 16:36:04] [INFO]  
+[2026-05-26 16:36:04] [INFO] === 开始处理模型： xgboost  === 
+[2026-05-26 16:36:04] [INFO] 处理数据集： train 
+[2026-05-26 16:36:04] [INFO] 开始 SHAP 计算：模型= xgboost  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:36:11] [INFO] SHAP 计算完成：模型= xgboost  数据集= train 
+[2026-05-26 16:36:11] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:36:13] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:36:13] [INFO] 处理数据集： test 
+[2026-05-26 16:36:13] [INFO] 开始 SHAP 计算：模型= xgboost  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:36:20] [INFO] SHAP 计算完成：模型= xgboost  数据集= test 
+[2026-05-26 16:36:20] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:36:22] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:36:22] [INFO] 处理数据集： valid 
+[2026-05-26 16:36:22] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:36:23] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/xgboost/xgboost_SHAP.xlsx 
+[2026-05-26 16:36:23] [INFO] === 模型处理完成： xgboost  === 
+[2026-05-26 16:36:23] [INFO]  
+[2026-05-26 16:36:23] [INFO] === 开始处理模型： rf  === 
+[2026-05-26 16:36:23] [INFO] 处理数据集： train 
+[2026-05-26 16:36:23] [INFO] 开始 SHAP 计算：模型= rf  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:37:04] [INFO] SHAP 计算完成：模型= rf  数据集= train 
+[2026-05-26 16:37:04] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:37:06] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:37:06] [INFO] 处理数据集： test 
+[2026-05-26 16:37:06] [INFO] 开始 SHAP 计算：模型= rf  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:37:42] [INFO] SHAP 计算完成：模型= rf  数据集= test 
+[2026-05-26 16:37:42] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:37:44] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:37:44] [INFO] 处理数据集： valid 
+[2026-05-26 16:37:44] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:37:45] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/rf/rf_SHAP.xlsx 
+[2026-05-26 16:37:45] [INFO] === 模型处理完成： rf  === 
+[2026-05-26 16:37:45] [INFO]  
+[2026-05-26 16:37:45] [INFO] === 开始处理模型： svm  === 
+[2026-05-26 16:37:45] [INFO] 处理数据集： train 
+[2026-05-26 16:37:45] [INFO] 开始 SHAP 计算：模型= svm  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:37:52] [INFO] SHAP 计算完成：模型= svm  数据集= train 
+[2026-05-26 16:37:52] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:37:54] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:37:54] [INFO] 处理数据集： test 
+[2026-05-26 16:37:54] [INFO] 开始 SHAP 计算：模型= svm  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:38:01] [INFO] SHAP 计算完成：模型= svm  数据集= test 
+[2026-05-26 16:38:01] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:38:02] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:38:02] [INFO] 处理数据集： valid 
+[2026-05-26 16:38:02] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:38:03] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/svm/svm_SHAP.xlsx 
+[2026-05-26 16:38:03] [INFO] === 模型处理完成： svm  === 
+[2026-05-26 16:38:03] [INFO]  
+[2026-05-26 16:38:03] [INFO] === 开始处理模型： naive_bayes  === 
+[2026-05-26 16:38:03] [INFO] 处理数据集： train 
+[2026-05-26 16:38:03] [INFO] 开始 SHAP 计算：模型= naive_bayes  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:39:44] [INFO] SHAP 计算完成：模型= naive_bayes  数据集= train 
+[2026-05-26 16:39:44] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:39:46] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:39:46] [INFO] 处理数据集： test 
+[2026-05-26 16:39:46] [INFO] 开始 SHAP 计算：模型= naive_bayes  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:41:02] [INFO] SHAP 计算完成：模型= naive_bayes  数据集= test 
+[2026-05-26 16:41:02] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:41:03] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:41:03] [INFO] 处理数据集： valid 
+[2026-05-26 16:41:03] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:41:03] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/naive_bayes/naive_bayes_SHAP.xlsx 
+[2026-05-26 16:41:03] [INFO] === 模型处理完成： naive_bayes  === 
+[2026-05-26 16:41:03] [INFO]  
+[2026-05-26 16:41:03] [INFO] === 开始处理模型： kknn  === 
+[2026-05-26 16:41:03] [INFO] 处理数据集： train 
+[2026-05-26 16:41:03] [INFO] 开始 SHAP 计算：模型= kknn  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:41:52] [INFO] SHAP 计算完成：模型= kknn  数据集= train 
+[2026-05-26 16:41:52] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:41:54] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:41:54] [INFO] 处理数据集： test 
+[2026-05-26 16:41:54] [INFO] 开始 SHAP 计算：模型= kknn  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:42:34] [INFO] SHAP 计算完成：模型= kknn  数据集= test 
+[2026-05-26 16:42:34] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:42:36] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:42:36] [INFO] 处理数据集： valid 
+[2026-05-26 16:42:36] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:42:36] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/kknn/kknn_SHAP.xlsx 
+[2026-05-26 16:42:36] [INFO] === 模型处理完成： kknn  === 
+[2026-05-26 16:42:36] [INFO]  
+[2026-05-26 16:42:36] [INFO] === 开始处理模型： rpart  === 
+[2026-05-26 16:42:36] [INFO] 处理数据集： train 
+[2026-05-26 16:42:36] [INFO] 开始 SHAP 计算：模型= rpart  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:42:43] [INFO] SHAP 计算完成：模型= rpart  数据集= train 
+[2026-05-26 16:42:43] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:42:45] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:42:45] [INFO] 处理数据集： test 
+[2026-05-26 16:42:45] [INFO] 开始 SHAP 计算：模型= rpart  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:42:52] [INFO] SHAP 计算完成：模型= rpart  数据集= test 
+[2026-05-26 16:42:52] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:42:54] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:42:54] [INFO] 处理数据集： valid 
+[2026-05-26 16:42:54] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:42:54] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/rpart/rpart_SHAP.xlsx 
+[2026-05-26 16:42:54] [INFO] === 模型处理完成： rpart  === 
+[2026-05-26 16:42:54] [INFO]  
+[2026-05-26 16:42:54] [INFO] === 开始处理模型： adaboost  === 
+[2026-05-26 16:42:54] [WARNING] adaboost模型RData反序列化后不可预测；使用保存的调参参数重建用于SHAP的模型 
+[2026-05-26 16:42:54] [INFO] 处理数据集： train 
+[2026-05-26 16:42:54] [INFO] 开始 SHAP 计算：模型= adaboost  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:43:09] [INFO] SHAP 计算完成：模型= adaboost  数据集= train 
+[2026-05-26 16:43:09] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:43:10] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:43:10] [INFO] 处理数据集： test 
+[2026-05-26 16:43:10] [INFO] 开始 SHAP 计算：模型= adaboost  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:43:25] [INFO] SHAP 计算完成：模型= adaboost  数据集= test 
+[2026-05-26 16:43:25] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:43:27] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:43:27] [INFO] 处理数据集： valid 
+[2026-05-26 16:43:27] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:43:27] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/adaboost/adaboost_SHAP.xlsx 
+[2026-05-26 16:43:27] [INFO] === 模型处理完成： adaboost  === 
+[2026-05-26 16:43:27] [INFO]  
+[2026-05-26 16:43:27] [INFO] === 开始处理模型： nnet  === 
+[2026-05-26 16:43:27] [INFO] 处理数据集： train 
+[2026-05-26 16:43:27] [INFO] 开始 SHAP 计算：模型= nnet  数据集= train  样本数= 24  背景样本数= 30  m= 8 
+[2026-05-26 16:43:35] [INFO] SHAP 计算完成：模型= nnet  数据集= train 
+[2026-05-26 16:43:35] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:43:37] [INFO] Waterfall 样本映射： case1=AF33, control1=HC1 
+[2026-05-26 16:43:37] [INFO] 处理数据集： test 
+[2026-05-26 16:43:37] [INFO] 开始 SHAP 计算：模型= nnet  数据集= test  样本数= 24  背景样本数= 30  m= 6 
+[2026-05-26 16:43:45] [INFO] SHAP 计算完成：模型= nnet  数据集= test 
+[2026-05-26 16:43:45] [INFO] SHAP 对象构建输入：S_dim= 24x18  X_dim= 24x18 
+[2026-05-26 16:43:46] [INFO] Waterfall 样本映射： case1=AF37, control1=HC2 
+[2026-05-26 16:43:46] [INFO] 处理数据集： valid 
+[2026-05-26 16:43:46] [WARNING] 数据集不可用或为空，跳过： valid 
+[2026-05-26 16:43:47] [INFO] 已生成模型 SHAP Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/nnet/nnet_SHAP.xlsx 
+[2026-05-26 16:43:47] [INFO] === 模型处理完成： nnet  === 
+[2026-05-26 16:43:48] [INFO] 已生成 SHAP 汇总 Excel： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/step3_shap_summary.xlsx 
+[2026-05-26 16:43:48] [INFO] 已生成 SHAP 状态表： /Users/colinliu/Desktop/mlr3_docker_tutorial/lina_20260515/reproduce_gp01_hc_af_af_positive_fullrerun_20260526_1531/run_model_0.2_oral_bacteria_step2/step3_shap_formal_case_control_force_20260526/step3_shap_status.tsv 
+[2026-05-26 16:43:48] [INFO] === Step3 SHAP 分析完成 === 

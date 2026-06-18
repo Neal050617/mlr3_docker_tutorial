@@ -1,0 +1,11 @@
+file	samples	features	group_file	groups
+model_0.1_con_laec_microbiome_246.tsv	246	327	map-group_con_laec_246.txt	Con=118;LAEC=128
+model_0.2_con_laec_metabolome_246.tsv	246	1802	map-group_con_laec_246.txt	Con=118;LAEC=128
+model_0.3_con_laec_multiomics_246.tsv	246	2129	map-group_con_laec_246.txt	Con=118;LAEC=128
+model_1.0_clinical_77.tsv	77	15	map-group_nrt_response_77.txt	NP_NRT=63;P_NRT=14
+model_1.1_clinical_microbiome_77.tsv	77	301	map-group_nrt_response_77.txt	NP_NRT=63;P_NRT=14
+model_1.2_clinical_metabolome_77.tsv	77	1817	map-group_nrt_response_77.txt	NP_NRT=63;P_NRT=14
+model_1.3_clinical_multiomics_77.tsv	77	2103	map-group_nrt_response_77.txt	NP_NRT=63;P_NRT=14
+model_1.4_clinical_microbiome_delta_77.tsv	77	274	map-group_nrt_response_77.txt	NP_NRT=63;P_NRT=14
+model_1.5_clinical_metabolome_delta_77.tsv	77	1817	map-group_nrt_response_77.txt	NP_NRT=63;P_NRT=14
+model_1.6_clinical_multiomics_delta_77.tsv	77	2076	map-group_nrt_response_77.txt	NP_NRT=63;P_NRT=14

@@ -4,6 +4,9 @@
 !.cursor/
 !.github/
 !scripts/
+!docs/
+!resources/
+!mobior_v0.0.6/
 
 # 但是要忽略临时文件
 .vscode/extensions_list.txt
@@ -30,3 +33,155 @@ Thumbs.db
 # 环境文件
 .env
 *.log 
+
+# Local editor, cache, and runtime scratch
+.Rhistory
+.Rproj.user/
+.quarto/
+__pycache__/
+*.tmp
+*.bak
+*.swp
+.~*
+~$*
+
+# Runtime package libraries and large generated resources
+R_package_mobio/
+R_packages_mobio/
+chaoliu_R_package_mobio/
+lvyan_R_package_mobio/
+**/site-library/
+**/library/
+**/.r_libs/
+mobior_v0.0.6/vendor_packages/
+
+# Large runtime artifacts should live on the server and be represented by manifests
+*.tar
+*.tar.gz
+*.tgz
+*.Rdata
+*.rda
+*.rds
+*.rdb
+*.rdx
+*.so
+*.npy
+*.npz
+*.pkl
+*.joblib
+resources/db/
+resources/cache/
+
+# Modeling result roots and generated analysis outputs.
+# Keep these on the server or move them with explicit rsync jobs, not through Git.
+**/reproduce_*/
+**/reproduce-*/
+**/run_model*_step2*/
+**/step2.interrupted*/
+**/step3_shap*/
+**/step3_shap_*/
+**/archive/
+**/output/
+**/outputs/
+**/analysis_report/
+**/model_analysis_results*/
+**/model_performance_comparison*/
+**/shap_output*/
+**/SHAP_OUTPUT*/
+**/efs*/
+**/efs_test*/
+**/*_files/
+**/fig/
+**/中间文件/
+python_xgboost_shap/output/
+data_for_analysis/**/analysis_report/
+
+# Generated report/image/table artifacts. Curated small TSV/MD summaries should
+# live under docs/ or resources/*_manifests/ instead of result directories.
+*.html
+*.htm
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.svg
+*.pptx
+*.ppt
+*.xls
+*.xlsx
+*.xlsm
+*.csv.gz
+*.tsv.gz
+*.json.gz
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.sqlite
+*.sqlite3
+*.db
+
+# Re-allow lightweight repository assets after broad artifact ignores.
+!README.md
+!**/README.md
+!docs/**/*.md
+!docs/**/*.tsv
+!scripts/**/*.R
+!scripts/**/*.r
+!scripts/**/*.sh
+!mobior_v0.0.6/**/*.R
+!mobior_v0.0.6/**/*.sh
+!mobior_v0.0.6/Dockerfile
+!mobior_v0.0.6/docker-compose.yml
+!mobior_v0.0.6/**/*.md
+!mobior_v0.0.6/**/*.tsv
+!resources/**/*.md
+!resources/package_manifests/**/*.tsv
+!resources/result_manifests/**/*.tsv
+!resources/result_manifests/**/*.md
+!**/input*/**/*.csv
+!**/input*/**/*.tsv
+!**/input*/**/*.txt
+!**/input*/**/*.xls
+!**/input*/**/*.xlsx
+!**/inputs*/**/*.csv
+!**/inputs*/**/*.tsv
+!**/inputs*/**/*.txt
+!**/inputs*/**/*.xls
+!**/inputs*/**/*.xlsx
+!**/test_data/**/*.csv
+!**/test_data/**/*.tsv
+!**/test_data/**/*.txt
+
+# Legacy compatibility client-source copies. The canonical Git layout is under clients/.
+lina_20251208/README.md
+lina_20251208/20260403_lilei/README.md
+lina_20251208/20260403_lilei/docs/
+lina_20251208/20260403_lilei/scripts/
+lina_20251208/20260403_lilei/v0.2.2_inputs_corrected/
+lina_20260515/README.md
+lina_20260515/docs/
+lina_20260515/scripts/
+lina_20260515/v0.2.2_inputs_gp01_hc_af/
+
+# clients/ is the canonical customer archive tree. Result directories may exist
+# there, but large/generated file types above remain ignored by Git.
+!clients/
+!clients/**/
+!clients/**/*.md
+!clients/**/*.txt
+!clients/**/*.R
+!clients/**/*.r
+!clients/**/*.sh
+!clients/**/*.py
+!clients/**/*.tsv
+!clients/**/*.csv
+!clients/**/README.md
+
+# CSV inputs may be tracked, but generated result CSVs should move with result rsync.
+clients/**/results/**/*.csv
+
+# Full legacy source mirrors live under clients for cleanup/audit, but are
+# synchronized by rsync rather than Git.
+clients/**/legacy_mirror/**

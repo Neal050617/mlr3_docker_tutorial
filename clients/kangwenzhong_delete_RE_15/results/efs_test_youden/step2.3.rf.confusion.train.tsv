@@ -1,0 +1,2 @@
+Model	Dataset	Threshold	TP	FP	TN	FN	ACC	CE
+rf	train	0.5030004240882103	25	0	55	0	1	0

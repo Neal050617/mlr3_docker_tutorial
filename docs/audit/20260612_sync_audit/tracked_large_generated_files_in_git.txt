@@ -1,0 +1,21 @@
+# Tracked large/input-like files still in Git index
+# generated_at: 2026-06-17 11:48:00 +0800
+
+These files remain tracked after removing clear generated modeling outputs from the Git index.
+They were not removed automatically because their names suggest possible raw inputs, sample maps, or analysis request sheets.
+Review them during the client-directory migration and decide whether they should become curated inputs under `clients/*/inputs/` or be removed from Git with `git rm --cached`.
+
+```text
+daixie/ParameterTue_Apr__8_02_06_29_2025.xls
+daixie/new.all.metabo-env.xls
+data_for_analysis/20250211-mlr-JINYU/3-补充后数据汇总（脱敏版）-20250207-慕柏反馈-确认+Y列数据校准.xlsx
+data_for_analysis/20250211-mlr-JINYU/step1_data14.xls
+data_for_analysis/20250211-mlr-JINYU/step2_data14.xls
+data_for_analysis/20250211-mlr-JINYU/step3_data14.xls
+data_for_analysis/20250211-mlr-JINYU/分析内容清单-20250212.xlsx
+data_for_analysis/rarefac.ASV_genus.xls
+data_for_analysis/rarefac.Wilcoxon_rank_sum_unpaired.ALL.xls
+data_for_analysis/valid.rarefac.ASV_genus.xls
+lina/ParameterWed_Apr__9_03_43_54_2025.xls
+lina/rarefac.ASV_genus.xls
+```

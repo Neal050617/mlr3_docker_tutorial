@@ -1,0 +1,24 @@
+package	load_name	source_type	install_ref	profile	availability
+GseaVis	GseaVis	github	junjunlab/GseaVis	full	github_manifest
+KEGG.db	KEGG.db	local_or_generated	createKEGGdb output or local KEGG.db_1.0.tar.gz	full	local_or_generated
+linkXTS	linkXTS	existing_library		library	unknown
+mvtnormAPI	mvtnormAPI	existing_library		library	unknown
+org.testing.db	org.testing.db	existing_library		library	unknown
+qs	qs	cran;existing_library		full;library	unknown
+RcppProgressArmadillo	RcppProgressArmadillo	existing_library		library	unknown
+RcppProgressETA	RcppProgressETA	existing_library		library	unknown
+RcppProgressExample	RcppProgressExample	existing_library		library	unknown
+RStanTest	RStanTest	existing_library		library	unknown
+testRcppAttributePackage	testRcppAttributePackage	existing_library		library	unknown
+testRcppClass	testRcppClass	existing_library		library	unknown
+testRcppInterfaceExporter	testRcppInterfaceExporter	existing_library		library	unknown
+testRcppInterfaceUser	testRcppInterfaceUser	existing_library		library	unknown
+testRcppModule	testRcppModule	existing_library		library	unknown
+testRcppPackage	testRcppPackage	existing_library		library	unknown
+translations	translations	existing_library		library	unknown
+vscDebugger	vscDebugger	existing_library		library	unknown
+zigguserDirectC	zigguserDirectC	existing_library		library	unknown
+zigguserDirectCpp	zigguserDirectCpp	existing_library		library	unknown
+zigguserHeaderCpp	zigguserHeaderCpp	existing_library		library	unknown
+zigguserHeaderRcpp	zigguserHeaderRcpp	existing_library		library	unknown
+zlibbioc	zlibbioc	existing_library		library	unknown

@@ -1,0 +1,72 @@
+Branch_ID	Branch_Label	Model	SHAP_File
+0.1	Con-LAEC 菌群	adaboost	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx
+0.1	Con-LAEC 菌群	glmnet	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+0.1	Con-LAEC 菌群	kknn	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+0.1	Con-LAEC 菌群	naive_bayes	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+0.1	Con-LAEC 菌群	nnet	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+0.1	Con-LAEC 菌群	rf	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+0.1	Con-LAEC 菌群	rpart	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/rpart/rpart_SHAP.xlsx
+0.1	Con-LAEC 菌群	svm	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+0.1	Con-LAEC 菌群	xgboost	run_model_0.1_step2/step3_shap_formal_case_control_force_20260527/xgboost/xgboost_SHAP.xlsx
+0.2	Con-LAEC 代谢组	adaboost	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx
+0.2	Con-LAEC 代谢组	glmnet	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+0.2	Con-LAEC 代谢组	kknn	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+0.2	Con-LAEC 代谢组	naive_bayes	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+0.2	Con-LAEC 代谢组	nnet	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+0.2	Con-LAEC 代谢组	rf	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+0.2	Con-LAEC 代谢组	rpart	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/rpart/rpart_SHAP.xlsx
+0.2	Con-LAEC 代谢组	svm	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+0.2	Con-LAEC 代谢组	xgboost	run_model_0.2_step2/step3_shap_formal_case_control_force_20260527/xgboost/xgboost_SHAP.xlsx
+0.3	Con-LAEC 多组学	adaboost	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx
+0.3	Con-LAEC 多组学	glmnet	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+0.3	Con-LAEC 多组学	kknn	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+0.3	Con-LAEC 多组学	naive_bayes	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+0.3	Con-LAEC 多组学	nnet	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+0.3	Con-LAEC 多组学	rf	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+0.3	Con-LAEC 多组学	rpart	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/rpart/rpart_SHAP.xlsx
+0.3	Con-LAEC 多组学	svm	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+0.3	Con-LAEC 多组学	xgboost	run_model_0.3_step2/step3_shap_formal_case_control_force_20260527/xgboost/xgboost_SHAP.xlsx
+1.0	临床基线	glmnet	run_model_1.0_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+1.0	临床基线	kknn	run_model_1.0_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+1.0	临床基线	naive_bayes	run_model_1.0_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+1.0	临床基线	nnet	run_model_1.0_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+1.0	临床基线	rf	run_model_1.0_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+1.0	临床基线	rpart	run_model_1.0_step2/step3_shap_formal_case_control_force_20260527/rpart/rpart_SHAP.xlsx
+1.0	临床基线	svm	run_model_1.0_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+1.1	临床 + NRT前菌群	adaboost	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx
+1.1	临床 + NRT前菌群	glmnet	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+1.1	临床 + NRT前菌群	kknn	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+1.1	临床 + NRT前菌群	naive_bayes	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+1.1	临床 + NRT前菌群	nnet	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+1.1	临床 + NRT前菌群	rf	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+1.1	临床 + NRT前菌群	svm	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+1.1	临床 + NRT前菌群	xgboost	run_model_1.1_step2/step3_shap_formal_case_control_force_20260527/xgboost/xgboost_SHAP.xlsx
+1.2	临床 + NRT前代谢组	adaboost	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx
+1.2	临床 + NRT前代谢组	glmnet	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+1.2	临床 + NRT前代谢组	kknn	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+1.2	临床 + NRT前代谢组	naive_bayes	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+1.2	临床 + NRT前代谢组	nnet	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+1.2	临床 + NRT前代谢组	rf	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+1.2	临床 + NRT前代谢组	rpart	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/rpart/rpart_SHAP.xlsx
+1.2	临床 + NRT前代谢组	svm	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+1.2	临床 + NRT前代谢组	xgboost	run_model_1.2_step2/step3_shap_formal_case_control_force_20260527/xgboost/xgboost_SHAP.xlsx
+1.3	临床 + NRT前多组学	glmnet	run_model_1.3_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+1.3	临床 + NRT前多组学	naive_bayes	run_model_1.3_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+1.3	临床 + NRT前多组学	nnet	run_model_1.3_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+1.3	临床 + NRT前多组学	svm	run_model_1.3_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+1.4	临床 + 菌群差值	adaboost	run_model_1.4_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx
+1.4	临床 + 菌群差值	glmnet	run_model_1.4_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+1.4	临床 + 菌群差值	kknn	run_model_1.4_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+1.4	临床 + 菌群差值	naive_bayes	run_model_1.4_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+1.4	临床 + 菌群差值	nnet	run_model_1.4_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+1.4	临床 + 菌群差值	rf	run_model_1.4_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+1.4	临床 + 菌群差值	svm	run_model_1.4_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+1.6	临床 + 多组学差值	adaboost	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/adaboost/adaboost_SHAP.xlsx
+1.6	临床 + 多组学差值	glmnet	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/glmnet/glmnet_SHAP.xlsx
+1.6	临床 + 多组学差值	kknn	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/kknn/kknn_SHAP.xlsx
+1.6	临床 + 多组学差值	naive_bayes	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/naive_bayes/naive_bayes_SHAP.xlsx
+1.6	临床 + 多组学差值	nnet	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/nnet/nnet_SHAP.xlsx
+1.6	临床 + 多组学差值	rf	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/rf/rf_SHAP.xlsx
+1.6	临床 + 多组学差值	rpart	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/rpart/rpart_SHAP.xlsx
+1.6	临床 + 多组学差值	svm	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/svm/svm_SHAP.xlsx
+1.6	临床 + 多组学差值	xgboost	run_model_1.6_step2/step3_shap_formal_case_control_force_20260527/xgboost/xgboost_SHAP.xlsx

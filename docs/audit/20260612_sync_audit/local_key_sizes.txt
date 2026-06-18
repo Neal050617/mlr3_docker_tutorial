@@ -1,0 +1,9 @@
+# command: bash -lc $'\ndu -sh mobior_v0.0.5 mobior_v0.0.6 lina_20251208/20260403_lilei lina_20260515 scripts skills 2>/dev/null || true\n'
+# generated_at: 2026-06-17 10:41:20 +0800
+
+172K	mobior_v0.0.5
+196K	mobior_v0.0.6
+414M	lina_20251208/20260403_lilei
+164M	lina_20260515
+416K	scripts
+ 32K	skills

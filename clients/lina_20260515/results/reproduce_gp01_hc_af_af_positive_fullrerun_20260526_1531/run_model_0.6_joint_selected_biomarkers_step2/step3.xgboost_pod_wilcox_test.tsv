@@ -1,0 +1,3 @@
+statistic	p.value	method	alternative	data
+2516	7.983735639254304e-18	Wilcoxon rank sum test with continuity correction	two.sided	train
+300	6.781849749779828e-7	Wilcoxon rank sum test with continuity correction	two.sided	test

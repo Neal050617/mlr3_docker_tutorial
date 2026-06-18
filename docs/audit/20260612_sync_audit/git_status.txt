@@ -1,0 +1,77 @@
+# command: git status --short
+# generated_at: 2026-06-17 10:41:20 +0800
+
+ M .gitignore
+ M .vscode/settings.json
+ D Dockerfile
+ D README.md
+ D create_rstudio_modio_no_port.sh
+ D daixie/ParameterTue_Apr__8_02_06_29_2025.xls
+ D daixie/efs.R
+ D daixie/efs123/model_performance_comparison.xlsx
+ D daixie/efs123/split.map-group.txt
+ D daixie/map-group.txt
+ D daixie/model_analysis_results.xlsx
+ D daixie/model_performance_comparison.xls
+ D daixie/model_performance_comparison.xlsx
+ D daixie/new.all.metabo-env.xls
+ D daixie/recovered_functions.R
+ D daixie/split.map-group.txt
+ D daixie/test_rfe.R
+ M data_for_analysis/20250211-mlr-JINYU/step3.R
+ M data_for_analysis/20250211-mlr-JINYU/test2.2.2.4.efs.clinic.r
+ D docker-compose.yml
+ D entrypoint.sh
+ D git_tips.sh
+ D scripts/00_init-env.sh
+ D scripts/01_check_container.sh
+ D scripts/02_manage_settings.sh
+ D scripts/03_verify_environment.sh
+ D scripts/04_create_repo.sh
+ D scripts/code_server_install.sh
+ D scripts/generate_devcontainer.sh
+?? .claude/
+?? .codelf/
+?? .vscode/launch.json
+?? 20250729_jinyu/
+?? MLR3_PROJECT_DELIVERY_RULES.md
+?? Mime/
+?? data_for_analysis/20250211-mlr-JINYU/.~3-补充后数据汇总（脱敏版）-20250207-慕柏反馈-确认+Y列数据校准.xlsx
+?? data_for_analysis/20250211-mlr-JINYU/20250808/
+?? data_for_analysis/20250211-mlr-JINYU/MLR3_EFS_Tutorial.md
+?? data_for_analysis/20250211-mlr-JINYU/Methods_Section.md
+?? data_for_analysis/20250211-mlr-JINYU/efs_detailed_flowchart.py
+?? data_for_analysis/20250211-mlr-JINYU/ml_workflow_diagram.png
+?? data_for_analysis/20250211-mlr-JINYU/ml_workflow_diagram.py
+?? data_for_analysis/20250211-mlr-JINYU/tutorial.md
+?? data_for_analysis/20250908_金域数据单肺炎支原体感染数据建模_repeats20_seed123/
+?? data_for_analysis/金域_脚本/
+?? docs/
+?? git_tips如何不用每次输密码登录ssh-如何连接github.sh
+?? kangwenzhong/
+?? kangwenzhong_delete_RE_15/
+?? lina_20251208/
+?? lina_20260515/
+?? lina_valid/
+?? mobior_V0.0.2/
+?? mobior_v0.0.0.mlr3/
+?? mobior_v0.0.1/
+?? mobior_v0.0.3/
+?? mobior_v0.0.4/
+?? mobior_v0.0.5/
+?? mobior_v0.0.6/
+?? python_xgboost_shap/
+?? regression_mlr3/
+?? resources/
+?? scripts/README.md
+?? scripts/audit_repository_sync.sh
+?? scripts/efs_valid_plus_step1.v0.2.2.R
+?? scripts/efs_valid_plus_step2.v0.2.2.R
+?? scripts/efs_valid_plus_step3.v0.2.2.R
+?? scripts/redraw_mlr3_efs_diagnostics.R
+?? scripts/redraw_mlr3_shap_local_plots.R
+?? scripts/repair_mlr3_threshold_columns.R
+?? scripts/run_mlr3_shap_all.sh
+?? scripts/summarize_mlr3_results.R
+?? skills/
+?? wangxueping_alltax2/

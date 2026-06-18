@@ -1,0 +1,7 @@
+model_id	modality	label_cn	input_file	preset	samples	features	group_file	groups
+0.1	metabolome	非靶代谢	model_0.1_gp01_hc_af_metabolome_145.tsv	metabolome_standard	145	59	map-group_gp01_hc_af_common_145.txt	AF=99;HC=46
+0.2	oral_bacteria	口腔细菌属	model_0.2_gp01_hc_af_oral_bacteria_145.tsv	microbiome_standard	145	144	map-group_gp01_hc_af_common_145.txt	AF=99;HC=46
+0.3	oral_fungi	口腔真菌属	model_0.3_gp01_hc_af_oral_fungi_145.tsv	microbiome_standard	145	159	map-group_gp01_hc_af_common_145.txt	AF=99;HC=46
+0.4	gut_bacteria	肠道细菌属	model_0.4_gp01_hc_af_gut_bacteria_145.tsv	microbiome_standard	145	210	map-group_gp01_hc_af_common_145.txt	AF=99;HC=46
+0.5	gut_fungi	肠道真菌属	model_0.5_gp01_hc_af_gut_fungi_145.tsv	microbiome_standard	145	119	map-group_gp01_hc_af_common_145.txt	AF=99;HC=46
+0.6	joint_selected_biomarkers	5组学单模型入选biomarkers联合	model_0.6_gp01_hc_af_joint_selected_biomarkers_145.tsv	mixed_omics	145	97	map-group_gp01_hc_af_common_145.txt	AF=99;HC=46

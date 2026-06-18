@@ -1,0 +1,11 @@
+Branch	step2_dir	xlsx_exists	rdata_exists	biomarker_tsv_exists	first_sheet	last_sheet	n_models	n_biomarker_rows	has_auc_direction_cols	low_auc_models	constant_prob_models	prefixed_desc_count	selected_prefixed_text
+run_model_0.1	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_0.1_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	270	TRUE			0	FALSE
+run_model_0.2	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_0.2_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	207	TRUE			0	FALSE
+run_model_0.3	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_0.3_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	216	TRUE			0	FALSE
+run_model_1.0	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_1.0_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	135	TRUE	adaboost	xgboost	0	FALSE
+run_model_1.1	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_1.1_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	108	TRUE			0	FALSE
+run_model_1.2	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_1.2_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	108	TRUE			0	FALSE
+run_model_1.3	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_1.3_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	153	TRUE	nnet		0	FALSE
+run_model_1.4	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_1.4_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	90	TRUE	rpart	xgboost	0	FALSE
+run_model_1.5	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_1.5_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	117	TRUE			0	FALSE
+run_model_1.6	lina_20251208/20260403_lilei/reproduce_formal_v006_msi12_name_20260609_000808/run_model_1.6_step2	TRUE	TRUE	TRUE	入模Biomarker	模型比较	9	126	TRUE	rpart		0	FALSE

@@ -1,0 +1,3 @@
+display_name: mlr3 Project Delivery
+short_description: Standardize mlr3 delivery packages
+default_prompt: Use this skill to audit or package an mlr3 modeling project so it follows the consolidated delivery structure, cleans redundant threshold columns, and generates formal result summaries without unsupported best-model claims.

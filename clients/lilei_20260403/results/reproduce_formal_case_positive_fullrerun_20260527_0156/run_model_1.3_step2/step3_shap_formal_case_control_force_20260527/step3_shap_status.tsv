@@ -1,0 +1,28 @@
+Model	Dataset	Status	Message
+glmnet	train	completed	n=57, m=20
+glmnet	test	completed	n=20, m=12
+glmnet	valid	skipped	dataset unavailable
+xgboost	train	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4062 < 0.5000
+xgboost	test	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4062 < 0.5000
+xgboost	valid	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4062 < 0.5000
+rf	train	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4531 < 0.5000
+rf	test	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4531 < 0.5000
+rf	valid	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4531 < 0.5000
+svm	train	completed	n=57, m=20
+svm	test	completed	n=20, m=12
+svm	valid	skipped	dataset unavailable
+naive_bayes	train	completed	n=57, m=20
+naive_bayes	test	completed	n=20, m=12
+naive_bayes	valid	skipped	dataset unavailable
+kknn	train	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.5000 < 0.5000
+kknn	test	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.5000 < 0.5000
+kknn	valid	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.5000 < 0.5000
+rpart	train	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4062 < 0.5000
+rpart	test	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4062 < 0.5000
+rpart	valid	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.4062 < 0.5000
+adaboost	train	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.3906 < 0.5000
+adaboost	test	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.3906 < 0.5000
+adaboost	valid	skipped_poor_model	模型效果低于 SHAP 阈值；Test_AUC=0.3906 < 0.5000
+nnet	train	completed	n=57, m=20
+nnet	test	completed	n=20, m=12
+nnet	valid	skipped	dataset unavailable

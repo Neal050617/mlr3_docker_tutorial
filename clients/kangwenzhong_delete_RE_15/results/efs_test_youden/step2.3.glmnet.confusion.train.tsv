@@ -1,0 +1,2 @@
+Model	Dataset	Threshold	TP	FP	TN	FN	ACC	CE
+glmnet	train	0.4425988608383239	19	6	49	6	0.85	0.15000000000000002

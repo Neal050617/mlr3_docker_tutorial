@@ -1,0 +1,1803 @@
+feature_id	raw_id	raw_name	mz	rt	class	sub_class
+Metabolite_M466T385_2	M466T385_2	Glycocholic acid	466.3162	385.3	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M102T56_2	M102T56_2	Pentanamide	102.0913	55.9	Fatty Acyls	Fatty amides
+Metabolite_M573T560_2	M573T560_2	20,21-Diprenylterpendole I	573.381	560.2		
+Metabolite_M104T53	M104T53	γ-Aminobutyric acid	104.0705	52.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M162T51	M162T51	Carnitine	162.1123	51.3		
+Metabolite_M316T387	M316T387	Decanoylcarnitine (C10)	316.2479	387.3	Fatty Acyls	Fatty acid esters
+Metabolite_M118T196	M118T196	Indole-3-carboxylic acid	118.065	196	Indoles and derivatives	Indolecarboxylic acids and derivatives
+Metabolite_M400T498	M400T498	Palmitoylcarnitine	400.3417	498.5		
+Metabolite_M160T193	M160T193	6-hydroxy-N-methylmyosmine	160.0755	192.8		
+Metabolite_M119T73	M119T73	2-Hydroxyacetophenone	119.049	72.8	Organooxygen compounds	Carbonyl compounds
+Metabolite_M129T52	M129T52	(5R)-Dihydrothymine	129.0657	52		
+Metabolite_M107T103	M107T103	benzaldehyde	107.049	102.9		
+Metabolite_M153T72	M153T72	Xanthine	153.0405	71.7	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M733T533	M733T533	Plastoquinone 9	732.6213	533	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M114T73	M114T73	N-Acetyl-L-alanine	114.0548	72.7		
+Metabolite_M113T72	M113T72	Uracil	113.0344	71.8	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M149T103	M149T103	P-Coumaraldehyde	149.0595	102.8	Cinnamaldehydes	
+Metabolite_M169T361	M169T361	2,6-Dihydroxyphenylacetate	169.0493	360.9		
+Metabolite_M166T60	M166T60	Methionine sulfoxide	166.053	59.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M170T275	M170T275	8-Amino-7-oxononanoic acid	170.1173	275.4	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M148T57	M148T57	dihydro-3-hydroxy-4,4-dimethyl- 2(3H)-Furanone	148.0966	56.6	Lactones	Gamma butyrolactones
+Metabolite_M115T86	M115T86	Oxopent-4-enoate	115.0388	86.1		
+Metabolite_M149T412	M149T412	bornane-2,6-dione	149.0231	411.7		
+Metabolite_M226T445	M226T445	1-Methoxyphenanthrene	226.1223	444.6	Phenanthrenes and derivatives	
+Metabolite_M150T71	M150T71	L-Methionine	150.0581	71.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M156T45	M156T45	L-Histidine	156.0765	44.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M156T61	M156T61	3-(Pyrazol-1-yl)-L-alanine	156.0765	60.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M214T388_2	M214T388_2	Bornyl_acetate	214.1798	387.8		
+Metabolite_M153T75	M153T75	D-Arabitol	153.0656	75.3	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M171T345	M171T345	7,8-diaminopelargonate	171.1489	344.5	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M163T392	M163T392	Caffeic acid	163.0387	392.4	Cinnamic acids and derivatives	Hydroxycinnamic acids and derivatives
+Metabolite_M172T444	M172T444	(1R,4S,5R)-4-Thujanol	172.1693	444.4	Prenol lipids	Monoterpenoids
+Metabolite_M229T54	M229T54	3-Hydroxy-5-methyl-L-tyrosine	229.1179	53.7		
+Metabolite_M159T192	M159T192	N-hydroxyl-tryptamine	159.0914	192.5	Indoles and derivatives	Indoles
+Metabolite_M138T91	M138T91	Tyramine	138.0911	90.7	Benzene and substituted derivatives	Phenethylamines
+Metabolite_M269T382	M269T382	2,7-dihydroxy-4'-methoxyisoflavanone	269.2259	381.5	Isoflavonoids	O-methylated isoflavonoids
+Metabolite_M172T292	M172T292	N6,N6,N6-Trimethyl-L-lysine	172.1329	291.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M134T255	M134T255	Indolin-2-one	134.0598	255.1	Indoles and derivatives	Indolines
+Metabolite_M206T308	M206T308	Indole-3-lactic acid	206.0808	308.3	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M104T50	M104T50	2-Pentanone	104.1068	50.4	Organooxygen compounds	Carbonyl compounds
+Metabolite_M105T256	M105T256	2-Phenylethanol	105.0333	256	Benzene and substituted derivatives	
+Metabolite_M175T415	M175T415	1,3,6,8-Naphthalenetetrol	175.1478	414.6		
+Metabolite_M131T103	M131T103	3,4-Dihydro-2H-1-benzopyran-2-one	131.0489	102.9	3,4-dihydrocoumarins	
+Metabolite_M269T584	M269T584	10S-HpODE	269.247	583.9		
+Metabolite_M148T60	M148T60	3-Thiomorpholinecarboxylic acid	148.0424	60		
+Metabolite_M245T259	M245T259	Leucyl-leucine	245.1855	259.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M185T131	M185T131	p-Synephrine	185.1281	130.7	Phenols	1-hydroxy-2-unsubstituted benzenoids
+Metabolite_M194T327	M194T327	3-Carbamoyl-2-phenylpropionaldehyde	194.0808	327.1	Benzene and substituted derivatives	Phenylacetaldehydes
+Metabolite_M227T106	M227T106	3-Carbamoyl-2-phenylpropionic acid	227.1022	105.7	Benzene and substituted derivatives	
+Metabolite_M130T57	M130T57	L-Lysine	130.086	56.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M165T73	M165T73	2-Hydroxycinnamic acid	165.0543	72.8	Cinnamic acids and derivatives	Hydroxycinnamic acids and derivatives
+Metabolite_M129T83	M129T83	4-Amino-4-cyanobutanoic acid	129.0656	82.6		
+Metabolite_M151T50	M151T50	5,6-Dihydrothymine	151.0475	50.3	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M432T261_2	M432T261_2	Gentamicinc1A	432.2808	261.2		
+Metabolite_M211T90	M211T90	Phenylacetylglycine	211.1073	89.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M111T269	M111T269	(R)-Sulcatol	111.1166	269.3	Fatty Acyls	Fatty alcohols
+Metabolite_M133T54	M133T54	Asparagine	133.0605	53.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M101T94	M101T94	CYCLOHEXANOL	101.0595	94.4		
+Metabolite_M220T110	M220T110	Pantothenic acid	220.1175	110.5	Organooxygen compounds	Alcohols and polyols
+Metabolite_M288T424	M288T424	Heptadecanoic acid	288.2891	423.5	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M322T73	M322T73	Beta-Citryl-L-glutamic acid	322.0762	72.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M143T62	M143T62	Ectoine	143.0812	62.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M221T82	M221T82	4-Hydroxy-l-tryptophan	221.0916	82.5		
+Metabolite_M221T193	M221T193	N-Hydroxy-L-tryptophan	221.0916	192.8		
+Metabolite_M136T73	M136T73	P-Hydroxyphenylethanolamine	136.0754	72.8	Phenols	1-hydroxy-2-unsubstituted benzenoids
+Metabolite_M188T192	M188T192	5-Methoxyindoleacetate	188.0702	192.4	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M196T146	M196T146	Salicyluric acid	196.06	146	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M158T217	M158T217	cis-1,2-Dihydro-3-ethylcatechol	158.1172	216.9		
+Metabolite_M209T105	M209T105	L-Kynurenine	209.0916	104.8		
+Metabolite_M120T103	M120T103	Indoline	120.0805	102.8	Indoles and derivatives	Indolines
+Metabolite_M261T207	M261T207	Gamma-glutamyl-leucine	261.1439	206.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M132T76	M132T76	L-Isoleucine	132.1016	76	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M176T335	M176T335	Indoleacetic acid	176.0702	335	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M194T83	M194T83	EDDA	194.1171	83.4		
+Metabolite_M190T362	M190T362	Methyl indole-3-acetate	190.0858	362.2	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M219T117	M219T117	L-Lysopine	219.1334	116.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M247T234	M247T234	N-Acetyltryptophan	247.1435	233.8		
+Metabolite_M219T319_1	M219T319_1	latiluciferin	219.1738	318.9		
+Metabolite_M258T434	M258T434	Palmitaldehyde	258.2785	434.2	Fatty Acyls	Fatty aldehydes
+Metabolite_M286T623	M286T623	9beta-pimara-7,15-dien-19-oic acid	286.2284	622.7		
+Metabolite_M269T622	M269T622	8,13-Abietadien-18-al	269.2257	622.5	Prenol lipids	Diterpenoids
+Metabolite_M115T44	M115T44	Pyrrolidine-2-carboxamide	115.0863	43.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M114T52	M114T52	Creatinine	114.0659	51.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M182T73	M182T73	L-Tyrosine	182.0807	72.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M204T56_1	M204T56_1	Acetyl-L-carnitine	204.1225	56.4	Fatty Acyls	Fatty acid esters
+Metabolite_M247T90	M247T90	Gamma-Glutamylvaline	247.1282	89.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M132T52	M132T52	Creatine	132.0764	52.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M243T319	M243T319	Lumichrome	243.087	319.1	Pteridines and derivatives	Alloxazines and isoalloxazines
+Metabolite_M203T50	M203T50	Symmetric dimethylarginine	203.1497	49.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M380T460	M380T460	Sphingosine 1-phosphate	380.255	459.9	Sphingolipids	Phosphosphingolipids
+Metabolite_M232T133	M232T133	Butyrylcarnitine	232.1537	132.6	Fatty Acyls	Fatty acid esters
+Metabolite_M274T405	M274T405	Palmitic acid	274.2733	405.2	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M543T505_2	M543T505_2	Dihydrocucurbitacin B	543.3331	505.2		
+Metabolite_M144T54	M144T54	Stachydrine	144.1015	53.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M130T72	M130T72	Pyroglutamic acid	130.0495	72.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M259T72	M259T72	1-Pyrroline-4-hydroxy-2-carboxylate	259.0917	72.4	Pyrrolines	
+Metabolite_M218T319	M218T319	Dodecanoic acid	218.2108	318.8	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M309T44	M309T44	Fructosyllysine	309.1647	44	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M271T439	M271T439	Candol B	271.2412	438.6	Prenol lipids	Diterpenoids
+Metabolite_M247T60	M247T60	4,5-Secodopa	247.0917	60.5		
+Metabolite_M258T53	M258T53	Glycerophosphocholine	258.1093	52.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M276T74	M276T74	N-Fructosyl isoleucine	276.1433	74	Organooxygen compounds	Alcohols and polyols
+Metabolite_M280T589	M280T589	Linoleamide	280.2626	588.7	Fatty Acyls	Fatty amides
+Metabolite_M176T52	M176T52	Citrulline	176.1024	52.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M290T84	M290T84	Ophthalmic acid	290.1337	84.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M302T444	M302T444	Sphinganine	302.3043	444.2	Organonitrogen compounds	Amines
+Metabolite_M344T73	M344T73	Melilotoside	344.1328	72.6	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M282T82	M282T82	1-Methyladenosine	282.1187	81.6	Purine nucleosides	
+Metabolite_M319T690	M319T690	Epipregnanolone	319.262	689.5	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M309T597	M309T597	Thromboxane A2	309.2413	597.1	Fatty Acyls	Eicosanoids
+Metabolite_M731T464	M731T464	2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone	730.5795	464.4		
+Metabolite_M282T627	M282T627	Oleamide	282.2781	627.1	Fatty Acyls	Fatty amides
+Metabolite_M298T433	M298T433	Linoleic acid	298.2729	433.3	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M344T426	M344T426	Dodecanoylcarnitine	344.2782	426.1	Fatty Acyls	Fatty acid esters
+Metabolite_M357T486	M357T486	Dehydrolithocholic acid	357.2774	485.6		
+Metabolite_M358T518	M358T518	Behenic acid	358.3665	518.2	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M391T427	M391T427	β-Muricholic acid	391.2827	427	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M393T591	M393T591	(3a,5b,7a)-3,7-Dihydroxycholan-24-oic acid	393.2983	591.2	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M307T57	M307T57	N-Succinyl-2-amino-6-ketopimelate	307.1123	57	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M204T196	M204T196	3-Fumarylpyruvate	204.0494	196.4	Keto acids and derivatives	Medium-chain keto acids and derivatives
+Metabolite_M318T407_1	M318T407_1	4-Hydroxysphinganine	318.2989	407.5	Organonitrogen compounds	Amines
+Metabolite_M366T405	M366T405	17alpha,21-Dihydroxypregnenolone	366.2622	404.7	Steroids and steroid derivatives	Hydroxysteroids
+Metabolite_M450T430_2	M450T430_2	Deoxycholic acid glycine conjugate	450.3192	429.5	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M142T116	M142T116	5-(dihydroxymethyl)-2-furoic acid	141.9571	116.5		
+Metabolite_M266T254	M266T254	Thiamine	266.1209	254.2	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M102T72	M102T72	4-Methylaminobutanal	102.0908	71.5		
+Metabolite_M102T56_1	M102T56_1	2,3-didehydrobutyrine	102.0544	56		
+Metabolite_M118T56	M118T56	Betaine	118.0856	56.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M416T423	M416T423	Glycolithocholate	416.3135	423.5	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M181T33	M181T33	Phosphoenol-4-deoxy-3-tetrulosonate	180.9886	32.9		
+Metabolite_M547T603	M547T603	3-Hexaprenyl-4-hydroxybenzoic acid	547.4179	602.7	Prenol lipids	Polyprenylphenols
+Metabolite_M183T338	M183T338	4-Pyridoxolactone	183.0776	337.7	Pyridines and derivatives	Pyridinecarboxylic acids and derivatives
+Metabolite_M322T263	M322T263	4-Oxonebramine	322.2106	263.3		
+Metabolite_M500T395	M500T395	Taurodeoxycholic acid	500.3007	395.4	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M633T417_2	M633T417_2	Bacteriochlorophyllide a	633.2513	416.5		
+Metabolite_M154T75_1	M154T75_1	5-Ureido-4-imidazole carboxylate	154.0497	75.2		
+Metabolite_M450T388_1	M450T388_1	Glycine chenodeoxycholate	450.3179	388.1	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M204T56_2	M204T56_2	2-trans,6-trans-Farnesal	204.1856	56.2	Prenol lipids	Sesquiterpenoids
+Metabolite_M591T330_1	M591T330_1	Urobilinogen	591.3128	330.4	Tetrapyrroles and derivatives	Bilirubins
+Metabolite_M696T291_1	M696T291_1	Mycinamicin IV	696.4259	291.4		
+Metabolite_M583T498	M583T498	5-epi-Lividomycin B	583.3109	498.4		
+Metabolite_M797T452	M797T452	Decaprenyl phosphate	796.6297	452.2		
+Metabolite_M219T47	M219T47	1-Hydroxypyrene	219.0824	47.4	Pyrenes	
+Metabolite_M169T42_2	M169T42_2	Indole-3-methanamine	169.0456	42.1	Indoles and derivatives	Indoles
+Metabolite_M512T393_1	M512T393_1	Glycochenodeoxycholate 7-sulfate	512.2629	393.1	Homogeneous halogens	
+Metabolite_M416T270	M416T270	Paspalinine	416.226	270.4		
+Metabolite_M217T247	M217T247	Geranyl Phosphate	217.0967	246.6	Prenol lipids	Isoprenoid phosphates
+Metabolite_M583T419_1	M583T419_1	Biliverdin	583.2494	418.6	Tetrapyrroles and derivatives	Bilirubins
+Metabolite_M315T53_2	M315T53_2	Geranyl-PP	315.0788	53.4	Prenol lipids	Isoprenoid phosphates
+Metabolite_M583T455_1	M583T455_1	5-Oxoavermectin 1a aglycone	583.2493	455.3		
+Metabolite_M315T370	M315T370	Tetrahydrocannabinol	315.235	369.9	Benzopyrans	1-benzopyrans
+Metabolite_M303T132	M303T132	16a-Hydroxyandrost-4-ene-3,17-dione	303.1985	131.5	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M552T380	M552T380	Deoxymyxol	552.3263	379.9		
+Metabolite_M601T405_1	M601T405_1	APC	601.2593	405.2	Organooxygen compounds	Carbonyl compounds
+Metabolite_M118T371	M118T371	Indole	118.085	371.3	Indoles and derivatives	Indoles
+Metabolite_M118T623	M118T623	2,4-Pentanedione	118.085	623.2	Organooxygen compounds	Carbonyl compounds
+Metabolite_M274T51	M274T51	N-Succinyl-L,L-2,6-diaminopimelate	274.0892	51	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M504T514	M504T514	Terpendole J	504.3053	514.3		
+Metabolite_M930T60_2	M930T60_2	CoA 10_3;O2	930.201	59.5		
+Metabolite_M460T274	M460T274	Paxillinol	460.251	273.6		
+Metabolite_M142T33	M142T33	2-Maleylacetate	141.9594	32.8	Keto acids and derivatives	Medium-chain keto acids and derivatives
+Metabolite_M132T493	M132T493	3-Hydroxycyclohexanone	132.1004	493.3		
+Metabolite_M289T345	M289T345	Dehydroepiandrosterone	289.2195	345.5	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M118T85	M118T85	5-Aminopentanoic acid	118.0849	84.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M118T121	M118T121	4-Methylaminobutyrate	118.0849	121.4		
+Metabolite_M183T73	M183T73	L-Sorbitol	183.0842	72.8		
+Metabolite_M185T42	M185T42	1,4-Dioxo-1,4-dihydronaphthalene-2-carboxylic acid	185.0231	42		
+Metabolite_M111T486	M111T486	Barbituric acid	111.0202	485.9	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M287T434	M287T434	3beta-Hydroxy-4,4-dimethylsteroid	287.2767	434		
+Metabolite_M568T499_2	M568T499_2	Avermectin B1a aglycone	568.3327	498.9		
+Metabolite_M167T42	M167T42	1-deoxy-L-glycero-tetrulose 4-phosphate	167.0124	42.3	Organic phosphoric acids and derivatives	Phosphate esters
+Metabolite_M288T423	M288T423	(S)-Hemiketal	288.2775	423.3		
+Metabolite_M585T389_3	M585T389_3	15,16-Dihydrobiliverdin	585.2786	389.5		
+Metabolite_M187T41	M187T41	Norepinephrine	187.056	41.5	Phenols	Benzenediols
+Metabolite_M381T635	M381T635	Episterol	381.3465	635.3	Steroids and steroid derivatives	Ergostane steroids
+Metabolite_M203T51	M203T51	threo-(Homo)2-isocitrate	203.0523	51.1		
+Metabolite_M132T131	M132T131	L-Leucine	132.1001	130.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M254T82	M254T82	3-(4-methylthio)butylmalate	254.1022	81.8		
+Metabolite_M317T245	M317T245	Pisiferic acid	317.2155	244.8		
+Metabolite_M191T50	M191T50	3-(2-Methylthio)ethylmalate	191.0399	49.7		
+Metabolite_M223T496	M223T496	2-Hydroxy-7-hydroxymethylchromene-2-carboxylate	223.0632	496		
+Metabolite_M220T83	M220T83	Bergaptol	220.0635	82.7	Coumarins and derivatives	Furanocoumarins
+Metabolite_M243T123	M243T123	N-Methyl-4-dimethylallyltryptophan	243.1821	123.2		
+Metabolite_M268T336	M268T336	2-(5-methylthio)pentylmalate	268.1174	335.7		
+Metabolite_M336T458	M336T458	Sventenic acid	336.2583	457.9		
+Metabolite_M522T648_2	M522T648_2	7,8-Dihydro-beta-carotene	522.4267	648.1		
+Metabolite_M202T73	M202T73	α-Methyltryptophan	202.1069	72.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M331T399	M331T399	Sclareol	331.2658	398.9	Prenol lipids	Diterpenoids
+Metabolite_M482T486	M482T486	Neurosporaxanthin	482.3231	486.1		
+Metabolite_M169T47	M169T47	Pyridoxamine	169.0945	46.5	Pyridines and derivatives	Pyridoxamines
+Metabolite_M169T50	M169T50	6-Imino-5-oxocyclohexa-1,3-dienecarboxylate	169.0581	50.2		
+Metabolite_M184T73	M184T73	(3-Phenoxyphenyl)methanol	184.0853	72.7	Benzene and substituted derivatives	Diphenylethers
+Metabolite_M414T430	M414T430	4,4-Diapo-psi,psi-carotene-4-oic acid	414.2985	429.6		
+Metabolite_M265T226	M265T226	13-hydroxylupanine	265.1954	225.7		
+Metabolite_M295T233	M295T233	(-)-Thebaine	295.128	233.4	Morphinans	
+Metabolite_M577T663_2	M577T663_2	15,16-epoxydolabrene	577.4883	662.9		
+Metabolite_M273T414	M273T414	14alpha-Hydroxymethylsteroid	273.2531	414.4		
+Metabolite_M402T256	M402T256	16-Methoxy-2,3-dihydro-3-hydroxytabersonine	402.232	256.3		
+Metabolite_M283T221	M283T221	9alpha-Hydroxyandrosta-1,4-diene-3,17-dione	283.174	220.9		
+Metabolite_M219T319_2	M219T319_2	(3E,7E)-4,8,12-Trimethyl-1,3,7,11-tridecatetraene	219.2144	318.8	Prenol lipids	Sesquiterpenoids
+Metabolite_M274T379	M274T379	nephthenol	274.237	379		
+Metabolite_M593T676_1	M593T676_1	Avenoleic acid	593.4673	675.7	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M600T407_1	M600T407_1	3-Vinylbacteriochlorophyllide a	600.2477	406.7		
+Metabolite_M271T318	M271T318	Estrone	271.1645	317.6	Steroids and steroid derivatives	Estrane steroids
+Metabolite_M290T106	M290T106	7-Hydroxymethyl-12-methylbenz[a]anthracene	290.1591	106.5	Phenanthrenes and derivatives	
+Metabolite_M205T552	M205T552	8-Methylthio-2-octanoic acid	205.0856	552.1		
+Metabolite_M297T496	M297T496	Versicolorin B	297.0811	496		
+Metabolite_M257T360	M257T360	3-Oxo-5alpha-steroid	257.2217	360.5		
+Metabolite_M201T360_2	M201T360_2	Pentalen-13-al	201.1675	359.6		
+Metabolite_M152T42	M152T42	4-hydroxymandelic acid	152.0357	42.2	Phenols	1-hydroxy-2-unsubstituted benzenoids
+Metabolite_M140T49	M140T49	2-Hydroxybenzaldehyde	140.068	49	Organooxygen compounds	Carbonyl compounds
+Metabolite_M195T486	M195T486	4-hydroxy-4-methylglutamate	195.1012	486.2		
+Metabolite_M358T245	M358T245	3-Hydroxyquinine	358.2057	245	Cinchona alkaloids	
+Metabolite_M370T689	M370T689	Cholestan-3-one	370.3523	689.1		
+Metabolite_M295T47_1	M295T47_1	5,10-dihydro-9-dimethylallylphenazine-1-carboxylic acid	294.8658	47.1		
+Metabolite_M786T577_1	M786T577_1	Menaquinone-9	785.6386	577.3		
+Metabolite_M689T584_2	M689T584_2	PC(P-16_0_14_1(9Z))	688.5274	584.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M263T59	M263T59	Glutamylaspartic acid	263.0873	59.3	Peptidomimetics	Hybrid peptides
+Metabolite_M119T196	M119T196	Benzeneethanamine, a-methyl-	119.0729	196.2		
+Metabolite_M681T393_1	M681T393_1	8-Prenylnaringenin	681.269	392.9		
+Metabolite_M171T42_1	M171T42_1	Glyceraldehyde 3-phosphate	171.0054	42.2	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M607T55	M607T55	Narcissin	607.1661	54.5		
+Metabolite_M197T350	M197T350	1-(2,4,5-Trihydroxyphenyl)-1-butanone	197.0807	350.3	Organooxygen compounds	Carbonyl compounds
+Metabolite_M481T268	M481T268	5alpha-Pregnan-3beta,20alpha-diol disulfate	481.2581	268.4	Steroids and steroid derivatives	Sulfated steroids
+Metabolite_M226T84	M226T84	D-erythro-D-galacto-octitol	226.0834	83.6	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M131T62	M131T62	2,6-Diaminohexanal	131.0814	62.4	Organonitrogen compounds	Amines
+Metabolite_M574T560_2	M574T560_2	LysoPC(20_0_0_0)	574.3848	560.1	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M163T240	M163T240	Umbelliferone	163.0388	239.7	Coumarins and derivatives	Hydroxycoumarins
+Metabolite_M147T73_1	M147T73_1	2-Phenyl-2-butenal	147.0439	72.8	Benzene and substituted derivatives	Phenylacetaldehydes
+Metabolite_M219T375	M219T375	Calamensesquiterpinenol	219.1741	375.1	Organooxygen compounds	Alcohols and polyols
+Metabolite_M219T358	M219T358	2-(3-Hydroxy-4-methylphenyl)-5-methyl-4-hexen-3-one	219.1741	358.1	Prenol lipids	Monoterpenoids
+Metabolite_M146T80	M146T80	(5S)-5-ammonio-3-oxohexanoate	146.081	80		
+Metabolite_M160T86	M160T86	Aminopropylcadaverine	160.0755	85.6	Organonitrogen compounds	Amines
+Metabolite_M587T389_2	M587T389_2	Phycocyanobilin	587.2856	389.4		
+Metabolite_M152T179	M152T179	Cathine	152.1068	178.6		
+Metabolite_M177T326	M177T326	1,4,5-Naphthalenetriol	177.0544	326.4	Naphthalenes	Naphthols and derivatives
+Metabolite_M518T536_1	M518T536_1	PC-M5	518.3041	536.2	Naphthopyrans	
+Metabolite_M179T458	M179T458	5-Phenylvaleric acid	179.1064	458.1		
+Metabolite_M242T441	M242T441	5,10-Pentadecadien-1-ol	242.2111	440.9	Fatty Acyls	Fatty alcohols
+Metabolite_M174T279	M174T279	2-Decanone	174.1486	279.3	Organooxygen compounds	Carbonyl compounds
+Metabolite_M181T52	M181T52	Norecasantalic acid	181.008	52.2	Prenol lipids	Monoterpenoids
+Metabolite_M163T413	M163T413	4-Hydroxyphenylpyruvic acid	163.1115	413.3	Benzene and substituted derivatives	Phenylpyruvic acid derivatives
+Metabolite_M367T162_1	M367T162_1	2-(S-Glutathionyl)acetyl chloride	367.148	162.3	Dihydrofurans	Furanones
+Metabolite_M193T415	M193T415	Allyl phenoxyacetate	193.1584	414.6	Benzene and substituted derivatives	Phenoxyacetic acid derivatives
+Metabolite_M190T73	M190T73	Quisqualic_acid	190.1069	73.1		
+Metabolite_M200T360	M200T360	1-Tridecene	200.1642	359.6	Unsaturated hydrocarbons	Unsaturated aliphatic hydrocarbons
+Metabolite_M209T443	M209T443	Primin	209.1169	443.4		
+Metabolite_M234T326	M234T326	12-Hydroxydodecanoic acid	234.206	325.8	Hydroxy acids and derivatives	Medium-chain hydroxy acids and derivatives
+Metabolite_M187T81	M187T81	alpha-L-Rhamnose	187.0574	81		
+Metabolite_M107T322	M107T322	(2R*,3R*)-1,2,3-Butanetriol	107.0701	322.4	Organooxygen compounds	Alcohols and polyols
+Metabolite_M177T62	M177T62	2-Isopropylmalic acid	177.0867	61.5	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M167T486	M167T486	3-Phenoxypropionic acid	167.07	486.3	Benzene and substituted derivatives	3-phenoxypropionic acids
+Metabolite_M204T106	M204T106	Glutamic acid diethyl ester	204.1227	105.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M147T357	M147T357	4-(1-Methylethenyl)benzaldehyde	147.0802	357	Benzene and substituted derivatives	Phenylpropenes
+Metabolite_M157T33_1	M157T33_1	Phosphoglycolic acid	156.965	33	Organic phosphoric acids and derivatives	Phosphate esters
+Metabolite_M139T394	M139T394	3,5,5-Trimethyl-2-cyclohexen-1-one	139.1115	394.1	Organooxygen compounds	Carbonyl compounds
+Metabolite_M146T52	M146T52	4-Guanidinobutanoic acid	146.1173	52.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M146T159	M146T159	2R-aminoheptanoic acid	146.1173	158.7		
+Metabolite_M427T48_3	M427T48_3	8-oxo-dGDP	427.0296	47.9	Purine nucleotides	Purine deoxyribonucleotides
+Metabolite_M414T387	M414T387	beta-Micropteroxanthin	414.2986	387.4	Prenol lipids	Sesterterpenoids
+Metabolite_M362T295	M362T295	Histidyltryptophyldiketopiperazine	362.223	294.9		
+Metabolite_M188T56	M188T56	n-carboxymethyllysine	188.0914	56.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M243T259	M243T259	Leucyl-Lysine	243.1335	258.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M197T235	M197T235	N-methylphenylalanine	197.1281	235	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M403T577_2	M403T577_2	Acetyl tributyl citrate	403.2319	576.9	Carboxylic acids and derivatives	Tetracarboxylic acids and derivatives
+Metabolite_M262T73	M262T73	Tolfenamic acid	262.0375	73	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M268T472	M268T472	Heptabarbital	268.2266	472.2	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M143T40_2	M143T40_2	3-Mercaptopyruvic acid	142.9776	40	Keto acids and derivatives	Alpha-keto acids and derivatives
+Metabolite_M276T510	M276T510	HOMATROPINE	276.1589	510.1		
+Metabolite_M151T79	M151T79	2-Ethyl-4-(2-furanyl)-2-propenal	151.0962	78.9	Heteroaromatic compounds	
+Metabolite_M160T260	M160T260	Calystegin A3	160.1329	260	Tropane alkaloids	
+Metabolite_M343T446	M343T446	6-deoxyerythronolide B	343.2625	446.5		
+Metabolite_M212T356	M212T356	5-Isopropyl-2-(2-methylpropyl)-2-cyclohexen-1-one	212.1641	355.5	Prenol lipids	Monoterpenoids
+Metabolite_M178T362	M178T362	Phenmetrazine	178.1223	362.4	Oxazinanes	Morpholines
+Metabolite_M270T533	M270T533	Capsiamide	270.315	532.6	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M194T291	M194T291	Phosphocreatinine	194.0808	291	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M286T434	M286T434	4,8 Dimethylnonanoyl carnitine	286.2735	434.1	Fatty Acyls	Fatty acid esters
+Metabolite_M155T46	M155T46	L-Ornithine	155.0788	45.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M209T644	M209T644	2-Phenoxyethyl isobutyrate	209.1532	644.2	Phenol ethers	
+Metabolite_M283T558	M283T558	2-Nonadecanone	283.2626	558	Organooxygen compounds	Carbonyl compounds
+Metabolite_M230T386	M230T386	12-Methyltridecanal	230.211	386.2	Fatty Acyls	Fatty aldehydes
+Metabolite_M222T341	M222T341	3-(Dibutylamino)phenol	222.1848	340.9	Organonitrogen compounds	Amines
+Metabolite_M585T57_2	M585T57_2	(all-E)-1,7-bis(4-hydroxyphenyl)-1,4,6-heptatrien-3-one	585.1955	56.6	Diarylheptanoids	Linear diarylheptanoids
+Metabolite_M160T52	M160T52	4,4'-Diaminodibutylamine	160.0965	52.1	Organonitrogen compounds	Amines
+Metabolite_M276T392	M276T392	N-Benzoylaspartic acid	276.1984	391.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M542T505_3	M542T505_3	Boceprevir	542.3302	505.2	Peptidomimetics	Hybrid peptides
+Metabolite_M244T374	M244T374	Amobarbital	244.2266	374.2	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M196T189	M196T189	p-hydroxymexiletine	196.1328	189	Phenols	4-alkoxyphenols
+Metabolite_M100T86	M100T86	2-Piperidinone	100.0391	86.1	Piperidines	Piperidinones
+Metabolite_M219T324	M219T324	(+)-4,11-Eudesmadien-3-one	219.1375	323.6	Prenol lipids	Sesquiterpenoids
+Metabolite_M335T350	M335T350	Gibberellin A125	335.1846	350.2	Prenol lipids	Diterpenoids
+Metabolite_M239T301	M239T301	3-Methylcyclopentadecanone	239.0909	300.9	Organooxygen compounds	Carbonyl compounds
+Metabolite_M137T70	M137T70	Hypoxanthine	137.0455	70.4	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M174T86	M174T86	Bicifadine	174.1121	86.4	Piperidines	Phenylpiperidines
+Metabolite_M475T323	M475T323	5,10-Methylene-THF	475.2038	322.9	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M242T394	M242T394	2,8-Quinolinediol 2-sulfate	242.2837	394	Quinolines and derivatives	Quinolones and derivatives
+Metabolite_M198T295	M198T295	Beclamide	198.1273	295	Benzene and substituted derivatives	
+Metabolite_M242T296	M242T296	Hexadecylamine	242.1534	296.4	Organonitrogen compounds	Amines
+Metabolite_M328T386	M328T386	9-Hydroxy-12-oxooctadeca-10,15-dienoic acid	328.2475	386.2		
+Metabolite_M202T242	M202T242	Aminoundecanoic acid	202.1797	241.9		
+Metabolite_M202T56	M202T56	Misonidazole	202.1797	56.3	Allyl-type 1,3-dipolar organic compounds	Organic nitro compounds
+Metabolite_M216T55	M216T55	2-Heptylbenzothiazole	216.0974	55.5	Benzothiazoles	
+Metabolite_M362T475	M362T475	Prodigiosin	362.2967	475		
+Metabolite_M162T84	M162T84	Aminoadipic acid	162.1121	83.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M221T333	M221T333	2,6-Di-tert-butyl-4-methylphenol	221.1531	332.6	Benzene and substituted derivatives	Phenylpropanes
+Metabolite_M230T408	M230T408	7-Deoxyloganetin	230.2473	407.7		
+Metabolite_M705T498_3	M705T498_3	PC(O-16_0_18_0)	704.5936	497.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M359T518	M359T518	12-HETE	359.3701	518	Fatty Acyls	Eicosanoids
+Metabolite_M235T527	M235T527	(Z)-alpha-Bergamotenoic acid	235.1687	527.3	Prenol lipids	Monoterpenoids
+Metabolite_M239T518	M239T518	alpha-Kessyl alcohol	239.1636	517.7	Oxepanes	
+Metabolite_M225T430	M225T430	5-(3',4',5'-Trihydroxyphenyl)-gamma-valerolactone	225.1956	430.1	Phenols	Benzenetriols and derivatives
+Metabolite_M244T419	M244T419	2-Pentadecanone	244.2629	419.5	Organooxygen compounds	Carbonyl compounds
+Metabolite_M284T685	M284T685	Octadecanamide	284.2941	685.2	Carboximidic acids and derivatives	Carboximidic acids
+Metabolite_M813T552_3	M813T552_3	PC(20_0_P-16_0)	812.6892	551.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M500T468	M500T468	Terpendole K	500.2783	468		
+Metabolite_M704T577_3	M704T577_3	SM(d18_1_16_0)	703.5731	576.6	Sphingolipids	Phosphosphingolipids
+Metabolite_M281T529	M281T529	FA 18_2	281.2468	528.9		
+Metabolite_M214T270	M214T270	Chlorpropham	214.0624	269.8	Benzene and substituted derivatives	Phenylcarbamic acid esters
+Metabolite_M121T53	M121T53	Isopropyl alcohol	121.0717	53.3	Organooxygen compounds	Alcohols and polyols
+Metabolite_M186T56_2	M186T56_2	Secnidazole	186.112	55.5	Azoles	Imidazoles
+Metabolite_M334T256	M334T256	gamma-Glutamyltryptophan	334.1389	256.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M203T55	M203T55	Leucylalanine	203.1385	55.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M189T62	M189T62	PROPAMOCARB	189.0865	61.7		
+Metabolite_M272T415	M272T415	4-hydroxy ketorolac	272.2577	414.6	Organooxygen compounds	Carbonyl compounds
+Metabolite_M809T622_2	M809T622_2	PC(O-22_2(13Z,16Z)_20_2(11Z,14Z))	808.566	622.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M258T152	M258T152	Dextrorphan	258.1693	151.7	Morphinans	
+Metabolite_M336T635	M336T635	Menthyl pyrrolidone carboxylate	336.2888	635.2	Prenol lipids	Terpene glycosides
+Metabolite_M406T398	M406T398	Astromicin	406.3513	397.9	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M813T623_1	M813T623_1	PC(15_0_20_1(11Z))	812.5951	622.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M257T74	M257T74	Xenognosin A	257.1125	73.8	Linear 1,3-diarylpropanoids	Cinnamylphenols
+Metabolite_M262T71	M262T71	Asparaginylglutamic acid	262.1278	71.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M154T42_2	M154T42_2	(Z)-S-1-Propenyl methanesulfinothioate	154.0359	42.1	Thiosulfinic acid esters	
+Metabolite_M477T77_2	M477T77_2	4-Deoxy-beta-D-gluc-4-enuronosyl-(1,3)-N-acetyl-D-galactosamine 4-sulfate	477.1008	76.8		
+Metabolite_M527T73	M527T73	dTDP-3-methyl-4-oxo-2,6-dideoxy-L-allose	527.0812	72.8		
+Metabolite_M225T434	M225T434	Octyl 2-furoate	225.1479	433.8	Furans	Furoic acid and derivatives
+Metabolite_M217T55	M217T55	Glutamylserine	217.0813	54.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M257T53	M257T53	N-[(2s)-2-Amino-2-Carboxyethyl]-L-Glutamic Acid	257.0737	52.6		
+Metabolite_M430T664	M430T664	4,4-Dimethyl-5a-cholesta-8,24-dien-3-b-ol	430.4055	663.8	Prenol lipids	Triterpenoids
+Metabolite_M334T657	M334T657	(3beta,5alpha)-3-Hydroxypregn-16-en-20-one	334.3095	656.6	Steroids and steroid derivatives	Oxosteroids
+Metabolite_M288T472	M288T472	Lauroyl diethanolamide	288.2525	471.6	Fatty Acyls	Fatty amides
+Metabolite_M253T503	M253T503	3-Methyl-5-pentyl-2-furanpentanoic acid	253.1791	503.3	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M163T322	M163T322	Ethyl 4-(methylthio)butyrate	163.1324	322.4	Fatty Acyls	Fatty acid esters
+Metabolite_M226T378	M226T378	(S,E)-Lyratol propanoate	226.1795	378.3	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M281T42	M281T42	2-hydroxy-5-(methylthio)-3-oxopent-1-enyl phosphate	280.9926	42.4	Organic phosphoric acids and derivatives	Phosphate esters
+Metabolite_M219T395	M219T395	Isolubimin	219.1737	395.1	Prenol lipids	Sesquiterpenoids
+Metabolite_M282T634	M282T634	4-Hydroxyphenylacetylglutamic acid	282.2208	633.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M172T56	M172T56	Metronidazole	172.1327	56.4	Azoles	Imidazoles
+Metabolite_M272T433	M272T433	Arginylproline	272.2576	433.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M717T52_2	M717T52_2	Etoricoxib	717.087	52	Pyridines and derivatives	Bipyridines and oligopyridines
+Metabolite_M330T399	M330T399	Phytanate	330.2629	398.8	Prenol lipids	Diterpenoids
+Metabolite_M278T54	M278T54	S-(2-Methylpropionyl)-dihydrolipoamide-E	278.1226	54.1	Fatty Acyls	Fatty amides
+Metabolite_M506T479	M506T479	LysoPE(0_0_20_2(11Z,14Z))	506.3226	478.7	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M300T595	M300T595	Palmitoylethanolamide	300.2888	594.8	Carboximidic acids and derivatives	Carboximidic acids
+Metabolite_M171T276	M171T276	Linsidomine	171.1207	275.5	Oxazinanes	Morpholines
+Metabolite_M572T54_1	M572T54_1	CDPparatose	572.1772	53.6		
+Metabolite_M584T649	M584T649	Hydroxyspheroidenone	584.4731	649.1		
+Metabolite_M346T485	M346T485	(E)-2-Methylgeranyl diphosphate	346.3305	484.8		
+Metabolite_M809T655_1	M809T655_1	PC(20_5(5Z,8Z,11Z,14Z,17Z)_22_6(4Z,7Z,10Z,13Z,16Z,19Z))	808.5664	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M189T80	M189T80	N-Butyryl-L-homoserine lactone	189.0864	80		
+Metabolite_M572T516_2	M572T516_2	LysoPC(20_1(11Z)_0_0)	572.3704	516.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M231T136	M231T136	Capryloylcholine	231.1696	135.7	Organonitrogen compounds	Quaternary ammonium salts
+Metabolite_M330T470	M330T470	Pipertipine	330.2992	470	Benzodioxoles	
+Metabolite_M453T466	M453T466	Fluovitef	453.166	466.4		
+Metabolite_M235T55	M235T55	Cysteinyl-Leucine	235.0917	55.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M262T319	M262T319	1-(3-Methylbenzoyl)-1H-indazole-3-carbonitrile	262.1793	318.6	Benzene and substituted derivatives	Benzoyl derivatives
+Metabolite_M316T365	M316T365	N'-Hydroxysaxitoxin	316.1169	365.3	Saxitoxins, gonyautoxins, and derivatives	
+Metabolite_M310T254	M310T254	(2S,4S)-Monatin	310.1751	254.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M383T51	M383T51	Oprea1_595302	383.1138	51		
+Metabolite_M814T552_4	M814T552_4	PC(22_4(7Z,10Z,13Z,16Z)_18_4(6Z,9Z,12Z,15Z))	813.6704	552.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M313T46	M313T46	Adenosine 2',3'-cyclic phosphate	313.0343	45.7	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M157T196	M157T196	alpha-Carboxy-delta-nonalactone	157.042	196.1	Lactones	Delta valerolactones
+Metabolite_M306T372	M306T372	Testosterone	306.2417	372.4	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M344T56	M344T56	6-beta-Naltrexol	344.1328	56.4	Phenanthrenes and derivatives	
+Metabolite_M214T388_1	M214T388_1	Resorufin	214.0152	387.9	Benzoxazines	Phenoxazines
+Metabolite_M293T307	M293T307	Isotrichodermin	293.1373	306.9	Prenol lipids	Sesquiterpenoids
+Metabolite_M835T656_1	M835T656_1	PC(O-22_2(13Z,16Z)_22_3(10Z,13Z,16Z))	834.5765	655.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M370T443	M370T443	Glucobrassicanapin	370.2938	443.4	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M258T77	M258T77	Tetrahydroneopterin	258.1094	77.5	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M279T95	M279T95	4'-O-Methylequol	279.1002	95.2	Isoflavonoids	O-methylated isoflavonoids
+Metabolite_M789T655	M789T655	PC(20_0_16_1(9Z))	788.6193	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M352T414	M352T414	4,21-Dehydrocorynantheine aldehyde	352.2234	414.2		
+Metabolite_M572T560_2	M572T560_2	LysoPC(22_4(7Z,10Z,13Z,16Z)_0_0)	572.3732	560.1	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M334T373	M334T373	Sorgolactone	334.2364	373.4	Prenol lipids	Terpene lactones
+Metabolite_M308T654	M308T654	Abienol	308.2936	653.5		
+Metabolite_M114T215	M114T215	2,5-Dihydro-2,4,5-trimethyloxazole	114.0909	214.8	Azolines	Oxazolines
+Metabolite_M300T221	M300T221	Vitamin A2 aldehyde	300.2005	220.9	Prenol lipids	Retinoids
+Metabolite_M343T669	M343T669	2-Hydroxy-6-tridecylbenzoic acid	343.2621	668.5	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M789T623_2	M789T623_2	PC(18_0_18_1(11Z))	788.6195	622.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M317T587	M317T587	1-Hydroxy-1-phenyl-3-octadecanone	317.2462	587.3	Fatty Acyls	Fatty alcohols
+Metabolite_M417T387	M417T387	Beta-tocopherol	417.3346	386.5	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M789T579_2	M789T579_2	PC(18_1(9Z)_18_0)	788.6196	578.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M570T498	M570T498	LysoPC(22_5_0_0)	570.3578	498.1	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M315T380	M315T380	Cannabidiol	315.1326	380.2		
+Metabolite_M315T343	M315T343	Laccaic acid D	315.1326	342.9	Anthracenes	Anthracenecarboxylic acids and derivatives
+Metabolite_M613T392_2	M613T392_2	Tetrahydrofolyl-[Glu](2)	613.3087	392	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M324T570	M324T570	Sagittariol	324.2883	569.5	Prenol lipids	Diterpenoids
+Metabolite_M476T467	M476T467	Quasiprotopanaxatriol	476.2751	467.3	Prenol lipids	Triterpenoids
+Metabolite_M559T640	M559T640	Albanol B	559.1284	640.3	Organooxygen compounds	Carbonyl compounds
+Metabolite_M302T469	M302T469	Oxymorphone	302.304	469.5	Phenanthrenes and derivatives	
+Metabolite_M356T618	M356T618	Cetoleic acid	356.3507	617.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M328T167	M328T167	Blepharin	328.1376	167.2	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M796T552_1	M796T552_1	PC(16_1(9Z)_22_2(13Z,16Z))	795.5934	551.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M328T656	M328T656	Stearoylethanolamide	328.3195	656.4	Organonitrogen compounds	Amines
+Metabolite_M373T427	M373T427	12-Ketodeoxycholic acid	373.272	427	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M373T374	M373T374	12alpha-hydroxy-3-oxo-5beta-cholan-24-oic Acid	373.272	374	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M310T344	M310T344	Octanoylcarnitine	310.2003	344.4	Fatty Acyls	Fatty acid esters
+Metabolite_M512T636	M512T636	5-Methyltricosanoylcarnitine	512.4649	636.2	Fatty Acyls	Fatty acid esters
+Metabolite_M230T415	M230T415	Avocadienofuran	230.2018	414.5	Heteroaromatic compounds	
+Metabolite_M328T95	M328T95	Naloxone	328.1375	94.5	Phenanthrenes and derivatives	
+Metabolite_M100T109	M100T109	Methylpyrrolidone	100.0752	108.6		
+Metabolite_M789T656_1	M789T656_1	PC(20_5(5Z,8Z,11Z,14Z,17Z)_18_1(9Z))	788.555	655.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M667T53_2	M667T53_2	NADHX	667.1128	52.7	Purine nucleotides	Purine nucleotide sugars
+Metabolite_M310T690	M310T690	16beta-Hydroxysteroid	310.3089	689.5		
+Metabolite_M785T409	M785T409	PC(18_4(6Z,9Z,12Z,15Z)_22_5(7Z,10Z,13Z,16Z,19Z))	784.5678	409.2	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M476T268_1	M476T268_1	Terpendole I	476.3006	268.1		
+Metabolite_M566T502_1	M566T502_1	Diadinoxanthin	566.3156	501.9		
+Metabolite_M326T606	M326T606	Oleoylethanolamide	326.3037	606.4	Organonitrogen compounds	Amines
+Metabolite_M550T276	M550T276	3-hydroxyechinenone	550.3903	276.4		
+Metabolite_M352T601	M352T601	FA 20_5;O2	352.3192	600.9		
+Metabolite_M545T559_2	M545T559_2	Hovenidulcigenin A	545.3501	559	Prenol lipids	Terpene lactones
+Metabolite_M883T257_6	M883T257_6	PC(22_6(4Z,7Z,10Z,13Z,16Z,19Z)_22_4(7Z,10Z,13Z,16Z))	882.6053	256.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M796T623_1	M796T623_1	PC(18_1(9Z)_20_2(11Z,14Z))	795.594	622.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M570T532_3	M570T532_3	(3Z)-Phycoerythrobilin	570.3581	531.8		
+Metabolite_M793T303_2	M793T303_2	Anhydrovinblastin	793.4128	303.3		
+Metabolite_M443T430	M443T430	Pectachol	443.2305	430.3	Coumarins and derivatives	
+Metabolite_M375T52_1	M375T52_1	Neodiospyrin	375.0067	51.8	Naphthalenes	Naphthoquinones
+Metabolite_M547T279	M547T279	Ubiquinone 6	547.3309	279	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M282T48	M282T48	beta-D-Glucopyranosyl anthranilate	282.0956	48.4		
+Metabolite_M785T527_2	M785T527_2	PC(22_5(4Z,7Z,10Z,13Z,16Z)_18_4(6Z,9Z,12Z,15Z))	784.5684	526.9	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M128T42_4	M128T42_4	S-Methyl methanesulfinothioate	128.0191	42.2	Thiosulfinic acid esters	
+Metabolite_M212T388	M212T388	(1R,10aS)-1,4,10,10a-tetrahydrophenazine-1-carboxylic acid	212.0194	387.8		
+Metabolite_M496T536_2	M496T536_2	1-Palmitoylphosphatidylcholine	496.3426	535.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M835T622_2	M835T622_2	PC(18_2(9Z,12Z)_22_4(7Z,10Z,13Z,16Z))	834.6055	622.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M506T533	M506T533	LysoPC(0_0_18_0)	506.3634	533.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M785T637	M785T637	PC(20_5(5Z,8Z,11Z,14Z,17Z)_20_4(8Z,11Z,14Z,17Z))	784.5685	637	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M229T58	M229T58	Euxanthone	229.1533	57.6		
+Metabolite_M237T274	M237T274	Dihydro-4-mercapto-3(2H)-furanone	237.1691	273.7	Dihydrofurans	Furanones
+Metabolite_M934T537_2	M934T537_2	trans,octacis-Decaprenylphospho-beta-D-ribofuranose	933.6399	536.8		
+Metabolite_M647T387	M647T387	N-Jasmonoylisoleucine	647.4227	386.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M760T656_2	M760T656_2	PC(18_3(6Z,9Z,12Z)_15_0)	759.5601	655.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M805T622_2	M805T622_2	PC 36_4	804.5562	622.3		
+Metabolite_M452T477	M452T477	LysoPE(16_1(9Z)_0_0)	452.2744	476.9	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M620T307_2	M620T307_2	10-Formyl-THF-L-glutamate	620.2461	307.3		
+Metabolite_M467T590	M467T590	Vitamin K1 2,3-epoxide	467.376	590.3	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M138T70	M138T70	1,4-Dithiothreitol	138.0489	70.5	Organooxygen compounds	Alcohols and polyols
+Metabolite_M786T413	M786T413	PC(18_3(9Z,12Z,15Z)_20_5(5Z,8Z,11Z,14Z,17Z))	785.6005	413.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M224T256	M224T256	Dumetorine	224.1267	255.7	Pyrans	Pyranones and derivatives
+Metabolite_M760T578_1	M760T578_1	PC(18_2(9Z,12Z)_P-16_0)	759.5598	578.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M781T622_3	M781T622_3	PC(18_1(11Z)_18_4(6Z,9Z,12Z,15Z))	780.5588	622.3	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M170T33	M170T33	4-Hydroxy-alpha-oxo-1H-indole-3-acetonitrile	169.9783	33.1		
+Metabolite_M781T655_1	M781T655_1	PC(18_3(6Z,9Z,12Z)_18_2(9Z,12Z))	780.5589	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M124T580	M124T580	Physoperuvine	124.0861	580.3	Tropane alkaloids	
+Metabolite_M332T467	M332T467	Progesterone	332.2606	466.6	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M676T63	M676T63	selenodiglutathione	676.0447	63.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M812T438_2	M812T438_2	Minopentol	811.619	438.1		
+Metabolite_M468T469_2	M468T469_2	LysoPC(14_0_0_0)	468.3053	469.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M127T33	M127T33	1H-Imidazole-1-acetic acid	126.9713	33.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M243T394	M243T394	gamma-Curcumene	243.2872	394		
+Metabolite_M330T444	M330T444	18-Hydroperoxyoctadeca-2,4-dienoic acid	330.245	444.4	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M360T261_1	M360T261_1	2-[4-(3,4-Methylenedioxyphenyl)butyl]-4(1H)-quinolinone	360.2367	260.8	Quinolines and derivatives	Quinolones and derivatives
+Metabolite_M787T454_1	M787T454_1	PC(P-18_0_22_0)	786.585	454	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M246T378	M246T378	2-Hydroxy-6-oxo-6-(2-carboxyphenyl)-hexa-2,4-dienoate	246.1961	378.4		
+Metabolite_M787T579_2	M787T579_2	PC(24_0_P-16_0)	786.5851	578.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M417T271	M417T271	chrysin 8-C-glucoside	417.2301	270.5		
+Metabolite_M778T373_3	M778T373_3	Thyroxine	777.6995	372.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M249T313	M249T313	gamma-Aminobutyryllysine	249.1692	313.2	Peptidomimetics	Hybrid peptides
+Metabolite_M787T656_2	M787T656_2	PC(24_1(15Z)_15_0)	786.5852	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M814T623_3	M814T623_3	PC(18_4(6Z,9Z,12Z,15Z)_22_4(7Z,10Z,13Z,16Z))	813.6673	622.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M304T429	M304T429	Clofarabine	304.2293	429.2	Purine nucleosides	Purine 2'-deoxyribonucleosides
+Metabolite_M681T393_2	M681T393_2	2-N-Acetyl-6-deamino-6-hydroxyparomomycin II	681.283	392.9		
+Metabolite_M814T687	M814T687	PC(22_5(4Z,7Z,10Z,13Z,16Z)_18_3(6Z,9Z,12Z))	813.6671	687.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M430T339	M430T339	N-Oleoyl phenylalanine	430.2933	339.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M785T656_3	M785T656_3	PC(14_1(9Z)_22_2(13Z,16Z))	784.5909	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M593T330_2	M593T330_2	CE(3M5)	593.3428	329.5	Steroids and steroid derivatives	Steroid esters
+Metabolite_M281T119	M281T119	gamma-L-Glutamyl-L-pipecolic acid	281.1127	118.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M247T245	M247T245	2-Ethyl-5-methyl-3,3-diphenyl-1-pyrroline	247.1738	244.7	Benzene and substituted derivatives	Diphenylmethanes
+Metabolite_M542T505_1	M542T505_1	Cucurbitacin B	542.3041	505.2	Steroids and steroid derivatives	Cucurbitacins
+Metabolite_M361T549	M361T549	N6-cis-p-Coumaroylserotonin	361.221	548.7	Indoles and derivatives	Tryptamines and derivatives
+Metabolite_M510T569_2	M510T569_2	LysoPC(17_0_0_0)	510.3593	569	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M811T662_3	M811T662_3	PC(18_0_20_4(8Z,11Z,14Z,17Z))	810.6069	662.3	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M437T466	M437T466	2'-O-Methylcajanone	437.1925	466.2	Isoflavonoids	Isoflavans
+Metabolite_M171T42_2	M171T42_2	2-Oxo-3-hydroxy-4-phosphobutanoic acid	171.043	41.9	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M585T311_1	M585T311_1	Mg-protoporphyrin IX	585.2662	310.8		
+Metabolite_M480T570_1	M480T570_1	LysoPE(18_1(9Z)_0_0)	480.341	570.4	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M279T52_2	M279T52_2	Pisatoside	279.1892	51.7	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M207T336	M207T336	3-Methylbutyl 2-furanbutanoate	207.1237	336.4	Fatty Acyls	Fatty acid esters
+Metabolite_M789T687	M789T687	PC(18_1(11Z)_18_0)	788.6228	686.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M124T614	M124T614	L-Histidinol	124.0859	613.8	Organonitrogen compounds	Amines
+Metabolite_M783T476	M783T476	PC(O-22_0_18_3(6Z,9Z,12Z))	782.5547	475.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M263T258	M263T258	Prolylphenylalanine	263.1385	258.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M760T656_3	M760T656_3	PC(18_3(9Z,12Z,15Z)_18_4(6Z,9Z,12Z,15Z))	759.5835	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M359T52_1	M359T52_1	5-Methoxy-galloyl-1,4-galactarolactone	359.0431	51.8	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M809T622_3	M809T622_3	PC(22_5(7Z,10Z,13Z,16Z,19Z)_16_0)	808.5918	622.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M791T622_2	M791T622_2	PC(20_2(11Z,14Z)_18_3(9Z,12Z,15Z))	790.5811	622.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M522T559_2	M522T559_2	LysoPC(18_1(11Z)_0_0)	522.3598	558.9	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M558T662_2	M558T662_2	TG(8_0_8_0_13_0)	558.4775	662.1	Glycerolipids	Triradylcglycerols
+Metabolite_M809T655_2	M809T655_2	PC(20_3(8Z,11Z,14Z)_18_2(9Z,12Z))	808.5919	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M346T211	M346T211	Guanosine 2',3'-cyclic phosphate	346.2208	211.5	Sphingolipids	Glycosphingolipids
+Metabolite_M381T48	M381T48	6-Thioxanthine 5'-monophosphate	381.0225	48	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M548T516	M548T516	LysoPC(20_2(11Z,14Z)_0_0)	548.3605	515.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M660T62_2	M660T62_2	UDP-N-acetylglucosamine enolpyruvate	660.0895	61.9		
+Metabolite_M274T414	M274T414	Fenpropidin	274.2553	414.3	Benzene and substituted derivatives	Phenylpropanes
+Metabolite_M833T622_2	M833T622_2	PC(18_1(9Z)_20_3(5Z,8Z,11Z))	832.5899	622.3	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M992T536_4	M992T536_4	JI-20B	991.681	535.7		
+Metabolite_M783T415	M783T415	PC(22_6(4Z,7Z,10Z,13Z,16Z,19Z)_18_4(6Z,9Z,12Z,15Z))	782.5553	414.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M209T184	M209T184	4-Hydroxydebrisoquine	209.1378	183.7	Tetrahydroisoquinolines	
+Metabolite_M810T655	M810T655	PC(DiMe(11,3)_MonoMe(9,5))	809.6002	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M437T514	M437T514	Clionasterol	437.3714	514.5	Steroids and steroid derivatives	Stigmastanes and derivatives
+Metabolite_M337T52	M337T52	8-Geranylesculetin	337.0607	52.3		
+Metabolite_M565T279_1	M565T279_1	24-Acetyl- 25-cinnamoylvulgaroside	565.3575	279		
+Metabolite_M281T265_1	M281T265_1	13-Apo-beta-carotenone	281.185	265		
+Metabolite_M460T466_2	M460T466_2	3-O-Acetylepisamarcandin	460.2651	466.4	Coumarins and derivatives	
+Metabolite_M521T648_2	M521T648_2	DG(i-14_0_0_0_i-13_0)	521.4225	648	Glycerolipids	Diradylglycerols
+Metabolite_M499T536_1	M499T536_1	LysoPC(15_0_0_0)	499.3459	535.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M170T56	M170T56	2-(1-Methylethyl)-4-propylthiazole	170.0386	56.4	Azoles	Thiazoles
+Metabolite_M160T33	M160T33	Allantoic acid	159.9699	33	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M629T53_2	M629T53_2	Neryl diphosphate	629.1502	53.2		
+Metabolite_M153T42	M153T42	Selenocysteine	153.0326	42.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M479T494_1	M479T494_1	Orlistat	479.2903	494.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M332T53	M332T53	1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate	332.0562	53.5		
+Metabolite_M809T593_3	M809T593_3	PC(18_1(9Z)_20_4(8Z,11Z,14Z,17Z))	808.5929	592.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M665T689_1	M665T689_1	Paliperidone Palmitate	665.4501	689	Pyridopyrimidines	
+Metabolite_M302T336	M302T336	Texasin	302.1205	336.4		
+Metabolite_M759T686_2	M759T686_2	PC(20_4(8Z,11Z,14Z,17Z)_18_4(6Z,9Z,12Z,15Z))	758.5557	686.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M759T656_2	M759T656_2	PC(18_3(6Z,9Z,12Z)_20_5(5Z,8Z,11Z,14Z,17Z))	758.5557	655.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M114T260	M114T260	4-(Aminobutyl)guanidine	114.1275	260	Organonitrogen compounds	Guanidines
+Metabolite_M415T261	M415T261	Epigallocatechin gallate	415.252	261.2	Flavonoids	Flavans
+Metabolite_M250T233	M250T233	FA 16_3;O	250.1902	232.8		
+Metabolite_M599T399_1	M599T399_1	Idoxanthin	599.2806	399	Prenol lipids	Tetraterpenoids
+Metabolite_M291T409	M291T409	Tetraprenol	291.2712	409		
+Metabolite_M279T275	M279T275	2-Deamino-2-hydroxy-6-dehydroparomamine	279.1522	274.7		
+Metabolite_M585T57_1	M585T57_1	2-hydroxyflutamide	585.1826	56.5	Benzene and substituted derivatives	Trifluoromethylbenzenes
+Metabolite_M469T469_1	M469T469_1	Kanamycin X	469.3082	469.4		
+Metabolite_M646T586	M646T586	monacolin L acid	645.5022	586.1		
+Metabolite_M340T407	M340T407	15(S)-Hydroxyeicosatrienoic acid	340.2811	407.4	Fatty Acyls	Eicosanoids
+Metabolite_M431T301_1	M431T301_1	N-Nonanoylglycine	431.2343	301.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M810T438_2	M810T438_2	PC(MonoMe(9,5)_DiMe(9,5))	809.6013	437.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M378T430	M378T430	aurachin C epoxide	378.2388	429.8		
+Metabolite_M350T268	M350T268	Fumigaclavine C	350.2051	268.5		
+Metabolite_M836T622	M836T622	PC(DiMe(9,3)_MonoMe(11,5))	835.5809	622.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M259T48	M259T48	10-Acetoxytoxol	259.0273	47.9	Benzene and substituted derivatives	Acetophenones
+Metabolite_M118T578	M118T578	L-2-Amino-3-oxobutanoic acid	118.085	578.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M118T639	M118T639	Isovaline	118.085	639.2		
+Metabolite_M473T592	M473T592	6-Deoxocastasterone	473.344	592.2	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M141T42_2	M141T42_2	2-Methyl-3-hydroxybutyric acid	141.0507	42	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M256T495	M256T495	C16 Sphinganine	256.2607	495.5		
+Metabolite_M353T48	M353T48	4-Hydroxyaminoquinoline N-oxide	352.8975	47.6		
+Metabolite_M351T242	M351T242	8(R)-Hydroperoxylinoleic acid	351.2413	241.9	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M397T601	M397T601	Stenocereol	397.3785	601	Steroids and steroid derivatives	Cholestane steroids
+Metabolite_M502T494_3	M502T494_3	LysoPE(0_0_20_4(5Z,8Z,11Z,14Z))	502.3007	493.8	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M807T622_3	M807T622_3	PC(18_3(6Z,9Z,12Z)_20_3(8Z,11Z,14Z))	806.5783	622.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M655T280	M655T280	all-trans-Heptaprenyl diphosphate	655.2835	280.2	Prenol lipids	Polyprenols
+Metabolite_M788T623_2	M788T623_2	PC(P-18_0_18_2(9Z,12Z))	787.5872	622.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M807T655_2	M807T655_2	PS(20_3(5Z,8Z,11Z)_18_4(6Z,9Z,12Z,15Z))	806.5784	655.5	Glycerophospholipids	Glycerophosphoserines
+Metabolite_M245T244	M245T244	hydroxyisovaleroyl carnitine	245.1356	244.1	Fatty Acyls	Fatty acid esters
+Metabolite_M813T623_2	M813T623_2	PC(18_0_18_0)	812.6231	622.9	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M425T577_1	M425T577_1	(S)-3',4',5,7-Tetrahydroxy-5',8-diprenylflavanone	425.2119	577.1	Flavonoids	Flavans
+Metabolite_M156T196	M156T196	Mechlorethamine	156.0386	196.1	Organonitrogen compounds	Nitrogen mustard compounds
+Metabolite_M759T623_3	M759T623_3	Lecithin	758.578	622.7		
+Metabolite_M132T578	M132T578	5-Aminolevulinic acid	132.1004	578.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M118T144	M118T144	Trimethylglycine	118.0849	144.4		
+Metabolite_M118T436	M118T436	N-Acetylglycine	118.0849	435.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M118T236	M118T236	N-Methyl-a-aminoisobutyric acid	118.0849	236.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M118T254	M118T254	Isoindole	118.0849	254.3	Isoindoles and derivatives	Isoindoles
+Metabolite_M316T53	M316T53	Ganaxolone	316.0825	53.4	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M522T623_2	M522T623_2	1-oleoyl-GPC (18_1)	522.3614	623	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M478T494_2	M478T494_2	LysoPE(18_2_0_0)	478.2983	494.3	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M525T371	M525T371	LysoPC(20_5)	525.3274	371	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M281T56	M281T56	Nigellic acid	281.1416	56	Prenol lipids	Sesquiterpenoids
+Metabolite_M246T387	M246T387	Bisnortilidin	246.1517	387.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M795T656_2	M795T656_2	PC(20_0_18_3(6Z,9Z,12Z))	794.615	655.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M343T410	M343T410	19-Hydroxytestosterone	343.2957	410.4	Indoles and derivatives	
+Metabolite_M502T494_2	M502T494_2	LysoPE(0_0_20_4(8Z,11Z,14Z,17Z))	502.2869	493.8	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M123T42_1	M123T42_1	N-Nitroso-pyrrolidine	123.0402	42	Pyrrolidines	
+Metabolite_M112T33_3	M112T33_3	Dimethyldisulfide	112.0173	33.1	Organic disulfides	Dialkyldisulfides
+Metabolite_M250T414	M250T414	O-Desmethyltramadol	250.1772	414.3	Benzene and substituted derivatives	Cyclohexylphenols
+Metabolite_M599T399_2	M599T399_2	Mg-Protoporphyrin IX 13-monomethyl ester	599.2938	398.9		
+Metabolite_M236T388	M236T388	N,N-Didesmethyltramadol	236.1617	388	Phenol ethers	Anisoles
+Metabolite_M795T475	M795T475	PC(20_1(11Z)_18_2(9Z,12Z))	794.6152	474.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M353T52_2	M353T52_2	Pctmn	353.0371	52.2		
+Metabolite_M544T559_3	M544T559_3	2-Hexaprenyl-3-methyl-6-methoxy-1,4 benzoquinone	544.346	558.8	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M310T425	M310T425	Dicyclomine	310.2703	424.8	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M184T333	M184T333	N-Propionylalanine	184.1694	333.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M480T532_1	M480T532_1	LysoPE(0_0_18_1(9Z))	480.3026	532	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M537T49	M537T49	Naringin	537.1901	48.7	Flavonoids	Flavonoid glycosides
+Metabolite_M788T438	M788T438	PC(18_1(9Z)_P-18_1(11Z))	787.6227	438.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M564T279_3	M564T279_3	dTDP-4-oxo-6-deoxy-D-glucose	564.3673	279.1	Pyrimidine nucleotides	Pyrimidine nucleotide sugars
+Metabolite_M546T602_2	M546T602_2	3-Hexaprenyl-4,5-Dihydroxybenzoic acid	546.4126	601.8	Prenol lipids	Polyprenylphenols
+Metabolite_M629T53_1	M629T53_1	5'-Phosphoribosyl-N-formylglycinamide	629.1364	53.2	Glycinamide ribonucleotides	
+Metabolite_M769T233_3	M769T233_3	PE-NMe2(16_1(9Z)_20_3(8Z,11Z,14Z))	768.5443	232.9	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M238T345	M238T345	Elymoclavine	238.1197	345.1	Ergoline and derivatives	Clavines and derivatives
+Metabolite_M222T360	M222T360	Procarbazine	222.1461	359.7	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M491T661_1	M491T661_1	Camelliagenin C	491.367	660.8	Prenol lipids	Triterpenoids
+Metabolite_M568T529_2	M568T529_2	LysoPC(22_6_0_0)	568.3468	528.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M325T360	M325T360	(x)-p-Menth-1-en-4-yl 5-isopropyl-2-methylphenyl ether	325.2479	359.9	Prenol lipids	Monoterpenoids
+Metabolite_M135T42	M135T42	Dihydroasparagusic acid	134.9916	42.3	Carboxylic acids and derivatives	Carboxylic acids
+Metabolite_M795T637	M795T637	PC(20_0_18_3(9Z,12Z,15Z))	794.6157	637.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M406T49	M406T49	dUDP	406.036	48.8	Pyrimidine nucleotides	Pyrimidine deoxyribonucleotides
+Metabolite_M281T276	M281T276	desethylzaleplon	281.132	276	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M834T622_3	M834T622_3	PC(14_1(9Z)_24_0)	833.6061	622.3	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M645T53	M645T53	UDP-2-acetamido-4-(D-alanylamino)-2,4,6-trideoxy-alpha-D-glucose	645.1287	53.3		
+Metabolite_M153T45	M153T45	Phosphodimethylethanolamine	152.9469	44.6	Organic phosphoric acids and derivatives	Phosphate esters
+Metabolite_M371T68	M371T68	D-glycero-D-manno-Heptose 1,7-bisphosphate	371.0187	68.1		
+Metabolite_M243T232	M243T232	4-Hydroxy tolbutamide	243.1824	231.9	Benzene and substituted derivatives	Benzenesulfonamides
+Metabolite_M258T103	M258T103	Homocarnosine	258.1091	102.9	Peptidomimetics	Hybrid peptides
+Metabolite_M183T414	M183T414	Maleic acid homopolymer	183.174	414.5	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M408T663	M408T663	Momodicaursenol	408.3333	663.3	Prenol lipids	Triterpenoids
+Metabolite_M247T87	M247T87	Olpadronic acid	247.166	86.6	Organic phosphonic acids and derivatives	Bisphosphonates
+Metabolite_M110T245	M110T245	3-Isoxazolidinone	110.0198	245.4	Azolidines	Oxazolidines
+Metabolite_M110T378	M110T378	2-Oxazolidinone	110.0198	378	Azolines	Oxazolines
+Metabolite_M195T102	M195T102	Methoxamine	195.1228	102	Benzene and substituted derivatives	Methoxybenzenes
+Metabolite_M155T33_1	M155T33_1	1,1'-Thiobisethanethiol	154.9661	33	Organooxygen compounds	Ethers
+Metabolite_M263T56	M263T56	Indigo	263.1313	56	Indoles and derivatives	Indolines
+Metabolite_M358T374	M358T374	Methylprednisolone	358.258	373.7		
+Metabolite_M143T192	M143T192	4-Hydroxystachydrine	143.0722	192.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M132T258	M132T258	Iminoaspartic acid	132.1001	258.1	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M132T336	M132T336	N-methylvaline	132.1001	336.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M354T640	M354T640	20-Hydroxy-PGF2a	354.3358	639.5	Fatty Acyls	Eicosanoids
+Metabolite_M310T51	M310T51	3-O-alpha-D-glucopyranosyl-L-rhamnopyranose	310.0555	51.1		
+Metabolite_M150T412	M150T412	Demethylphosphinothricin	150.0264	411.7		
+Metabolite_M503T274	M503T274	Emetine	503.3049	274.1		
+Metabolite_M809T416	M809T416	PC(18_3(9Z,12Z,15Z)_20_2(11Z,14Z))	808.5963	415.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M705T594_1	M705T594_1	PC(18_0_15_0)	704.5853	593.9	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M248T353	M248T353	Ibudilast	248.168	353.3	Pyrazolopyridines	
+Metabolite_M346T446	M346T446	N-Acetylneuraminate 9-phosphate	346.3306	445.8	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M358T438	M358T438	Calcitroic acid	358.2941	437.8	Steroids and steroid derivatives	Vitamin D and derivatives
+Metabolite_M325T331	M325T331	Abacavir	325.2473	330.9	Nucleoside and nucleotide analogues	Cyclopentyl nucleosides
+Metabolite_M520T505_2	M520T505_2	LPC 18_2	520.3323	505		
+Metabolite_M530T381	M530T381	dTDP-3-methyl-4-oxo-alpha-D-ribopyranose	530.3287	380.9		
+Metabolite_M367T92	M367T92	1-Adgmi	367.1487	91.6		
+Metabolite_M329T323	M329T323	Stanozolol	329.2427	323.3	Steroids and steroid derivatives	Estrane steroids
+Metabolite_M783T656_2	M783T656_2	PC(16_0_18_1(9Z))	782.5556	655.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M311T100	M311T100	Pinobanksin	311.1223	99.9		
+Metabolite_M243T193	M243T193	Phenylethylamine	243.182	192.7	Benzene and substituted derivatives	Phenethylamines
+Metabolite_M243T88	M243T88	2-Propylpyridine	243.182	88.4	Pyridines and derivatives	
+Metabolite_M336T594	M336T594	Sterebin B	336.3099	594.2	Prenol lipids	Sesquiterpenoids
+Metabolite_M838T579	M838T579	PC(MonoMe(11,5)_DiMe(9,5))	837.6365	578.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M144T193	M144T193	5-Ethyl-2-methylpyridine	144.0805	192.5	Pyridines and derivatives	Methylpyridines
+Metabolite_M343T406	M343T406	Gravacridonechlorine	343.2666	406	Quinolines and derivatives	Benzoquinolines
+Metabolite_M155T292	M155T292	But-2-enedioic acid	155.1064	291.6	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M364T594	M364T594	Hexacosanal	364.3407	594.3	Fatty Acyls	Fatty aldehydes
+Metabolite_M316T245	M316T245	Isogravacridonechlorine	316.2107	244.8	Quinolines and derivatives	Benzoquinolines
+Metabolite_M229T415_2	M229T415_2	Avocadynofuran	229.1985	414.5	Heteroaromatic compounds	
+Metabolite_M472T382	M472T382	Esculentic acid (Diplazium)	472.3476	381.5	Prenol lipids	Triterpenoids
+Metabolite_M342T227	M342T227	Pipernonaline	342.2115	226.9	Benzodioxoles	
+Metabolite_M406T549	M406T549	8,10-Octacosanedione	406.2781	549	Organooxygen compounds	Carbonyl compounds
+Metabolite_M173T79	M173T79	Dihydralazine	173.0782	78.9	Diazanaphthalenes	Benzodiazines
+Metabolite_M244T42_2	M244T42_2	Beta-D-Fructose 6-phosphate	243.9964	42.2	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M241T87	M241T87	Anserine	241.0926	87.5	Peptidomimetics	Hybrid peptides
+Metabolite_M546T529_2	M546T529_2	LysoPC(20_3(8Z,11Z,14Z)_0_0)	546.347	528.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M430T336	M430T336	Cloransulam-methyl	430.2654	335.5		
+Metabolite_M469T648_2	M469T648_2	3,7-Bisaboladiene-2,8-dione	469.3967	648.1	Prenol lipids	Sesquiterpenoids
+Metabolite_M422T459_1	M422T459_1	PC-M6	422.3119	459.5	Naphthopyrans	
+Metabolite_M265T42	M265T42	FA 4_2;O3	265.0149	42.2		
+Metabolite_M358T486	M358T486	Macrophorin B	358.281	485.5	Organooxygen compounds	Carbonyl compounds
+Metabolite_M230T414	M230T414	Isoavocadienofuran	230.1827	414.4	Heteroaromatic compounds	
+Metabolite_M539T649_2	M539T649_2	Asticolorin A	539.4373	649.3	Benzopyrans	1-benzopyrans
+Metabolite_M807T415_1	M807T415_1	PC(18_3(9Z,12Z,15Z)_18_0)	806.5542	415.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M295T44	M295T44	6-tuliposide B	295.1488	43.9		
+Metabolite_M546T516	M546T516	Edelfosine	546.3617	515.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M330T220	M330T220	Dapivirine	330.1647	220.1	Benzene and substituted derivatives	Benzonitriles
+Metabolite_M429T664	M429T664	alpha-Tocopherol acetate	429.4022	663.6	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M784T656_2	M784T656_2	PC(20_4(5Z,8Z,11Z,14Z)_P-16_0)	783.5521	655.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M202T246	M202T246	Tanakamine	202.0895	246.1	Indoles and derivatives	Indoles
+Metabolite_M441T212_2	M441T212_2	17a,20a-Dihydroxycholesterol	441.341	212.1	Steroids and steroid derivatives	Hydroxysteroids
+Metabolite_M260T42_3	M260T42_3	Acetylpterosin C	260.0096	41.9	Indanes	Indanones
+Metabolite_M767T656_2	M767T656_2	PC(20_2(11Z,14Z)_16_1(9Z))	766.587	655.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M821T580	M821T580	PC(22_1(13Z)_18_3(9Z,12Z,15Z))	820.6349	580.2	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M300T407	M300T407	Glucosyl (E)-2,6-Dimethyl-2,5-heptadienoate	300.216	407.4	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M378T334	M378T334	benzyl cetraxate	378.2365	334.1		
+Metabolite_M300T391	M300T391	Phytocassane D	300.1796	390.8	Prenol lipids	Diterpenoids
+Metabolite_M777T581	M777T581	PC(20_3(8Z,11Z,14Z)_P-18_1(11Z))	776.5717	581	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M271T74	M271T74	2'-O-Methylisoliquiritigenin	271.0919	73.6		
+Metabolite_M217T102	M217T102	4,4'-methanol-bisbenzonitrile	217.1042	101.9	Benzene and substituted derivatives	Diphenylmethanes
+Metabolite_M811T415	M811T415	PC(18_1(11Z)_20_3(5Z,8Z,11Z))	810.6145	415.2	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M398T459	M398T459	Phytosphingosine-1-P	398.2394	459.4	Sphingolipids	Phosphosphingolipids
+Metabolite_M300T395	M300T395	Neryl glucoside	300.1984	395.4	Prenol lipids	Terpene glycosides
+Metabolite_M421T47_2	M421T47_2	Glucaric acid	420.881	47.5	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M807T438_2	M807T438_2	PC(18_1(9Z)_20_5(5Z,8Z,11Z,14Z,17Z))	806.5839	438.3	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M800T550	M800T550	SM(d18_0_22_2(13Z,16Z)(OH))	799.6831	549.8	Sphingolipids	Phosphosphingolipids
+Metabolite_M256T467	M256T467	16-Hydroxyhexadecanoic acid	256.2265	467.2	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M807T475_2	M807T475_2	PC(20_5(5Z,8Z,11Z,14Z,17Z)_18_1(11Z))	806.584	474.9	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M518T476_2	M518T476_2	LysoPC(18_3(9Z,12Z,15Z)_0_0)	518.3147	475.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M482T395	M482T395	1-Stearoylglycerophosphoserine	482.2908	395.4	Glycerophospholipids	Glycerophosphoserines
+Metabolite_M130T239	M130T239	3-Amino-1,2-propanediol	130.1587	239		
+Metabolite_M795T623_1	M795T623_1	PC(18_1(9Z)_P-18_0)	794.5888	622.6	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M795T437	M795T437	PC(18_3(9Z,12Z,15Z)_20_0)	794.5912	437.3	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M535T622	M535T622	(3b,16b,20R)-Pregn-5-ene-3,16,20-triol 3-glucoside	535.3915	622.2	Steroids and steroid derivatives	Steroidal glycosides
+Metabolite_M635T46_1	M635T46_1	Reverse-triiodthyronine	634.8063	46.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M561T651_2	M561T651_2	Prunus inhibitor b	561.4198	650.7	Flavonoids	Biflavonoids and polyflavonoids
+Metabolite_M412T277	M412T277	Clebopride	412.2063	277	Piperidines	Benzylpiperidines
+Metabolite_M464T396	M464T396	LysoPE(P-18_1(9Z)_0_0)	464.2821	395.6	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M403T48	M403T48	Apigenin-C-pentoside	403.0059	47.7		
+Metabolite_M164T77	M164T77	N-hydroxy-L-phenylalanine	164.0737	76.9		
+Metabolite_M769T233_5	M769T233_5	PC(18_1(9Z)_15_0)	768.5732	232.9	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M240T42	M240T42	5-Hydroxytryptophol sulfate	239.9659	42.4	Organic sulfuric acids and derivatives	Arylsulfates
+Metabolite_M572T560_1	M572T560_1	PC(18_1(9Z)e_2_0)	572.3578	560.1	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M283T627	M283T627	3-hydroxymyristate	283.2818	627.1	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M415T466_2	M415T466_2	Cinnatriacetin A	415.2091	466.2	Cinnamic acids and derivatives	Hydroxycinnamic acids and derivatives
+Metabolite_M335T627_1	M335T627_1	Hovenitin I	335.2418	627.3	Oxanes	
+Metabolite_M135T48	M135T48	2,3-Dihydroxy-2,4-cyclopentadien-1-one	135.0027	47.7	Vinylogous acids	
+Metabolite_M421T460_2	M421T460_2	(25S)-3-oxocholest-4-en-26-al	421.3157	459.5		
+Metabolite_M264T362	M264T362	Nortriptyline	264.1797	362.2	Dibenzocycloheptenes	
+Metabolite_M267T518	M267T518	Resveratrol	267.1713	518.5	Stilbenes	
+Metabolite_M798T579	M798T579	PC(20_1(11Z)_18_1(11Z))	797.6445	579	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M612T676_1	M612T676_1	TG(i-14_0_8_0_i-12_0)	611.5128	675.8	Glycerolipids	Triradylcglycerols
+Metabolite_M215T257	M215T257	Deoxyribose 1-phosphate	215.125	257.3	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M707T550	M707T550	SM(d18_0_14_1(9Z)(OH))	706.572	549.5	Sphingolipids	Phosphosphingolipids
+Metabolite_M811T622	M811T622	PC(20_3(8Z,11Z,14Z)_18_1(11Z))	810.5849	622.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M767T640	M767T640	PC(P-16_0_18_1(9Z))	766.5871	639.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M170T71	M170T71	2-Phosphoglyceric acid	169.977	70.9	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M524T559	M524T559	Platelet-activating factor	524.3607	558.8	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M810T622_2	M810T622_2	PC(MonoMe(9,5)_DiMe(11,3))	809.5768	622.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M520T474	M520T474	LysoPC(0_0_18_2(9Z,12Z))	520.3294	473.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M408T594	M408T594	10-Octacosene-1,12-diol	408.3669	594.1	Fatty Acyls	Fatty alcohols
+Metabolite_M805T233_3	M805T233_3	PC(20_4(8Z,11Z,14Z,17Z)_16_0)	804.5353	232.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M200T196	M200T196	Bergapten	200.0468	196	Coumarins and derivatives	Furanocoumarins
+Metabolite_M363T271_1	M363T271_1	Fructose 1,6-bisphosphate	362.9853	271.3		
+Metabolite_M187T62	M187T62	4-Methyl-5-nitrocatechol	187.0713	62.1		
+Metabolite_M539T649_1	M539T649_1	adonixanthin	539.4245	649.3		
+Metabolite_M160T56	M160T56	2-(dihydroxymethyl)-5-formylfuran	160.0605	56.4		
+Metabolite_M190T387	M190T387	8-methylthiooctanaldoxime	190.1259	386.8		
+Metabolite_M613T392_1	M613T392_1	lupinate	613.295	391.9		
+Metabolite_M127T338	M127T338	Dihydroxyacetone phosphate	127.0154	337.7	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M407T578	M407T578	3-Geranylgeranylindole; 3-(Geranylgeranyl)indole	407.3423	577.7		
+Metabolite_M227T49	M227T49	Chloranil	226.8618	49	Organooxygen compounds	Carbonyl compounds
+Metabolite_M156T49	M156T49	O-Phosphohomoserine	156.0419	48.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M383T549	M383T549	L-trihomomethionine	383.2029	549.2		
+Metabolite_M240T99	M240T99	L-Cystathionine	240.1015	99.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M127T310	M127T310	(E)-2-octenal	127.1116	310.1		
+Metabolite_M365T356	M365T356	6,7-Dimethyl-8-(1-D-ribityl)lumazine	365.2208	355.9	Pteridines and derivatives	
+Metabolite_M145T89	M145T89	1,2-Dihydroxy-3-keto-5-methylthiopentene	145.0316	89.4	Organooxygen compounds	Carbonyl compounds
+Metabolite_M201T33_2	M201T33_2	Phosphoroselenoic acid	200.9965	32.9	Other mixed metal/non-metal oxoanionic compounds	Non-metal selenophosphates
+Metabolite_M369T52	M369T52	2-Pyrone-4,6-dicarboxylate	369.0084	52.2		
+Metabolite_M186T398	M186T398	(1R,2R)-1,2,7,7-Tetramethylbicyclo[2.2.1]heptan-2-ol	186.185	398.4	Prenol lipids	Monoterpenoids
+Metabolite_M171T383	M171T383	Dihydropinosylvin	171.1166	383.3		
+Metabolite_M416T253	M416T253	beta-Citraurin	416.283	252.6	Prenol lipids	Triterpenoids
+Metabolite_M132T192	M132T192	indole-3-glycol aldehyde	132.0806	192.5	Indoles and derivatives	Indoles
+Metabolite_M162T42	M162T42	Aesculetin	162.0071	42	Coumarins and derivatives	Hydroxycoumarins
+Metabolite_M251T443	M251T443	Ubiquinone-1	251.1274	443.4	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M154T245	M154T245	Metanephrine	154.1224	244.9	Phenols	Methoxyphenols
+Metabolite_M120T128	M120T128	Trigonelline (N'-methylnicotinate)	120.0442	127.6		
+Metabolite_M204T92	M204T92	Linamarin	204.1227	92.2	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M183T81	M183T81	Porphobilinogen	183.1125	80.8	Organonitrogen compounds	Amines
+Metabolite_M589T662_1	M589T662_1	Anhydrorhodovibrin	589.437	661.9		
+Metabolite_M474T265	M474T265	Neoxaline	474.2892	265.3		
+Metabolite_M299T398	M299T398	S-methyl-5-thio-D-ribulose 1-phosphate(2-)	299.1092	397.8	Organooxygen compounds	Carbonyl compounds
+Metabolite_M227T168	M227T168	1,8-diazacyclotetradecane-2,9-dione	227.175	167.8		
+Metabolite_M181T393	M181T393	Coniferyl alcohol	181.0856	393.3	Phenols	Methoxyphenols
+Metabolite_M256T501	M256T501	3-Dehydrosphinganine	256.2994	501	Organooxygen compounds	Carbonyl compounds
+Metabolite_M160T55	M160T55	cis-3-Hexenyl acetate	160.1329	55.3	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M202T59	M202T59	Vanylglycol	202.107	59.4	Phenols	Methoxyphenols
+Metabolite_M195T392	M195T392	6-Hydroxymellein	195.0648	392.4		
+Metabolite_M215T71	M215T71	Citric acid	215.0158	71.3	Carboxylic acids and derivatives	Tricarboxylic acids and derivatives
+Metabolite_M168T103	M168T103	1,6,6-Trimethyl-2,7-dioxabicyclo[3.2.2]nonan-3-one	168.091	102.9		
+Metabolite_M181T216	M181T216	Clavaminate	181.0604	216		
+Metabolite_M171T266	M171T266	(1R,2R,4S)-limonene-1,2-diol	171.1376	266.1		
+Metabolite_M247T388	M247T388	Lacinilene C	247.1323	387.6		
+Metabolite_M186T328	M186T328	4-isopropenyl-7-methyloxepan-2-one	186.1484	327.7		
+Metabolite_M153T688	M153T688	1,7-dimethylurate	153.0767	688.1	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M178T62	M178T62	dihomomethionine	178.0901	62.5		
+Metabolite_M594T52_2	M594T52_2	Hesperidin	594.1721	52.3	Flavonoids	Flavonoid glycosides
+Metabolite_M265T500	M265T500	Thellungianin G	265.1427	499.7	Phenol esters	
+Metabolite_M787T438_1	M787T438_1	omega-Hydroxy-beta-dihydromenaquinone-9	786.6093	438.5		
+Metabolite_M224T109	M224T109	Scoparone	224.0911	109.3	Coumarins and derivatives	
+Metabolite_M286T486	M286T486	Dihydroceramide	286.3096	486.2	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M649T426	M649T426	Rutin	649.253	425.5	Flavonoids	Flavonoid glycosides
+Metabolite_M314T523	M314T523	Phytol	314.3408	523	Prenol lipids	Diterpenoids
+Metabolite_M302T318	M302T318	Calycosin	302.1014	318.1	Isoflavonoids	O-methylated isoflavonoids
+Metabolite_M148T51_2	M148T51_2	S-Methyl-L-methionine	148.0795	51.4		
+Metabolite_M177T86	M177T86	Indoleacetaldehyde	177.1017	85.6	Indoles and derivatives	Indoles
+Metabolite_M191T47_2	M191T47_2	3-Sulfinylpyruvic acid	191.0763	46.6	Keto acids and derivatives	Alpha-keto acids and derivatives
+Metabolite_M249T55	M249T55	N2-Succinyl-L-glutamic acid 5-semialdehyde	249.1073	54.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M487T662	M487T662	2-heptylquinolin-4(1H)-one	487.3303	661.9		
+Metabolite_M284T563	M284T563	3-dehydrosphinganinium(1+)	284.2938	563.1	Organooxygen compounds	Carbonyl compounds
+Metabolite_M235T52	M235T52	L-Valine	235.1644	51.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M423T459	M423T459	(25R)-26-hydroxycholest-4-en-3-one	423.3218	459.5		
+Metabolite_M519T536_1	M519T536_1	2-Heptyl-3-hydroxy-quinolone	519.3198	536.2		
+Metabolite_M210T640	M210T640	2-Epi-5-epi-valiolone	210.098	639.5		
+Metabolite_M304T469	M304T469	Anandamide	304.2987	469.2	Organonitrogen compounds	Amines
+Metabolite_M473T602	M473T602	L-Olivosyl-oleandolide	473.3127	601.5		
+Metabolite_M582T640	M582T640	CMP-KDO	582.2055	640.3		
+Metabolite_M453T689	M453T689	(22R,23R)-22,23-dihydroxy-campest-4-en-3-one	453.332	689.4		
+Metabolite_M394T442	M394T442	beta-tocotrienol	394.2975	442.1	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M209T108	M209T108	Deoxyinosine	209.1024	107.9	Purine nucleosides	Purine 2'-deoxyribonucleosides
+Metabolite_M256T618	M256T618	Bombykol	256.2623	617.7		
+Metabolite_M280T276	M280T276	stylopine	280.1319	275.8		
+Metabolite_M606T625_1	M606T625_1	Dihydroisopentenyldehydrorhodopin	605.5115	625.2		
+Metabolite_M205T72	M205T72	Linuron	205.0284	71.6	Benzene and substituted derivatives	N-phenylureas
+Metabolite_M328T265	M328T265	Sinapine	328.1977	265.3	Cinnamic acids and derivatives	Hydroxycinnamic acids and derivatives
+Metabolite_M221T212	M221T212	9-methylthiononanaldoxime	221.1693	212		
+Metabolite_M414T42	M414T42	alpha-Tocopherol	414.3877	42.4	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M116T42	M116T42	Sulfate	116.0018	42.1	Non-metal oxoanionic compounds	Non-metal sulfates
+Metabolite_M127T42_2	M127T42_2	2-Vinyl-4H-1,3-dithiine	127.0028	42.2	Dithiins	
+Metabolite_M353T50	M353T50	Ureidosuccinic acid	353.0921	50.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M374T678	M374T678	Paspalicine	374.2459	678.3		
+Metabolite_M380T384	M380T384	Aurachin B	380.2604	384.4		
+Metabolite_M338T52	M338T52	5-Amino-6-(5-phosphoribosylamino)uracil	338.064	52.2		
+Metabolite_M465T521	M465T521	7-Oxateasterone	465.3549	520.9	Steroids and steroid derivatives	Steroid lactones
+Metabolite_M315T255	M315T255	5-Amino-6-ribitylamino uracil	315.203	254.7	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M201T360_1	M201T360_1	Gamma-glutamyl-L-putrescine	201.1483	359.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M296T74	M296T74	N1-(alpha-D-ribosyl)-5,6-dimethyl-benzimidazole	296.1588	74	Benzimidazole ribonucleosides and ribonucleotides	
+Metabolite_M237T369	M237T369	Benzimidazole	237.1121	369.4	Benzimidazoles	
+Metabolite_M143T42_2	M143T42_2	Naphthalene-1,2-diol	143.0483	41.7	Naphthalenes	Naphthols and derivatives
+Metabolite_M331T51_2	M331T51_2	Camptothecin	331.1097	50.9		
+Metabolite_M699T300	M699T300	Dihydrochelerythrine	699.2743	299.8	Benzophenanthridine alkaloids	Dihydrobenzophenanthridine alkaloids
+Metabolite_M353T46	M353T46	6-Hydroxyprotopine	353.1279	46.3		
+Metabolite_M167T103	M167T103	Tiformin	167.0893	102.8		
+Metabolite_M193T232	M193T232	7-methylthioheptanaldoxime	193.1381	231.9		
+Metabolite_M189T192	M189T192	FAMP	189.0735	192.4		
+Metabolite_M805T655_1	M805T655_1	PC(18_2_18_2)	804.5564	655.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M363T272	M363T272	Phaseollidin	363.2363	271.9	Isoflavonoids	Furanoisoflavonoids
+Metabolite_M633T383	M633T383	Saponarin	633.252	382.6		
+Metabolite_M303T264_1	M303T264_1	carlactone	303.1975	264.5		
+Metabolite_M302T414	M302T414	Boldione	302.2135	413.8	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M377T52	M377T52	Rebeccamycin aglycon	377.0143	51.7		
+Metabolite_M375T483	M375T483	7a,12a-Dihydroxy-5a-cholestan-3-one	375.3647	482.9		
+Metabolite_M158T57_1	M158T57_1	L-argininium(1+)	158.1173	56.5		
+Metabolite_M433T466	M433T466	Rotenone	433.2424	466.2	Isoflavonoids	Rotenoids
+Metabolite_M203T71	M203T71	Eugenol	203.1829	71.3	Phenols	Methoxyphenols
+Metabolite_M521T648_1	M521T648_1	Canthaxanthin	521.4105	648	Prenol lipids	Tetraterpenoids
+Metabolite_M166T63	M166T63	3-Methyluric acid	166.0259	63.2	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M151T71	M151T71	D-Ribose	151.0612	71.4		
+Metabolite_M133T76	M133T76	Dimethyl sulphone	133.1056	76	Sulfonyls	Sulfones
+Metabolite_M797T459_1	M797T459_1	PC(16_0_18_1(9Z)-O(12,13))	796.5523	459.4	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M348T48_1	M348T48_1	justicidins	348.0781	47.8		
+Metabolite_M297T227_1	M297T227_1	7,8-Dihydropteroic acid	297.1071	226.9	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M268T253_3	M268T253_3	Machete	268.1848	253.4	Benzene and substituted derivatives	Anilides
+Metabolite_M267T254	M267T254	N-(p-Hydroxyphenyl)ethyl p-hydroxycinnamide	267.1232	254.2	Cinnamic acids and derivatives	Hydroxycinnamic acids and derivatives
+Metabolite_M605T625_2	M605T625_2	DG(18_1(9Z)_18_1(9Z)_0_0)	604.5239	625.2	Glycerolipids	Diradylglycerols
+Metabolite_M311T342	M311T342	ent-cassa-12,15-dien-2beta-ol	311.2318	342.4		
+Metabolite_M345T73	M345T73	Artemetin	345.1363	72.7	Flavonoids	O-methylated flavonoids
+Metabolite_M326T332	M326T332	Galantamine	326.2528	332.3	Amaryllidaceae alkaloids	Galanthamine-type amaryllidaceae alkaloids
+Metabolite_M241T73	M241T73	Albaflavenone	241.1541	73.1		
+Metabolite_M241T341	M241T341	germacra-1(10),4,11(13)-trien-12-al	241.1541	340.9		
+Metabolite_M279T92	M279T92	Lotaustralin	279.1525	91.8	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M312T324	M312T324	4-O-Methylnorbelladine	312.2371	324		
+Metabolite_M735T658	M735T658	PC(18_3(9Z,12Z,15Z)_18_3(9Z,12Z,15Z))	734.5415	657.9		
+Metabolite_M173T292_2	M173T292_2	Dimethylpropiothetin	173.1363	291.6	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M186T131	M186T131	1H-Indole-2,3-dione	186.1315	130.8	Indoles and derivatives	Indolines
+Metabolite_M205T63	M205T63	Dihydroconiferyl alcohol	205.0816	62.8	Phenols	Methoxyphenols
+Metabolite_M409T472	M409T472	Cholesterol	409.3402	472	Steroids and steroid derivatives	Cholestane steroids
+Metabolite_M665T607	M665T607	17a-Hydroxypregnenolone	665.4712	606.5		
+Metabolite_M159T71	M159T71	Phenylacetaldehyde	159.1568	71	Benzene and substituted derivatives	Phenylacetaldehydes
+Metabolite_M316T74	M316T74	SYNNEMATIN B	316.1356	74.2		
+Metabolite_M298T233	M298T233	Norbelladine	298.2215	232.6		
+Metabolite_M169T69	M169T69	2-Amino-3-carboxymuconic acid semialdehyde	169.0353	68.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M201T196	M201T196	Camalexin	201.0501	196	Indoles and derivatives	Indoles
+Metabolite_M266T378	M266T378	(+)-cis-abscisic aldehyde	266.1724	378.3	Prenol lipids	Sesquiterpenoids
+Metabolite_M204T192	M204T192	N-acetyl-alpha-D-glucosamine	204.0887	192.1		
+Metabolite_M399T459	M399T459	Tryprostatin A	399.2431	459.4		
+Metabolite_M184T338	M184T338	1-Methylxanthine	184.081	337.8	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M172T345	M172T345	Mandelonitrile	172.1523	344.5	Benzene and substituted derivatives	
+Metabolite_M469T313	M469T313	3-Dehydroteasterone	469.3239	312.5		
+Metabolite_M465T292	M465T292	ABA-GE cpd	465.2916	291.7		
+Metabolite_M188T234	M188T234	L-Phenylalanine	188.0702	233.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M203T83	M203T83	Homoserine, O-succinyl-	203.081	82.7		
+Metabolite_M303T358	M303T358	Oryzalexin A	303.2351	358	Prenol lipids	Diterpenoids
+Metabolite_M362T409	M362T409	10,11-Epoxy-3-geranylgeranylindole	362.3246	409.2		
+Metabolite_M583T419_2	M583T419_2	Premithramycin A1	583.2623	418.6		
+Metabolite_M783T656_3	M783T656_3	PC(18_1(9Z)_18_3(9Z,12Z,15Z))	782.5782	655.5		
+Metabolite_M778T373_2	M778T373_2	2-methoxy-6-all trans-decaprenyl-2-methoxy-1,4-benzoquinol	777.682	372.7	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M718T379	M718T379	5-Methyltetrahydropteroyltri-L-glutamic acid	718.2872	378.6	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M134T54	M134T54	Guanine	134.0446	54.5	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M302T63	M302T63	3-deoxy-D-manno-octulosonate 8-phosphate	302.0194	63.3	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M877T57_1	M877T57_1	Hydroxymethylbilane	877.2649	57.2	Tetrapyrroles and derivatives	
+Metabolite_M265T350	M265T350	Pinosylvin methyl ether	265.2002	349.7		
+Metabolite_M785T475_2	M785T475_2	PC(18_1(9Z)_18_2(9Z,12Z))	784.5944	475.2		
+Metabolite_M339T380	M339T380	S-Adenosylmethioninamine	339.14	380	5'-deoxyribonucleosides	5'-deoxy-5'-thionucleosides
+Metabolite_M201T228	M201T228	Serylglycine	201.1594	228.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M253T232	M253T232	1,10-dihydro-1,10-dihydroxyfluoren-9-one	253.1638	232.4	Fluorenes	
+Metabolite_M697T290_4	M697T290_4	Protomycinolide IV	697.4588	290.2		
+Metabolite_M195T387	M195T387	cis-1,2-Dihydroxycyclohexa-3,5-diene-1-carboxylate	195.1376	387.4		
+Metabolite_M200T41	M200T41	Ethionamide sulphoxide	200.0827	41.3	Pyridines and derivatives	
+Metabolite_M343T389	M343T389	Oleandolide	343.2522	389.5		
+Metabolite_M348T379	M348T379	Pseudomonine	348.1622	379.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M806T622_1	M806T622_1	Erythronolide B	805.541	622.4		
+Metabolite_M199T407	M199T407	D-Alanyl-D-alanine	199.18	406.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M345T311	M345T311	(S)-scoulerine	345.1853	310.5	Protoberberine alkaloids and derivatives	
+Metabolite_M301T46	M301T46	4-Coumaryl alcohol	301.1395	46.3	Cinnamyl alcohols	
+Metabolite_M430T385	M430T385	roquefortine D	430.2928	384.5		
+Metabolite_M297T227_2	M297T227_2	Glyceollidin II	297.1525	227.4	Isoflavonoids	Furanoisoflavonoids
+Metabolite_M279T227	M279T227	10-Deoxymethynolide	279.1917	226.9		
+Metabolite_M299T368	M299T368	Lactose	299.1379	367.5	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M381T439	M381T439	(25R)-3-ketocholest-4-en-26-al	381.31	438.9		
+Metabolite_M376T459_1	M376T459_1	Dehydroxypaxilline	376.2583	459.5	Naphthopyrans	
+Metabolite_M324T185	M324T185	6-hydroxytryprostatin B	324.2115	184.5		
+Metabolite_M309T53	M309T53	Cyclo(tyrosyl-tyrosyl)	309.1279	53.3		
+Metabolite_M424T485_2	M424T485_2	Oleanolic aldehyde	424.3399	484.6	Prenol lipids	Triterpenoids
+Metabolite_M338T223	M338T223	Lambertine	338.1337	222.8	Protoberberine alkaloids and derivatives	
+Metabolite_M448T577_1	M448T577_1	ecdysone	448.2879	577.1		
+Metabolite_M206T192	M206T192	S-Acetyldihydrolipoamide	206.1001	192.4	Fatty Acyls	Fatty amides
+Metabolite_M322T398	M322T398	Guanosine	322.1846	398	Purine nucleosides	
+Metabolite_M158T71	M158T71	L-Threonine	158.1536	71.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M645T42_2	M645T42_2	Nadide	645.0991	42		
+Metabolite_M164T91	M164T91	4-Hydroxy-1-(3-pyridinyl)-1-butanone	164.0717	91.5	Organooxygen compounds	Carbonyl compounds
+Metabolite_M203T141	M203T141	L-Tryptophan	203.0826	140.7	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M165T306	M165T306	(4S)-7-Hydroxy-4-isopropenyl-7-methyloxepan-2-one	165.0921	306.1		
+Metabolite_M169T359	M169T359	2-Exo-hydroxy-1,8-cineole	169.1234	358.9	Oxanes	
+Metabolite_M214T48	M214T48	sn-glycero-3-Phosphoethanolamine	214.0486	48.1	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M187T73	M187T73	4-Oxocyclohexanecarboxylate	187.0612	72.6		
+Metabolite_M135T46_2	M135T46_2	Threonic acid	135.0299	46.1	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M175T49	M175T49	3-Isopropylmalic acid	175.0612	48.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M407T356_2	M407T356_2	Cortisol	407.2075	355.6	Steroids and steroid derivatives	Hydroxysteroids
+Metabolite_M237T46_1	M237T46_1	Quinic acid	237.0616	46.3	Organooxygen compounds	Alcohols and polyols
+Metabolite_M209T294	M209T294	FA 12_3;O	209.1183	293.8		
+Metabolite_M185T369	M185T369	6-Hydroxy-3-isopropenylheptanoate	185.1183	368.6		
+Metabolite_M204T138	M204T138	(2R)-2-hydroxy-3-(1H-indol-3-yl)propanoic acid	204.0666	137.8		
+Metabolite_M172T95	M172T95	N-Acetylleucine	172.0978	94.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M193T421	M193T421	1-Methoxy-4-(2-propenyl)benzene	193.087	420.8		
+Metabolite_M188T99	M188T99	Kynurenic acid	188.0353	99.2	Quinolines and derivatives	Quinoline carboxylic acids
+Metabolite_M308T46_2	M308T46_2	thiamine(1+) aldehyde	308.1173	46		
+Metabolite_M165T104	M165T104	3-phenyllactic acid	165.0557	104.3		
+Metabolite_M152T379	M152T379	3-Amino-5-hydroxybenzoic acid	152.0353	379.1	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M195T81	M195T81	2-Methoxy-4-vinylphenol	195.0663	80.8	Phenols	Methoxyphenols
+Metabolite_M144T326	M144T326	Indole-3-carboxaldehyde	144.0455	326.3	Indoles and derivatives	Indoles
+Metabolite_M215T107	M215T107	8-Methylnonenoate	215.1289	106.8	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M197T75	M197T75	Nudifloramide	197.0568	74.8	Pyridines and derivatives	Pyridinecarboxylic acids and derivatives
+Metabolite_M128T48	M128T48	Pipecolic acid	128.0353	47.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M137T134	M137T134	4-Hydroxybenzoic acid	137.0244	133.9	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M195T46	M195T46	Gluconic acid	195.051	46	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M186T73	M186T73	6-Acetamido-3-oxohexanoate	186.0772	72.8		
+Metabolite_M183T47	M183T47	2-Oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline	183.016	47.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M174T49_1	M174T49_1	N4-Acetylaminobutanal	174.0772	48.7	Organooxygen compounds	Carbonyl compounds
+Metabolite_M159T73	M159T73	epsilon-Caprolactone	159.0663	73.3	Lactones	
+Metabolite_M171T90	M171T90	Oxalosuccinic acid	171.0663	90.5	Carboxylic acids and derivatives	Tricarboxylic acids and derivatives
+Metabolite_M146T46	M146T46	L-Glutamic acid	146.0459	45.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M173T73_2	M173T73_2	L-Theanine	173.0819	72.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M181T71_1	M181T71_1	3-Methoxy-4-hydroxyphenylglycolaldehyde	181.0506	71.5	Phenols	Methoxyphenols
+Metabolite_M239T367	M239T367	4-(2,6,6-Trimethyl-1-cyclohexen-1-yl)-2-butanone	239.1653	366.6	Prenol lipids	Sesquiterpenoids
+Metabolite_M391T407	M391T407	Hyodeoxycholic acid	391.2853	407.1		
+Metabolite_M223T308	M223T308	Vomifoliol	223.134	308.5		
+Metabolite_M161T73	M161T73	Propioin	161.0819	73.2		
+Metabolite_M206T146	M206T146	N-Acetyl-L-phenylalanine	206.0823	145.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M195T241	M195T241	(R)-Menthofuran	195.1027	241.4	Prenol lipids	Monoterpenoids
+Metabolite_M184T50_2	M184T50_2	4-Amino-5-hydroxymethyl-2-methylpyrimidine	184.0728	49.7	Diazines	Pyrimidines and pyrimidine derivatives
+Metabolite_M183T278	M183T278	7-hydroxy-4-isopropenyl-7-methyloxepan-2-one	183.1027	278.1		
+Metabolite_M209T75	M209T75	5-Hydroxyferulic acid	209.0455	75	Cinnamic acids and derivatives	Hydroxycinnamic acids and derivatives
+Metabolite_M189T49	M189T49	2,4-dihydroxy-2-heptenedioc acid	189.0405	48.8		
+Metabolite_M186T80	M186T80	Panthenol	186.1136	79.9		
+Metabolite_M377T491	M377T491	23-Nordeoxycholic acid	377.2698	491.4	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M163T34	M163T34	3-(4-hydroxyphenyl)lactate	163.0401	33.6	Phenylpropanoic acids	
+Metabolite_M200T72	M200T72	(3S,5S)-Carbapenam-3-carboxylate	200.0564	72.5		
+Metabolite_M167T48	M167T48	Uric acid	167.0211	48.2	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M151T73	M151T73	(R)-mandelic Acid	151.0401	72.7	Benzene and substituted derivatives	
+Metabolite_M161T113	M161T113	3,6-anhydro-alpha-L-galactopyranose	160.8969	112.9		
+Metabolite_M158T74	M158T74	5-Acetamidovalerate	158.0823	73.7	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M159T239	M159T239	5-Hydroxyvalproic acid	159.1027	239.3	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M159T257	M159T257	Lactyl- Brenztraubensaure	159.1027	256.8		
+Metabolite_M138T327	M138T327	2-Nitrophenol	138.0197	327.4	Phenols	Nitrophenols
+Metabolite_M187T256	M187T256	4-Sulfobenzyl alcohol	187.0071	256.2		
+Metabolite_M145T49	M145T49	L-Glutamine	145.0619	48.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M173T73_1	M173T73_1	N-Methyltryptamine	173.0455	72.7	Indoles and derivatives	Tryptamines and derivatives
+Metabolite_M173T92	M173T92	13031-04-4	173.0455	91.5		
+Metabolite_M186T232	M186T232	Indoleacrylic acid	186.0561	231.6	Indoles and derivatives	Indoles
+Metabolite_M215T359	M215T359	2-Undecanone	215.1652	359.4	Organooxygen compounds	Carbonyl compounds
+Metabolite_M263T287	M263T287	Gamma-CEHC	263.1288	286.7	Benzopyrans	1-benzopyrans
+Metabolite_M188T44	M188T44	AminoDHQ	188.0565	44.3		
+Metabolite_M145T43	M145T43	Oxoglutaric acid	145.0142	42.6	Keto acids and derivatives	Gamma-keto acids and derivatives
+Metabolite_M171T379	M171T379	p-Menthane-3,8-diol	171.1391	379.3	Prenol lipids	Monoterpenoids
+Metabolite_M162T155	M162T155	3-Hydroxykynurenamine	162.0561	155.2	Organooxygen compounds	Carbonyl compounds
+Metabolite_M177T46	M177T46	Hamamelose	177.0404	46		
+Metabolite_M178T93	M178T93	Hippuric acid	178.0509	92.8	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M211T72	M211T72	Piperitenone	211.0975	72.4	Prenol lipids	Monoterpenoids
+Metabolite_M137T68	M137T68	Urocanic acid	137.0357	68.2	Azoles	Imidazoles
+Metabolite_M135T292	M135T292	4-Hydroxy-3-methoxybenzenemethanol	135.0452	292.2	Phenols	Methoxyphenols
+Metabolite_M219T97	M219T97	Valienone	218.9968	97.2		
+Metabolite_M189T218	M189T218	VALPROIC ACID	189.1133	218.5		
+Metabolite_M133T43	M133T43	DL-Malic acid	133.0143	42.6	Hydroxy acids and derivatives	Beta hydroxy acids and derivatives
+Metabolite_M185T48	M185T48	Gamma-Glutamylglycine	185.0567	48.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M172T73	M172T73	5-(Carboxymethyl)proline	172.0616	72.8		
+Metabolite_M153T47	M153T47	Glycerol 3-phosphate	152.9959	46.9	Glycerophospholipids	Glycerophosphates
+Metabolite_M479T535	M479T535	Crustecdysone	479.3012	535.2	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M114T53	M114T53	L-Proline	114.0561	52.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M173T47	M173T47	Formiminoglutamic acid	173.0567	47.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M239T242	M239T242	3-carboxy-4-methyl-5-propyl-2-furanpropanoate (CMPF)	239.0926	241.5	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M188T126	M188T126	1-Acetylisatin	188.0354	125.6		
+Metabolite_M233T42	M233T42	N-(Carboxymethyl)-N-(2-((carboxymethyl)amino)ethyl)glycine	233.0778	42.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M257T287	M257T287	Tetradecanedioic acid	257.1757	287	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M212T214	M212T214	Indoxyl sulfate	212.0022	214.1		
+Metabolite_M167T126	M167T126	4-Hydroxymethylsalicylate	167.0349	126.3		
+Metabolite_M131T74	M131T74	6-Hydroxyhexanoic acid	131.0713	73.6	Hydroxy acids and derivatives	Medium-chain hydroxy acids and derivatives
+Metabolite_M144T48	M144T48	2-Keto-glutaramic acid	144.0303	47.8	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M255T220	M255T220	L,L-Cyclo(leucylprolyl)	255.1349	220.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M283T542	M283T542	Stearic acid	283.2641	542	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M213T339	M213T339	3-Oxododecanoic acid	213.1495	339.4	Keto acids and derivatives	Medium-chain keto acids and derivatives
+Metabolite_M169T272	M169T272	Azelaic acid	169.0871	272	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M164T104	M164T104	5-Pyridoxolactone	164.0354	104.3	Pyridines and derivatives	Pyridinecarboxylic acids and derivatives
+Metabolite_M164T73	M164T73	(R)-2-Hydroxy-2H-1,4-benzoxazin-3(4H)-one	164.0354	73.4	Benzoxazines	Benzoxazinones
+Metabolite_M188T237	M188T237	Indole-3-propionic acid	188.0716	237.1	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M211T303_1	M211T303_1	2-Hydroxy-6-ketononatrienedioate	211.0247	302.9		
+Metabolite_M357T659	M357T659	Lithocholic acid	357.2797	658.8		
+Metabolite_M203T73_1	M203T73_1	Diethyl 2-hydroxy-3-methylsuccinate	203.0926	73		
+Metabolite_M132T46	M132T46	L-Aspartic acid	132.0303	45.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M173T67	M173T67	L-Arginine	173.1043	66.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M257T289	M257T289	FA 12_2;O	257.1393	288.5		
+Metabolite_M255T649	M255T649	1-epi-Valienol 7-phosphate	255.2328	648.6		
+Metabolite_M329T622	M329T622	taxa-4(20),11-dien-5-alpha-yl acetate	329.2484	622.4		
+Metabolite_M117T42	M117T42	Succinic acid	117.0194	42.3	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M245T232	M245T232	L-Tryptophan betaine	245.1294	231.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M267T410	M267T410	beta-Caryophyllene alcohol	267.1964	409.5	Organooxygen compounds	Alcohols and polyols
+Metabolite_M145T155	M145T155	3-Hexen-1-ol	145.0871	155.3	Fatty Acyls	Fatty alcohols
+Metabolite_M173T162	M173T162	Phenol sulphate	172.9913	162.3	Organic sulfuric acids and derivatives	Arylsulfates
+Metabolite_M427T44_1	M427T44_1	IDP	427.0059	43.8	Purine nucleotides	Purine ribonucleotides
+Metabolite_M103T50	M103T50	alpha-Hydroxyisobutyric acid	103.04	50.4	Hydroxy acids and derivatives	Alpha hydroxy acids and derivatives
+Metabolite_M243T72	M243T72	Uridine	243.0621	72.3	Pyrimidine nucleosides	
+Metabolite_M176T72	M176T72	N-formylmethionine	176.0388	72.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M274T122	M274T122	L-Tyrosine methyl ester 4-sulfate	274.0389	122.4		
+Metabolite_M129T98	M129T98	3-methyl-2-oxovalerate	129.0558	97.7	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M129T73	M129T73	4-Acetylbutyrate	129.0558	72.9	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M207T263	M207T263	2-Naphthalenesulfonic acid	207.012	262.6	Naphthalenes	Naphthalene sulfonic acids and derivatives
+Metabolite_M182T91	M182T91	Pyridoxate	182.046	91.1	Pyridines and derivatives	Pyridinecarboxylic acids and derivatives
+Metabolite_M203T46	M203T46	4-Methylene-L-glutamine	203.0672	45.7		
+Metabolite_M267T309	M267T309	(+)-Dehydrovomifoliol	267.1236	308.6	Prenol lipids	Sesquiterpenoids
+Metabolite_M157T278	M157T278	3-Oxovalproic acid	157.0869	277.9	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M117T55	M117T55	FA 5_0;O	117.0558	55.1		
+Metabolite_M723T581_3	M723T581_3	Deoxymyxol 2-(2,4-di-O-methyl-fucoside)	723.4999	580.6		
+Metabolite_M269T444	M269T444	(S)-10,16-Dihydroxyhexadecanoic acid	269.212	444	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M255T265	M255T265	7,12-Dimethylbenz[a]anthracene	255.1137	264.7	Phenanthrenes and derivatives	
+Metabolite_M285T341	M285T341	Hexadecanedioic acid	285.2069	340.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M387T52	M387T52	Sucrose	387.1141	51.5	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M121T268	M121T268	4-Hydroxybenzaldehyde	121.0296	268.1	Organooxygen compounds	Carbonyl compounds
+Metabolite_M155T33	M155T33	5-Carboxyuracil	155.0097	33.2		
+Metabolite_M143T52	M143T52	2-Deoxyinosose	143.0351	51.6		
+Metabolite_M263T119	M263T119	Phenylacetylglutamine	263.1035	119.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M187T311	M187T311	FA 10_0;O	187.1338	310.8		
+Metabolite_M119T45	M119T45	Glyoxylic acid	118.9987	44.6	Carboxylic acids and derivatives	Carboxylic acids
+Metabolite_M295T486	M295T486	FA 18_2;O	295.2276	485.8		
+Metabolite_M181T52_dup_1	M181T52	3,5-dihydroxyphenylglyoxylic acid	181.0716	52		
+Metabolite_M109T231	M109T231	Catechol	109.0296	230.8		
+Metabolite_M146T50	M146T50	(1Z,2S)-2-methylbutanal oxime	146.0824	50		
+Metabolite_M337T418	M337T418	16alpha-Hydroxysteroid	337.2381	418.3		
+Metabolite_M165T72	M165T72	Ribonic acid	165.0403	71.6	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M367T339_2	M367T339_2	Dehydroepiandrosterone sulfate	367.1581	338.7	Steroids and steroid derivatives	Sulfated steroids
+Metabolite_M293T73_1	M293T73_1	6-Hydroxymelatonin	293.114	73.2	Indoles and derivatives	Hydroxyindoles
+Metabolite_M225T118	M225T118	FA 12_3;O2	225.113	118.4		
+Metabolite_M129T42	M129T42	Citraconic acid	129.0192	41.7	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M297T524	M297T524	FA 18_0;O2	297.2432	524.3		
+Metabolite_M479T590	M479T590	6-Oxogentamicin X2	479.3373	589.5		
+Metabolite_M577T552_1	M577T552_1	Astaxanthin	577.3681	552.4	Prenol lipids	Tetraterpenoids
+Metabolite_M149T46	M149T46	3-Hydroxyisobutyric acid	149.0457	46.3		
+Metabolite_M130T46	M130T46	2-Amino-4-oxopentanoate	130.0511	46.4		
+Metabolite_M465T326	M465T326	Cholesterol sulfate	465.3039	325.6	Steroids and steroid derivatives	Cholestane steroids
+Metabolite_M227T587	M227T587	Myristic acid	227.2014	587.2	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M183T72	M183T72	3-methylgallic acid	183.0297	72.4		
+Metabolite_M615T320	M615T320	3-Hydroxyethylbacteriochlorophyllide a	615.247	319.7		
+Metabolite_M191T46	M191T46	5-Epi-valiolone	191.0559	46.1		
+Metabolite_M595T423_2	M595T423_2	Magnoline	595.282	423.1		
+Metabolite_M185T300	M185T300	6-hydroxy-3-isopropenylheptanoic acid	185.1181	300.3		
+Metabolite_M103T46	M103T46	Tartronate semialdehyde	103.0038	46.1	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M253T600	M253T600	Palmitoleic acid	253.217	600	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M115T56	M115T56	Fumaric acid	115.0402	56.2	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M273T40	M273T40	Deoxyuridine	273.0725	40.1	Pyrimidine nucleosides	Pyrimidine 2'-deoxyribonucleosides
+Metabolite_M157T34	M157T34	2-n-Propyl-4-oxopentanoic acid	157.0872	33.6	Keto acids and derivatives	Gamma-keto acids and derivatives
+Metabolite_M231T261	M231T261	3,4-Dihydroxyphenylglycol	231.0513	261.4	Phenols	Benzenediols
+Metabolite_M175T43_2	M175T43_2	2-oxogluconic acid	175.0246	42.9		
+Metabolite_M111T40	M111T40	2-Furoic acid	111.0089	40.2	Furans	Furoic acid and derivatives
+Metabolite_M295T470	M295T470	3-HODE + 9-HODE	295.2275	469.9	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M227T277	M227T277	2E-Dodecenedioic acid	227.1286	277	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M123T89	M123T89	3-hydroxybenzyl alcohol	123.0453	89		
+Metabolite_M391T479_2	M391T479_2	LysoPA(16_0_0_0)	391.225	478.8	Glycerophospholipids	Glycerophosphates
+Metabolite_M192T46_2	M192T46_2	(2R,3R,4R)-2-Amino-4-hydroxy-3-methylpentanoic acid	192.0875	46.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M225T52_2	M225T52_2	Galactose	225.0613	51.7		
+Metabolite_M144T71	M144T71	Isobutyrylglycine	144.0668	71.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M267T46_1	M267T46_1	6-Acetyl-D-glucose	267.0718	46.3		
+Metabolite_M147T42	M147T42	L-Arabinonate	147.0297	42.5		
+Metabolite_M343T479	M343T479	10beta,14beta-dihydroxytaxa-4(20),11-dien-5alpha-yl acetate	343.2271	478.9		
+Metabolite_M329T42	M329T42	Inosine 5'-monophosphate (IMP)	329.0297	42	Purine nucleotides	Purine ribonucleotides
+Metabolite_M111T33	M111T33	trans-1,2-Dihydrobenzene-1,2-diol	111.0453	33	Organooxygen compounds	Alcohols and polyols
+Metabolite_M297T487	M297T487	7-Methylguanosine	297.2431	486.6	Purine nucleosides	
+Metabolite_M173T286	M173T286	Formylisoglutamine	173.0453	286.1		
+Metabolite_M229T234	M229T234	Dodecanedioic acid	229.1442	234.3	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M165T46	M165T46	3-Methylxanthine	165.0407	46	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M506T556_2	M506T556_2	Galactosylsphingosine	506.3342	556	Sphingolipids	Glycosphingolipids
+Metabolite_M173T41	M173T41	Aconitate [cis or trans]	173.0089	40.5	Carboxylic acids and derivatives	Tricarboxylic acids and derivatives
+Metabolite_M256T424	M256T424	Phloretin	256.0935	424.4	Linear 1,3-diarylpropanoids	Chalcones and dihydrochalcones
+Metabolite_M267T73	M267T73	Inosine	267.0739	72.9	Purine nucleosides	
+Metabolite_M239T48	M239T48	L-Cystine	239.0162	47.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M161T52	M161T52	D-1,5-Anhydrofructose	161.0458	51.7	Oxanes	
+Metabolite_M116T46	M116T46	Aspartate semialdehyde	116.0355	46.2		
+Metabolite_M105T46	M105T46	Glycerate	105.0195	46.1	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M292T48	M292T48	(E)-1-O-Cinnamoyl-beta-D-glucose	292.0719	48.5	Cinnamic acids and derivatives	Cinnamic acid esters
+Metabolite_M274T46_2	M274T46_2	epsilon-(gamma-Glutamyl)lysine	274.104	45.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M311T363	M311T363	11-HpODE	311.2221	362.9	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M124T50	M124T50	Taurine	124.0076	49.5	Organic sulfonic acids and derivatives	Organosulfonic acids and derivatives
+Metabolite_M281T658	M281T658	2-hydroxystearate	281.2481	658.2	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M277T580	M277T580	linolenate(18_3)	277.2168	580.4	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M104T49	M104T49	L-Serine	104.0355	48.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M131T34_1	M131T34_1	Glutaric acid	131.0716	33.7	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M109T136	M109T136	1,3-Benzenediol	109.0297	135.7	Phenols	Benzenediols
+Metabolite_M119T51	M119T51	Lactaldehyde	119.0352	51.3	Organooxygen compounds	Carbonyl compounds
+Metabolite_M253T52	M253T52	Galactosylglycerol	253.0924	51.8	Glycerolipids	Glycosylglycerols
+Metabolite_M305T630	M305T630	12-Hydroxyjasmonate sulfate	305.248	630		
+Metabolite_M279T614	M279T614	FA 18_1;O	279.2324	614		
+Metabolite_M193T46	M193T46	D-Glucuronate	193.035	45.9	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M279T402	M279T402	10,11-epoxy-3,11-dimethyl-7-ethyl-2,6-tridecadienoic acid	279.196	402.2		
+Metabolite_M269T301	M269T301	Baicalein	269.045	301		
+Metabolite_M123T245	M123T245	3-methylcatechol	123.0454	244.9		
+Metabolite_M115T72	M115T72	alpha-Ketoisovaleric acid	115.0403	72	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M159T33_2	M159T33_2	N(6)-Methyllysine	159.103	33.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M153T231	M153T231	2,6-Dihydroxybenzoic acid	153.019	230.7	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M316T49	M316T49	N-acetylglucosaminylasparagine	316.1143	48.8	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M308T46_1	M308T46_1	N-Acetylneuraminic acid	308.098	45.7		
+Metabolite_M271T465	M271T465	2-Hydroxyhexadecanoic acid	271.2272	465.3	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M271T494	M271T494	Pentadecanal	271.2272	493.7	Fatty Acyls	Fatty aldehydes
+Metabolite_M333T45	M333T45	2-(beta-D-Glucosyl)-sn-glycerol 3-phosphate	333.0584	45.2		
+Metabolite_M585T452_2	M585T452_2	all-trans-Hexaprenyl diphosphate	585.313	452.1	Prenol lipids	Polyprenols
+Metabolite_M295T521	M295T521	18-Oxooleate	295.2271	521.1		
+Metabolite_M319T416	M319T416	5alpha-Pregnane-3alpha,20alpha-diol	319.2634	416.4	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M423T690_2	M423T690_2	alpha-Tocotrienol	423.3257	689.6	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M391T354	M391T354	Isohyodeoxycholic acid	391.2843	353.8	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M485T465_3	M485T465_3	Tiglylcarnitine	485.2855	464.8	Fatty Acyls	Fatty acid esters
+Metabolite_M299T586	M299T586	Sugiol	299.2583	586.3		
+Metabolite_M317T442	M317T442	3-Oxo-delta5-steroid	317.2113	442.4		
+Metabolite_M319T453	M319T453	3a,20b-Pregnanediol	319.2633	453	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M301T573	M301T573	Eicosapentaenoic acid	301.2164	573	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M309T347_2	M309T347_2	13(S)-Hydroperoxylinolenic acid	309.2062	347.3	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M435T376	M435T376	7-ketolithocholic acid	435.2739	376	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M313T414	M313T414	FA 18_1;O2	313.2374	414		
+Metabolite_M319T482	M319T482	8,9-DiHETrE	319.2268	481.9	Fatty Acyls	Eicosanoids
+Metabolite_M447T583	M447T583	16-feruloyloxypalmitate	447.2737	583		
+Metabolite_M407T346_2	M407T346_2	Cholic acid	407.2789	346.2	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M327T592_1	M327T592_1	Docosahexaenoic acid	327.2318	591.8	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M331T295	M331T295	FA 20_5;O3	331.1903	294.6		
+Metabolite_M149T548	M149T548	Hydrocinnamic acid	149.0097	547.7	Phenylpropanoic acids	
+Metabolite_M405T358	M405T358	Cortisone	405.1904	358.1	Steroids and steroid derivatives	Hydroxysteroids
+Metabolite_M395T364_1	M395T364_1	Pregnenolone sulfate	395.1883	363.7	Steroids and steroid derivatives	Sulfated steroids
+Metabolite_M311T400	M311T400	13-L-Hydroperoxylinoleic acid	311.2216	399.7	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M293T444	M293T444	FA 18_2;O2	293.2111	443.9		
+Metabolite_M237T344	M237T344	L-Homoserine	237.1083	344.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M333T347	M333T347	Androstanedione	333.2058	347	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M334T333	M334T333	Prostaglandin E2	334.1898	332.5	Fatty Acyls	Eicosanoids
+Metabolite_M101T52	M101T52	Succinic acid semialdehyde	101.0241	51.7	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M498T353_2	M498T353_2	Taurochenodesoxycholic acid	498.2874	353.5	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M661T42_2	M661T42_2	UDP-alpha-D-GlcNAc3NAcA	661.0773	41.8		
+Metabolite_M579T588	M579T588	adonirubin	579.3869	587.5		
+Metabolite_M636T44_1	M636T44_1	UDP-N-acetyl-beta-L-fucosamine	636.0819	43.6		
+Metabolite_M191T40	M191T40	FA 6_2;O5	191.0188	40		
+Metabolite_M380T614	M380T614	isopentenyl adenosine	380.1594	614.3	Purine nucleosides	
+Metabolite_M462T44	M462T44	Adenylsuccinic acid	462.0645	44.1	Benzene and substituted derivatives	Biphenyls and derivatives
+Metabolite_M353T335	M353T335	Prostaglandin F2alpha	353.2316	334.8	Fatty Acyls	Eicosanoids
+Metabolite_M475T485	M475T485	7-alpha-hydroxy-3-oxo-4-cholestenoate (7-HOCA)	475.304	484.9	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M464T300	M464T300	Glycohyocholic acid	464.2993	299.7	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M750T575_2	M750T575_2	nonaprenyl-4-hydroxybenzoate	749.5837	575.4		
+Metabolite_M101T641	M101T641	Acrolein	100.9337	640.7	Organooxygen compounds	Carbonyl compounds
+Metabolite_M528T301_2	M528T301_2	dTDP-3-amino-2,3,6-trideoxy-D-threo-hexopyranos-4-ulose	528.2607	300.6		
+Metabolite_M448T347_2	M448T347_2	Glycohyodeoxycholic acid	448.3043	347.3	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M459T466_2	M459T466_2	2-Methoxy-estradiol-17b 3-glucuronide	459.1998	465.8	Steroids and steroid derivatives	Steroidal glycosides
+Metabolite_M201T283	M201T283	2,6-Dioxo-6-phenylhexanoate	201.0029	282.5		
+Metabolite_M527T256_2	M527T256_2	6-Oxokanamycin C	527.2237	256.2		
+Metabolite_M438T52	M438T52	Flavin mononucleotide	438.0735	52.4	Flavin nucleotides	
+Metabolite_M213T255	M213T255	Phosphoenolpyruvic acid	212.9792	255.4	Organic phosphoric acids and derivatives	Phosphate esters
+Metabolite_M479T441	M479T441	26-Hydroxyecdysone	479.2983	441.4		
+Metabolite_M101T689	M101T689	Iron	100.9338	689	Homogeneous transition metal compounds	
+Metabolite_M377T493	M377T493	delta-Tocotrienol	377.2825	493.2	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M173T33	M173T33	2-Isopropyl-3-oxosuccinate	173.0467	33.4	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M381T487	M381T487	Prostaglandin A1	381.2308	487.2	Fatty Acyls	Eicosanoids
+Metabolite_M405T444	M405T444	7-Ketodeoxycholic acid	405.2619	443.7	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M479T410	M479T410	Brassinolide	479.3412	409.6		
+Metabolite_M397T454	M397T454	Prostaglandin I2	397.226	453.9	Fatty Acyls	Eicosanoids
+Metabolite_M514T331	M514T331	Taurocholate	514.2881	330.7	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M179T93	M179T93	9-Fluorenone	179.0548	92.8		
+Metabolite_M377T351	M377T351	11,20-Dihydroxysugiol	377.1998	350.9		
+Metabolite_M345T381	M345T381	(10S)-Juvenile hormone III diol phosphate	345.1446	380.9		
+Metabolite_M461T362	M461T362	beta-Carotinal	461.3099	361.8	Prenol lipids	Triterpenoids
+Metabolite_M522T446_1	M522T446_1	Psychosine sulfate	522.2699	446.1	Sphingolipids	Glycosphingolipids
+Metabolite_M163T45	M163T45	Lumazine	163.0248	45.5	Pteridines and derivatives	
+Metabolite_M858T659	M858T659	Megalomicin A	857.5308	659.2		
+Metabolite_M274T46_1	M274T46_1	Paraoxon	274.0509	46.2	Benzene and substituted derivatives	Nitrobenzenes
+Metabolite_M571T434_3	M571T434_3	Urobilin	571.2974	433.9	Tetrapyrroles and derivatives	Bilirubins
+Metabolite_M377T331	M377T331	aurachin B epoxide	377.209	331		
+Metabolite_M338T92	M338T92	5-Amino-6-(5'-phosphoribitylamino)uracil	338.0366	91.7	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M189T136	M189T136	Permethric acid	188.9863	135.6		
+Metabolite_M174T162	M174T162	naphthalene-1,2,4,8-tetrol	173.9947	162.3		
+Metabolite_M167T46	M167T46	Niacinamide	167.0447	45.9	Pyridines and derivatives	Pyridinecarboxylic acids and derivatives
+Metabolite_M337T476	M337T476	9,10-EOT	337.2052	476		
+Metabolite_M297T415	M297T415	3,4-Dihydroxy-9,10-secoandrosta-1,3,5(10)-triene-9,17-dione	297.1524	415.3		
+Metabolite_M500T472	M500T472	Terpendole C	500.2759	472.3		
+Metabolite_M130T139	M130T139	Trans-4-hydroxyproline	130.0861	139.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M375T614	M375T614	Deoxycorticosterone	375.2213	613.9	Steroids and steroid derivatives	Hydroxysteroids
+Metabolite_M271T141	M271T141	N-Malonyltryptophan	271.0698	140.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M607T604_2	M607T604_2	Arachidonic acid	607.4672	604	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M450T477	M450T477	3-Deoxo-4b-deoxypaxilline	450.2605	476.8		
+Metabolite_M621T437_1	M621T437_1	Isotetrandrine	621.3032	437.1		
+Metabolite_M238T274	M238T274	1-Carboxy-5-methylphenazine-5-ium	238.0772	274.3		
+Metabolite_M583T661	M583T661	bilirubin	583.2502	661.2		
+Metabolite_M436T542_1	M436T542_1	Terpendole E	436.2812	541.5		
+Metabolite_M187T48	M187T48	1-Hydroxy-2-naphthoic acid	187.042	48.4	Naphthalenes	Naphthalenecarboxylic acids and derivatives
+Metabolite_M666T515_1	M666T515_1	UDP-N-acetyl-D-galactosaminuronic acid	666.0521	515.1		
+Metabolite_M215T91	M215T91	2-O,3-dimethylflaviolin	215.0327	91.4		
+Metabolite_M313T495	M313T495	Sanguinarine	313.0778	495.4	Benzophenanthridine alkaloids	Quaternary benzophenanthridine alkaloids
+Metabolite_M227T73_1	M227T73_1	Diisopropylphosphate	227.0665	73.3	Organic phosphoric acids and derivatives	Phosphate esters
+Metabolite_M401T512_1	M401T512_1	Xanthoxylol	401.1286	512	Furanoid lignans	
+Metabolite_M213T63	M213T63	4-(Glutamylamino) butanoate	213.0857	62.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M134T33	M134T33	Sarcosine	134.0474	33.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M181T71_2	M181T71_2	cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol	181.0697	71.4		
+Metabolite_M199T51	M199T51	4-Methylumbelliferyl acetate	199.0378	51.2	Coumarins and derivatives	
+Metabolite_M265T415	M265T415	Juvenile hormone III	265.1476	415		
+Metabolite_M405T413	M405T413	chrysoplenol D	405.0875	412.5		
+Metabolite_M196T51	M196T51	Tauropine	196.0228	50.9		
+Metabolite_M180T320	M180T320	Homocysteine	180.0314	319.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M283T138	M283T138	Psilocybine	283.0818	137.7	Indoles and derivatives	Tryptamines and derivatives
+Metabolite_M221T344	M221T344	Histamine	221.1548	344.1	Organonitrogen compounds	Amines
+Metabolite_M379T614	M379T614	BENZOYLARGININE NITROANILIDE	379.1572	614.3		
+Metabolite_M381T627	M381T627	15H-11,12-EETA	381.2331	626.7	Hydroxy acids and derivatives	Medium-chain hydroxy acids and derivatives
+Metabolite_M259T262	M259T262	Ifosfamide	259.0096	261.9	Oxazaphosphinanes	Isofamides
+Metabolite_M236T46	M236T46	Nicotinamide riboside	236.0772	46.1	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M377T311	M377T311	7-Methylguanosine 5'-phosphate	377.0693	311.3	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M464T513_2	M464T513_2	jadomycin A	464.1287	512.6		
+Metabolite_M239T425	M239T425	5-Hydroxyconiferaldehyde	239.0595	425.1		
+Metabolite_M224T278	M224T278	4-(3-Hydroxy-2-naphthyl)-2-oxobut-3-enoic acid	224.0209	278		
+Metabolite_M243T243	M243T243	Carbapenem biosynthesis intermediate 2	243.0774	242.7		
+Metabolite_M325T51	M325T51	13-Hydroxyabscisic acid	325.1246	50.8	Prenol lipids	Sesquiterpenoids
+Metabolite_M171T52	M171T52	3-dehydroshikimate	171.0274	51.7		
+Metabolite_M165T66	M165T66	Phosphohydroxypyruvic acid	164.957	66	Organooxygen compounds	Carbonyl compounds
+Metabolite_M239T594	M239T594	Coniferaldehyde	239.0597	594.3	Phenols	Methoxyphenols
+Metabolite_M277T271	M277T271	Crocetindial	277.1556	271		
+Metabolite_M231T317	M231T317	5-Hydroxyxanthotoxin	231.0334	316.8		
+Metabolite_M467T252	M467T252	Ent-8alpha-hydroxylabd-13-en-15-yl diphosphate	467.1896	252.3		
+Metabolite_M437T408_1	M437T408_1	Chenodeoxycholic acid	437.284	407.5	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M367T580	M367T580	Cyclooctatin	367.2432	580.2		
+Metabolite_M293T73_2	M293T73_2	1-Deoxy-11-oxopentalenate	293.1441	72.7		
+Metabolite_M217T49	M217T49	cis-1,2-Dihydroxy-1,2-dihydrodibenzothiophene	217.0294	49.1		
+Metabolite_M281T542	M281T542	FA 18_0;O	281.2532	542.5		
+Metabolite_M330T42_2	M330T42_2	N-(5-Phospho-D-ribosyl)anthranilate	330.033	42.1		
+Metabolite_M201T293	M201T293	L-Erythritol 1-phosphate	201.0227	293.1		
+Metabolite_M748T624	M748T624	ecdysone palmitate	747.5542	623.8		
+Metabolite_M567T282	M567T282	Chenodeoxycholic acid-3-β-D-glucuronide	567.327	282.3	Steroids and steroid derivatives	Steroidal glycosides
+Metabolite_M229T302	M229T302	5-Hydroxyisourate	229.0176	301.7	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M241T122	M241T122	Dihydroshikonofuran	241.1193	122.5		
+Metabolite_M198T47	M198T47	3-Phospho-D-erythronate	197.9731	46.7		
+Metabolite_M463T394	M463T394	Thymidine 5'-triphosphate	462.9633	394	Pyrimidine nucleotides	Pyrimidine deoxyribonucleotides
+Metabolite_M190T73_dup_1	M190T73	xi-2,3-Dihydro-2-oxo-1H-indole-3-acetic acid	190.0543	73.1	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M353T308	M353T308	2'-Deoxyuridine 5'-monophosphate disodium salt	353.0327	307.7	Pyrimidine nucleotides	Pyrimidine deoxyribonucleotides
+Metabolite_M218T44	M218T44	3-Dimethylallyl-4-hydroxymandelic acid	218.067	44.4		
+Metabolite_M355T43	M355T43	D-Ribose 2,5-bisphosphate	354.9903	42.8		
+Metabolite_M334T330	M334T330	2,5-diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one	334.0494	330.3	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M321T299	M321T299	Thymidine-5'-monophosphoric acid	321.0431	298.6	Pyrimidine nucleotides	Pyrimidine deoxyribonucleotides
+Metabolite_M279T637	M279T637	18-Hydroxyoleic acid	279.2275	636.6		
+Metabolite_M433T363	M433T363	3-Demethylstaurosporine	433.2582	362.5		
+Metabolite_M241T65	M241T65	Pinostilbene	241.0918	64.5		
+Metabolite_M177T432	M177T432	2-Ethoxy-5-(1-propenyl)phenol	177.0921	431.7	Phenol ethers	
+Metabolite_M157T360	M157T360	Pelargonic acid	157.1234	360.5	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M202T72	M202T72	beta-N-Acetylglucosamine	202.0721	72.1	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M191T155	M191T155	Oxoamide	191.0561	154.8	Organooxygen compounds	Carbonyl compounds
+Metabolite_M219T105	M219T105	3-Indoleacetaldoxime	219.0775	104.6		
+Metabolite_M219T188	M219T188	Phosphoramide mustard	218.9969	187.6	Organonitrogen compounds	Nitrogen mustard compounds
+Metabolite_M205T551	M205T551	4-(1,1,3,3-Tetramethylbutyl)-phenol	205.1598	550.7	Benzene and substituted derivatives	Phenylpropanes
+Metabolite_M203T236	M203T236	(2xi,3xi,6E)-3,7-Dimethyl-6-octene-1,2,3,8-tetrol	203.1289	236.4	Prenol lipids	Monoterpenoids
+Metabolite_M204T110	M204T110	Pantothenol	204.1241	109.9	Fatty Acyls	Fatty amides
+Metabolite_M333T42	M333T42	3,3',4',5,6,7,8-Heptahydroxyflavone	333.022	42.1	Flavonoids	Flavones
+Metabolite_M217T201	M217T201	3-hydroxybenzoic acid-3-O-sulphate	216.9812	200.7	Organic sulfuric acids and derivatives	Arylsulfates
+Metabolite_M217T105	M217T105	4-hydroxybenzoic acid-4-O-sulphate	216.9812	104.9		
+Metabolite_M203T245	M203T245	O-methoxycatechol-O-sulphate	203.002	244.9	Organic sulfuric acids and derivatives	Arylsulfates
+Metabolite_M203T194	M203T194	3-Methoxyphenol sulfate	203.002	194.5	Organic sulfuric acids and derivatives	Arylsulfates
+Metabolite_M239T332	M239T332	6-Hydroxyflavanone	239.0673	331.6		
+Metabolite_M331T645	M331T645	Adrenic acid	331.2643	645.4	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M214T243	M214T243	3-Hydroxyanthranilic acid	214.1449	243.3	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M286T46	M286T46	(S)-Chiral alcohol	286.0608	46.1		
+Metabolite_M201T73	M201T73	Cis-zeatin	201.0768	72.8		
+Metabolite_M226T278	M226T278	N1-Acetylspermine	226.0179	278.4	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M277T250	M277T250	3,5-dimethoxy-4-(sulfooxy)benzoic acid	277.0023	250	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M151T118	M151T118	Mandelic acid	151.0401	118.4	Benzene and substituted derivatives	
+Metabolite_M158T84	M158T84	3-Dehydrocarnitine	158.0823	83.5	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M183T244	M183T244	2,3-Dinitrophenol	183.139	243.5	Phenols	Nitrophenols
+Metabolite_M199T282	M199T282	Tyramine-O-sulfate	199.007	282.5	Organic sulfuric acids and derivatives	Arylsulfates
+Metabolite_M149T44	M149T44	Tartaric acid	149.0092	44.4	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M223T433	M223T433	Pterocarpan	223.1339	433.5	Isoflavonoids	Furanoisoflavonoids
+Metabolite_M222T301	M222T301	bufexamac	222.1135	300.7		
+Metabolite_M245T343	M245T343	3-[3-(Sulfooxy)phenyl]propanoic acid	244.9081	343.1	Organic sulfuric acids and derivatives	Arylsulfates
+Metabolite_M498T333	M498T333	Beloranib	498.2754	333.1	Cinnamic acids and derivatives	Cinnamic acid esters
+Metabolite_M189T47	M189T47	3-Hydroxysuberic acid	189.0769	46.8	Hydroxy acids and derivatives	Medium-chain hydroxy acids and derivatives
+Metabolite_M113T43	M113T43	L-3-Cyanoalanine	112.9373	42.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M201T91	M201T91	Alanylisoleucine	201.1133	91.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M437T481_2	M437T481_2	Macarpine	437.1138	480.8		
+Metabolite_M329T358	M329T358	Bakkenolide C	329.1757	357.9	Prenol lipids	Terpene lactones
+Metabolite_M199T72	M199T72	Di-tert-butyl dicarbonate	199.0975	72.1		
+Metabolite_M188T73_2	M188T73_2	1-Isothiocyanato-6-(methylthio)hexane	188.0929	73.1	Isothiocyanates	
+Metabolite_M187T50	M187T50	Glycylleucine	187.0975	50	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M225T546	M225T546	Myristoleate (14_1n5)	225.1859	545.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M160T48	M160T48	N-Formyl-L-aspartate	160.0616	47.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M194T71	M194T71	Fluciclovine	194.1033	71.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M190T42	M190T42	5-Hydroxyindoleacetic acid	190.0358	42.4	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M212T239	M212T239	Guanadrel	212.0022	238.8	Organooxygen compounds	Ethers
+Metabolite_M323T370	M323T370	Dolasetron	323.2214	369.8	Indoles and derivatives	Indolecarboxylic acids and derivatives
+Metabolite_M153T73_2	M153T73_2	m-Cresol	153.0558	73	Phenols	Cresols
+Metabolite_M200T266	M200T266	Methylisopelletierine	200.1291	266.2	Piperidines	
+Metabolite_M142T232	M142T232	Tryptophol	142.0663	231.5	Indoles and derivatives	Indoles
+Metabolite_M210T91	M210T91	Phosphocreatine	210.0773	91.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M187T74	M187T74	N2-acetyllysine	187.1087	74.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M213T73	M213T73	Geranic acid	213.1131	72.9	Prenol lipids	Monoterpenoids
+Metabolite_M203T47	M203T47	amorpha-4,11-diene	203.1036	46.8		
+Metabolite_M243T414	M243T414	2-Tridecanone	243.1964	414.1	Organooxygen compounds	Carbonyl compounds
+Metabolite_M561T616_1	M561T616_1	phentolamine	561.2987	615.6		
+Metabolite_M163T364	M163T364	2,2-Disulfanylbutanedioic acid	162.9528	363.7	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M293T364	M293T364	Serotinose	293.088	363.8	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M167T89	M167T89	6-isopropenyl-3-methyloxepan-2-one	167.0351	89.1		
+Metabolite_M629T615_1	M629T615_1	Dapagliflozin 3-o-glucuronide	629.1647	615	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M249T530	M249T530	beta-Elemene	249.1858	530.2	Prenol lipids	Sesquiterpenoids
+Metabolite_M427T303	M427T303	beta-Peltatin A methyl ether	427.2136	303.3		
+Metabolite_M241T618	M241T618	Pentadecanoic acid	241.2171	618	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M255T71	M255T71	Multifidol	255.0872	71.5		
+Metabolite_M173T155	M173T155	4-Sulfophenol	173.0454	154.8		
+Metabolite_M173T265	M173T265	2-Methyl-3-oxoadipate	173.0454	264.5		
+Metabolite_M249T389	M249T389	Gemfibrozil	249.1494	389.3	Phenol ethers	
+Metabolite_M151T339	M151T339	RESORCINOL MONOACETATE	151.0402	338.7	Phenol esters	
+Metabolite_M112T44	M112T44	D-1-Amino-2-pyrrolidinecarboxylic acid	112.0405	44.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M186T76	M186T76	Bufotenin	186.0926	76.5	Indoles and derivatives	Tryptamines and derivatives
+Metabolite_M592T568_2	M592T568_2	Ketospirilloxanthin	592.4042	568.1		
+Metabolite_M175T175	M175T175	4-Methylumbelliferone	175.0399	174.9	Coumarins and derivatives	Hydroxycoumarins
+Metabolite_M245T73_2	M245T73_2	3-Hydroxydodecanedioic acid	245.1392	72.8	Hydroxy acids and derivatives	Medium-chain hydroxy acids and derivatives
+Metabolite_M605T583_1	M605T583_1	P 518	605.4006	583.4		
+Metabolite_M455T340	M455T340	5,10-Methenyl-tetrahydrofolate	455.2468	340.3		
+Metabolite_M263T372	M263T372	Hulupinic acid	263.1286	371.8		
+Metabolite_M613T621_2	M613T621_2	Spheroidene	613.4619	620.9		
+Metabolite_M182T75	M182T75	3,5-Dihydroxyphenylglycine	182.0461	75.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M355T596	M355T596	Aacocf3	355.2274	595.6	Organooxygen compounds	Carbonyl compounds
+Metabolite_M159T43	M159T43	Pimelic acid	159.0301	43.3	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M540T346_1	M540T346_1	Cytochalasin B	540.261	346.3	Cytochalasans	Cytochalasins
+Metabolite_M325T292	M325T292	Moracin O	325.2016	291.9	2-arylbenzofuran flavonoids	
+Metabolite_M321T55	M321T55	4-Hydroxyifosfamide	321.0175	55.2	Oxazaphosphinanes	Isofamides
+Metabolite_M194T140	M194T140	4-Hydroxyhippurate	194.0456	139.6	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M325T452	M325T452	Heneicosylic acid	325.1838	451.9		
+Metabolite_M197T283	M197T283	Syringic acid	197.0207	282.6	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M200T47_1	M200T47_1	Cysteine S-sulfate	199.9696	46.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M467T558	M467T558	Ruboxistaurin	467.3075	557.8	Macrolactams	
+Metabolite_M165T264	M165T264	3-Hydroxy-1-(4-hydroxyphenyl)-1-propanone	165.0402	263.7	Organooxygen compounds	Carbonyl compounds
+Metabolite_M265T291	M265T291	Miroprofen	265.1441	290.9	Azoles	Imidazoles
+Metabolite_M282T388	M282T388	2-Undecylpyrrole	282.207	388.4		
+Metabolite_M726T617	M726T617	ubiquinone-8	725.5502	617.3	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M293T40	M293T40	p-Coumaryl alcohol 4-O-glucoside	293.0873	39.9		
+Metabolite_M379T365	M379T365	5-Methoxytryptamine	379.2146	364.7	Indoles and derivatives	Tryptamines and derivatives
+Metabolite_M363T415	M363T415	Allopregnanolone	363.2534	415.5	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M616T558_2	M616T558_2	21,22-Diprenylpaxilline	616.3632	558		
+Metabolite_M433T646	M433T646	3alpha,7alpha,24(S)-trihydroxy-5beta-cholestan-27-al	433.3315	645.9	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M459T615	M459T615	AdoMet	459.3471	615.4		
+Metabolite_M283T688	M283T688	(-)-Maackiain	283.2648	688.3		
+Metabolite_M561T531	M561T531	6-methoxy-3-methyl-2-all-trans-hexaprenyl-1,4-benzoquinol	561.3808	530.7	Prenol lipids	Polyprenylphenols
+Metabolite_M165T548	M165T548	4-Tert-Butylcatechol	165.0408	547.7	Benzene and substituted derivatives	Phenylpropanes
+Metabolite_M455T599	M455T599	Forskolin	455.2296	599.4		
+Metabolite_M297T325	M297T325	Artemether	297.1701	324.7	Prenol lipids	Sesquiterpenoids
+Metabolite_M587T688_2	M587T688_2	Cinchonidine	587.3404	688		
+Metabolite_M295T690	M295T690	Flunixin	295.2636	689.6	Benzene and substituted derivatives	Trifluoromethylbenzenes
+Metabolite_M351T483	M351T483	(3S,6E,10E)-1,6,10,14-Phytatetraen-3-ol	351.2533	482.7	Prenol lipids	Diterpenoids
+Metabolite_M505T269	M505T269	Bemcentinib	505.2634	269	Organonitrogen compounds	Amines
+Metabolite_M467T339	M467T339	Sucrose 6-phosphate	467.0818	338.7		
+Metabolite_M321T272	M321T272	Zeranol	321.17	271.6	Macrolides and analogues	
+Metabolite_M505T560	M505T560	Anadur	505.3335	560.5	Steroids and steroid derivatives	Steroid esters
+Metabolite_M465T558_2	M465T558_2	5β-Androstan-3α-ol-17-One Glucosiduronate	465.3055	557.8	Steroids and steroid derivatives	Steroidal glycosides
+Metabolite_M719T42_2	M719T42_2	Cgamp	719.0964	42.4		
+Metabolite_M437T344_2	M437T344_2	Pinane thromboxane A2	437.0525	343.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M145T72_2	M145T72_2	Dimethylbenzimidazole	145.0615	71.8	Benzimidazoles	
+Metabolite_M347T42	M347T42	Ellagic acid	347.0036	41.7	Tannins	Hydrolyzable tannins
+Metabolite_M299T528	M299T528	2-Hydroxyoctadecanoic acid	299.2584	528		
+Metabolite_M399T385	M399T385	5-(3',4',5'-Trihydroxyphenyl)-gamma-valerolactone-4'-O-glucuronide	398.9356	384.6		
+Metabolite_M327T518	M327T518	Ricinine	327.1107	518.3	Pyridines and derivatives	3-pyridinecarbonitriles
+Metabolite_M449T270	M449T270	secologanin	449.1289	270.2	Prenol lipids	Terpene glycosides
+Metabolite_M449T380_2	M449T380_2	Copal-8-ol diphosphate	449.2533	380.3		
+Metabolite_M549T361	M549T361	Protoporphyrinogen IX	549.2843	360.7	Tetrapyrroles and derivatives	Porphyrins
+Metabolite_M437T350	M437T350	5,6-Carboxyfluorescein	437.1594	349.9	Benzopyrans	1-benzopyrans
+Metabolite_M447T318	M447T318	Pamicogrel	447.274	318.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M395T358	M395T358	Prostaglandin B2	395.1623	358.1	Fatty Acyls	Eicosanoids
+Metabolite_M509T579_2	M509T579_2	IB-Meca	509.3286	578.8	Purine nucleosides	
+Metabolite_M323T390	M323T390	Quinine	323.2219	390.2	Cinchona alkaloids	
+Metabolite_M457T536	M457T536	4a-Formyl-5a-cholesta-8,24-dien-3b-ol	457.2105	535.9	Steroids and steroid derivatives	Cholestane steroids
+Metabolite_M401T595	M401T595	Estradiol valerate	401.232	595.4	Steroids and steroid derivatives	Steroid esters
+Metabolite_M589T233_1	M589T233_1	Phytoene	589.2274	233	Prenol lipids	Tetraterpenoids
+Metabolite_M299T555	M299T555	Dehydroabietic acid	299.2008	554.6		
+Metabolite_M321T295	M321T295	D-myo-Inositol 4-phosphate	321.1465	295.2	Organooxygen compounds	Alcohols and polyols
+Metabolite_M494T575_2	M494T575_2	Ciraparantag	494.3501	574.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M451T380	M451T380	Diphenoxylate	451.2589	380.3	Benzene and substituted derivatives	Diphenylacetonitriles
+Metabolite_M292T56	M292T56	Dihydrobunolol	292.1393	56.2		
+Metabolite_M342T441	M342T441	9-Methylundecanoylcarnitine	342.2639	441	Fatty Acyls	Fatty acid esters
+Metabolite_M489T635	M489T635	4-Oxo-9-cis-retinoyl-beta-glucuronide	489.357	634.7	Prenol lipids	Terpene glycosides
+Metabolite_M293T306	M293T306	Tyrosyl-Leucine	293.1749	306.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M283T370	M283T370	Acacetin	283.0675	370.3		
+Metabolite_M391T36	M391T36	Pyrroloquinoline quinone	391.0068	36.4	Quinolines and derivatives	Pyrroloquinolines
+Metabolite_M190T256	M190T256	2-(2-Methylthio)ethylmalate	190.0061	256.3		
+Metabolite_M327T658	M327T658	Pseudobaptigenin	327.253	658.4	Isoflavonoids	Isoflav-2-enes
+Metabolite_M721T63	M721T63	1-Diphosinositol pentakisphosphate	720.8075	62.8	Organooxygen compounds	Alcohols and polyols
+Metabolite_M503T350	M503T350	Melezitose	503.3242	350.2	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M511T586	M511T586	Chatenaytrienin 2	511.4022	586.1	Fatty Acyls	Fatty alcohols
+Metabolite_M459T466_3	M459T466_3	deacetoxyvindoline	459.212	465.8		
+Metabolite_M439T592	M439T592	Ginkgolide C	439.2586	591.9	Prenol lipids	Terpene lactones
+Metabolite_M443T584_2	M443T584_2	Schleicherastatin 5	443.315	583.7	Steroids and steroid derivatives	Stigmastanes and derivatives
+Metabolite_M154T91	M154T91	Menadione	154.0616	91.4	Naphthalenes	Naphthoquinones
+Metabolite_M455T548	M455T548	Phytyl diphosphate	455.2455	547.9	Prenol lipids	Diterpenoids
+Metabolite_M503T365	M503T365	Rphdhd	503.3245	365.3	Fatty Acyls	Fatty acyl glycosides
+Metabolite_M309T400	M309T400	Cannabinol	309.2059	400.2	Benzopyrans	1-benzopyrans
+Metabolite_M478T535_3	M478T535_3	26-hydroxybrassinolide	478.3081	535.1		
+Metabolite_M431T432	M431T432	Vitexin	431.3149	432		
+Metabolite_M224T73_2	M224T73_2	N-Phenethylacetamide	224.0919	73	Carboxylic acids and derivatives	Carboxylic acid derivatives
+Metabolite_M344T46	M344T46	7-Methylxanthosine	344.0934	46.1	Purine nucleosides	
+Metabolite_M424T72	M424T72	Fumiquinazoline C	424.1357	72		
+Metabolite_M313T461	M313T461	Resiquimod	313.2371	461.2	Quinolines and derivatives	Imidazoquinolines
+Metabolite_M567T689_1	M567T689_1	Hydroxyspheroidene	567.4547	689.2		
+Metabolite_M365T622	M365T622	Nervonic acid	365.225	621.5	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M113T685	M113T685	cis-Acetylacrylate	112.9851	685	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M431T391_1	M431T391_1	1,24,25-trihydroxyvitamin D3	431.3148	391.4	Steroids and steroid derivatives	Vitamin D and derivatives
+Metabolite_M107T256	M107T256	p-Cresol	107.0507	256.3	Phenols	Cresols
+Metabolite_M547T688_1	M547T688_1	5'-Hydroxycastavinol	547.4285	688.5	Flavonoids	Flavans
+Metabolite_M517T648_1	M517T648_1	Corosin	517.2677	648	Prenol lipids	Triterpenoids
+Metabolite_M255T586	M255T586	Isopalmitic acid	255.2341	585.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M659T57	M659T57	myo-Inositol hexakisphosphate	658.8572	57.1	Organooxygen compounds	Alcohols and polyols
+Metabolite_M493T261	M493T261	pumiloside	493.1593	260.9		
+Metabolite_M243T73	M243T73	1,2-Dihydroxyfluorene	243.1236	72.7		
+Metabolite_M498T468	M498T468	LysoPE(0_0_20_5(5Z,8Z,11Z,14Z,17Z))	498.2599	467.8	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M663T426_2	M663T426_2	Avermectin B2a aglycone	663.3418	426.3		
+Metabolite_M487T356	M487T356	7-Sulfocholic acid	487.3405	356.3	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M499T332_1	M499T332_1	Tuftsin	499.2888	332	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M511T317_1	M511T317_1	L-Oleandrosyl-oleandolide	511.2887	317.1		
+Metabolite_M245T72_2	M245T72_2	Octopine	245.1243	72		
+Metabolite_M205T138	M205T138	Biuret	205.0701	137.9	Carboximidic acids and derivatives	Carboximidic acids
+Metabolite_M397T367	M397T367	Elarofiban	397.2225	367.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M400T659	M400T659	Ipsapirone	400.1469	658.7	Diazinanes	Piperazines
+Metabolite_M421T348	M421T348	Resolvin D5	421.2253	347.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M439T263	M439T263	Tetracenomycin B3	439.0693	262.8		
+Metabolite_M462T561_2	M462T561_2	Bucromarone	462.2957	561.4	Organooxygen compounds	Carbonyl compounds
+Metabolite_M567T289	M567T289	3,4-Dihydroanhydrorhodovibrin	567.3141	289.5		
+Metabolite_M236T344	M236T344	Hydroxymethyl indol-3-yl ketone	236.1053	344.2	Indoles and derivatives	Indoles
+Metabolite_M365T137	M365T137	Deoxyaureothin	365.1349	136.8		
+Metabolite_M141T34_1	M141T34_1	Methanesulfinic acid	140.9871	33.8	Sulfinic acids and derivatives	Sulfinic acids
+Metabolite_M445T648_2	M445T648_2	Vitamin D3	445.3348	648	Steroids and steroid derivatives	Vitamin D and derivatives
+Metabolite_M528T280_1	M528T280_1	Glycochenodeoxycholate-3-sulfate	528.2607	280.2	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M242T49	M242T49	Cytidine	242.0796	48.6	Pyrimidine nucleosides	
+Metabolite_M248T73	M248T73	N-(3-Methylbut-2-EN-1-YL)-9H-purin-6-amine	248.1139	72.7	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M453T267_1	M453T267_1	Tetracenomycin E	453.0853	266.5		
+Metabolite_M365T95	M365T95	Quetiapine	365.135	94.6	Benzothiazepines	Dibenzothiazepines
+Metabolite_M591T501	M591T501	Lycopersene	591.3349	500.7		
+Metabolite_M315T42	M315T42	Capillarisin	315.0492	42.2	Coumarins and derivatives	
+Metabolite_M583T265	M583T265	Lumirubin	583.2528	265	Tetrapyrroles and derivatives	
+Metabolite_M426T679	M426T679	arabidiol	426.3654	678.5		
+Metabolite_M567T283	M567T283	Enkephalinamide-Leu, Ala(2)-	567.3145	282.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M401T636_3	M401T636_3	Stellata-2,6,19-triene	401.3037	635.7		
+Metabolite_M295T498	M295T498	dapdiamide C	295.1394	498.4		
+Metabolite_M327T51	M327T51	5-Oxoinosine	326.8529	51.1		
+Metabolite_M475T487	M475T487	Nuatigenin	475.2883	487.2		
+Metabolite_M471T615	M471T615	Maslinic acid	471.3509	615.4	Prenol lipids	Triterpenoids
+Metabolite_M401T311	M401T311	Setipiprant	401.1267	311.3	Naphthalenes	Naphthalenecarboxylic acids and derivatives
+Metabolite_M333T330_2	M333T330_2	Alkannin	333.0595	330.5		
+Metabolite_M454T394	M454T394	Pseudojujubogenin	454.3247	393.8	Prenol lipids	Triterpenoids
+Metabolite_M465T529	M465T529	Hydrocortisoni acetas	465.3615	529.4		
+Metabolite_M471T290	M471T290	Deacetylnomilin	471.2452	289.5	Prenol lipids	Triterpenoids
+Metabolite_M389T232	M389T232	Lysionotin	389.0903	231.6		
+Metabolite_M360T125_2	M360T125_2	12-Hydroxychelirubine	360.0854	125.3		
+Metabolite_M407T415	M407T415	6a,12a-Dihydroxylithocholic acid	407.2776	414.8	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M410T457	M410T457	4,4-Diapolycopenedial	410.2404	457.4		
+Metabolite_M255T43	M255T43	1-Hydroxyphenanthrene	254.9815	43.2	Phenanthrenes and derivatives	Phenanthrols
+Metabolite_M461T659	M461T659	Dorzagliatin	461.3604	659.3		
+Metabolite_M389T41	M389T41	Usnic acid	389.0487	41.2		
+Metabolite_M206T47	M206T47	4-amino-4-deoxychorismate	206.0669	46.8	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M250T46	M250T46	5'-Deoxyadenosine	250.0928	46.4	5'-deoxyribonucleosides	
+Metabolite_M266T46	M266T46	Adenosine	266.0876	45.9	Purine nucleosides	
+Metabolite_M373T580	M373T580	9,11alpha-Epoxypregn-4-ene-3,20-dione	373.2047	580.3		
+Metabolite_M463T570_1	M463T570_1	Dehydroisoandrosterone 3-glucuronide	463.2887	570.1	Steroids and steroid derivatives	Steroidal glycosides
+Metabolite_M173T358	M173T358	Octanal	173.0443	357.5	Organooxygen compounds	Carbonyl compounds
+Metabolite_M751T578_2	M751T578_2	PE(P-18_0_20_4(5Z,8Z,11Z,14Z))	750.5498	578	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M357T248	M357T248	Gardenin	357.1006	247.8		
+Metabolite_M750T604_1	M750T604_1	Plastoquinol A	749.5934	603.9		
+Metabolite_M254T235	M254T235	7,8-dihydromonapterin	254.0721	234.6		
+Metabolite_M431T350_1	M431T350_1	2-cis,6-trans,10-trans-Geranylgeranyl diphosphate	431.1725	349.7	Prenol lipids	Diterpenoids
+Metabolite_M215T232	M215T232	2-Isopropyl citrate	215.0826	231.9	Carboxylic acids and derivatives	Tricarboxylic acids and derivatives
+Metabolite_M469T293	M469T293	1-palmitoyl-dihydroxyacetone-phosphate	469.2284	293.5	Organooxygen compounds	Carbonyl compounds
+Metabolite_M469T285	M469T285	trans-Methylbixin	469.2268	284.8	Prenol lipids	Diterpenoids
+Metabolite_M893T42	M893T42	L-adenosylselenomethionine	893.1648	42.1		
+Metabolite_M636T604_2	M636T604_2	3-(all-trans-octaprenyl)benzene-1,2-diol	635.5147	603.9	Prenol lipids	Polyprenylphenols
+Metabolite_M188T256	M188T256	1-Nitro-5,6-dihydroxy-dihydronaphthalene	188.0103	256.2	Naphthalenes	Nitronaphthalenes
+Metabolite_M595T389	M595T389	Salannin	595.3842	389.2	Prenol lipids	Triterpenoids
+Metabolite_M151T47	M151T47	(-)-cis-Carveol	151.0071	47.5	Prenol lipids	Monoterpenoids
+Metabolite_M567T304_1	M567T304_1	Lutein	567.3126	304.2	Prenol lipids	Tetraterpenoids
+Metabolite_M216T57	M216T57	1-(1,3-Benzodioxol-5-yl)-4,4-dimethyl-1-penten-3-ol	216.031	57.3	Benzodioxoles	
+Metabolite_M774T505	M774T505	Ubiquinol 8	773.5659	505.5	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M188T96	M188T96	Castanospermine	188.0023	96.5	Indolizidines	
+Metabolite_M463T565	M463T565	Campestanol	463.3388	564.9	Steroids and steroid derivatives	Ergostane steroids
+Metabolite_M130T424	M130T424	L-Norleucine	130.0862	423.9	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M683T567_2	M683T567_2	Sanchinoside B2	683.4313	567		
+Metabolite_M801T55_1	M801T55_1	5-Diphosphoinositol pentakisphosphate	800.8282	54.6	Organooxygen compounds	Alcohols and polyols
+Metabolite_M253T47	M253T47	Isoscopoletin	252.9733	46.7		
+Metabolite_M211T308	M211T308	isopentenyl phosphate	211.0357	308.1		
+Metabolite_M204T141	M204T141	D-proline betaine	204.0858	140.7		
+Metabolite_M131T98	M131T98	Xylose	131.0602	97.7		
+Metabolite_M283T51_2	M283T51_2	N-Acetyl-glucosamine 1-phosphate	283.0197	51	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M415T545	M415T545	22-oxodocosanoic acid	415.2297	544.9		
+Metabolite_M202T71	M202T71	Indolepyruvate	202.049	71	Indoles and derivatives	Indolyl carboxylic acids and derivatives
+Metabolite_M255T256_1	M255T256_1	Demethylmedicarpin	254.9944	256.3		
+Metabolite_M401T45	M401T45	Cichoriin	401.0686	45.3	Coumarins and derivatives	Coumarin glycosides
+Metabolite_M453T518_1	M453T518_1	Ursocholic acid	453.2727	518.1	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M489T513_1	M489T513_1	Tetrahymanol	489.3537	513.2	Prenol lipids	Triterpenoids
+Metabolite_M461T594	M461T594	Daidzin	461.3318	594.4	Isoflavonoids	Isoflavonoid O-glycosides
+Metabolite_M523T62_2	M523T62_2	Quercetin 3,3-bissulfate	522.845	62.5		
+Metabolite_M499T354_2	M499T354_2	Kentsin	499.2964	353.8	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M735T338_2	M735T338_2	Methoxyfenozide	735.3318	338.5	Benzene and substituted derivatives	Benzoic acids and derivatives
+Metabolite_M515T412_1	M515T412_1	S-(Hydroxymethyl)mycothiol	515.0784	411.9		
+Metabolite_M612T614_1	M612T614_1	Cyclooctat-9-ene-5,7-diol	611.5108	614.2		
+Metabolite_M232T252	M232T252	7-Benzyl-3-thia-7-azabicyclo[3.3.1]nonane	232.0591	252.5	Piperidines	Benzylpiperidines
+Metabolite_M351T593_2	M351T593_2	Androsterone	351.214	592.9	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M183T91	M183T91	4-Methylbenzyl alcohol	183.0491	91.2	Benzene and substituted derivatives	Benzyl alcohols
+Metabolite_M841T576	M841T576	PC(O-18_0_20_4(8Z,11Z,14Z,17Z))	840.6212	575.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M275T687	M275T687	(3Z,6Z)-3,6-Nonadienal	275.0532	687	Organooxygen compounds	Carbonyl compounds
+Metabolite_M329T46	M329T46	Coumesterol	329.0744	45.9	Isoflavonoids	Coumestans
+Metabolite_M237T266	M237T266	trans-Coumaryl acetate	237.0794	266.5		
+Metabolite_M664T625	M664T625	2-Octaprenyl-6-methoxy-1,4-benzoquinone	663.5074	625.1		
+Metabolite_M612T498_1	M612T498_1	5-O-beta-D-Mycaminosyltylactone	612.3263	497.5		
+Metabolite_M753T315_2	M753T315_2	Schidigerasaponin C2	753.415	314.7	Steroids and steroid derivatives	Steroidal glycosides
+Metabolite_M285T425	M285T425	1-Hydroxyanthraquinone	285.0648	425.1	Anthracenes	Anthraquinones
+Metabolite_M371T319	M371T319	Tricetin Pentamethyl Ether	371.1686	318.5		
+Metabolite_M197T89	M197T89	4-Hydroxyphenylacetaldehyde	197.0433	89.1	Benzene and substituted derivatives	Phenylacetaldehydes
+Metabolite_M564T658_1	M564T658_1	FA 18_1	563.5109	658.4		
+Metabolite_M307T242	M307T242	Mannitol 1-phosphate	307.0471	242	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M320T54	M320T54	Skimmianine	320.033	54.5		
+Metabolite_M794T580	M794T580	3,4-dihydroxy-2-methyl-4-farnesyl-3H-quinolin-1-ium-1-olate	793.5069	580		
+Metabolite_M196T49_2	M196T49_2	1-Hydro-1,1a-dihydroxy-9-fluorenone	196.0745	49.3		
+Metabolite_M591T355	M591T355	Tuberoside	591.3608	355.5	Steroids and steroid derivatives	Steroidal glycosides
+Metabolite_M406T361	M406T361	N,N-Diacetylchitobiose	406.1306	360.7		
+Metabolite_M559T587_2	M559T587_2	Cucurbitacin C	559.4799	587	Steroids and steroid derivatives	Cucurbitacins
+Metabolite_M355T280	M355T280	Pelanin	355.2235	280.5	Steroids and steroid derivatives	Steroid esters
+Metabolite_M405T447_1	M405T447_1	5,7-Dihydroxy-3',4',5'-trimethoxyflavone	405.0877	447.1	Flavonoids	O-methylated flavonoids
+Metabolite_M267T46_2	M267T46_2	Salicin	267.0907	45.8	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M499T423_2	M499T423_2	D-myo-Inositol 3,4,5,6-tetrakisphosphate	498.9276	423	Organooxygen compounds	Alcohols and polyols
+Metabolite_M371T350	M371T350	Syringin	371.169	349.8		
+Metabolite_M481T615_2	M481T615_2	Demethylphylloquinone	481.3263	614.6	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M293T454	M293T454	(2'E,4'Z,8E)-Colneleic acid	293.1795	453.6	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M831T464_2	M831T464_2	PC(O-16_0_20_3(8Z,11Z,14Z))	830.6021	464.5	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M405T42	M405T42	Xanthommatin	405.0268	41.8		
+Metabolite_M251T335	M251T335	3-Dimethylallyl-4-hydroxybenzaldehyde	251.0957	334.9		
+Metabolite_M851T576_1	M851T576_1	Tilmicosin	850.5431	575.6	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M295T454_1	M295T454_1	17a-Ethynylestradiol	295.1742	453.6	Steroids and steroid derivatives	Estrane steroids
+Metabolite_M309T73	M309T73	Pentaporphyrin I	309.1187	72.8	Tetrapyrroles and derivatives	Porphyrins
+Metabolite_M481T648_1	M481T648_1	DN-isobutylamide	481.3258	648.4	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M559T614_3	M559T614_3	(10E,12Z)-Octadecadienoic acid	559.4808	614.1	Fatty Acyls	Lineolic acids and derivatives
+Metabolite_M440T512	M440T512	3-Sulfodeoxycholic acid	440.1039	512.4	Sphingolipids	Ceramides
+Metabolite_M541T269_2	M541T269_2	15,9'-di-cis-phytofluene	541.2633	269	Prenol lipids	Tetraterpenoids
+Metabolite_M425T690	M425T690	Darifenacin	425.3366	689.7	Benzene and substituted derivatives	Diphenylmethanes
+Metabolite_M229T326	M229T326	Visnagin	229.0538	325.7		
+Metabolite_M236T310	M236T310	1-Carboxyethylphenylalanine	236.0961	310.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M856T576_2	M856T576_2	Coenzyme Q9	855.6025	576.1	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M562T321_2	M562T321_2	Taurolithocholate 3-sulfate	562.2592	321.3	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M813T575	M813T575	PE 38_4	812.5697	575.4		
+Metabolite_M513T317_1	M513T317_1	7-O-Dmethylcephaeline	513.2679	316.6		
+Metabolite_M424T690_1	M424T690_1	Methacycline	424.3169	689.7	Tetracyclines	
+Metabolite_M317T141	M317T141	6,7,4-Trihydroxyflavanone	317.0621	141.2		
+Metabolite_M591T673_2	M591T673_2	1,25-Dihydroxyvitamin D3 monoglucuronide	591.3065	673.3	Steroids and steroid derivatives	Vitamin D and derivatives
+Metabolite_M624T288_2	M624T288_2	Leukotriene C4	624.3493	288.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M499T392	M499T392	Frangulanine	499.3072	392	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M517T380	M517T380	Ursodeoxycholic acid 3-sulfate	517.2394	380.2	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M423T627	M423T627	1beta-Hydroxycholic acid	423.259	627.2	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M830T576_5	M830T576_5	3-Decaprenyl-4-hydroxy-5-methoxybenzoate	829.6632	575.7	Prenol lipids	Polyprenylphenols
+Metabolite_M353T541	M353T541	Prostaglandin F2b	353.1815	541	Fatty Acyls	Eicosanoids
+Metabolite_M367T645_2	M367T645_2	Lignoceric acid (C24)	367.2432	644.7	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M284T411	M284T411	Methyltestosterone	284.2226	411.4	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M282T76	M282T76	Oryzalexin C	282.1342	76.3	Prenol lipids	Diterpenoids
+Metabolite_M559T614_2	M559T614_2	2-Hexadec-7-enylicosa-8,11-dienedioic acid	559.4642	614.2	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M243T301	M243T301	7-Methyluric acid	243.0332	300.7	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M265T71	M265T71	epi-aristolochene	265.0311	70.9		
+Metabolite_M157T51	M157T51	Allantoin	157.0117	51.4	Azoles	Imidazoles
+Metabolite_M244T72	M244T72	3-(3,4-dihydroxypyridinium-1-yl)-L-alanine	244.0655	72.4		
+Metabolite_M267T415_1	M267T415_1	Equilin	267.1434	415		
+Metabolite_M214T49	M214T49	10-Methylthio-2-decanoic acid	214.083	48.7		
+Metabolite_M244T73	M244T73	3-hydroxy-geranylhydroquinone	244.119	73.1		
+Metabolite_M563T321	M563T321	Apiin	563.254	321.3	Naphthalenes	Phenylnaphthalenes
+Metabolite_M241T234	M241T234	(S,S)-Nt-Histidinylalanine	241.0465	234.5	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M399T344	M399T344	Epoxybergamottin	399.1995	344.4		
+Metabolite_M283T413	M283T413	Prunetin	283.2693	412.9	Isoflavonoids	O-methylated isoflavonoids
+Metabolite_M466T558_1	M466T558_1	Emindole SB	466.3046	557.8		
+Metabolite_M507T594	M507T594	10-Desacetyltaxuyunnanin C	507.1217	594.3		
+Metabolite_M655T141_2	M655T141_2	(N-acetylneuraminosyl(a2-6)lactosamine)	655.2321	140.9	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M166T104	M166T104	2,4-Diamino-6-nitrotoluene	166.0592	104.3	Benzene and substituted derivatives	Nitrobenzenes
+Metabolite_M667T627_2	M667T627_2	(20R)-Ginsenoside Rh2	667.4547	626.7		
+Metabolite_M475T484	M475T484	Avizafone	475.3151	484.3	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M239T274_2	M239T274_2	Alizarin	239.0757	274.5		
+Metabolite_M411T370	M411T370	17-Hydroxypregnenolone sulfate	411.2367	369.9	Steroids and steroid derivatives	Sulfated steroids
+Metabolite_M507T439_1	M507T439_1	3-Dehydroecdysone	507.2692	439.2		
+Metabolite_M675T43_2	M675T43_2	Mercuron	675.0512	42.9		
+Metabolite_M315T248_2	M315T248_2	Anhydroglycinol	315.0568	248	Isoflavonoids	Furanoisoflavonoids
+Metabolite_M216T49_2	M216T49_2	MCULE-9549317752	216.0878	49.1		
+Metabolite_M466T341	M466T341	Buprenorphine	466.2604	340.6	Phenanthrenes and derivatives	
+Metabolite_M497T333_1	M497T333_1	Taurohyocholate	497.267	333.1	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M315T412	M315T412	Isorhamnetin	315.0569	411.6	Flavonoids	Flavones
+Metabolite_M723T578_2	M723T578_2	PE(P-16_0_20_4(5Z,8Z,11Z,14Z))	722.5265	578.3	Glycerophospholipids	Glycerophosphoethanolamines
+Metabolite_M297T413	M297T413	Norethindrone	297.1188	412.5	Steroids and steroid derivatives	Estrane steroids
+Metabolite_M404T299	M404T299	N-desalkyludenafil	404.2115	299.5	Benzene and substituted derivatives	Benzenesulfonamides
+Metabolite_M293T483	M293T483	9-HOTrE	293.1604	483.1		
+Metabolite_M591T614_1	M591T614_1	Pheophorbide a	591.4557	614.4		
+Metabolite_M201T155	M201T155	N-Ethylammelide	201.0366	155.1		
+Metabolite_M205T48	M205T48	2-Methylcitric acid	204.9949	48.4	Carboxylic acids and derivatives	Tricarboxylic acids and derivatives
+Metabolite_M511T657	M511T657	3-Acetyl-11-keto-beta-boswellic acid	511.405	656.8	Prenol lipids	Triterpenoids
+Metabolite_M268T52	M268T52	norlaudanosoline	268.1032	52.2		
+Metabolite_M319T658_1	M319T658_1	20-Hydroxyeicosatetraenoic acid	319.2215	658.2	Fatty Acyls	Fatty acids and conjugates
+Metabolite_M607T345	M607T345	Reserpine	607.2782	344.5	Yohimbine alkaloids	
+Metabolite_M750T575_1	M750T575_1	PC(P-16_0_20_3(5Z,8Z,11Z))	749.564	575.1	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M191T73_2	M191T73_2	(S)-2-Aceto-2-hydroxybutanoic acid	191.0561	73		
+Metabolite_M281T302	M281T302	Capsidiol	281.1758	302	Prenol lipids	Sesquiterpenoids
+Metabolite_M277T295	M277T295	Melatonin	277.1194	295.5	Indoles and derivatives	Indoles
+Metabolite_M213T248	M213T248	(1R,4S)-1-hydroxylimonen-2-one	213.1132	248.4		
+Metabolite_M239T358	M239T358	4-hydroxy-2,2-bipyrrole-5-methanol	239.0673	357.8		
+Metabolite_M211T317	M211T317	(E)-4,8-Dimethyl-1,3,7-nonatriene	211.134	317.3	Prenol lipids	Monoterpenoids
+Metabolite_M165T49_2	M165T49_2	3,4-Dihydroxymandelic acid	165.0193	49.3	Phenols	Benzenediols
+Metabolite_M195T378	M195T378	(Z)-3-Hexenal	195.139	378.3		
+Metabolite_M515T446	M515T446	SAICAR	515.0667	446.1	Imidazole ribonucleosides and ribonucleotides	1-ribosyl-imidazolecarboxamides
+Metabolite_M601T628_2	M601T628_2	Isopentenyldehydrorhodopin	601.478	628.2		
+Metabolite_M217T88	M217T88	L-Formylkynurenine	217.0618	87.6	Organooxygen compounds	Carbonyl compounds
+Metabolite_M179T468	M179T468	p-Cymene	179.1078	468.4	Prenol lipids	Monoterpenoids
+Metabolite_M251T245	M251T245	beta-Damascenone	251.1288	244.9	Organooxygen compounds	Carbonyl compounds
+Metabolite_M241T239	M241T239	Geranyl acetate	241.1446	238.9	Fatty Acyls	Fatty alcohol esters
+Metabolite_M223T131	M223T131	Methyleugenol	223.0975	130.6	Benzene and substituted derivatives	Methoxybenzenes
+Metabolite_M187T296	M187T296	Plumbagin	187.04	295.8		
+Metabolite_M209T53	M209T53	(R)-2,3-Dihydroxy-3-methylvalerate	209.0666	52.8		
+Metabolite_M201T324	M201T324	4-hydroxy-2-nonenal (4-HNE)	201.1133	323.5	Fatty Acyls	Fatty alcohols
+Metabolite_M165T91_1	M165T91_1	L-Erythrulose	165.0404	91.4	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M232T78	M232T78	gamma-Glutamylcysteine	232.0286	78.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M199T289	M199T289	3-methyl-4-cis-hydroxy-2-butenal	199.0975	288.7	Organooxygen compounds	Carbonyl compounds
+Metabolite_M209T44	M209T44	L-Arabonolactone	209.0302	43.9		
+Metabolite_M211T73	M211T73	Benzyl acetate	211.0611	72.7	Benzene and substituted derivatives	Benzyloxycarbonyls
+Metabolite_M109T638	M109T638	5-Amino-4-imidazole carboxylate	109.0044	638.5		
+Metabolite_M243T268	M243T268	5,10-dihydrophenazine	243.0774	268.2		
+Metabolite_M261T89	M261T89	Harmolol	261.0882	89.2	Harmala alkaloids	
+Metabolite_M253T243	M253T243	Pseudoionone	253.1444	242.9	Prenol lipids	Monoterpenoids
+Metabolite_M253T306	M253T306	beta-Ionone	253.1444	306.2	Prenol lipids	Sesquiterpenoids
+Metabolite_M283T553	M283T553	19-Oxotestosterone	283.1702	552.7	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M204T243	M204T243	2-Methyl-4-quinolinol	204.0665	242.7		
+Metabolite_M251T562	M251T562	Sulcatone	251.2015	562.2	Organooxygen compounds	Carbonyl compounds
+Metabolite_M279T73_2	M279T73_2	N-Acetylserotonin	279.0988	72.6	Indoles and derivatives	Hydroxyindoles
+Metabolite_M180T75	M180T75	Adenine	180.0528	74.8	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M221T308	M221T308	coniferyl acetate	221.0818	307.6		
+Metabolite_M213T325	M213T325	Pulegone	213.1131	325.3	Prenol lipids	Monoterpenoids
+Metabolite_M141T73	M141T73	Homofureanol	141.0558	73.3	Dihydrofurans	Furanones
+Metabolite_M229T249	M229T249	(3S)-3-hydroxycyclocitral	229.108	248.6	Organooxygen compounds	Alcohols and polyols
+Metabolite_M224T73_1	M224T73_1	Thymidine	224.0563	73.2	Pyrimidine nucleosides	Pyrimidine 2'-deoxyribonucleosides
+Metabolite_M195T261	M195T261	2-Hexenal	195.1389	260.9	Organooxygen compounds	Carbonyl compounds
+Metabolite_M207T39	M207T39	Malonate	207.0148	39.1	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M225T52_1	M225T52_1	aminopyrrolnitrin	224.999	52		
+Metabolite_M201T413	M201T413	Gentisyl alcohol	201.0403	413.3		
+Metabolite_M222T73	M222T73	indole-3-glycol	222.077	72.8	Indoles and derivatives	Indoles
+Metabolite_M166T33_2	M166T33_2	Pyridoxal	166.0511	33.4	Pyridines and derivatives	Pyridine carboxaldehydes
+Metabolite_M179T299	M179T299	Chavicol	179.0712	299.1	Phenols	1-hydroxy-2-unsubstituted benzenoids
+Metabolite_M236T138	M236T138	5-Methoxytryptophol	236.0926	137.7	Indoles and derivatives	Indoles
+Metabolite_M255T564	M255T564	D-Pinitol	255.0724	563.9		
+Metabolite_M129T63	M129T63	chloric acid	128.9595	63.1		
+Metabolite_M263T390	M263T390	artemisinic aldehyde	263.165	389.5		
+Metabolite_M663T313_1	M663T313_1	Dolichyl D-mannosyl phosphate	663.3522	313.3		
+Metabolite_M331T356	M331T356	Androstenedione	331.1911	355.5	Steroids and steroid derivatives	Androstane steroids
+Metabolite_M351T49_2	M351T49_2	Sedoheptulose 7-phosphate	351.033	49.1		
+Metabolite_M277T386	M277T386	alpha-CEHC	277.1442	385.5	Benzopyrans	1-benzopyrans
+Metabolite_M832T576_4	M832T576_4	3-demethylubiquinol-10	831.665	575.8	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M465T427	M465T427	hexahomomethionine	465.2832	426.8		
+Metabolite_M128T33	M128T33	Ureidoperacrylic acid	127.9991	33		
+Metabolite_M601T628_1	M601T628_1	7,7',8,8'-Tetrahydrolycopene	601.4634	628.2	Prenol lipids	Tetraterpenoids
+Metabolite_M119T283	M119T283	(2E,4E,6E)-7-hydroxy-4-methylhepta-2,4,6-trienal	119.0504	282.6		
+Metabolite_M293T344	M293T344	Gingerol	293.1754	344.2	Phenols	Methoxyphenols
+Metabolite_M330T46	M330T46	10-Hydroxydihydrosanguinarine	330.0767	46.1		
+Metabolite_M281T381	M281T381	(4Z,8Z)-4,8-dimethyl-12-oxotrideca-4,8-dienal	281.1754	381.2		
+Metabolite_M265T383	M265T383	beta-Patchoulene	265.1805	382.8	Polycyclic hydrocarbons	
+Metabolite_M397T356	M397T356	Geissoschizine	397.1775	355.6		
+Metabolite_M295T329	M295T329	2-cis,4-trans-xanthoxin	295.1546	329.5	Prenol lipids	Sesquiterpenoids
+Metabolite_M429T141	M429T141	Kinetin	429.1534	140.9	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M407T346_1	M407T346_1	10beta-hydroxytaxa-4(20),11-dien-5alpha-yl acetate	407.2432	345.6		
+Metabolite_M225T66	M225T66	L-Rhamnose	225.0612	65.7		
+Metabolite_M299T296	M299T296	Salidroside	299.1131	295.7		
+Metabolite_M253T112	M253T112	(2E,5S,6E,8E,10E)-5-hydroxydodeca-2,6,8,10-tetraenal	253.1077	112.4		
+Metabolite_M587T667_2	M587T667_2	corynantheal	587.3381	667.3		
+Metabolite_M363T586	M363T586	Sphinganine 1-phosphate	363.2299	585.7	Sphingolipids	Phosphosphingolipids
+Metabolite_M221T412	M221T412	6,8-Dimethyl-6,7-didehydroergoline	221.1214	411.9		
+Metabolite_M331T344	M331T344	Fluorene	331.1486	344.2	Fluorenes	
+Metabolite_M655T338_1	M655T338_1	Premithramycin A2	655.202	337.9		
+Metabolite_M307T670	M307T670	3,7-Dimethyl-1,6-octadien-3-ol	307.2636	670	Prenol lipids	Monoterpenoids
+Metabolite_M323T574	M323T574	Magnoflorine	323.152	573.6		
+Metabolite_M333T330_1	M333T330_1	Nicotinamide ribotide	333.0486	330.2		
+Metabolite_M684T614_1	M684T614_1	2-octaprenylphenol	683.5392	614.4	Prenol lipids	Polyprenylphenols
+Metabolite_M159T85	M159T85	Pyrophosphate	158.925	84.7	Non-metal oxoanionic compounds	Non-metal pyrophosphates
+Metabolite_M199T71	M199T71	Propanoyl phosphate	199.0018	71.3		
+Metabolite_M286T47	M286T47	1,3-dihydroxy-N-methylacridone	286.0728	46.7	Quinolines and derivatives	Benzoquinolines
+Metabolite_M417T564_1	M417T564_1	MG(0_0_18_1(9Z)_0_0)	417.2869	563.9		
+Metabolite_M163T113	M163T113	Molybdate	162.8939	112.8	Miscellaneous mixed metal/non-metals	Miscellaneous metallic oxoanionic compounds
+Metabolite_M583T277_1	M583T277_1	Cinchoninone	583.3095	277		
+Metabolite_M236T304	M236T304	d-Threo biopterin	236.0782	303.6	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M575T665	M575T665	3-Hexaprenyl-4-hydroxy-5-methoxybenzoic acid	575.4123	665.1	Prenol lipids	Polyprenylphenols
+Metabolite_M377T660	M377T660	Pregnenolone	377.2345	660.2	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M305T39	M305T39	Pseudouridine	305.0617	38.6	Nucleoside and nucleotide analogues	
+Metabolite_M339T458	M339T458	Citronellic acid	339.253	457.8		
+Metabolite_M299T371	M299T371	Hexadecenal	299.2218	371.5		
+Metabolite_M359T495	M359T495	5-Methylthioribose	359.0828	495.5	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M281T450	M281T450	Artemisinin	281.1385	449.7		
+Metabolite_M303T279_2	M303T279_2	3,5-Dimethoxytoluene	303.1612	279.1	Benzene and substituted derivatives	Methoxybenzenes
+Metabolite_M286T259	M286T259	Tetrahydrobiopterin	286.1146	259.5	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M386T214	M386T214	Uridine 5'-diphosphate	385.9669	214.1	Pyrimidine nucleotides	Pyrimidine ribonucleotides
+Metabolite_M275T232	M275T232	Harmaline	275.1048	232.4	Harmala alkaloids	
+Metabolite_M413T256	M413T256	6-hydroxymethyl-dihydropterin diphosphate	412.9762	256.4	Pteridines and derivatives	Pterins and derivatives
+Metabolite_M376T627_1	M376T627_1	Tylactone	376.2365	626.7		
+Metabolite_M440T344	M440T344	8-Demethyltetracenomycin C	440.053	343.6		
+Metabolite_M451T339_2	M451T339_2	Asperlicin C	451.1392	338.7		
+Metabolite_M663T42_1	M663T42_1	PQQH2	663.0518	42.1		
+Metabolite_M317T71	M317T71	Dicumarol	317.0441	70.7	Coumarins and derivatives	Hydroxycoumarins
+Metabolite_M427T350	M427T350	Farnesyl pyrophosphate	427.1312	350	Prenol lipids	Sesquiterpenoids
+Metabolite_M666T515_2	M666T515_2	GDP-L-galactose	666.0671	515.1		
+Metabolite_M307T66_2	M307T66_2	Biphenyl	307.1507	65.7	Benzene and substituted derivatives	Biphenyls and derivatives
+Metabolite_M605T685_1	M605T685_1	Scopolamine	605.2898	685	Hydroxy acids and derivatives	Beta hydroxy acids and derivatives
+Metabolite_M280T361	M280T361	pentahomomethionine	280.1238	360.6		
+Metabolite_M636T604_1	M636T604_1	Alloepipregnanolone	635.5013	603.9	Steroids and steroid derivatives	Pregnane steroids
+Metabolite_M161T43_1	M161T43_1	Allicin	161.0092	43	Thiosulfinic acid esters	
+Metabolite_M339T471_3	M339T471_3	(6E)-8-hydroxygeraniol	339.2523	471.2	Prenol lipids	Monoterpenoids
+Metabolite_M543T534	M543T534	Estradiol	543.3451	533.6	Steroids and steroid derivatives	Estrane steroids
+Metabolite_M479T295	M479T295	Glutathionylspermidine	479.2265	295.1		
+Metabolite_M651T248_2	M651T248_2	Chymosin preparation, escherichia coli k-12	651.1069	248	Peptidomimetics	Depsipeptides
+Metabolite_M151T608	M151T608	Diethylthiophosphate	150.998	608.2	Organic thiophosphoric acids and derivatives	Thiophosphoric acid esters
+Metabolite_M845T576	M845T576	Coenzyme Q10	844.6455	575.5	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M293T48_2	M293T48_2	5-methylthiopentanaldoxime	293.1347	48.1		
+Metabolite_M249T71	M249T71	Formononetin	249.0571	71	Isoflavonoids	O-methylated isoflavonoids
+Metabolite_M271T311_2	M271T311_2	Tetramethylpyrazine	271.1913	311.3	Diazines	Pyrazines
+Metabolite_M461T658	M461T658	diapolycopene	461.3087	658.2		
+Metabolite_M294T233	M294T233	Moupinamide	294.1119	233	Phenols	Methoxyphenols
+Metabolite_M367T49	M367T49	(-)-Epigallocatechin	367.0692	49.2		
+Metabolite_M215T309	M215T309	Dibenzothiophene sulfone	215.0185	309.2		
+Metabolite_M269T51_2	M269T51_2	Temurin	269.0875	51.2	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M463T543	M463T543	Delta-Tocopherol	463.34	543.1	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M379T658	M379T658	Coenzyme Q2	379.1786	658.2		
+Metabolite_M309T64	M309T64	7-Hydroxy-2,4,5-trimethoxyisoflavone	309.0788	64.2		
+Metabolite_M369T318_1	M369T318_1	2-(3,7-Dimethyl-2,6-octadienyl)-3-methyl-1,4-naphthoquinone	369.1731	318.4		
+Metabolite_M465T615_2	M465T615_2	3a,7a-Dihydroxy-5b-cholestane	465.3616	614.8		
+Metabolite_M206T76	M206T76	6-Benzylaminopurine	206.0822	76.3	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M387T548	M387T548	1-O-Caffeoyl-beta-D-glucose	387.096	547.7	Cinnamic acids and derivatives	Hydroxycinnamic acids and derivatives
+Metabolite_M329T483	M329T483	5-Deoxystrigol	329.1371	483		
+Metabolite_M359T260	M359T260	3-(3,4-dimethoxyphenyl)-7-hydroxy-4H-chromen-4-one	359.0798	260.4		
+Metabolite_M201T33	M201T33	acetoacetate	201.0419	33.4	Keto acids and derivatives	Short-chain keto acids and derivatives
+Metabolite_M583T609_1	M583T609_1	Rhodovibrin	583.4563	609		
+Metabolite_M281T321_2	M281T321_2	dapdiamide A	281.1234	321.3		
+Metabolite_M779T595	M779T595	PC(18_2(9Z,12Z)_18_3(9Z,12Z,15Z))	778.5451	594.8		
+Metabolite_M832T576_2	M832T576_2	4,4-Diaponeurosporen-4-al	831.6021	576.2		
+Metabolite_M192T46_1	M192T46_1	Toxoflavin	192.0512	46.1		
+Metabolite_M199T73	M199T73	3,5-Dimethoxyphenol	199.0596	73.3	Phenols	Methoxyphenols
+Metabolite_M275T394	M275T394	Gentisate aldehyde	275.0539	393.8	Organooxygen compounds	Carbonyl compounds
+Metabolite_M181T51	M181T51	Dihydroclavaminate	181.0604	51.5		
+Metabolite_M510T273	M510T273	TR 1 toxin	510.2287	272.8		
+Metabolite_M463T366_2	M463T366_2	3-Epiecdysone	463.3027	365.9		
+Metabolite_M527T256_1	M527T256_1	Acetyl-N-formyl-5-methoxykynurenamine	527.2104	256.2	Organooxygen compounds	Carbonyl compounds
+Metabolite_M441T458	M441T458	Dihydrozeatin	441.2517	458.4	Imidazopyrimidines	Purines and purine derivatives
+Metabolite_M489T581	M489T581	Menatetrenone	489.3051	581.1	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M509T579_3	M509T579_3	2-Deoxycastasterone	509.344	578.8	Steroids and steroid derivatives	Bile acids, alcohols and derivatives
+Metabolite_M350T291	M350T291	trans-zeatin riboside	350.15	291.4	Purine nucleosides	
+Metabolite_M337T268	M337T268	Tetrahydropalmatine	337.1416	267.6		
+Metabolite_M423T358	M423T358	Marini	423.185	358.1		
+Metabolite_M183T56_2	M183T56_2	Dibenzothiophene	183.029	55.8	Benzothiophenes	Dibenzothiophenes
+Metabolite_M497T467_1	M497T467_1	Pyridoxine 5'-phosphate	497.0688	466.9	Pyridines and derivatives	Pyridoxines
+Metabolite_M431T391_2	M431T391_2	Vitamin K	431.3281	391.3	Prenol lipids	Quinone and hydroquinone lipids
+Metabolite_M391T44	M391T44	Tomentin	391.0636	44		
+Metabolite_M277T328	M277T328	Histidinal	277.1443	328.1	Organonitrogen compounds	Amines
+Metabolite_M293T53	M293T53	De-O-methyldihydrosterigmatocystin	293.0483	52.7	Sterigmatocystins	
+Metabolite_M592T262_1	M592T262_1	Quercetin 3-galactoside 7-rhamnoside	592.1139	261.7	Flavonoids	Flavonoid glycosides
+Metabolite_M287T141	M287T141	Prephenate	287.0436	140.9	Keto acids and derivatives	Gamma-keto acids and derivatives
+Metabolite_M349T336	M349T336	Ascorbate radical	349.0379	335.8		
+Metabolite_M115T57	M115T57	S-(-)-ureidoglycolate	114.99	56.5		
+Metabolite_M335T243	M335T243	N-Cyclopropylammelide	335.1254	242.7		
+Metabolite_M307T245	M307T245	Marmesin	307.0793	245.2	Coumarins and derivatives	Furanocoumarins
+Metabolite_M352T318	M352T318	Glutathione	352.0855	317.6	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M246T261	M246T261	2-Aminobiphenyl-2,3-diol	246.0747	260.8		
+Metabolite_M203T48_3	M203T48_3	1,4-Naphthoquinone	203.0371	48	Naphthalenes	Naphthoquinones
+Metabolite_M500T494_3	M500T494_3	Aflatrem	500.2859	494		
+Metabolite_M571T344	M571T344	Vestitone	571.1671	344.5	Isoflavonoids	O-methylated isoflavonoids
+Metabolite_M225T84	M225T84	Urolithin C	225.0169	83.6		
+Metabolite_M265T287	M265T287	4-methylthiobutanaldoxime	265.1079	287.4		
+Metabolite_M831T576_3	M831T576_3	PC(18_1(9Z)_18_1(9Z))	830.6008	576.2		
+Metabolite_M360T125_1	M360T125_1	D-4'-Phosphopantothenate	360.0741	125.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M287T330	M287T330	Chorismate	287.0441	330.1	Carboxylic acids and derivatives	Dicarboxylic acids and derivatives
+Metabolite_M203T50_dup_1	M203T50	L-histidinol-phosphate	203.0204	49.9	Organic phosphoric acids and derivatives	Phosphate esters
+Metabolite_M585T599	M585T599	9,9,15-tri-cis-zeta-carotene	585.4744	599.2		
+Metabolite_M335T330	M335T330	Nicotinic acid mononucleotide	335.0451	330.4	Pyridine nucleotides	Nicotinic acid nucleotides
+Metabolite_M579T350_1	M579T350_1	Argininosuccinic acid disodium	579.2448	349.7	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M263T260	M263T260	2,2,3-Trihydroxydiphenylether	263.0593	260.1		
+Metabolite_M435T339	M435T339	Loganin	435.1455	338.6		
+Metabolite_M235T314	M235T314	Daidzein	235.0372	313.8	Isoflavonoids	Isoflav-2-enes
+Metabolite_M198T72	M198T72	gamma-Glutamyl-gamma-aminobutyraldehyde	198.0747	72.4		
+Metabolite_M269T32	M269T32	(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate	269.0255	32.4	Indoles and derivatives	Indoles
+Metabolite_M481T446_1	M481T446_1	27-Deoxy-5b-cyprinol	481.3472	445.5		
+Metabolite_M342T71	M342T71	(-)-lariciresinol	342.119	71.3		
+Metabolite_M314T495	M314T495	Dihydrosanguinarine	314.0781	495.5		
+Metabolite_M283T388	M283T388	Retinal	283.2105	388.4	Prenol lipids	Retinoids
+Metabolite_M344T91	M344T91	SS-secoisolariciresinol	344.1345	91.4		
+Metabolite_M631T310_1	M631T310_1	Baccatin III	631.2311	310.4		
+Metabolite_M473T330	M473T330	Didehydroagroclavine	473.2775	329.5		
+Metabolite_M477T274	M477T274	Deoxypumiloside	477.1602	274.3		
+Metabolite_M261T49_2	M261T49_2	D-Erythrose 4-phosphate	260.9981	49.3	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M491T662	M491T662	Geroquinol	491.3235	662.1		
+Metabolite_M590T647_1	M590T647_1	15-cis-Phytoene	589.5072	646.8	Prenol lipids	Tetraterpenoids
+Metabolite_M779T600	M779T600	PC(16_0_16_0)	778.5712	599.7	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M375T615	M375T615	10-Apo-beta-carotenal	375.2746	615.4	Prenol lipids	Sesterterpenoids
+Metabolite_M245T299	M245T299	Oxanthrene	245.049	298.7		
+Metabolite_M540T533_2	M540T533_2	LysoPC(16_0_0_0)	540.3383	533.3	Glycerophospholipids	Glycerophosphocholines
+Metabolite_M172T52	M172T52	Nitrilotriacetic acid	172.0227	52.2	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M832T576_3	M832T576_3	Dihydromenaquinone-9	831.6415	575.7		
+Metabolite_M448T323_1	M448T323_1	omega-Hydroxyphylloquinone	448.3044	322.9		
+Metabolite_M517T412	M517T412	Glucosamine 6-phosphate	517.0766	411.9	Organooxygen compounds	Carbohydrates and carbohydrate conjugates
+Metabolite_M459T466_1	M459T466_1	demethylsuberosin	459.188	465.7	Coumarins and derivatives	Hydroxycoumarins
+Metabolite_M645T42_1	M645T42_1	Cytidine monophosphate	645.087	41.9	Pyrimidine nucleotides	Pyrimidine ribonucleotides
+Metabolite_M647T451_2	M647T451_2	Presqualene diphosphate	647.3214	451.4	Prenol lipids	Triterpenoids
+Metabolite_M219T49	M219T49	(S)-Allantoin	219.0339	49.2		
+Metabolite_M200T155	M200T155	6-hydroxy-2-cyclohexen-one-carboxylate	200.0297	155	Organooxygen compounds	Carbonyl compounds
+Metabolite_M143T47	M143T47	Phosphate	142.973	46.7	Non-metal oxoanionic compounds	Non-metal phosphates
+Metabolite_M336T46	M336T46	Maritinamine	336.1403	46.3		
+Metabolite_M489T584_2	M489T584_2	4alpha-Formyl-4beta-methyl-5alpha-cholesta-8-en-3beta-ol	489.3658	583.8	Prenol lipids	Triterpenoids
+Metabolite_M438T494	M438T494	Dihydromacarpine	438.1129	493.9		
+Metabolite_M347T363	M347T363	N-alpha-acetylornithine	347.1988	363.1	Carboxylic acids and derivatives	Amino acids, peptides, and analogues
+Metabolite_M489T513_2	M489T513_2	4alpha-hydroxymethyl-ergosta-7,24(241)-dien-3beta-ol	489.3662	513.2		
+Metabolite_M267T42	M267T42	6-Sulfo-alpha-quinovose	267.0124	42.2		
