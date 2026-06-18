@@ -9,8 +9,17 @@
 !mobior_v0.0.6/
 
 # 但是要忽略临时文件
+.vscode/*
+!.vscode/extensions.json
+.cursor/settings.json
+.cursor/storage.json
+.cursor/**/workspaceStorage/
+.claude/
+.codelf/
 .vscode/extensions_list.txt
 .cursor/extensions_list.txt
+.vscode/settings.json
+.vscode/launch.json
 #data_for_analysis/
 3-补充后数据汇总（脱敏版）-20250207-慕柏反馈-确认+Y列数据校准.xlsx
 1-首次分析结果.pptx
@@ -54,6 +63,17 @@ lvyan_R_package_mobio/
 **/library/
 **/.r_libs/
 mobior_v0.0.6/vendor_packages/
+
+# Historical local package/runtime snapshots kept only for manual reference.
+Mime/
+mobior_V0.0.2/
+mobior_v0.0.0.mlr3/
+mobior_v0.0.1/
+mobior_v0.0.3/
+mobior_v0.0.4/
+mobior_v0.0.5/
+regression_mlr3/
+git_tips*.sh
 
 # Large runtime artifacts should live on the server and be represented by manifests
 *.tar
