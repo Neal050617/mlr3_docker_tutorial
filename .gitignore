@@ -48,6 +48,8 @@ Thumbs.db
 .Rproj.user/
 .quarto/
 __pycache__/
+.rsync-partial/
+**/.rsync-partial/
 *.tmp
 *.bak
 *.swp
@@ -74,6 +76,15 @@ mobior_v0.0.4/
 mobior_v0.0.5/
 regression_mlr3/
 git_tips*.sh
+
+# Dell-side legacy/result backups kept on local disk via rsync, not Git.
+mlr3_docker_tutorial/
+客户分析结果展示/
+lilei/
+masslin3_test/
+MOBIOR_V0.0.6_UPGRADE_PLAN.md
+metabo_R_packagess.md
+metabo_database_download.md
 
 # Large runtime artifacts should live on the server and be represented by manifests
 *.tar
