@@ -216,3 +216,6 @@ clients/**/results/**/*.csv
 # Full legacy source mirrors live under clients for cleanup/audit, but are
 # synchronized by rsync rather than Git.
 clients/**/legacy_mirror/**
+
+# Local sync audit outputs
+sync_audit_*/
